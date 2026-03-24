@@ -3,17 +3,16 @@ import spacy
 import re
 import io
 
-# 1. CARREGAR spaCy (IA)
-print("Carregando inteligência artificial (spaCy)...")
+# 1. CARREGAR spaCy
+print("Carregando inteligência artificial...")
 try:
     nlp = spacy.load("pt_core_news_lg")
 except:
     print("Erro: Instale o modelo com: python -m spacy download pt_core_news_lg")
     exit()
 
-# 2. DICIONÁRIO DE AUTORIDADES (Canto 1 - Foco em precisão filológica)
+# 2. DICIONÁRIO DE AUTORIDADES (Prioridade Máxima)
 entidades_fixas = {
-    # --- EPÍTETOS E PERÍFRASES (Prioridade para frases longas) ---
     "ocidental praia Lusitana": ("rs", "place", "portugal"),
     "peito ilustre lusitano": ("rs", "person", "portugueses"),
     "barões assinalados": ("rs", "person", "portugueses"),
@@ -24,124 +23,103 @@ entidades_fixas = {
     "clara Deia": ("rs", "myth", "venus"),
     "bela Deusa": ("rs", "myth", "venus"),
     "grão Tebano": ("rs", "myth", "baco"),
-    "grão Macedónio": ("rs", "person", "alexandre_magno"),
-    "Maura lança": ("rs", "person", "mouros"),
-    "doze de Inglaterra": ("rs", "person", "doze_inglaterra"),
-    "Reinos lá da Aurora": ("rs", "place", "oriente"),
-
-    # --- MITOLOGIA ---
     "Marte": ("persName", "myth", "marte"),
     "Neptuno": ("persName", "myth", "neptuno"),
     "Júpiter": ("persName", "myth", "jupiter"),
-    "Tonante": ("persName", "myth", "jupiter"),
     "Baco": ("persName", "myth", "baco"),
     "Vénus": ("persName", "myth", "venus"),
     "Venus": ("persName", "myth", "venus"),
     "Citereia": ("persName", "myth", "venus"),
-    "Mercúrio": ("persName", "myth", "mercurio"),
-    "Tétis": ("persName", "myth", "tetis"),
-    "Tethys": ("persName", "myth", "tetis"),
-    "Próteo": ("persName", "myth", "proteo"),
-    "Atlante": ("persName", "myth", "atlante"),
-    "Anfitrite": ("persName", "myth", "anfitrite"),
-    "Tágides": ("persName", "myth", "tagides"),
-    "Tagides": ("persName", "myth", "tagides"),
-
-    # --- HISTÓRICOS ---
     "Vasco da Gama": ("persName", "hist", "v_gama"),
     "Gama": ("persName", "hist", "v_gama"),
     "Afonso Henriques": ("persName", "hist", "afonso_henriques"),
     "D. Manuel": ("persName", "hist", "d_manuel_i"),
-    "Nuno": ("persName", "hist", "nuno_alvares"),
-    "Egas": ("persName", "hist", "egas_moniz"),
-    "Magriço": ("persName", "hist", "magrico"),
-    "Alexandro": ("persName", "hist", "alexandre_magno"),
-    "Trajano": ("persName", "hist", "trajano"),
-
-    # --- LUGARES ---
+    "Portugal": ("placeName", "real", "portugal"),
+    "Tejo": ("placeName", "real", "tejo"),
     "África": ("placeName", "real", "africa"),
     "Ásia": ("placeName", "real", "asia"),
     "Índia": ("placeName", "real", "india"),
-    "Taprobana": ("placeName", "real", "taprobana"),
-    "Portugal": ("placeName", "real", "portugal"),
-    "Tejo": ("placeName", "real", "tejo"),
-    "Moçambique": ("placeName", "real", "mocambique"),
-    "Mombaça": ("placeName", "real", "mombaca"),
-    "Olimpo": ("placeName", "myth", "olimpo"),
-    "Aqueronte": ("placeName", "myth", "aqueronte")
+    "Taprobana": ("placeName", "real", "taprobana")
 }
 
-# Itens que a IA NÃO deve marcar (Blacklist)
-BLACKLIST_IA = {
-    "Fé", "Lei", "Rei", "Império", "Mundo", "Fama", "Guerra", 
-    "Paz", "Obras", "Braços", "Canto", "Amor", "Vida", "Morte", "Terra", "Mar"
-}
+# Palavras que a IA NUNCA deve marcar (Blacklist)
+BLACKLIST_IA = {"Fé", "Lei", "Rei", "Império", "Mundo", "Fama", "Guerra", "Paz", "Obras", "Canto", "Amor", "Morte", "Terra", "Mar"}
 
-def normalizar_id(texto):
-    mapa = {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ç": "c", "ã": "a", "õ": "o"}
-    texto = texto.lower().replace(" ", "_")
-    for k, v in mapa.items():
-        texto = texto.replace(k, v)
-    return re.sub(r'[^a-z0-9_]', '', texto)
-
-def marcar_segmento_texto(texto):
-    if len(texto.strip()) < 3:
+def marcar_texto_puro(texto):
+    """Aplica marcação apenas em blocos que não são tags XML."""
+    if len(texto.strip()) < 2:
         return texto
 
-    # 1. Aplicar Dicionário Fixo com máscara [[[ ]]]
-    for termo in sorted(entidades_fixas.keys(), key=len, reverse=True):
+    # Passo 1: Aplicar Dicionário Fixo (do maior para o menor)
+    # Usamos placeholders temporários para evitar que a IA mexa no que já foi marcado
+    mapa_placeholders = {}
+    
+    for i, termo in enumerate(sorted(entidades_fixas.keys(), key=len, reverse=True)):
         if termo in texto:
             tag, tipo, ref = entidades_fixas[termo]
-            padrao = rf"\b{re.escape(termo)}\b"
-            subst = f'[[[{tag} type="{tipo}" ref="#{ref}"]]]' + termo + f'[[[/{tag}]]]'
-            texto = re.sub(padrao, subst, texto)
+            placeholder = f"[[ENTIDADE{i}]]"
+            # Marcação TEI real
+            tag_real = f'<{tag} type="{tipo}" ref="#{ref}">{termo}</{tag}>'
+            mapa_placeholders[placeholder] = tag_real
+            # Substitui o termo pelo placeholder no texto
+            texto = re.sub(rf"\b{re.escape(termo)}\b", placeholder, texto)
 
-    # 2. Aplicar spaCy no que sobrou
-    texto_ia = texto.replace("[[[", "___").replace("]]]", "___")
-    doc = nlp(texto_ia)
+    # Passo 2: IA (spaCy) no que sobrou (ignora os placeholders)
+    doc = nlp(texto)
+    # Processar de trás para frente para não quebrar os índices
     for ent in reversed(doc.ents):
-        if ent.label_ in ["PER", "LOC", "GPE"] and ent.text not in BLACKLIST_IA:
-            if "___" not in texto[ent.start_char:ent.end_char]:
-                tag = "persName" if ent.label_ == "PER" else "placeName"
-                tipo = "hist" if ent.label_ == "PER" else "real"
-                ref_id = normalizar_id(ent.text)
-                
-                abrir = f'[[[{tag} type="{tipo}" ref="#{ref_id}"]]]'
-                fechar = f'[[[/{tag}]]]'
-                texto = texto[:ent.start_char] + abrir + ent.text + fechar + texto[ent.end_char:]
+        # Filtros: categoria certa, não está na blacklist, não é um placeholder
+        if ent.label_ in ["PER", "LOC", "GPE"] and ent.text not in BLACKLIST_IA and "[[" not in ent.text:
+            tag = "persName" if ent.label_ == "PER" else "placeName"
+            tipo = "hist" if ent.label_ == "PER" else "real"
+            ref_id = ent.text.lower().replace(" ", "_").replace("á", "a").replace("ó", "o")
+            
+            nova_tag = f'<{tag} type="{tipo}" ref="#{ref_id}">{ent.text}</{tag}>'
+            texto = texto[:ent.start_char] + nova_tag + texto[ent.end_char:]
 
-    return texto.replace("[[[", "<").replace("]]]", ">")
+    # Passo 3: Devolver as tags do dicionário que estavam escondidas nos placeholders
+    for placeholder, tag_real in mapa_placeholders.items():
+        texto = texto.replace(placeholder, tag_real)
+
+    return texto
 
 def main():
     ARQUIVO_ENTRADA = 'LusiadasModernizado.xml'
-    ARQUIVO_SAIDA = 'Lusiadas_Canto1_Marcado.xml'
+    ARQUIVO_SAIDA = 'Lusiadas_Canto1_marcado.xml'
 
     try:
         with io.open(ARQUIVO_ENTRADA, 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # Isolar Canto 1
+        # Isolar o Canto 1
         m1 = re.search(r'(<div[^>]+n=["\']1["\'][^>]*>)', conteudo)
         m2 = re.search(r'(<div[^>]+n=["\']2["\'][^>]*>)', conteudo)
-        if not m1: return
+        
+        if not m1:
+            print("Canto 1 não encontrado.")
+            return
 
         pre = conteudo[:m1.start()]
         canto1 = conteudo[m1.start():(m2.start() if m2 else len(conteudo))]
         pos = conteudo[(m2.start() if m2 else len(conteudo)):]
 
-        # Processar protegendo as tags XML existentes
-        partes_xml = re.split(r'(<[^>]+>)', canto1)
-        resultado = []
-        for p in partes_xml:
+        # Dividir Canto 1 em Tags vs Texto Puro
+        # Isso impede que o script altere o que está dentro de < >
+        partes = re.split(r'(<[^>]+>)', canto1)
+        resultado_final = []
+
+        print("Iniciando marcação segura...")
+        for p in partes:
             if p.startswith('<'):
-                resultado.append(p)
+                resultado_final.append(p) # Mantém a tag original (ex: <l>, <lg>)
             else:
-                resultado.append(marcar_segmento_texto(p))
+                # Processa apenas o conteúdo textual
+                resultado_final.append(marcar_texto_puro(p))
 
         with io.open(ARQUIVO_SAIDA, 'w', encoding='utf-8') as f:
-            f.write(pre + "".join(resultado) + pos)
+            f.write(pre + "".join(resultado_final) + pos)
 
-        print(f"Sucesso! Canto 1 marcado em: {ARQUIVO_SAIDA}")
+        print(f"Sucesso! Arquivo corrigido: {ARQUIVO_SAIDA}")
 
     except Exception as e:
         print(f"Erro: {e}")
