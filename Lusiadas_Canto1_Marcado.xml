@@ -1,29 +1,13 @@
-<?xml-model href="tei_Lusiadas.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<!-- ...existing code... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Os Lusíadas</title>
-        <author>Luís de Camões</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>António Gonçalves</publisher>
-        <date>1572</date>
-        <pubPlace>Lisboa</pubPlace>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Edição modernizada d'Os Lusíadas feita pelo Projeto Gutenberg.</p>
-        <p>Credits: Produced by Maria Helena Moreira Rodriques and Victor Calha</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
   <text>
     <body>
       <div type="canto" n="1">
         <head>Canto Primeiro</head>
         <lg type="estrofe" n="1">
           <l>As armas e os <rs type="person" ref="#portugueses">barões assinalados</rs>,</l>
-          <l>Que da <rs type="place" ref="#portugal">ocidental praia <placeName type="real" ref="#lusitana___rs">Lusitana___/rs</placeName>>,</l>
+          <l>Que da <rs type="place" ref="#portugal">ocidental praia <placeName type="real" ref="#lusitana___rs">Lusitana___/rs</placeName>>,
+          </rs></l>
           <l>Por mares nunca de antes navegados,</l>
           <l>Passaram ainda além da <placeName type="real" ref="#taprobana">Taprobana</placeName>,</l>
           <l>Em perigos e guerras esforçados,</l>
@@ -44,7 +28,7 @@
         <lg type="estrofe" n="3">
           <l>Cessem do sábio <persName type="hist" ref="#grego">Grego</persName> e do Troiano</l>
           <l>As navegações grandes que fizeram;</l>
-          <l>Cale-se de <persName <placeName type="real" ref="#typehist">type="hist</placeName>" ref="#alexandre_magno">Alexandro</persName> e de <persName <placeName type="real" ref="#typehist">type="hist</placeName>" ref="#trajano">Trajano</persName></l>
+          <l>Cale-se de <persName type="hist" ref="#alexandre_magno">Alexandro</persName> e de <persName type="hist" ref="#trajano">Trajano</persName></l>
           <l>A fama das vitórias que tiveram;</l>
           <l>Que eu canto o peito ilustre <persName type="hist" ref="#lusitano">Lusitano</persName>,</l>
           <l>A quem <persName type="myth" ref="#neptuno">Neptuno</persName> e <persName type="myth" ref="#marte">Marte</persName> obedeceram:</l>
@@ -132,15 +116,15 @@
           <l>E <placeName type="real" ref="#orlando">Orlando</placeName>, inda que fora verdadeiro,</l>
         </lg>
         <lg type="estrofe" n="12">
-          <l>Por estes vos darei um <persName <placeName type="real" ref="#typehist">type="hist</placeName>" ref="#nuno_alvares">Nuno</persName> fero,</l>
-          <l>Que fez ao Rei o ao <placeName type="real" ref="#reino">Reino</placeName> tal serviço,</l>
-          <l>Um <persName <placeName type="real" ref="#typehist">type="hist</placeName>" ref="#egas_moniz">Egas</persName>, e um <persName type="hist" ref="#d_fuas">D. Fuas</persName>, que de <persName type="hist" ref="#homero">Homero</persName></l>
-          <l>A cítara para eles só cobiço.</l>
-          <l>Pois pelos doze Pares dar-vos quero</l>
-          <l>Os <rs type="person" ref="#doze_inglaterra">doze de <placeName type="real" ref="#inglaterra___rs">Inglaterra___/rs</placeName>>, e o seu <persName <placeName type="real" ref="#typehist">type="hist</placeName>" ref="#magrico">Magriço</persName>;</l>
-          <l>Dou-vos também aquele ilustre <persName type="hist" ref="#v_gama">Gama</persName>,</l>
-          <l>Que para si de <persName type="hist" ref="#eneias">Eneias</persName> toma a fama.</l>
-        </lg>
+                  <l>Por estes vos darei um <persName type="hist" ref="#nuno_alvares">Nuno</persName> fero,</l>
+                  <l>Que fez ao Rei o ao <placeName type="real" ref="#reino">Reino</placeName> tal serviço,</l>
+                  <l>Um <persName type="hist" ref="#egas_moniz">Egas</persName>, e um <persName type="hist" ref="#d_fuas">D. Fuas</persName>, que de <persName type="hist" ref="#homero">Homero</persName></l>
+                  <l>A cítara para eles só cobiço.</l>
+                  <l>Pois pelos doze Pares dar-vos quero</l>
+                  <l>Os <rs type="person" ref="#doze_inglaterra">doze de <placeName type="real" ref="#inglaterra___rs">Inglaterra___/rs</placeName>, e o seu <persName type="hist" ref="#magrico">Magriço</persName>;</l>
+                  <l>Dou-vos também aquele ilustre <persName type="hist" ref="#v_gama">Gama</persName>,</l>
+                  <l>Que para si de <persName type="hist" ref="#eneias">Eneias</persName> toma a fama.</l>
+                </lg>
         <lg type="estrofe" n="13">
           <l>Pois se a troco de <persName type="hist" ref="#carlos">Carlos</persName>, <persName type="hist" ref="#rei_de_franca">Rei de França</persName>,</l>
           <l>Ou de <persName type="hist" ref="#cesar">César</persName>, quereis igual memória,</l>
