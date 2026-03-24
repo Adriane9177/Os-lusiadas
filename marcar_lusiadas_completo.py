@@ -3,156 +3,137 @@ import spacy
 import re
 import io
 
-# 1. CARREGAR spaCy (IA)
+# 1. CARREGAR spaCy
 print("Carregando inteligência artificial (spaCy)...")
 try:
     nlp = spacy.load("pt_core_news_lg")
 except:
-    print("Erro: Instale o modelo com: python -m spacy download pt_core_news_lg")
+    print("Erro: Instale o modelo: python -m spacy download pt_core_news_lg")
     exit()
 
-# 2. DICIONÁRIO EXPANDIDO (CANTOS I a X)
-# Formato: "Termo": ("tag", "tipo", "id")
+# 2. DICIONÁRIO DE AUTORIDADES (Expandido para todos os Cantos)
+# Prioridade máxima: termos que a IA costuma errar
 entidades_fixas = {
-    # --- PRIORIDADES: EPÍTETOS E PERÍFRASES ---
+    # --- EPÍTETOS E PERÍFRASES ---
     "ocidental praia Lusitana": ("rs", "place", "portugal"),
-    "Reino de Lusitânia": ("rs", "place", "portugal"),
     "peito ilustre lusitano": ("rs", "person", "portugueses"),
     "barões assinalados": ("rs", "person", "portugueses"),
     "O forte Capitão": ("rs", "person", "v_gama"),
     "O ilustre Gama": ("rs", "person", "v_gama"),
     "Sublime Rei": ("rs", "person", "d_sebastiao"),
-    "filho de Maia": ("rs", "myth", "mercurio"),
-    "clara Deia": ("rs", "myth", "venus"),
-    "bela Deusa": ("rs", "myth", "venus"),
     "grão Tebano": ("rs", "myth", "baco"),
-    "grão Macedónio": ("rs", "person", "alexandre_magno"),
-    "Maura lança": ("rs", "person", "mouros"),
-    "doze de Inglaterra": ("rs", "person", "doze_inglaterra"),
-    "Reinos lá da Aurora": ("rs", "place", "oriente"),
+    "filho de Maia": ("rs", "myth", "mercurio"),
     "Ilha dos Amores": ("placeName", "myth", "ilha_amores"),
     "Cabo Tormentoso": ("placeName", "real", "cabo_boa_esperanca"),
 
-    # --- MITOLOGIA ---
-    "Adamastor": ("persName", "myth", "adamastor"),
+    # --- ENTIDADES UNITÁRIAS ---
     "Marte": ("persName", "myth", "marte"),
     "Neptuno": ("persName", "myth", "neptuno"),
     "Júpiter": ("persName", "myth", "jupiter"),
-    "Baco": ("persName", "myth", "baco"),
     "Vénus": ("persName", "myth", "venus"),
     "Venus": ("persName", "myth", "venus"),
-    "Citereia": ("persName", "myth", "venus"),
+    "Baco": ("persName", "myth", "baco"),
+    "Adamastor": ("persName", "myth", "adamastor"),
     "Tétis": ("persName", "myth", "tetis"),
-    "Mercúrio": ("persName", "myth", "mercurio"),
-    "Cupido": ("persName", "myth", "cupido"),
-    "Nereidas": ("persName", "myth", "nereidas"),
-    "Austro": ("persName", "myth", "austro"), # No contexto de divindade do vento
-    "Noto": ("persName", "myth", "noto"),
-
-    # --- HISTÓRICOS ---
     "Vasco da Gama": ("persName", "hist", "v_gama"),
     "Inês de Castro": ("persName", "hist", "ines_castro"),
-    "Inês": ("persName", "hist", "ines_castro"),
-    "Afonso Henriques": ("persName", "hist", "afonso_henriques"),
-    "D. Manuel": ("persName", "hist", "d_manuel_i"),
-    "Gama": ("persName", "hist", "v_gama"),
-
-    # --- LUGARES ---
     "Portugal": ("placeName", "real", "portugal"),
-    "Lisboa": ("placeName", "real", "lisboa"),
     "Índia": ("placeName", "real", "india"),
-    "India": ("placeName", "real", "india"),
-    "África": ("placeName", "real", "africa"),
     "Tejo": ("placeName", "real", "tejo"),
-    "Calecut": ("placeName", "real", "calecut"),
-    "Pado": ("placeName", "real", "rio_po"),
-    "Lampetusa": ("placeName", "myth", "lampetusa")
 }
 
-# Substantivos que a IA costuma confundir n'Os Lusíadas (Blacklist)
+# Substantivos poéticos que a IA NÃO deve marcar (Evita erros de Domain Shift)
 BLACKLIST_IA = {
-    "Fé", "Lei", "Rei", "Império", "Mundo", "Fama", "Guerra", 
-    "Paz", "Obras", "Braços", "Canto", "Amor", "Vida", "Morte",
-    "Barões", "Gente", "Terra", "Mar", "Senhor", "Deos"
+    "Fé", "Lei", "Rei", "Império", "Mundo", "Fama", "Guerra", "Paz", 
+    "Obras", "Braços", "Canto", "Amor", "Morte", "Terra", "Mar", 
+    "Gente", "Barões", "Senhor", "Vida", "Luz", "Céu"
 }
 
 def normalizar_id(texto):
-    """Remove acentos para gerar IDs XML seguros."""
+    """Gera IDs limpos para o XML."""
     mapa = {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ç": "c", "ã": "a", "õ": "o"}
-    texto = texto.lower().replace(" ", "_")
+    res = texto.lower().replace(" ", "_")
     for k, v in mapa.items():
-        texto = texto.replace(k, v)
-    return re.sub(r'[^a-z0-9_]', '', texto)
+        res = res.replace(k, v)
+    return re.sub(r'[^a-z0-9_]', '', res)
 
-def marcar_segmento_texto(texto):
-    """Processa apenas o texto puro entre tags XML."""
-    if len(texto.strip()) < 3:
-        return texto
+def marcar_texto_segmentado(texto_segmento):
+    """Processa apenas blocos de texto que não contêm tags XML."""
+    if len(texto_segmento.strip()) < 3:
+        return texto_segmento
 
-    # Passo 1: Marcar Dicionário Fixo (do maior para o menor)
-    for termo in sorted(entidades_fixas.keys(), key=len, reverse=True):
-        if termo in texto:
+    # 1. Aplicar Dicionário Fixo (Placeholder para proteger da IA)
+    # Ordenar por tamanho para pegar "Vasco da Gama" antes de "Gama"
+    mapa_tags = {}
+    for i, termo in enumerate(sorted(entidades_fixas.keys(), key=len, reverse=True)):
+        if termo in texto_segmento:
             tag, tipo, ref = entidades_fixas[termo]
-            # O padrão regex garante fronteira de palavras
-            padrao = rf"\b{re.escape(termo)}\b"
-            # Usamos o disfarce [[[ ]]] para proteger a marcação do spaCy
-            subst = f'[[[{tag} type="{tipo}" ref="#{ref}"]]]' + termo + f'[[[/{tag}]]]'
-            texto = re.sub(padrao, subst, texto)
+            placeholder = f"___ENT{i}___"
+            real_tag = f'<{tag} type="{tipo}" ref="#{ref}">{termo}</{tag}>'
+            mapa_tags[placeholder] = real_tag
+            # Regex \b evita marcar dentro de outras palavras
+            texto_segmento = re.sub(rf"\b{re.escape(termo)}\b", placeholder, texto_segmento)
 
-    # Passo 2: IA (spaCy) no que sobrou (ignora o que está mascarado)
-    texto_para_ia = texto.replace("[[[", "___").replace("]]]", "___")
-    doc = nlp(texto_para_ia)
-    
-    # Processar entidades da IA de trás para frente para não quebrar índices
+    # 2. IA (spaCy) no que sobrou de texto
+    # Substituímos placeholders por espaços temporários para o spaCy não se perder
+    texto_para_nlp = texto_segmento
+    for ph in mapa_tags.keys():
+        texto_para_nlp = texto_para_nlp.replace(ph, " " * len(ph))
+
+    doc = nlp(texto_para_nlp)
+    # Processar de trás para frente para manter os offsets
     for ent in reversed(doc.ents):
-        if ent.label_ in ["PER", "LOC", "GPE"] and ent.text not in BLACKLIST_IA:
-            # Verifica se essa parte do texto já não contém as máscaras do dicionário
-            if "___" not in texto[ent.start_char:ent.end_char]:
-                tag = "persName" if ent.label_ == "PER" else "placeName"
-                tipo = "hist" if ent.label_ == "PER" else "real"
+        if ent.label_ in ["PER", "LOC", "GPE"] and ent.text.strip() not in BLACKLIST_IA:
+            # Verifica se o spaCy não está tentando marcar em cima de um placeholder
+            if "___" not in texto_segmento[ent.start_char:ent.end_char]:
+                tag_ia = "persName" if ent.label_ == "PER" else "placeName"
+                tipo_ia = "hist" if ent.label_ == "PER" else "real"
                 ref_id = normalizar_id(ent.text)
                 
-                abrir = f'[[[{tag} type="{tipo}" ref="#{ref_id}"]]]'
-                fechar = f'[[[/{tag}]]]'
-                texto = texto[:ent.start_char] + abrir + ent.text + fechar + texto[ent.end_char:]
+                nova_marca = f'<{tag_ia} type="{tipo_ia}" ref="#{ref_id}">{ent.text}</{tag_ia}>'
+                texto_segmento = texto_segmento[:ent.start_char] + nova_marca + texto_segmento[ent.end_char:]
 
-    # Passo 3: Restaurar Tags Reais
-    texto = texto.replace("[[[", "<").replace("]]]", ">")
-    return texto
+    # 3. Restaurar as tags do dicionário
+    for ph, tag_completa in mapa_tags.items():
+        texto_segmento = texto_segmento.replace(ph, tag_completa)
+
+    return texto_segmento
 
 def main():
     ARQUIVO_ENTRADA = 'LusiadasModernizado.xml'
-    ARQUIVO_SAIDA = 'Lusiadas_ObraCompleta_Marcado.xml'
+    ARQUIVO_SAIDA = 'Lusiadas_Completo_REVISADO.xml'
 
     try:
         with io.open(ARQUIVO_ENTRADA, 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # Isolar Header (para não marcar nomes de autores/editores)
+        # Isolar o teiHeader (não mexe nele)
         partes_tei = re.split(r'(</teiHeader>)', conteudo)
         if len(partes_tei) < 3:
-            print("Erro: Estrutura TEI inválida.")
+            print("Erro: Estrutura TEI não encontrada.")
             return
         
         header = partes_tei[0] + partes_tei[1]
-        corpo = partes_tei[2]
+        resto_obra = partes_tei[2]
 
-        # Dividir corpo em blocos de Tags e blocos de Texto
-        print("Iniciando processamento da obra completa...")
-        partes_xml = re.split(r'(<[^>]+>)', corpo)
-        resultado = []
-
+        # Dividir o resto em Tags e Texto Puro
+        # O padrão abaixo separa <tag> de "texto entre tags"
+        print("Processando os 10 Cantos d'Os Lusíadas...")
+        partes_xml = re.split(r'(<[^>]+>)', resto_obra)
+        
+        resultado_corpo = []
         for p in partes_xml:
             if p.startswith('<'):
-                resultado.append(p) # Mantém a tag original (ex: <l>, <lg>)
+                # É uma tag XML original (ex: <l>, <lg>, <div>), mantém intacta
+                resultado_corpo.append(p)
             else:
-                # Aplica a marcação inteligente no conteúdo textual
-                resultado.append(marcar_segmento_texto(p))
+                # É texto puro, aplicar a marcação inteligente
+                resultado_corpo.append(marcar_texto_segmentado(p))
 
         with io.open(ARQUIVO_SAIDA, 'w', encoding='utf-8') as f:
-            f.write(header + "".join(resultado))
+            f.write(header + "".join(resultado_corpo))
 
-        print(f"Sucesso! Obra marcada em: {ARQUIVO_SAIDA}")
+        print(f"Sucesso! Arquivo gerado sem erros de aninhamento: {ARQUIVO_SAIDA}")
 
     except Exception as e:
         print(f"Erro fatal: {e}")
