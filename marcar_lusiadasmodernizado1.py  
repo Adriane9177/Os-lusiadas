@@ -1,0 +1,104 @@
+import re
+
+# Configurações de arquivos
+ARQUIVO_ENTRADA = 'LusiadasModernizado.xml'
+ARQUIVO_SAIDA = 'Lusiadas_modernizado_Marcado.xml'
+
+# Dicionário de Entidades (Focado e expandido para o Canto 1)
+entidades = {
+    # MITÔNIMOS
+    "Baco": ("persName", "myth", "baco"),
+    "Vénus": ("persName", "myth", "venus"),
+    "Venus": ("persName", "myth", "venus"),
+    "Marte": ("persName", "myth", "marte"),
+    "Júpiter": ("persName", "myth", "jupiter"),
+    "Jove": ("persName", "myth", "jupiter"),
+    "Mercúrio": ("persName", "myth", "mercurio"),
+    "Neptuno": ("persName", "myth", "neptuno"),
+    "Tétis": ("persName", "myth", "tetis"),
+    "Febo": ("persName", "myth", "apolo"),
+    
+    # ANTROPÔNIMOS
+    "Vasco da Gama": ("persName", "hist", "v_gama"),
+    "Gama": ("persName", "hist", "v_gama"),
+    "Luso": ("persName", "hist", "luso"),
+    "Afonso Henriques": ("persName", "hist", "d_afonso_henriques"),
+    "D. Manuel": ("persName", "hist", "d_manuel_i"),
+    
+    # TOPÔNIMOS
+    "Lisboa": ("placeName", "real", "lisboa"),
+    "Tejo": ("placeName", "real", "tejo"),
+    "Portugal": ("placeName", "real", "portugal"),
+    "África": ("placeName", "real", "africa"),
+    "Índia": ("placeName", "real", "india"),
+    "Moçambique": ("placeName", "real", "mocambique"),
+    "Quiloa": ("placeName", "real", "quiloa"),
+    "Mombaça": ("placeName", "real", "mombaca"),
+    "Melinde": ("placeName", "real", "melinde"),
+    "Madagascar": ("placeName", "real", "madagascar"),
+    "Capa da Boa Esperança": ("placeName", "real", "cabo_boa_esperanca"),
+    "Taprobana": ("placeName", "real", "sri_lanka")
+}
+
+def marcar_entidades(texto_puro):
+    """Aplica as tags TEI no texto, ignorando o que já for tag."""
+    # Ordenar por tamanho para não quebrar nomes compostos
+    for termo in sorted(entidades.keys(), key=len, reverse=True):
+        tag, tipo, ref = entidades[termo]
+        # Regex: garante palavra inteira e evita marcar dentro de tags já existentes
+        padrao = rf"(?<![>])\b({termo})\b(?![<])"
+        subst = f'<{tag} type="{tipo}" ref="#{ref}">\\1</{tag}>'
+        texto_puro = re.sub(padrao, subst, texto_puro)
+    return texto_puro
+
+def processar_canto_um():
+    try:
+        with open(ARQUIVO_ENTRADA, 'r', encoding='utf-8') as f:
+            conteudo = f.read()
+
+        print(f"Buscando Canto 1 em {ARQUIVO_ENTRADA}...")
+
+        # 1. Localizar o Canto 1 e o Canto 2 para isolar o intervalo
+        # Procura por padrões comuns em TEI: <div type="canto" n="1"> ou similar
+        inicio_canto1 = re.search(r'(<div[^>]+n=["\']1["\'][^>]*>)', conteudo)
+        inicio_canto2 = re.search(r'(<div[^>]+n=["\']2["\'][^>]*>)', conteudo)
+
+        if not inicio_canto1:
+            print("Erro: Não foi possível encontrar a tag de início do Canto 1.")
+            return
+
+        pos_inicio = inicio_canto1.start()
+        pos_fim = inicio_canto2.start() if inicio_canto2 else len(conteudo)
+
+        # 2. Dividir o arquivo em 3 partes
+        header_e_pre = conteudo[:pos_inicio]
+        bloco_canto1 = conteudo[pos_inicio:pos_fim]
+        resto_do_texto = conteudo[pos_fim:]
+
+        print("Marcando entidades apenas no Canto 1...")
+
+        # 3. Processar o Canto 1 (separando tags de texto para não estragar o XML)
+        partes_canto1 = re.split(r'(<[^>]+>)', bloco_canto1)
+        resultado_canto1 = []
+        
+        for parte in partes_canto1:
+            if parte.startswith('<'):
+                resultado_canto1.append(parte)
+            else:
+                resultado_canto1.append(marcar_entidades(parte))
+
+        canto1_marcado = "".join(resultado_canto1)
+
+        # 4. Remontar o arquivo
+        conteudo_final = header_e_pre + canto1_marcado + resto_do_texto
+
+        with open(ARQUIVO_SAIDA, 'w', encoding='utf-8') as f:
+            f.write(conteudo_final)
+
+        print(f"Sucesso! Arquivo gerado: {ARQUIVO_SAIDA}")
+
+    except Exception as e:
+        print(f"Ocorreu um erro: {e}")
+
+if __name__ == "__main__":
+    processar_canto_um()
