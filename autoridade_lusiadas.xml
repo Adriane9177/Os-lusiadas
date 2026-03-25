@@ -127,6 +127,22 @@
                 <persName>Hiperiónio</persName>
                 <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
             </person>
+            <person xml:id="anfitrite" ref="https://www.wikidata.org/wiki/Q180222">
+                <persName>Anfitrite</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+             <person xml:id="nereu" ref="https://www.wikidata.org/wiki/Q189527">
+                <persName>Nereu</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+             <person xml:id="nereidas" ref="https://www.wikidata.org/wiki/Q54230">
+                <persName>Nereidas</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="sinon" ref="https://www.wikidata.org/wiki/Q663792">
+                <persName>Sinon</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
 
             <!-- FIGURAS HISTÓRICAS -->
             <person xml:id="v_gama" ref="http://www.wikidata.org/entity/Q7328">
@@ -282,6 +298,22 @@
                 <persName>D. Manuel I</persName>
                 <note source="#peixoto">O "Venturoso". Monarca que promoveu a Era dos Descobrimentos.</note>
             </person>
+            <person xml:id="constantino" ref="https://www.wikidata.org/wiki/Q37142">
+                <persName>Constantino</persName>
+                <note source="#peixoto">Imperador romano que legalizou o cristianismo e fundou Constantinopla.</note>
+            </person>
+            <person xml:id="david" ref="https://www.wikidata.org/wiki/Q41370">
+                <persName>David</persName>
+                <note source="#peixoto"> nota de peixoto</note>
+            </person>
+            <person xml:id="filipo" ref="https://www.wikidata.org/wiki/Q130650">
+                <persName>Filipo</persName>
+                <note source="#peixoto"> nota de peixoto</note>
+            </person>
+                <person xml:id="maome" ref="https://www.wikidata.org/wiki/Q9458">
+                    <persName>Maomé</persName>
+                    <note source="#peixoto">nota de peixoto</note>
+                </person>
         </listPerson>
     </particDesc>
 
@@ -400,6 +432,26 @@
             </place>
             <place xml:id="idaspe" ref="https://www.wikidata.org/wiki/Q214874">
                 <placeName>Idaspe</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="turquia" ref="https://www.wikidata.org/wiki/Q43">
+                <placeName>Turquia</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="europa" ref="https://www.wikidata.org/wiki/Q46">
+                <placeName>Europa</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="prasso_promontorio" ref="https://www.wikidata.org/wiki/Q466538">
+                <placeName>Promontório do Prasso</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="nabateia" ref="https://www.wikidata.org/wiki/Q11029653">
+                <placeName>Nabateia</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="citera" ref="https://www.wikidata.org/wiki/Q207239">
+                <placeName>Citere</placeName>
                 <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
             </place>
         </listPlace>

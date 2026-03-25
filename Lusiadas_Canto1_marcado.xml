@@ -613,30 +613,30 @@
         </lg>
         <lg type="estrofe" n="60">
           <l>Partia alegremente navegando,</l>
-          <l>A ver as naus ligeiras <placeName type="real" ref="#lusitanas">Lusitanas</placeName>,</l>
+          <l>A ver as naus ligeiras Lusitanas,</l>
           <l>Com refresco da terra, em si cuidando</l>
           <l>Que são aquelas gentes inumanas,</l>
           <l>Que, os aposentos cáspios habitando,</l>
           <l>A conquistar as terras Asianas</l>
-          <l>Vieram; e por ordem do <persName type="hist" ref="#destino">Destino</persName>,</l>
+          <l>Vieram; e por ordem do <persName type="myth" ref="#fado">Destino</persName>,</l>
           <l>O Império tomaram a <persName type="hist" ref="#constantino">Constantino</persName>.</l>
         </lg>
         <lg type="estrofe" n="61">
-          <l>Recebe o <persName type="hist" ref="#capitão">Capitão</persName> alegremente</l>
-          <l>O <placeName type="real" ref="#mouro">Mouro</placeName>, e toda a sua companhia;</l>
+          <l>Recebe o <rs type="hist" ref="#v_gama">Capitão</rs> alegremente</l>
+          <l>O Mouro, e toda a sua companhia;</l>
           <l>Dá-lhe de ricas peças um presente,</l>
           <l>Que só para este efeito já trazia;</l>
           <l>Dá-lhe conserva doce, e dá-lhe o ardente</l>
           <l>Não usado licor, que dá alegria.</l>
-          <l>Tudo o <placeName type="real" ref="#mouro">Mouro</placeName> contente bem recebe;</l>
+          <l>Tudo o Mouro contente bem recebe;</l>
           <l>E muito mais contente come e bebe.</l>
         </lg>
         <lg type="estrofe" n="62">
-          <l>Está a gente marítima de <placeName type="real" ref="#luso">Luso</placeName></l>
+          <l>Está a gente marítima de <placeName type="real" ref="#portugal">Luso</placeName></l>
           <l>Subida pela enxárcia, de admirada,</l>
           <l>Notando o estrangeiro modo e uso,</l>
           <l>E a linguagem tão bárbara e enleada.</l>
-          <l>Também o <placeName type="real" ref="#mouro">Mouro</placeName> astuto está confuso,</l>
+          <l>Também o Mouro astuto está confuso,</l>
           <l>Olhando a cor, o trajo, e a forte armada;</l>
           <l>E perguntando tudo, lhe dizia</l>
           <l>"Se por ventura vinham de <placeName type="real" ref="#turquia">Turquia</placeName>?"</l>
@@ -645,16 +645,16 @@
           <l>E mais lhe diz também, que ver deseja</l>
           <l>Os livros de sua Lei, preceito eu fé,</l>
           <l>Para ver se conforme à sua seja,</l>
-          <l>Ou se são dos de <persName type="hist" ref="#cristo">Cristo</persName>, como <persName type="hist" ref="#crê">Crê</persName>.</l>
+          <l>Ou se são dos de <persName type="hist" ref="#jesus_cristo">Cristo</persName>, como <persName type="hist" ref="#crê">Crê</persName>.</l>
           <l>E porque tudo note e tudo veja,</l>
-          <l>Ao <persName type="hist" ref="#capitão">Capitão</persName> pedia que lhe dê</l>
+          <l>Ao <rs type="person" ref="#v_gama">Capitão</rs> pedia que lhe dê</l>
           <l>Mostra das fortes armas de que usavam,</l>
           <l>Quando co'os inimigos pelejavam.</l>
         </lg>
         <lg type="estrofe" n="64">
-          <l>Responde o valeroso <persName type="hist" ref="#capitão">Capitão</persName></l>
+          <l>Responde o valeroso <rs type="person" ref="#v_gama">Capitão</rs></l>
           <l>Por um, que a língua escura bem sabia:</l>
-          <l>"Dar-te-ei, <persName type="hist" ref="#senhor">Senhor</persName> ilustre, relação</l>
+          <l>"Dar-te-ei, Senhor ilustre, relação</l>
           <l>De mim, da Lei, das armas que trazia.</l>
           <l>Nem sou da terra, nem da geração</l>
           <l>Das gentes enojosas de <placeName type="real" ref="#turquia">Turquia</placeName>:</l>
@@ -664,15 +664,15 @@
         <lg type="estrofe" n="65">
           <l>A lei tenho daquele, a cujo império</l>
           <l>Obedece o visíbil e ínvisíbil</l>
-          <l>Aquele que criou todo o <placeName type="real" ref="#hemisfério">Hemisfério</placeName>,</l>
+          <l>Aquele que criou todo o Hemisfério,</l>
           <l>Tudo o que sente, o todo o insensíbil;</l>
           <l>Que padeceu desonra e vitupério,</l>
           <l>Sofrendo morte injusta e insofríbil,</l>
-          <l>E que do <placeName type="real" ref="#céu">Céu</placeName> à Terra, enfim desceu,</l>
-          <l>Por subir os mortais da Terra ao <placeName type="real" ref="#céu">Céu</placeName>.</l>
+          <l>E que do Céu à Terra, enfim desceu,</l>
+          <l>Por subir os mortais da Terra ao Céu.</l>
         </lg>
         <lg type="estrofe" n="66">
-          <l>Deste <persName type="hist" ref="#deus-homem">Deus-Homem</persName>, alto e infinito,</l>
+          <l>Deste <rs type="person" ref="#jesus_cristo">Deus-Homem</rs>, alto e infinito,</l>
           <l>Os livros, que tu pedes não trazia,</l>
           <l>Que bem posso escusar trazer escrito</l>
           <l>Em papel o que na alma andar devia.</l>
@@ -688,13 +688,13 @@
           <l>Malhas finas, e lâminas seguras,</l>
           <l>Escudos de pinturas diferentes,</l>
           <l>Pelouros, espingardas de aço puras,</l>
-          <l><placeName type="real" ref="#arcos">Arcos</placeName>, e sagitíferas aljavas,</l>
+          <l>Arcos, e sagitíferas aljavas,</l>
           <l>Partazanas agudas, chuças bravas:</l>
         </lg>
         <lg type="estrofe" n="68">
           <l>As bombas vêm de fogo, e juntamente</l>
           <l>As panelas sulfúreas, tão danosas;</l>
-          <l>Porém aos de <persName type="hist" ref="#vulcano">Vulcano</persName> não consente</l>
+          <l>Porém aos de <persName type="myth" ref="#vulcano">Vulcano</persName> não consente</l>
           <l>Que dêem fogo às bombardas temerosas;</l>
           <l>Porque o generoso ânimo e valente,</l>
           <l>Entre gentes tão poucas e medrosas,</l>
@@ -702,7 +702,7 @@
           <l>Que é fraqueza entre ovelhas ser leão.</l>
         </lg>
         <lg type="estrofe" n="69">
-          <l>Porém disto, que o <placeName type="real" ref="#mouro">Mouro</placeName> aqui notou,</l>
+          <l>Porém disto, que o Mouro aqui notou,</l>
           <l>E de tudo o que viu com olho atento</l>
           <l>Um ódio certo na alma lhe ficou,</l>
           <l>Uma vontade má de pensamento.</l>
@@ -712,7 +712,7 @@
           <l>Até que mostrar possa o que imagina.</l>
         </lg>
         <lg type="estrofe" n="70">
-          <l>Pilotos lhe pedia o <persName type="hist" ref="#capitão">Capitão</persName>,</l>
+          <l>Pilotos lhe pedia o <rs type="person" ref="#v_gama">Capitão</rs>,</l>
           <l>Por quem pudesse à <placeName type="real" ref="#india">Índia</placeName> ser levado;</l>
           <l>Diz-lhe que o largo prémio levarão</l>
           <l>Do trabalho que nisso for tomado.</l>
@@ -725,27 +725,27 @@
           <l>Tamanho o ódio foi, e a má vontade,</l>
           <l>Que aos estrangeiros súbito tomou,</l>
           <l>Sabendo ser sequazes da verdade,</l>
-          <l>Que o Filho de <persName type="hist" ref="#david">David</persName> nos ensinou.</l>
-          <l>ó segredos daquela <placeName type="real" ref="#eternidade">Eternidade</placeName>,</l>
+          <l>Que o <rs type="person" ref="#jesus_cristo">Filho de <persName type="hist" ref="#david">David</persName></rs> nos ensinou.</l>
+          <l>ó segredos daquela Eternidade,</l>
           <l>A quem juízo algum nunca alcançou!</l>
           <l>Que nunca falte um pérfido inimigo</l>
           <l>Aqueles de quem foste tanto amigo!</l>
         </lg>
         <lg type="estrofe" n="72">
           <l>Partiu-se Disto enfim coa companhia,</l>
-          <l>Das naus o falso <placeName type="real" ref="#mouro">Mouro</placeName> despedido,</l>
+          <l>Das naus o falso Mouro despedido,</l>
           <l>Com enganosa e grande cortesia,</l>
           <l>Com gesto ledo a todos, e fingido.</l>
           <l>Cortaram os batéis a curta via</l>
           <l>Das águas de <persName type="myth" ref="#neptuno">Neptuno</persName>, e recebido</l>
           <l>Na terra do obsequente ajuntamento</l>
-          <l>Se foi o <placeName type="real" ref="#mouro">Mouro</placeName> ao <placeName type="real" ref="#cognito_aposento">cógnito aposento</placeName>.</l>
+          <l>Se foi o Mouroao cógnito aposento.</l>
         </lg>
         <lg type="estrofe" n="73">
           <l>Do claro assento etóreo o <rs type="myth" ref="#baco">grão Tebano</rs>,</l>
           <l>Que da paternal coxa foi nascido,</l>
-          <l>Olhando o ajuntamento <persName type="hist" ref="#lusitano">Lusitano</persName></l>
-          <l>Ao <placeName type="real" ref="#mouro">Mouro</placeName> ser molesto e avorrecido,</l>
+          <l>Olhando o ajuntamento Lusitano</l>
+          <l>Ao Mouro ser molesto e avorrecido,</l>
           <l>No pensamento cuida um falso engano,</l>
           <l>Com que seja de todo destruído.</l>
           <l>E enquanto isto só na alma imaginava,</l>
@@ -754,30 +754,30 @@
         <lg type="estrofe" n="74">
           <l>"Está do fado já determinado,</l>
           <l>Que tamanhas vitórias, tão famosas,</l>
-          <l>Hajam os <placeName type="real" ref="#portugueses">Portugueses</placeName> alcançado</l>
+          <l>Hajam os Portugueses alcançado</l>
           <l>Das Indianas gentes belicosas.</l>
-          <l>E eu só, filho do <persName type="hist" ref="#padre">Padre</persName> sublimado,</l>
+          <l>E eu só, filho do <rs type="person" ref="#jupiter">Padre</rs> sublimado,</l>
           <l>Com tantas qualidades generosas,</l>
           <l>Hei de sofrer que o fado favoreça</l>
           <l>Outrem, por quem meu nome se escureça?</l>
         </lg>
         <lg type="estrofe" n="75">
           <l>"Já quiseram os Deuses que tivesse</l>
-          <l>O filho de <persName type="hist" ref="#filipo">Filipo</persName> nesta parte</l>
+          <l>O <rs type="person" ref="#alexandro">filho de <persName type="hist" ref="#filipo">Filipo</persName></rs> nesta parte</l>
           <l>Tanto poder, que tudo submetesse</l>
           <l>Debaixo de seu jugo o fero <persName type="myth" ref="#marte">Marte</persName>.</l>
           <l>Mas há-se de sofrer que o fado desse</l>
           <l>A tão poucos tamanho esforço e arte,</l>
-          <l>Que eu co'o grão Macedónio, e o <placeName type="real" ref="#romano">Romano</placeName>,</l>
-          <l>Demos lugar ao nome <placeName type="real" ref="#lusitano">Lusitano</placeName>?</l>
+          <l>Que eu co'o <rs type="person" ref="#alexandro">grão Macedónio</rs>, e o Romano,</l>
+          <l>Demos lugar ao nome Lusitano?</l>
         </lg>
         <lg type="estrofe" n="76">
           <l>"Não será assim, porque antes que chegado</l>
-          <l>Seja este <persName type="hist" ref="#capitão">Capitão</persName>, astutamente</l>
-          <l><persName type="hist" ref="#lhe">Lhe</persName> será tanto engano fabricados</l>
+          <l>Seja este <rs type="person" ref="#v_gama">Capitão</rs>, astutamente</l>
+          <l>Lhe será tanto engano fabricados</l>
           <l>Que nunca veja as partes do Oriente.</l>
           <l>Eu descerei à Terra, e o indignado</l>
-          <l>Peito revolverei da <persName type="hist" ref="#maura">Maura</persName> gente;</l>
+          <l>Peito revolverei da Maura gente;</l>
           <l>Porque sempre por via irá direita</l>
           <l>Quem do oportuno tempo se aproveita."</l>
         </lg>
@@ -785,16 +785,16 @@
           <l>Isto dizendo, irado e quase insano,</l>
           <l>Sobre a terra africana descendeu,</l>
           <l>Onde vestindo a forma e gesto humano,</l>
-          <l>Para o Prasso sabido se moveu.</l>
+          <l>Para o <placeName type="real" ref="prasso_promontorio">Prasso</placeName> sabido se moveu.</l>
           <l>E por melhor tecer o astuto engano,</l>
           <l>No gesto natural se converteu</l>
-          <l><placeName type="real" ref="#dum_mouro">Dum Mouro</placeName>, em <placeName type="real" ref="#moçambique">Moçambique</placeName> conhecido</l>
+          <l>Dum Mouro em <placeName type="real" ref="#moçambique">Moçambique</placeName> conhecido</l>
           <l>Velho, sábio, e co'o Xeque mui valido.</l>
         </lg>
         <lg type="estrofe" n="78">
           <l>E entrando assim a falar-lhe a tempo e horas</l>
           <l>A sua falsidade acomodadas,</l>
-          <l><persName type="hist" ref="#lhe">Lhe</persName> diz como eram gentes roubadoras,</l>
+          <l>Lhe diz como eram gentes roubadoras,</l>
           <l>Estas que ora de novo são chegadas;</l>
           <l>Que das nações na costa moradoras</l>
           <l>Correndo a fama veio que roubadas</l>
@@ -814,16 +814,16 @@
         <lg type="estrofe" n="80">
           <l>"E também sei que tem determinado</l>
           <l>De vir por água a terra muito cedo</l>
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName> dos seus acompanhado,</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs> dos seus acompanhado,</l>
           <l>Que da tensão danada nasce o medo.</l>
           <l>Tu deves de ir também co'os teus armado</l>
-          <l><placeName type="real" ref="#espera-lo">Esperá-lo</placeName> em cilada, oculto e quedo;</l>
+          <l>Esperá-lo em cilada, oculto e quedo;</l>
           <l>Porque, saindo a gente descuidada,</l>
-          <l><placeName type="real" ref="#cairão">Cairão</placeName> facilmente na cilada.</l>
+          <l>Cairão facilmente na cilada.</l>
         </lg>
         <lg type="estrofe" n="81">
           <l>"E se inda não ficarem deste jeito</l>
-          <l><placeName type="real" ref="#destruídos">Destruídos</placeName>, ou mortos totalmente</l>
+          <l>Destruídos, ou mortos totalmente</l>
           <l>Eu tenho imaginado no conceito</l>
           <l>Outra manha e ardil, que te contente:</l>
           <l>Manda-lhe dar piloto, que de jeito</l>
@@ -833,28 +833,28 @@
         </lg>
         <lg type="estrofe" n="82">
           <l>Tanto que estas palavras acabou,</l>
-          <l>O <placeName type="real" ref="#mouro">Mouro</placeName>, nos tais casos sábio e velho,</l>
+          <l>O Mouro, nos tais casos sábio e velho,</l>
           <l>Os braços pelo colo lhe lançou,</l>
           <l>Agradecendo muito o tal conselho;</l>
           <l>E logo nesse instante concertou</l>
           <l>Para a guerra o belígero aparelho,</l>
-          <l>Para que ao <placeName type="real" ref="#português">Português</placeName> se lhe tornasse</l>
+          <l>Para que ao Português se lhe tornasse</l>
           <l>Em roxo sangue a água, que buscasse.</l>
         </lg>
         <lg type="estrofe" n="83">
           <l>E busca mais, para o cuidado engano,</l>
-          <l><placeName type="real" ref="#mouro">Mouro</placeName>, que por piloto à nau lhe mande,</l>
+          <l>Mouro, que por piloto à nau lhe mande,</l>
           <l>Sagaz, astuto, e sábio em todo o dano,</l>
           <l>De quem fiar-se possa um feito grande.</l>
-          <l>Diz-lhe que acompanhando o <placeName type="real" ref="#lusitano">Lusitano</placeName>,</l>
+          <l>Diz-lhe que acompanhando o Lusitano,</l>
           <l>Por tais costas e mares com ele ande,</l>
           <l>Que, se daqui escapar, que lá diante</l>
           <l>Vá cair onde nunca se alevante.</l>
         </lg>
         <lg type="estrofe" n="84">
           <l>Já o raio Apolíneo visitava</l>
-          <l>Os <placeName type="real" ref="#montes_nabatêos">montes Nabatêos</placeName> acendido,</l>
-          <l>Quando o [[<placeName type="real" ref="#entidade24">ENTIDADE24</placeName>]], colos seus determinava</l>
+          <l>Os <placeName type="real" ref="#nabateia">montes Nabatêos</placeName> acendido,</l>
+          <l>Quando o <persName type="hist" ref="v_gama">Gama</persName>, colos seus determinava</l>
           <l>De vir por água a terra apercebido.</l>
           <l>A gente nos batéis se concertava,</l>
           <l>Como se fosse o engano já sabido:</l>
@@ -868,24 +868,24 @@
           <l>Caso do que cuidava mui contrário;</l>
           <l>Por isto, e porque sabe quanto erra</l>
           <l>Quem se crê de seu pérfido adversário,</l>
-          <l><placeName type="real" ref="#apercebido">Apercebido</placeName> vai como podia,</l>
+          <l>Apercebido vai como podia,</l>
           <l>Em três batéis somente que trazia.</l>
         </lg>
         <lg type="estrofe" n="86">
           <l>Mas os Mouros que andavam pela praia,</l>
           <l>Por lhe defender a água desejada,</l>
-          <l>Um de escudo embraçado e de <placeName type="real" ref="#azagaia">azagaia</placeName>,</l>
+          <l>Um de escudo embraçado e de azagaia,</l>
           <l>Outro de arco encurvado e seta ervada,</l>
           <l>Esperam que a guerreira gente saia,</l>
           <l>Outros muitos já postos em cilada.</l>
           <l>E, porque o caso leve se lhe faça,</l>
-          <l><persName type="hist" ref="#põem">Põem</persName> uns poucos diante por <placeName type="real" ref="#negaça">negaça</placeName>,</l>
+          <l>Põem uns poucos diante por negaça,</l>
         </lg>
         <lg type="estrofe" n="87">
-          <l>Andam pela <placeName type="real" ref="#ribeira_alva">ribeira alva</placeName>, arenosa,</l>
+          <l>Andam pela ribeira alva, arenosa,</l>
           <l>Os belicosos Mouros acenando</l>
-          <l>Com a <placeName type="real" ref="#adarga">adarga</placeName> e co'a hástia perigosa,</l>
-          <l>Os fortes <placeName type="real" ref="#portugueses">Portugueses</placeName> incitando.</l>
+          <l>Com a adarga e co'a hástia perigosa,</l>
+          <l>Os fortes Portugueses incitando.</l>
           <l>Não sofre muito a gente generosa</l>
           <l>Andar-lhe os cães os dentes amostrando.</l>
           <l>Qualquer em terra salta tão ligeiro,</l>
@@ -895,11 +895,11 @@
           <l>Qual no corro sanguino o ledo amante,</l>
           <l>Vendo a formosa dama desejada,</l>
           <l>O touro busca, e pondo-se diante,</l>
-          <l><placeName type="real" ref="#salta">Salta</placeName>, corre, sibila, acena, e brada,</l>
+          <l>Salta, corre, sibila, acena, e brada,</l>
           <l>Mas o animal atroce, nesse instante,</l>
           <l>Com a fronte cornígera inclinada,</l>
           <l>Bramando duro corre, e os olhos cerra,</l>
-          <l><persName type="hist" ref="#derriba">Derriba</persName>, fere e mata, e põe por terra:</l>
+          <l>Derriba, fere e mata, e põe por terra:</l>
         </lg>
         <lg type="estrofe" n="89">
           <l>Eis nos batéis o fogo se levanta</l>
@@ -912,23 +912,23 @@
           <l>E morre o descoberto aventuroso.</l>
         </lg>
         <lg type="estrofe" n="90">
-          <l>Não se contenta a gente <placeName type="real" ref="#portuguesa">Portuguesa</placeName>,</l>
+          <l>Não se contenta a gente Portuguesa,</l>
           <l>Mas seguindo a vitória estrui e mata;</l>
           <l>A povoação, sem muro e sem defesa,</l>
           <l>Esbombardeia, acende e desbarata.</l>
-          <l>Da cavalgada ao <placeName type="real" ref="#mouro">Mouro</placeName> já lhe pesa,</l>
+          <l>Da cavalgada ao Mouro já lhe pesa,</l>
           <l>Que bem cuidou comprá-la mais barata;</l>
           <l>Já blasfema da guerra, e maldizia,</l>
           <l>O velho inerte, e a mãe que o filho cria.</l>
         </lg>
         <lg type="estrofe" n="91">
-          <l>Fugindo, a seta o <placeName type="real" ref="#mouro">Mouro</placeName> vai tirando</l>
+          <l>Fugindo, a seta o Mouro vai tirando</l>
           <l>Sem força, de covarde e de apressado,</l>
           <l>A pedra, o pau, e o canto arremessando;</l>
           <l>Dá-lhe armas o furor desatinado.</l>
           <l>Já a ilha e todo o mais desemparando,</l>
           <l>A terra firme foge amedrontado;</l>
-          <l>Passa e corta do mar o <placeName type="real" ref="#estreito_braço">estreito braço</placeName>,</l>
+          <l>Passa e corta do mar o estreito braço,</l>
           <l>Que a ilha em torno cerca, em pouco espaço</l>
         </lg>
         <lg type="estrofe" n="92">
@@ -946,15 +946,15 @@
           <l>Co'o despojo da guerra e rica presa,</l>
           <l>E vão a seu prazer fazer aguada,</l>
           <l>Sem achar resistência, nem defesa.</l>
-          <l>Ficava a <persName type="hist" ref="#maura">Maura</persName> gente magoada,</l>
+          <l>Ficava a Maura gente magoada,</l>
           <l>No ódio antigo mais que nunca acesa;</l>
           <l>E vendo sem vingança tanto dano,</l>
           <l>Somente estriba no segundo engano.</l>
         </lg>
         <lg type="estrofe" n="94">
           <l>Pazes cometer manda arrependido</l>
-          <l>O <placeName type="real" ref="#regedor">Regedor</placeName> daquela iníqua terra,</l>
-          <l>Sem ser dos <placeName type="real" ref="#lusitanos">Lusitanos</placeName> entendido,</l>
+          <l>O Regedor daquela iníqua terra,</l>
+          <l>Sem ser dos Lusitanos entendido,</l>
           <l>Que em figura de paz lhe manda guerra;</l>
           <l>Porque o piloto falso prometido,</l>
           <l>Que toda a má tenção no peito encerra,</l>
@@ -962,7 +962,7 @@
           <l>Como em sinal das pazes que tratava.</l>
         </lg>
         <lg type="estrofe" n="95">
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName>, que já lhe então convinha</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que já lhe então convinha</l>
           <l>Tornar a seu caminho acostumado,</l>
           <l>Que tempo concertado e ventos tinha</l>
           <l>Para ir buscar o <placeName type="real" ref="#indo">Indo</placeName> desejado,</l>
@@ -973,39 +973,39 @@
         </lg>
         <lg type="estrofe" n="96">
           <l>Desta arte despedida a forte armada,</l>
-          <l>As <placeName type="real" ref="#ondas_de_anfitrite">ondas de Anfitrite</placeName> dividia,</l>
-          <l>Das filhas de <persName type="hist" ref="#nereu">Nereu</persName> acompanhada,</l>
+          <l>As ondas de <persName type="myth" ref="#anfitrite">Anfitrite</persName> dividia,</l>
+          <l>Das <rs type="person" ref="#nereidas">filhas de <persName type="myth" ref="#nereu">Nereu</persName></rs> acompanhada,</l>
           <l>Fiel, alegre e doce companhia.</l>
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName>, que não caía em nada</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que não caía em nada</l>
           <l>Do enganoso ardil, que o Mouro urdia,</l>
           <l>Dele mui largamente se informava</l>
           <l>Da <placeName type="real" ref="#india">Índia</placeName> toda, e costas que passava.</l>
         </lg>
         <lg type="estrofe" n="97">
-          <l>Mas o <placeName type="real" ref="#mouro">Mouro</placeName>, instruído nos enganos</l>
+          <l>Mas o Mouro, instruído nos enganos</l>
           <l>Que o malévolo <persName type="myth" ref="#baco">Baco</persName> lhe ensinara,</l>
           <l>De morte ou cativeiro novos danos,</l>
           <l>Antes que à <placeName type="real" ref="#india">Índia</placeName> chegue, lhe prepara:</l>
-          <l>Dando razões dos portos <placeName type="real" ref="#indianos">Indianos</placeName>,</l>
+          <l>Dando razões dos portos Indianos,</l>
           <l>Também tudo o que pede lhe declara,</l>
           <l>Que, havendo por verdade o que dizia,</l>
           <l>De nada a forte gente se temia.</l>
         </lg>
         <lg type="estrofe" n="98">
           <l>E diz-lhe mais, com o falso pensamento</l>
-          <l>Com que Sinon os <placeName type="real" ref="#frígios">Frígios</placeName> enganou:</l>
+          <l>Com que <persName type="myth" ref="#sinon">Sinon</persName> os Frígios enganou:</pSinon>
           <l>Que perto está uma ilha, cujo assento</l>
           <l>Povo antigo cristão sempre habitou.</l>
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName>, que a tudo estava a tento,</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que a tudo estava a tento,</l>
           <l>Tanto com estas novas se alegrou,</l>
           <l>Que com dádivas grandes lhe rogava,</l>
           <l>Que o leve à terra onde esta gente estava.</l>
         </lg>
         <lg type="estrofe" n="99">
-          <l>O mesmo o falso <placeName type="real" ref="#mouro">Mouro</placeName> determina,</l>
+          <l>O mesmo o falso Mouro determina,</l>
           <l>Que o seguro Cristão lhe manda e pede;</l>
           <l>Que a ilha é possuída da malina</l>
-          <l>Gente que segue o torpe <persName type="hist" ref="#mahamede">Mahamede</persName>.</l>
+          <l>Gente que segue o torpe <persName type="hist" ref="#maome">Mahamede</persName>.</l>
           <l>Aqui o engano e morte lhe imagina,</l>
           <l>Porque em poder e forças muito excede</l>
           <l>A <placeName type="real" ref="#moçambique">Moçambique</placeName> esta ilha, que se chama</l>
@@ -1013,7 +1013,7 @@
         </lg>
         <lg type="estrofe" n="100">
           <l>Para lá se inclinava a leda frota;</l>
-          <l>Mas a <persName type="hist" ref="#deusa">Deusa</persName> em <persName type="hist" ref="#citere">Citere</persName> celebrada,</l>
+          <l>Mas a <rs type="person" ref="#venus">Deusa</rs> em <placeName type="real" ref="#citera">Citere</placeName> celebrada,</l>
           <l>Vendo como deixava a certa rota</l>
           <l>Por ir buscar a morte não cuidada,</l>
           <l>Não consente que em terra tão remota</l>
@@ -1022,11 +1022,11 @@
           <l>Donde o piloto falso a leva e guia.</l>
         </lg>
         <lg type="estrofe" n="101">
-          <l>Mas o malvado <placeName type="real" ref="#mouro">Mouro</placeName>, não podendo</l>
+          <l>Mas o malvado Mouro, não podendo</l>
           <l>Tal determinação levar avante,</l>
           <l>Outra maldade iníqua cometendo,</l>
           <l>Ainda em seu propósito constante,</l>
-          <l><persName type="hist" ref="#lhe">Lhe</persName> diz que, pois as águas discorrendo</l>
+          <l>Lhe diz que, pois as águas discorrendo</l>
           <l>Os levaram por força por diante,</l>
           <l>Que outra ilha tem perto, cuja gente</l>
           <l>Eram Cristãos com Mouros juntamente.</l>
@@ -1034,11 +1034,11 @@
         <lg type="estrofe" n="102">
           <l>Também nestas palavras lhe mentia,</l>
           <l>Como por regimento enfim levava,</l>
-          <l>Que aqui gente de <persName type="hist" ref="#cristo">Cristo</persName> não havia,</l>
-          <l>Mas a que a Mahamede celebrava.</l>
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName>, que em tudo o <placeName type="real" ref="#mouro">Mouro</placeName> cria,</l>
+          <l>Que aqui gente de <persName type="hist" ref="#jesus_cristo">Cristo</persName> não havia,</l>
+          <l>Mas a que a <persName type="hist" ref="#maome">Mahamede</persName> celebrava.</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que em tudo o Mouro cria,</l>
           <l>Virando as velas, a ilha demandava;</l>
-          <l>Mas, não querendo a <persName type="hist" ref="#deusa">Deusa</persName> guardadora,</l>
+          <l>Mas, não querendo a <rs type="person" ref="#venus">Deusa</rs> guardadora,</l>
           <l>Não entra pela barra, e surge fora.</l>
         </lg>
         <lg type="estrofe" n="103">
@@ -1052,14 +1052,14 @@
           <l><placeName type="real" ref="#mombaça">Mombaça</placeName> é o nome da ilha e da cidade.</l>
         </lg>
         <lg type="estrofe" n="104">
-          <l>E sendo a ela o <persName type="hist" ref="#capitão">Capitão</persName> chegado,</l>
+          <l>E sendo a ela o <rs type="person" ref="#v_gama">Capitão</rs> chegado,</l>
           <l>Estranhamente ledo, porque espera</l>
           <l>De poder ver o povo batizado,</l>
           <l>Como o falso piloto lhe dissera,</l>
           <l>Eis vêm batéis da terra com recado</l>
           <l>Do Rei, que já sabia a gente que era:</l>
           <l>Que <persName type="myth" ref="#baco">Baco</persName> muito de antes o avisara,</l>
-          <l>Na forma doutro <placeName type="real" ref="#mouro">Mouro</placeName>, que tomara.</l>
+          <l>Na forma doutro Mouro, que tomara.</l>
         </lg>
         <lg type="estrofe" n="105">
           <l>O recado que trazem é de amigos,</l>
@@ -1078,7 +1078,7 @@
           <l>Tanta necessidade avorrecida!</l>
           <l>Onde pode acolher-se um fraco humano,</l>
           <l>Onde terá segura a curta vida,</l>
-          <l>Que não se arme, e se indigne o <persName type="hist" ref="#céu">Céu</persName> sereno</l>
+          <l>Que não se arme, e se indigne o Céu sereno</l>
           <l>Contra um bicho da terra tão pequeno?</l>
         </lg>
       </div>
