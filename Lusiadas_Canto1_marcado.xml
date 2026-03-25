@@ -21,48 +21,48 @@
       <div type="canto" n="1">
         <head>Canto Primeiro</head>
         <lg type="estrofe" n="1">
-          <l>As armas e os <rs type="person" ref="#portugueses">barões assinalados</rs>,</l>
+          <l>As armas e os barões assinalados,</l>
           <l>Que da <rs type="place" ref="#portugal">ocidental praia Lusitana</rs>,</l>
           <l>Por mares nunca de antes navegados,</l>
-          <l>Passaram ainda além da [[<placeName type="real" ref="#entidade13">ENTIDADE13</placeName>]],</l>
+          <l>Passaram ainda além da <placeName type="real" ref="taprobana">Taprobana</placeName>,</l>
           <l>Em perigos e guerras esforçados,</l>
           <l>Mais do que prometia a força humana,</l>
           <l>E entre gente remota edificaram</l>
-          <l><placeName type="real" ref="#novo_reino">Novo Reino</placeName>, que tanto sublimaram;</l>
+          <l><placeName type="real" ref="#imperio_portugues_oriente">Novo Reino</placeName>, que tanto sublimaram;</l>
         </lg>
         <lg type="estrofe" n="2">
           <l>E também as memórias gloriosas</l>
-          <l><persName type="hist" ref="#daqueles_reis">Daqueles Reis</persName>, que foram dilatando</l>
+          <l><rs type="person" ref="#reis_portugueses">Daqueles Reis</rs>, que foram dilatando</l>
           <l>A Fé, o Império, e as terras viciosas</l>
-          <l>De [[<persName type="hist" ref="#entidade18">ENTIDADE18</persName>]] e de <placeName type="real" ref="#asia">Ásia</placeName> andaram devastando;</l>
+          <l>De <placeName type="real" ref="africa">África</placeName> e de <placeName type="real" ref="#asia">Ásia</placeName> andaram devastando;</l>
           <l>E aqueles, que por obras valerosas</l>
           <l>Se vão da lei da morte libertando;</l>
           <l>Cantando espalharei por toda parte,</l>
           <l>Se a tanto me ajudar o engenho e arte.</l>
         </lg>
         <lg type="estrofe" n="3">
-          <l>Cessem do sábio <persName type="hist" ref="#grego">Grego</persName> e do Troiano</l>
+          <l>Cessem do sábio <rs type="person" ref="#ulisses">Grego</rs> e do <rs type="person" ref="eneias">Troiano</rs></l>
           <l>As navegações grandes que fizeram;</l>
           <l>Cale-se de <persName type="hist" ref="#alexandro">Alexandro</persName> e de <persName type="hist" ref="#trajano">Trajano</persName></l>
           <l>A fama das vitórias que tiveram;</l>
-          <l>Que eu canto o peito ilustre <persName type="hist" ref="#lusitano">Lusitano</persName>,</l>
+          <l>Que eu canto o peito ilustre Lusitano,</l>
           <l>A quem <persName type="myth" ref="#neptuno">Neptuno</persName> e <persName type="myth" ref="#marte">Marte</persName> obedeceram:</l>
-          <l>Cesse tudo o que a <persName type="hist" ref="#musa">Musa</persName> antígua canta,</l>
+          <l>Cesse tudo o que a <persName type="myth" ref="#musa">Musa</persName> antígua canta,</l>
           <l>Que outro valor mais alto se alevanta.</l>
         </lg>
         <lg type="estrofe" n="4">
-          <l>E vós, <persName type="hist" ref="#tagides">Tágides</persName> minhas, pois criado</l>
+          <l>E vós, <persName type="myth" ref="#tagides">Tágides</persName> minhas, pois criado</l>
           <l>Tendes em mim um novo engenho ardente,</l>
           <l>Se sempre em verso humilde celebrado</l>
           <l>Foi de mim vosso rio alegremente,</l>
           <l>Dai-me agora um som alto e sublimado,</l>
           <l>Um estilo grandíloquo e corrente,</l>
-          <l>Porque de vossas águas, <persName type="hist" ref="#febo">Febo</persName> ordene</l>
-          <l>Que não tenham inveja às de <placeName type="real" ref="#hipoerene">Hipoerene</placeName>.</l>
+          <l>Porque de vossas águas, <rs type="person" ref="#apolo">Febo</rs> ordene</l>
+          <l>Que não tenham inveja às de <placeName type="myth" ref="#hipocrene">Hipoerene</placeName>.</l>
         </lg>
         <lg type="estrofe" n="5">
           <l>Dai-me uma fúria grande e sonorosa,</l>
-          <l>E não de agreste <placeName type="real" ref="#avena">avena</placeName> ou <persName type="hist" ref="#frauta_ruda">frauta ruda</persName>,</l>
+          <l>E não de agreste avena ou frauta ruda,</l>
           <l>Mas de tuba canora e belicosa,</l>
           <l>Que o peito acende e a cor ao gesto muda;</l>
           <l>Dai-me igual canto aos feitos da famosa</l>
@@ -75,33 +75,33 @@
           <l>Da Lusitana antígua liberdade,</l>
           <l>E não menos certíssima esperança</l>
           <l>De aumento da pequena Cristandade;</l>
-          <l>Vós, ó novo temor da <persName type="hist" ref="#maura">Maura</persName> lança,</l>
-          <l><placeName type="real" ref="#maravilha">Maravilha</placeName> fatal da nossa idade,</l>
-          <l>Dada ao mundo por <persName type="hist" ref="#deus">Deus</persName>, que todo o mande,</l>
-          <l>Para do mundo a <persName type="hist" ref="#deus">Deus</persName> dar parte grande;</l>
+          <l>Vós, ó novo temor da Maura lança,</l>
+          <l>Maravilha fatal da nossa idade,</l>
+          <l>Dada ao mundo por <persName type="myth" ref="#deus">Deus</persName>, que todo o mande,</l>
+          <l>Para do mundo a <persName type="myth" ref="#deus">Deus</persName> dar parte grande;</l>
         </lg>
         <lg type="estrofe" n="7">
           <l>Vós, tenro e novo ramo florescente</l>
-          <l>De uma árvore de <persName type="hist" ref="#cristo">Cristo</persName> mais amada</l>
-          <l>Que nenhuma nascida no <placeName type="real" ref="#ocidente">Ocidente</placeName>,</l>
-          <l><placeName type="real" ref="#cesarea">Cesárea</placeName> ou <placeName type="real" ref="#cristianíssima">Cristianíssima</placeName> chamada;</l>
-          <l>(<placeName type="real" ref="#vede-o">Vede-o</placeName> no vosso escudo, que presente</l>
+          <l>De uma árvore de <persName type="hist" ref="#jesus_cristo">Cristo</persName> mais amada</l>
+          <l>Que nenhuma nascida no Ocidente,</l>
+          <l>Cesárea ou Cristianíssima chamada;</l>
+          <l>(Vede-o no vosso escudo, que presente</l>
           <l>Vos amostra a vitória já passada,</l>
           <l>Na qual vos deu por armas, e deixou</l>
-          <l>As que Ele para si na <persName type="hist" ref="#cruz">Cruz</persName> tomou)</l>
+          <l>As que Ele para si na Cruz tomou)</l>
         </lg>
         <lg type="estrofe" n="8">
-          <l>Vós, poderoso Rei, cujo alto Império</l>
-          <l>O <placeName type="real" ref="#sol">Sol</placeName>, logo em nascendo, vê primeiro;</l>
-          <l>Vê-o também no meio do <placeName type="real" ref="#hemisfério">Hemisfério</placeName>,</l>
+          <l>Vós, <rs type="person" ref="d_sebastiao">poderoso Rei</rs>, cujo alto <rs type="place" ref="portugal">Império</rs></l>
+          <l>O Sol, logo em nascendo, vê primeiro;</l>
+          <l>Vê-o também no meio do Hemisfério,</l>
           <l>E quando desce o deixa derradeiro;</l>
           <l>Vós, que esperamos jugo e vitupério</l>
           <l>Do torpe Ismaelita cavaleiro,</l>
-          <l>Do Turco oriental, e do <placeName type="real" ref="#gentio">Gentio</placeName>,</l>
-          <l>Que inda bebe o licor do santo rio;</l>
+          <l>Do Turco oriental, e do Gentio,</l>
+          <l>Que inda bebe o licor do <rs type="place" ref="rio_ganges">santo rio</rs>;</l>
         </lg>
         <lg type="estrofe" n="9">
-          <l><placeName type="real" ref="#inclinai">Inclinai</placeName> por um pouco a majestade,</l>
+          <l>Inclinai por um pouco a majestade,</l>
           <l>Que nesse tenro gesto vos contemplo,</l>
           <l>Que já se mostra qual na inteira idade,</l>
           <l>Quando subindo ireis ao eterno templo;</l>
@@ -124,76 +124,76 @@
           <l>Ouvi, que não vereis com vãs façanhas,</l>
           <l>Fantásticas, fingidas, mentirosas,</l>
           <l>Louvar os vossos, como nas estranhas</l>
-          <l><persName type="hist" ref="#musas">Musas</persName>, de engrandecer-se desejosas:</l>
+          <l><persName type="myth" ref="#musa">Musas</persName>, de engrandecer-se desejosas:</l>
           <l>As verdadeiras vossas são tamanhas,</l>
           <l>Que excedem as sonhadas, fabulosas;</l>
-          <l>Que excedem <placeName type="real" ref="#rodamonte">Rodamonte</placeName>, e o vão Rugeiro,</l>
-          <l>E <placeName type="real" ref="#orlando">Orlando</placeName>, inda que fora verdadeiro,</l>
-        </lg>
+          <l>Que excedem <persName type="myth" ref="#rodamonte">Rodamonte</persName>, e o vão <persName type="myth" ref="rugeiro">Rugeiro</persName>,</l>
+          <l>E <persName type="myth" ref="#orlando">Orlando</persName>, inda que fora verdadeiro,</l>
+
         <lg type="estrofe" n="12">
-          <l>Por estes vos darei um <persName type="hist" ref="#nuno">Nuno</persName> fero,</l>
-          <l>Que fez ao Rei o ao <placeName type="real" ref="#reino">Reino</placeName> tal serviço,</l>
+          <l>Por estes vos darei um <persName type="hist" ref="#nuno_alvares">Nuno</persName> fero,</l>
+          <l>Que fez ao Rei o ao Reino tal serviço, </l>
           <l>Um <persName type="hist" ref="#egas">Egas</persName>, e um <persName type="hist" ref="#d._fuas">D. Fuas</persName>, que de <persName type="hist" ref="#homero">Homero</persName></l>
           <l>A cítara para eles só cobiço.</l>
           <l>Pois pelos doze Pares dar-vos quero</l>
-          <l>Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
-          <l>Dou-vos também aquele ilustre [[<placeName type="real" ref="#entidade24">ENTIDADE24</placeName>]],</l>
+          <l><rs type="person" ref="doze_inglaterra">Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName></rs>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
+          <l>Dou-vos também aquele ilustre <persName type="hist" ref="v_gama">Gama</persName>,</l>
           <l>Que para si de <persName type="hist" ref="#eneias">Eneias</persName> toma a fama.</l>
         </lg>
         <lg type="estrofe" n="13">
-          <l>Pois se a troco de <persName type="hist" ref="#carlos">Carlos</persName>, <persName type="hist" ref="#rei_de_frança">Rei de França</persName>,</l>
-          <l>Ou de <persName type="hist" ref="#césar">César</persName>, quereis igual memória,</l>
-          <l>Vede o primeiro <persName type="hist" ref="#afonso">Afonso</persName>, cuja lança</l>
-          <l><persName type="hist" ref="#escura">Escura</persName> faz qualquer estranha glória;</l>
-          <l>E aquele que a seu <placeName type="real" ref="#reino">Reino</placeName> a segurança</l>
+          <l>Pois se a troco de <persName type="hist" ref="#carlos_magno">Carlos</persName>, Rei de <placeName type="real" ref="#franca">França</placeName>,</l>
+          <l>Ou de <persName type="hist" ref="#julio_césar">César</persName>, quereis igual memória,</l>
+          <l>Vede o <rs type="person" ref="afonso_henriques">primeiro <persName type="hist">Afonso</persName></rs>, cuja lança</l>
+          <l>Escura faz qualquer estranha glória;</l>
+          <l>E <rs type="person" ref="d_joao_i">aquele</rs> que a seu <rs type="place" ref="#portugal">Reino</rs> a segurança</l>
           <l>Deixou com a grande e próspera vitória;</l>
-          <l>Outro Joane, invicto cavaleiro,</l>
-          <l>O quarto e quinto <placeName type="real" ref="#afonsos">Afonsos</placeName>, e o terceiro.</l>
+          <l><rs type="person" ref="#d_joao_ii">Outro <persName type="hist">Joane</persName></rs>, invicto cavaleiro,</l>
+          <l>O <rs type="person" ref="#afonso_iv">quarto</rs> e <rs type="person" ref="#afonso_v">quinto</rs> <persName type="hist" ref="#afonso_iv" ref="#afonso_v">Afonsos</persName>, e o <rs type="person" ref="#afonso_iii">terceiro</rs>.</l>
         </lg>
         <lg type="estrofe" n="14">
           <l>Nem deixarão meus versos esquecidos</l>
-          <l>Aqueles que nos <placeName type="real" ref="#reinos">Reinos</placeName> lá da Aurora</l>
+          <l>Aqueles que nos Reinos lá da Aurora</lá>
           <l>Fizeram, só por armas tão subidos,</l>
           <l>Vossa bandeira sempre vencedora:</l>
           <l>Um <persName type="hist" ref="#pacheco">Pacheco</persName> fortíssimo, e os temidos</l>
-          <l><placeName type="real" ref="#almeidas">Almeidas</placeName>, por quem sempre o <placeName type="real" ref="#tejo">Tejo</placeName> chora;</l>
-          <l><persName type="hist" ref="#albuquerque_terríbil">Albuquerque terríbil</persName>, <persName type="hist" ref="#castro">Castro</persName> forte,</l>
+          <l><persName type="hist" ref="#almeidas">Almeidas</persName>, por quem sempre o <placeName type="real" ref="#tejo">Tejo</placeName> chora;</l>
+          <l><rs type="person" ref="#afonso_albuquerque"> <persName type="hist">Albuquerque</persName> terríbil</rs>, <persName type="hist" ref="#castro">Castro</persName> forte,</l>
           <l>E outros em quem poder não teve a morte.</l>
         </lg>
         <lg type="estrofe" n="15">
           <l>E enquanto eu estes canto, e a vós não posso,</l>
           <l><rs type="person" ref="#d_sebastiao">Sublime Rei</rs>, que não me atrevo a tanto,</l>
-          <l>Tomai as rédeas vós do <placeName type="real" ref="#reino">Reino</placeName> vosso:</l>
+          <l>Tomai as rédeas vós do <placeName type="real" ref="#portugal">Reino</placeName> vosso:</l>
           <l>Dareis matéria a nunca ouvido canto.</l>
           <l>Comecem a sentir o peso grosso</l>
           <l>(Que pelo mundo todo faça espanto)</l>
           <l>De exércitos e feitos singulares,</l>
-          <l>De [[<persName type="hist" ref="#entidade18">ENTIDADE18</persName>]] as terras, e do Oriente os marços,</l>
+          <l>De <placeName type="real" ref="#africa">África</placeName> as terras, e do Oriente os marços,</l>
         </lg>
         <lg type="estrofe" n="16">
-          <l>Em vós os olhos tem o <placeName type="real" ref="#mouro">Mouro</placeName> frio,</l>
+          <l>Em vós os olhos tem o Mouro frio,</l>
           <l>Em quem vê seu exício afigurado;</l>
-          <l>Só com vos ver o bárbaro <persName type="hist" ref="#gentio">Gentio</persName></l>
+          <l>Só com vos ver o bárbaro Gentio</l>
           <l>Mostra o pescoço ao jugo já inclinado;</l>
-          <l><persName type="hist" ref="#tethys">Tethys</persName> todo o cerúleo senhorio</l>
+          <l><persName type="myth" ref="#tetis">Tethys</persName> todo o cerúleo senhorio</l>
           <l>Tem para vós por dote aparelhado;</l>
           <l>Que afeiçoada ao gesto belo e tenro,</l>
           <l>Deseja de comprar-vos para genro.</l>
         </lg>
         <lg type="estrofe" n="17">
-          <l>Em vós se vêm da olímpica morada</l>
+          <l>Em vós se vêm da <rs type="place" ref="#olimpo">olímpica morada</rs></l>
           <l>Dos dois avós as almas cá famosas,</l>
           <l>Uma na paz angélica dourada,</l>
           <l>Outra pelas batalhas sanguinosas;</l>
           <l>Em vós esperam ver-se renovada</l>
           <l>Sua memória e obras valerosas;</l>
           <l>E lá vos tem lugar, no fim da idade,</l>
-          <l>No templo da suprema <placeName type="real" ref="#eternidade">Eternidade</placeName>.</l>
+          <l>No templo da suprema Eternidade.</l>
         </lg>
         <lg type="estrofe" n="18">
           <l>Mas enquanto este tempo passa lento</l>
           <l>De regerdes os povos, que o desejam,</l>
-          <l><persName type="hist" ref="#dai">Dai</persName> vós favor ao novo atrevimento,</l>
+          <l>Dai vós favor ao novo atrevimento,</l>
           <l>Para que estes meus versos vossos sejam;</l>
           <l>E vereis ir cortando o salso argento</l>
           <l>Os vossos Argonautas, por que vejam</l>
@@ -201,38 +201,38 @@
           <l>E costumai-vos já a ser invocado.</l>
         </lg>
         <lg type="estrofe" n="19">
-          <l>Já no largo <placeName type="real" ref="#oceano">Oceano</placeName> navegavam,</l>
+          <l>Já no largo Oceano navegavam,</l>
           <l>As inquietas ondas apartando;</l>
           <l>Os ventos brandamente respiravam,</l>
           <l>Das naus as velas côncavas inchando;</l>
           <l>Da branca escuma os mares se mostravam</l>
-          <l><persName type="hist" ref="#cobertos">Cobertos</persName>, onde as proas vão cortando</l>
+          <l>Cobertos, onde as proas vão cortando</l>
           <l>As marítimas águas consagradas,</l>
-          <l>Que do gado de <placeName type="real" ref="#proteo">Próteo</placeName> são cortadas</l>
+          <l>Que do gado de <persName type="myth" ref="#proteu">Próteo</persName> são cortadas</l>
         </lg>
         <lg type="estrofe" n="20">
           <l>Quando os Deuses no <placeName type="real" ref="#olimpo">Olimpo</placeName> luminoso,</l>
           <l>Onde o governo está da humana gente,</l>
           <l>Se ajuntam em concílio glorioso</l>
           <l>Sobre as cousas futuras do Oriente.</l>
-          <l>Pisando o cristalino <placeName type="real" ref="#céu">Céu</placeName> formoso,</l>
-          <l><placeName type="real" ref="#vêm">Vêm</placeName> pela <placeName type="real" ref="#via-lactea">Via-Láctea</placeName> juntamente,</l>
-          <l>Convocados da parte do <persName type="hist" ref="#tonante">Tonante</persName>,</l>
-          <l>Pelo neto gentil do velho <placeName type="real" ref="#atlante">Atlante</placeName>.</l>
+          <l>Pisando o cristalino Céu formoso,</l>
+          <l>Vêm pela Via-Láctea juntamente,</l>
+          <l>Convocados da parte do <rs type="myth" ref="#jupiter">Tonante</rs>,</l>
+          <l>Pelo neto gentil do velho <persName type="myth" ref="#atlante">Atlante</persame>.</l>
         </lg>
         <lg type="estrofe" n="21">
-          <l>Deixam dos sete <placeName type="real" ref="#céus">Céus</placeName> o regimento,</l>
+          <l>Deixam dos sete Céus o regimento,</l>
           <l>Que do poder mais alto lhe foi dado,</l>
           <l>Alto poder, que só co'o pensamento</l>
-          <l>Governa o <placeName type="real" ref="#céu">Céu</placeName>, a Terra, e o <placeName type="real" ref="#mar_irado">Mar irado</placeName>.</l>
+          <l>Governa o Céu, a Terra, e o Mar irado.</l>
           <l>Ali se acharam juntos num momento</l>
-          <l>Os que habitam o <placeName type="real" ref="#arcturo">Arcturo</placeName> congelado,</l>
-          <l>E os que o <placeName type="real" ref="#austro">Austro</placeName> tem, e as partes onde</l>
-          <l>A Aurora nasce, e o claro <persName type="hist" ref="#sol">Sol</persName> se esconde.</l>
+          <l>Os que habitam o Arcturo congelado,</l>
+          <l>E os que o Austro tem, e as partes onde</l>
+          <l>A Aurora nasce, e o claro Sol se esconde.</l>
         </lg>
         <lg type="estrofe" n="22">
-          <l>Estava o <persName type="hist" ref="#padre">Padre</persName> ali sublime e dino,</l>
-          <l>Que vibra os feros raios de <placeName type="real" ref="#vulcano">Vulcano</placeName>,</l>
+          <l>Estava o <rs type="person" ref="#jupiter">Padre</rs> ali sublime e dino,</l>
+          <l>Que vibra os feros raios de <persName type="myth" ref="#vulcano">Vulcano</persName>,</l>
           <l>Num assento de estrelas cristalino,</l>
           <l>Com gesto alto, severo e soberano.</l>
           <l>Do rosto respirava um ar divino,</l>
@@ -245,28 +245,28 @@
           <l>De ouro e de perlas, mais abaixo estavam</l>
           <l>Os outros Deuses todos assentados,</l>
           <l>Como a razão e a ordem concertavam:</l>
-          <l><persName type="hist" ref="#precedem">Precedem</persName> os antíguos mais honrados;</l>
+          <l>Precedem os antíguos mais honrados;</l>
           <l>Mais abaixo os menores se assentavam;</l>
           <l>Quando <persName type="myth" ref="#jupiter">Júpiter</persName> alto, assim dizendo,</l>
-          <l><placeName type="real" ref="#c'um">C'um</placeName> tom de voz começa, grave e horrendo:</l>
+          <l>C'um tom de voz começa, grave e horrendo:</l>
         </lg>
         <lg type="estrofe" n="24">
           <l>"Eternos moradores do luzente</l>
-          <l><placeName type="real" ref="#estelífero_polo">Estelífero pólo</placeName>, e claro assento,</l>
+          <l>Estelífero pólo, e claro assento,</l>
           <l>Se do grande valor da forte gente</l>
-          <l>De <placeName type="real" ref="#luso">Luso</placeName> não perdeis o pensamento,</l>
+          <l>De Luso não perdeis o pensamento,</l>
           <l>Deveis de ter sabido claramente,</l>
           <l>Como é dos fados grandes certo intento,</l>
           <l>Que por ela se esqueçam os humanos</l>
-          <l>De Assírios, Persas, <placeName type="real" ref="#gregos">Gregos</placeName> e <placeName type="real" ref="#romanos">Romanos</placeName>.</l>
+          <l>De Assírios, Persas, Gregos e Romanos.</l>
         </lg>
         <lg type="estrofe" n="25">
           <l>"Já lhe foi (bem o vistes) concedido</l>
-          <l><placeName type="real" ref="#c'um">C'um</placeName> poder tão singelo e tão pequeno,</l>
-          <l><placeName type="real" ref="#tomar">Tomar</placeName> ao <placeName type="real" ref="#mouro">Mouro</placeName> forte e guarnecido</l>
+          <l>C'um poder tão singelo e tão pequeno,</l>
+          <l>Tomar ao Mouro forte e guarnecido</l>
           <l>Toda a terra, que rega o <placeName type="real" ref="#tejo">Tejo</placeName> ameno:</l>
           <l>Pois contra o Castelhano tão temido,</l>
-          <l>Sempre alcançou favor do <placeName type="real" ref="#céu">Céu</placeName> sereno.</l>
+          <l>Sempre alcançou favor do Céu sereno.</l>
           <l>Assim que sempre, enfim, com fama e glória,</l>
           <l>Teve os troféus pendentes da vitória.</l>
         </lg>
@@ -277,24 +277,24 @@
           <l>Guerra romana tanto se afamaram;</l>
           <l>Também deixo a memória, que os obriga</l>
           <l>A grande nome, quando alevantaram</l>
-          <l>Um por seu capitão, que peregrino</l>
+          <l><rs type="person" ref="#sertorio">Um por seu capitão</rs>, que peregrino</l>
           <l>Fingiu na cerva espírito divino.</l>
         </lg>
         <lg type="estrofe" n="27">
           <l>"Agora vedes bem que, cometendo</l>
           <l>O duvidoso mar num lenho leve,</l>
           <l>Por vias nunca usadas, não temendo</l>
-          <l>De <placeName type="real" ref="#af">Áf</placeName> rico e <persName type="hist" ref="#noto">Noto</persName> a força, a mais se atreve:</l>
+          <l>De <persName type="myth" ref="#africo">Áfrico</persName> e <persName type="myth" ref="#noto">Noto</persName> a força, a mais se atreve:</l>
           <l>Que havendo tanto já que as partes vendo</l>
           <l>Onde o dia é comprido e onde breve,</l>
           <l>Inclinam seu propósito e porfia</l>
           <l>A ver os berços onde nasce o dia.</l>
         </lg>
         <lg type="estrofe" n="28">
-          <l>"<placeName type="real" ref="#prometido">Prometido</placeName> lhe está do Fado eterno,</l>
-          <l><persName type="hist" ref="#cuja">Cuja</persName> alta Lei não pode ser quebrada,</l>
+          <l>"Prometido lhe está do <persName type="myth" ref="#fado">Fado</persName> eterno,</l>
+          <l>Cuja alta Lei não pode ser quebrada,</l>
           <l>Que tenham longos tempos o governo</l>
-          <l>Do mar, que vê do <placeName type="real" ref="#sol">Sol</placeName> a roxa entrada.</l>
+          <l>Do mar, que vê do sol a roxa entrada.</l>
           <l>Nas águas têm passado o duro inverno;</l>
           <l>A gente vem perdida e trabalhada;</l>
           <l>Já parece bem feito que lhe seja</l>
@@ -308,7 +308,7 @@
           <l>Que sejam, determino, agasalhados</l>
           <l>Nesta costa africana, como amigos.</l>
           <l>E tendo guarnecida a lassa frota,</l>
-          <l><placeName type="real" ref="#tornarão">Tornarão</placeName> a seguir sua longa rota."</l>
+          <l>Tornarão a seguir sua longa rota."</l>
         </lg>
         <lg type="estrofe" n="30">
           <l>Estas palavras <persName type="myth" ref="#jupiter">Júpiter</persName> dizia,</l>
@@ -321,62 +321,62 @@
           <l>Se lá passar a Lusitana gente.</l>
         </lg>
         <lg type="estrofe" n="31">
-          <l>Ouvido tinha aos Fados que viria</l>
+          <l>Ouvido tinha aos <rs type="person" ref="#fado">Fados</rs> que viria</l>
           <l>Uma gente fortíssima de <placeName type="real" ref="#espanha">Espanha</placeName></l>
-          <l>Pelo <placeName type="real" ref="#mar_alto">mar alto</placeName>, a qual sujeitaria</l>
-          <l>Da <placeName type="real" ref="#índia">índia</placeName> tudo quanto <persName type="hist" ref="#doris">Dóris</persName> banha,</l>
+          <l>Pelo mar alto, a qual sujeitaria</l>
+          <l>Da <placeName type="real" ref="#índia">índia</placeName> tudo quanto <persName type="myth" ref="#doris">Dóris</persName> banha,</l>
           <l>E com novas vitórias venceria</l>
           <l>A fama antiga, ou sua, ou fosse estranha.</l>
           <l>Altamente lhe dói perder a glória,</l>
-          <l>De que <placeName type="real" ref="#nisa">Nisa</placeName> celebra inda a memória.</l>
+          <l>De que <placeName type="myth" ref="#nisa">Nisa</placeName> celebra inda a memória.</l>
         </lg>
         <lg type="estrofe" n="32">
           <l>Vê que já teve o <placeName type="real" ref="#indo">Indo</placeName> sojugado,</l>
-          <l>E nunca lhe tirou <persName type="hist" ref="#fortuna">Fortuna</persName>, ou caso,</l>
+          <l>E nunca lhe tirou <persName type="myth" ref="#fortuna">Fortuna</persName>, ou caso,</l>
           <l>Por vencedor da <placeName type="real" ref="#india">Índia</placeName> ser cantado</l>
           <l>De quantos bebem a água de <placeName type="real" ref="#parnaso">Parnaso</placeName>.</l>
-          <l><placeName type="real" ref="#teme">Teme</placeName> agora que seja sepultado</l>
+          <l>Teme agora que seja sepultado</l>
           <l>Seu tão célebre nome em negro vaso</l>
-          <l>D'água do esquecimento, se lá chegam</l>
-          <l>Os fortes <placeName type="real" ref="#portugueses">Portugueses</placeName>, que navegam.</l>
+          <l><rs type="place" ref="lete">D'água do esquecimento</rs>, se lá chegam</l>
+          <l>Os fortes Portugueses, que navegam.</l>
         </lg>
         <lg type="estrofe" n="33">
           <l>Sustentava contra ele <persName type="myth" ref="#venus">Vénus</persName> bela,</l>
-          <l><persName type="hist" ref="#afeiçoada">Afeiçoada</persName> à gente Lusitana,</l>
+          <l>Afeiçoada à gente Lusitana,</l>
           <l>Por quantas qualidades via nela</l>
-          <l>Da antiga tão amada sua <placeName type="real" ref="#romana">Romana</placeName>;</l>
+          <l>Da antiga tão amada sua Romana<;</l>
           <l>Nos fortes corações, na grande estrela,</l>
           <l>Que mostraram na terra <placeName type="real" ref="#tingitana">Tingitana</placeName>,</l>
           <l>E na língua, na qual quando imagina,</l>
-          <l>Com pouca corrupção crê que é a <placeName type="real" ref="#latina">Latina</placeName>.</l>
+          <l>Com pouca corrupção crê que é a Latina.</l>
         </lg>
         <lg type="estrofe" n="34">
           <l>Estas causas moviam <persName type="myth" ref="#venus">Citereia</persName>,</l>
-          <l>E mais, porque das Parcas claro entende</l>
+          <l>E mais, porque das <persName type="myth" ref="#parcas">Parcas</persName> claro entende</l>
           <l>Que há de ser celebrada a <rs type="myth" ref="#venus">clara Deia</rs>,</l>
           <l>Onde a gente belígera se estende.</l>
           <l>Assim que, um pela infâmia, que arreceia,</l>
           <l>E o outro pelas honras, que pretende,</l>
-          <l><persName type="hist" ref="#debatem">Debatem</persName>, e na porfia permanecem;</l>
+          <l>Debatem, e na porfia permanecem;</l>
           <l>A qualquer seus amigos favorecem.</l>
         </lg>
         <lg type="estrofe" n="35">
-          <l>Qual <placeName type="real" ref="#austro">Austro</placeName> fero, ou <persName type="hist" ref="#boreas">Bóreas</persName> na espessura</l>
+          <l>Qual Austro fero, ou Bóreas na espessura</l>
           <l>De silvestre arvoredo abastecida,</l>
           <l>Rompendo os ramos vão da mata escura,</l>
           <l>Com ímpeto e braveza desmedida;</l>
-          <l><persName type="hist" ref="#brama">Brama</persName> toda a montanha, o som murmura,</l>
+          <l>Brama toda a montanha, o som murmura,</l>
           <l>Rompem-se as folhas, ferve a serra erguida:</l>
           <l>Tal andava o tumulto levantado,</l>
-          <l>Entre os Deuses, no <placeName type="real" ref="#olimpo">Olimpo</placeName> consagrado.</l>
+          <l>Entre os Deuses, no <placeName type="myth" ref="#olimpo">Olimpo</placeName> consagrado.</l>
         </lg>
         <lg type="estrofe" n="36">
-          <l>Mas <persName type="myth" ref="#marte">Marte</persName>, que da <persName type="hist" ref="#deusa">Deusa</persName> sustentava</l>
+          <l>Mas <persName type="myth" ref="#marte">Marte</persName>, que da <rs type="myth" ref="#venus">Deusa</rs> sustentava</l>
           <l>Entre todos as partes em porfia,</l>
           <l>Ou porque o amor antigo o obrigava,</l>
           <l>Ou porque a gente forte o merecia,</l>
           <l>De entre os Deuses em pé se levantava:</l>
-          <l><persName type="hist" ref="#merencorio">Merencório</persName> no gesto parecia;</l>
+          <l>Merencório no gesto parecia;</l>
           <l>O forte escudo ao colo pendurado</l>
           <l>Deitando para trás, medonho e irado,</l>
         </lg>
@@ -387,14 +387,14 @@
           <l>De <persName type="myth" ref="#jupiter">Júpiter</persName>, armado, forte e duro:</l>
           <l>E dando uma pancada penetrante,</l>
           <l>Com o conto do bastão no sólio puro,</l>
-          <l>O <placeName type="real" ref="#céu">Céu</placeName> tremeu, e <persName type="hist" ref="#apolo">Apolo</persName>, de <persName type="hist" ref="#torvado">torvado</persName>,</l>
+          <l>O Céu tremeu, e <persName type="myth" ref="#apolo">Apolo</persName>, de torvado,</l>
           <l>Um pouco a luz perdeu, como enfiado.</l>
         </lg>
         <lg type="estrofe" n="38">
-          <l>E disse assim: "<persName type="hist" ref="#o_padre">Ó Padre</persName>, a cujo império</l>
+          <l>E disse assim: "<rs type="person" ref="#jupiter">Ó Padre</rs>, a cujo império</l>
           <l>Tudo aquilo obedece, que criaste,</l>
           <l>Se esta gente, que busca outro hemisfério,</l>
-          <l><persName type="hist" ref="#cuja">Cuja</persName> valia, e obras tanto amaste,</l>
+          <l>Cuja valia, e obras tanto amaste,</l>
           <l>Não queres que padeçam vitupério,</l>
           <l>Como há já tanto tempo que ordenaste,</l>
           <l>Não onças mais, pois és juiz direito,</l>
@@ -404,26 +404,26 @@
           <l>"Que, se aqui a razão se não mostrasse</l>
           <l>Vencida do temor demasiado,</l>
           <l>Bem fora que aqui <persName type="myth" ref="#baco">Baco</persName> os sustentasse,</l>
-          <l>Pois que de <placeName type="real" ref="#luso">Luso</placeName> vem, seu tão privado;</l>
+          <l>Pois que de Luso vem, seu tão privado;</l>
           <l>Mas esta tenção sua agora passe,</l>
           <l>Porque enfim vem de estâmago danado;</l>
           <l>Que nunca tirará alheia inveja</l>
-          <l>O bem, que outrem merece, e o <placeName type="real" ref="#céu">Céu</placeName> deseja.</l>
+          <l>O bem, que outrem merece, e o Céu deseja.</l>
         </lg>
         <lg type="estrofe" n="40">
-          <l>"E tu, <persName type="hist" ref="#padre">Padre</persName> de grande fortaleza,</l>
+          <l>"E tu, <rs type="person" ref="#jupiter">Padre</rs> de grande fortaleza,</l>
           <l>Da determinação, que tens tomada,</l>
           <l>Não tornes por detrás, pois é fraqueza</l>
           <l>Desistir-se da cousa começada.</l>
-          <l><placeName type="real" ref="#mercúrio">Mercúrio</placeName>, pois excede em ligeireza</l>
+          <l><persName type="myth" ref="#mercúrio">Mercúrio</persName>, pois excede em ligeireza</l>
           <l>Ao vento leve, e à seta bem talhada,</l>
           <l>Lhe vá mostrar a terra, onde se informe</l>
           <l>Da <placeName type="real" ref="#índia">índia</placeName>, e onde a gente se reforme."</l>
         </lg>
         <lg type="estrofe" n="41">
-          <l>Como isto disse, o <persName type="hist" ref="#padre">Padre</persName> poderoso,</l>
+          <l>Como isto disse, o <rs type="person" ref="#jupiter">Padre</rs> poderoso,</l>
           <l>A cabeça inclinando, consentiu</l>
-          <l>No que disse <persName type="hist" ref="#mavorte">Mavorte</persName> valeroso,</l>
+          <l>No que disse <persName type="myth" ref="#marte">Mavorte</persName> valeroso,</l>
           <l>E néctar sobre todos esparziu.</l>
           <l>Pelo caminho Lácteo glorioso</l>
           <l>Logo cada um dos Deuses se partiu,</l>
@@ -432,12 +432,12 @@
         </lg>
         <lg type="estrofe" n="42">
           <l>Enquanto isto se passa na formosa</l>
-          <l>Casa etérea do <placeName type="real" ref="#olimpo">Olimpo</placeName> onipotente,</l>
+          <l>Casa etérea do <placeName type="myth" ref="#olimpo">Olimpo</placeName> onipotente,</l>
           <l>Cortava o mar a gente belicosa,</l>
-          <l>Já lá da banda do <placeName type="real" ref="#austro">Austro</placeName> e do Oriente,</l>
-          <l>Entre a costa <placeName type="real" ref="#etiopica">Etiópica</placeName> e a famosa</l>
-          <l><placeName type="real" ref="#ilha_de_são_lourenço">Ilha de São Lourenço</placeName>; e o <placeName type="real" ref="#sol">Sol</placeName> ardente</l>
-          <l><placeName type="real" ref="#queimava">Queimava</placeName> então os Deuses, que <persName type="hist" ref="#tifeu">Tifeu</persName></l>
+          <l>Já lá da banda do Austro e do Oriente,</l>
+          <l>Entre a costa <placeName type="real" ref="#etiopia">Etiópica</placeName> e a famosa</l>
+          <l><placeName type="real" ref="#ilha_de_são_lourenço">Ilha de São Lourenço</placeName>; e o Sol ardente</l>
+          <l>Queimava então os Deuses, que <persName type="myth" ref="#tifeu">Tifeu</persName></l>
           <l>Com o temor grande em peixes converteu.</l>
         </lg>
         <lg type="estrofe" n="43">
@@ -451,7 +451,7 @@
           <l>Novas ilhas, que em torno cerca e lava.</l>
         </lg>
         <lg type="estrofe" n="44">
-          <l>[[<placeName type="real" ref="#entidade7">ENTIDADE7</placeName>]], o forte capitão,</l>
+          <l><persName type="hist" ref="#v_gama">Vasco da Gama</persName>, o forte capitão,</l>
           <l>Que a tamanhas empresas se oferece,</l>
           <l>De soberbo e de altivo coração,</l>
           <l>A quem <persName type="hist" ref="#fortuna">Fortuna</persName> sempre favorece,</l>
@@ -472,13 +472,13 @@
         </lg>
         <lg type="estrofe" n="46">
           <l>As embarcações eram, na maneira,</l>
-          <l><persName type="hist" ref="#mui_veloces">Mui veloces</persName>, estreitas e compridas:</l>
+          <l>Mui veloces, estreitas e compridas:</l>
           <l>As velas, com que, vêm, eram de esteira</l>
-          <l><persName type="hist" ref="#dumas">Dumas</persName> folhas de palma, bem tecidas;</l>
+          <l>Dumas folhas de palma, bem tecidas;</l>
           <l>A gente da cor era verdadeira,</l>
-          <l>Que <placeName type="real" ref="#faeton">Faeton</placeName>, nas terras acendidas,</l>
+          <l>Que <persName type="myth" ref="#faetonte">Faeton</persName>, nas terras acendidas,</l>
           <l>Ao mundo deu, de ousado, o não prudente:</l>
-          <l>O Pado o sabe, o Lampetusa o sente.</l>
+          <l>O <placeName type="real" ref="#rio_pado">Pado</placeName> o sabe, o <persName type="myth" ref="#lampetusa">Lampetusa</persName> o sente.</l>
         </lg>
         <lg type="estrofe" n="47">
           <l>De panos de algodão vinham vestidos,</l>
@@ -492,7 +492,7 @@
         </lg>
         <lg type="estrofe" n="48">
           <l>Co'os panos e co'os braços acenavam</l>
-          <l>As gentes <placeName type="real" ref="#lusitanas">Lusitanas</placeName>, que esperassem;</l>
+          <l>As gentes Lusitanas, que esperassem;</l>
           <l>Mas já as proas ligeiras se inclinavam</l>
           <l>Para que junto às ilhas amainassem.</l>
           <l>A gente e marinheiros trabalhavam,</l>
@@ -504,35 +504,35 @@
           <l>Não eram ancorados, quando a gente</l>
           <l>Estranha pelas cordas já subia.</l>
           <l>No gesto ledos vêm, e humanamente</l>
-          <l>O <persName type="hist" ref="#capitão">Capitão</persName> sublime os recebia:</l>
+          <l>O <rs type="person" ref="#v_gama">Capitão</rs> sublime os recebia:</l>
           <l>As mesas manda pôr em continente;</l>
-          <l>Do licor que Lieo prantado havia</l>
+          <l>Do licor que <persName type="myth" ref="#baco">Lieo</persName> prantado havia</l>
           <l>Enchem vasos de vidro, e do que deitam,</l>
-          <l>Os de <persName type="hist" ref="#faeton">Faeton</persName> queimados nada enjeitam.</l>
+          <l>Os de <persName type="myth" ref="#faetonte">Faetonte</persName> queimados nada enjeitam.</l>
         </lg>
         <lg type="estrofe" n="50">
           <l>Comendo alegremente perguntavam,</l>
-          <l>Pela <placeName type="real" ref="#arabica">Arábica</placeName> língua, donde vinham,</l>
+          <l>Pela Arábica língua, donde vinham,</l>
           <l>Quem eram, de que terra, que buscavam,</l>
           <l>Ou que partes do mar corrido tinham?</l>
-          <l>Os fortes <placeName type="real" ref="#lusitanos">Lusitanos</placeName> lhe tornavam</l>
+          <l>Os fortes Lusitanos lhe tornavam</l>
           <l>As discretas respostas, que convinham:</l>
-          <l>"Os <placeName type="real" ref="#portugueses">Portugueses</placeName> somos do <placeName type="real" ref="#ocidente">Ocidente</placeName>,</l>
-          <l><placeName type="real" ref="#imos">Imos</placeName> buscando as terras do Oriente.</l>
+          <l>"Os Portugueses somos do Ocidente,</l>
+          <l>Imos buscando as terras do Oriente.</l>
         </lg>
         <lg type="estrofe" n="51">
           <l>"Do mar temos corrido e navegado</l>
-          <l>Toda a parte do <placeName type="real" ref="#antartico">Antártico</placeName> e <placeName type="real" ref="#calisto">Calisto</placeName>,</l>
-          <l>Toda a costa <placeName type="real" ref="#africana">Africana</placeName> rodeado,</l>
+          <l>Toda a parte do Antártico e <persName type="myth" ref="#calisto">Calisto</persName>,</l>
+          <l>Toda a <rs type="place" ref="#africa">costa Africana</rs> rodeado,</l>
           <l>Diversos céus e terras temos visto;</l>
-          <l><placeName type="real" ref="#dum_rei">Dum Rei</placeName> potente somos, tão amado,</l>
+          <l><rs type="person" ref="#d_manuel_i">Dum Rei</rs> potente somos, tão amado,</l>
           <l>Tão querido de todos, e benquisto,</l>
-          <l>Que não no largo mar, com <persName type="hist" ref="#leda_fronte">leda fronte</persName>,</l>
-          <l>Mas no lago entraremos de <placeName type="real" ref="#aqueronte">Aqueronte</placeName>.</l>
+          <l>Que não no largo mar, com leda fronte,</l>
+          <l>Mas no lago entraremos de <placeName type="myth" ref="#aqueronte">Aqueronte</placeName>.</l>
         </lg>
         <lg type="estrofe" n="52">
           <l>"E por mandado seu, buscando andamos</l>
-          <l>A terra <placeName type="real" ref="#oriental">Oriental</placeName> que o <placeName type="real" ref="#indo">Indo</placeName> rega;</l>
+          <l>A terra Oriental que o <placeName type="real" ref="#indo">Indo</placeName> rega;</l>
           <l>Por ele, o mar remoto navegamos,</l>
           <l>Que só dos feios focas se navega.</l>
           <l>Mas já razão parece que saibamos,</l>
@@ -542,20 +542,20 @@
         </lg>
         <lg type="estrofe" n="53">
           <l>"Somos, um dos das ilhas lhe tornou,</l>
-          <l><placeName type="real" ref="#estrangeiros">Estrangeiros</placeName> na terra, Lei e nação;</l>
+          <l>Estrangeirosna terra, Lei e nação;</l>
           <l>Que os próprios são aqueles, que criou</l>
           <l>A natura sem Lei e sem razão.</l>
           <l>Nós temos a Lei certa, que ensinou</l>
-          <l>O claro descendente de <persName type="hist" ref="#abraão">Abraão</persName></l>
+          <l>O claro descendente de <persName type="hist" ref="#abraao">Abraão</persName></l>
           <l>Que agora tem do mundo o senhorio,</l>
-          <l>A mãe <persName type="hist" ref="#hebréia">Hebréia</persName> teve, e o pai <persName type="hist" ref="#gentio">Gentio</persName>.</l>
+          <l>A mãe Hebréia teve, e o pai Gentio.</l>
           <l>Informações. A <placeName type="real" ref="#ilha_de_moçambique">Ilha de Moçambique</placeName>.</l>
         </lg>
         <lg type="estrofe" n="54">
           <l>"Esta ilha pequena, que habitamos,</l>
           <l>em toda esta terra certa escala</l>
           <l>De todos os que as ondas navegamos</l>
-          <l>De <placeName type="real" ref="#quíloa">Quíloa</placeName>, de <placeName type="real" ref="#mombaça">Mombaça</placeName> e de <placeName type="real" ref="#sofala">Sofala</placeName>;</l>
+          <l>De <placeName type="real" ref="#quiloa">Quíloa</placeName>, de <placeName type="real" ref="#mombaca">Mombaça</placeName> e de <placeName type="real" ref="#sofala">Sofala</placeName>;</l>
           <l>E, por ser necessária, procuramos,</l>
           <l>Como próprios da terra, de habitá-la;</l>
           <l>E por que tudo enfim vos notifique,</l>
@@ -563,20 +563,20 @@
         </lg>
         <lg type="estrofe" n="55">
           <l>"E já que de tão longe navegais,</l>
-          <l>Buscando o <placeName type="real" ref="#indo_idaspe">Indo Idaspe</placeName> e terra ardente,</l>
-          <l><placeName type="real" ref="#piloto">Piloto</placeName> aqui tereis, por quem sejais</l>
+          <l>Buscando o <placeName type="real" ref="#rio_indo">Indo</placeName> <placeName type="real" ref="#idaspe">Idaspe</placeName> e terra ardente,</l>
+          <l>Piloto aqui tereis, por quem sejais</l>
           <l>Guiados pelas ondas sabiamente.</l>
           <l>Também será bem feito que tenhais</l>
-          <l>Da terra algum refresco, e que o <persName type="hist" ref="#regente">Regente</persName></l>
+          <l>Da terra algum refresco, e que o Regente</l>
           <l>Que esta terra governa, que vos veja,</l>
           <l>E do mais necessário vos proveja."</l>
         </lg>
         <lg type="estrofe" n="56">
-          <l>Isto dizendo, o <placeName type="real" ref="#mouro">Mouro</placeName> se tornou</l>
+          <l>Isto dizendo, o Mouro  se tornou</l>
           <l>A seus batéis com toda a companhia;</l>
-          <l>Do <persName type="hist" ref="#capitão">Capitão</persName> e gente se apartou</l>
+          <l>Do <rs type="person" ref="#v_gama">Capitão</rs> e gente se apartou</l>
           <l>Com mostras de devida cortesia.</l>
-          <l>Nisto <persName type="hist" ref="#febo">Febo</persName> nas águas encerrou,</l>
+          <l>Nisto <persName type="myth" ref="#apolo">Febo</persName> nas águas encerrou,</l>
           <l>Co'o carro de cristal, o claro dia,</l>
           <l>Dando cargo à irmã, que alumiasse</l>
           <l>O largo mundo, enquanto repousasse.</l>
@@ -592,9 +592,9 @@
           <l>Tanto por todo o mundo se estenderam,</l>
         </lg>
         <lg type="estrofe" n="58">
-          <l>Da <placeName type="real" ref="#lua">Lua</placeName> os claros raios rutilavam</l>
+          <l>Da Lua os claros raios rutilavam</l>
           <l>Pelas argênteas ondas Neptuninas,</l>
-          <l>As estrelas os <placeName type="real" ref="#céus">Céus</placeName> acompanhavam,</l>
+          <l>As estrelas os Céus acompanhavam,</l>
           <l>Qual campo revestido de boninas;</l>
           <l>Os furiosos ventos repousavam</l>
           <l>Pelas covas escuras peregrinas;</l>
@@ -602,14 +602,14 @@
           <l>Como por longo tempo costumava.</l>
         </lg>
         <lg type="estrofe" n="59">
-          <l>Mas assim como a Aurora marchetada</l>
+          <l>Mas assim como a <persName type="myth" ref="#aurora">Aurora</persName> marchetada</l>
           <l>Os formosos cabelos espalhou</l>
-          <l>No <placeName type="real" ref="#céu">Céu</placeName> sereno, abrindo a roxa entrada</l>
-          <l>Ao claro Hiperiónio, que acordou,</l>
+          <l>No Céu sereno, abrindo a roxa entrada</l>
+          <l>Ao claro <persName type="myth" ref="#hiperiao">Hiperiónio</persName>, que acordou,</l>
           <l>Começa a embandeirar-se toda a armada,</l>
           <l>E de toldos alegres se adornou,</l>
           <l>Por receber com festas e alegria</l>
-          <l>O <placeName type="real" ref="#regedor">Regedor</placeName> das ilhas, que partia.</l>
+          <l>O Regedor das ilhas, que partia.</l>
         </lg>
         <lg type="estrofe" n="60">
           <l>Partia alegremente navegando,</l>

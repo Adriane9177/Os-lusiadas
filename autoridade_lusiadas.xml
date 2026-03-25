@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileDesc>
+    <!-- 1. LISTA DE PERSONAGENS E ENTIDADES MITOLÓGICAS (Actantes) -->
+    <particDesc>
+        <listPerson>
+            <!-- DIVINDADES (Mitos) -->
+            <person xml:id="jupiter" ref="http://www.wikidata.org/entity/Q103">
+                <persName>Júpiter</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="venus" ref="http://www.wikidata.org/entity/Q47657">
+                <persName>Vénus</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="baco" ref="http://www.wikidata.org/entity/Q7849">
+                <persName>Baco</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="marte" ref="http://www.wikidata.org/entity/Q111">
+                <persName>Marte</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="mercurio" ref="http://www.wikidata.org/entity/Q23075">
+                <persName>Mercúrio</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="neptuno" ref="http://www.wikidata.org/entity/Q42247">
+                <persName>Neptuno</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="adamastor" ref="http://www.wikidata.org/entity/Q351572">
+                <persName>Adamastor</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="tetis" ref="http://www.wikidata.org/entity/Q184470">
+                <persName>Tétis (Nereida)</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="musa" ref="https://www.wikidata.org/wiki/Q66016">
+                <persName>Musa</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="tagides" ref="https://www.wikidata.org/wiki/Q10385807">
+                <persName>Tagides</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="apolo" ref="https://www.wikidata.org/wiki/Q37340">
+                <persName>Apolo</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="rodamonte" ref="https://www.wikidata.org/wiki/Q1116690">
+                <persName>Rodamonte</persName>
+                <note type="peixoto">COLE_QUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="rugeiro" ref="https://www.wikidata.org/wiki/Q1163476">
+                <persName>Rugeiro</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="orlando" ref="https://www.wikidata.org/wiki/Q207535">
+                <persName>Orlando</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="tetis" ref="https://www.wikidata.org/wiki/Q184437">
+                <persName>Tétis (Nereida)</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="proteu" ref="https://www.wikidata.org/wiki/Q191481">
+                <persName>Próteo</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="atlante" ref="https://www.wikidata.org/wiki/Q130818">
+                <persName>Atlante</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="vulcano" ref="https://www.wikidata.org/wiki/Q4640">
+                <persName>Vulcano</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="romulo" ref="https://www.wikidata.org/wiki/Q2186">
+                <persName>Romulo</persName>
+            </person>
+            <person xml:id="africo" ref="https://www.wikidata.org/wiki/Q5733340">
+                <persName>Áfrico</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="noto" ref="https://www.wikidata.org/wiki/Q903273">
+                <persName>Noto</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+        <person xml:id="fado" ref="https://www.wikidata.org/wiki/Q903273">
+                <persName>Fado</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="doris" ref="https://www.wikidata.org/wiki/Q726279">
+                <persName>Dóris</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="fortuna" ref="https://www.wikidata.org/wiki/Q4654">
+                <persName>Fortuna</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="parcas" ref="https://www.wikidata.org/wiki/Q370547">
+                <persName>Parcas</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="tifeu" ref="https://www.wikidata.org/wiki/Q180237">
+                <persName>Tifeu</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="faetonte" ref="https://www.wikidata.org/wiki/Q203480">
+                <persName>Faetonte</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="lampetusa" ref="https://www.wikidata.org/wiki/Q1638536">
+                <persName>Lampetusa</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="calisto" ref="https://www.wikidata.org/wiki/Q203673">
+                <persName>Calisto</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="aurora" ref="https://www.wikidata.org/wiki/Q178831">
+                <persName>Aurora</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>    
+            </person>
+            <person xml:id="hiperiao" ref="https://www.wikidata.org/wiki/Q179209">
+                <persName>Hiperiónio</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+
+            <!-- FIGURAS HISTÓRICAS -->
+            <person xml:id="v_gama" ref="http://www.wikidata.org/entity/Q7328">
+                <persName>Vasco da Gama</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="d_sebastiao" ref="http://www.wikidata.org/entity/Q215112">
+                <persName>D. Sebastião I</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="afonso_henriques" ref="http://www.wikidata.org/entity/Q193444">
+                <persName>D. Afonso Henriques</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="ines_castro" ref="http://www.wikidata.org/entity/Q234113">
+                <persName>Inês de Castro</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="d_manuel_i" ref="http://www.wikidata.org/entity/Q214973">
+                <persName>D. Manuel I</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="nuno_alvares" ref="http://www.wikidata.org/entity/Q440473">
+                <persName>Nuno Álvares Pereira</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <personGrp xml:id="reis_portugueses" ref="https://www.wikidata.org/wiki/Q10510313">
+                <persName>Reis de Portugal (Dinastias expansionistas)</persName>
+                <note source="#peixoto">
+                    Refere-se à sucessão de monarcas que promoveram a expansão territorial e religiosa. 
+                    Inclui Afonso Henriques, João I, João II e Manuel I.
+                </note>
+                <linkGrp>
+                    <ptr target="http://www.wikidata.org/entity/Q193444"/> <!-- Afonso Henriques -->
+                    <ptr target="http://www.wikidata.org/entity/Q187195"/> <!-- João I -->
+                    <ptr target="http://www.wikidata.org/entity/Q214973"/> <!-- Manuel I -->
+                </linkGrp>
+            </personGrp>
+            <person xml:id="ulisses" ref="https://www.wikidata.org/wiki/Q47231">
+                <persName>Ulisses</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="eneias" ref="https://www.wikidata.org/wiki/Q82732">
+                <persName>Eneias</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="alexandro" ref="https://www.wikidata.org/wiki/Q8409">
+                <persName>Alexandro Magno</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="trajano" ref="https://www.wikidata.org/wiki/Q1425">
+                <persName>Trajano</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="deus" ref="https://www.wikidata.org/wiki/Q825">
+                <persName>Deus</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="jesus_cristo" ref="https://www.wikidata.org/wiki/Q302">
+                <persName>Jesus Cristo</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="egas" ref="https://www.wikidata.org/wiki/Q1296765">
+                <persName>Egas Moniz</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="d._fuas" ref="https://www.wikidata.org/wiki/Q10286138">
+                <persName>D. Fuas Roupinho</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="homero" ref="https://www.wikidata.org/wiki/Q6691">
+                <persName>Homero</persName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </person>
+            <person xml:id="magrico" ref="http://www.wikidata.org/entity/Q16489312">
+                <persName>Álvaro Gonçalves Coutinho (O Magriço)</persName>
+                <note source="#peixoto">
+                    Célebre cavaleiro português do século XIV. Protagonista do episódio dos 
+                    'Doze de Inglaterra', em que defendeu, em Londres, a honra de damas inglesas. 
+                    Camões o descreve como o modelo da cavalaria errante e valerosa.
+                </note>
+            </person>
+            <personGrp xml:id="doze_inglaterra" ref="http://www.wikidata.org/entity/Q10342211">
+                <persName>Os Doze de Inglaterra</persName>
+                <note source="#peixoto">
+                    Episódio cavaleiresco e lendário ocorrido no reinado de D. João I. 
+                    Refere-se aos doze cavaleiros portugueses que foram a Londres defender a honra 
+                    de doze damas inglesas. Afrânio Peixoto destaca este episódio como prova da 
+                    fama internacional da bravura portuguesa na Europa medieval.
+                </note>
+            </personGrp>
+            <person xml:id="carlos_magno" ref="http://www.wikidata.org/entity/Q3044">
+                <persName>Carlos Magno</persName>
+            </person>
+            <person xml:id="julio_cesar" ref="http://www.wikidata.org/entity/Q1048">
+                <persName>Júlio César</persName>
+            </person>
+            <person xml:id="afonso_henriques" ref="http://www.wikidata.org/entity/Q193444">
+                <persName>D. Afonso Henriques</persName>
+                <note source="#peixoto">O "primeiro Afonso". Fundador do reino.</note>
+            </person>
+            <person xml:id="d_joao_i" ref="http://www.wikidata.org/entity/Q187195">
+                <persName>D. João I</persName>
+                <note source="#peixoto">Mestre de Avis. Referido pela vitória de Aljubarrota.</note>
+            </person>
+            <person xml:id="d_joao_ii" ref="http://www.wikidata.org/entity/Q210735">
+                <persName>D. João II</persName>
+                <note source="#peixoto">O "outro Joane". Estrategista da expansão marítima.</note>
+            </person>
+            <person xml:id="afonso_iii" ref="http://www.wikidata.org/entity/Q311545">
+                <persName>D. Afonso III</persName>
+            </person>
+            <person xml:id="afonso_iv" ref="http://www.wikidata.org/entity/Q212890">
+                <persName>D. Afonso IV</persName>
+            </person>
+            <person xml:id="afonso_v" ref="http://www.wikidata.org/entity/Q311516">
+                <persName>D. Afonso V</persName>
+                <note source="#peixoto">Chamado 'O Africano' pelas conquistas no Norte de África.</note>
+            </person>
+            <!-- PESSOAS HISTÓRICAS (MILITARES) -->
+            <person xml:id="duarte_pacheco" ref="http://www.wikidata.org/entity/Q1239374">
+                <persName>Duarte Pacheco Pereira</persName>
+                <note source="#peixoto">Guerreiro e cosmógrafo. Famoso pela defesa de Cochim.</note>
+            </person>
+            
+            <personGrp xml:id="familia_almeida" ref="http://www.wikidata.org/entity/Q347233">
+                <persName>Os Almeidas (D. Francisco e D. Lourenço)</persName>
+                <note source="#peixoto">D. Francisco foi o 1º vice-rei da Índia. Ele e seu filho Lourenço morreram em combate marítimo.</note>
+            </personGrp>
+            
+            <person xml:id="afonso_albuquerque" ref="http://www.wikidata.org/entity/Q204505">
+                <persName>Afonso de Albuquerque</persName>
+                <note source="#peixoto">O "Marte Português". Conquistador de Goa, Malaca e Ormuz.</note>
+            </person>
+            
+            <person xml:id="joao_castro" ref="http://www.wikidata.org/entity/Q712530">
+                <persName>D. João de Castro</persName>
+                <note source="#peixoto">Vice-rei da Índia e homem de ciência. Símbolo da honra e desinteresse material.</note>
+            </person>
+           <person xml:id="viriato" ref="https://www.wikidata.org/wiki/Q331889">
+                <persName>Viriato</persName>
+                <note source="#peixoto">Líder lusitano que resistiu à conquista romana. Símbolo da bravura e resistência.</note>
+            </person>
+            <person xml:id="sertorio" ref="https://www.wikidata.org/wiki/Q296238">
+                <persName>Sertório</persName>
+                <note source="#peixoto">General romano que se rebelou contra Roma e se refugiou na Hispânia, onde liderou uma resistência contra as forças romanas.</note>
+            </person>
+            <person xml:id="abraao" ref="https://www.wikidata.org/wiki/Q9181">
+                <persName>Abraão</persName>
+                <note source="#peixoto">Figura bíblica, considerado o patriarca das três grandes religiões monoteístas: judaísmo, cristianismo e islamismo.</note>
+            </person>
+            <person xml:id="d_manuel_i" ref="https://www.wikidata.org/wiki/Q191231">
+                <persName>D. Manuel I</persName>
+                <note source="#peixoto">O "Venturoso". Monarca que promoveu a Era dos Descobrimentos.</note>
+            </person>
+        </listPerson>
+    </particDesc>
+
+    <!-- 2. LISTA DE LUGARES (Espaço Geográfico) -->
+    <settingDesc>
+        <listPlace>
+            <place xml:id="portugal" ref="http://www.wikidata.org/entity/Q45">
+                <placeName>Portugal</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="lisboa" ref="http://www.wikidata.org/entity/Q597">
+                <placeName>Lisboa</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="tejo" ref="http://www.wikidata.org/entity/Q14305">
+                <placeName>Rio Tejo</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="india" ref="http://www.wikidata.org/entity/Q668">
+                <placeName>Índia</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="calecut" ref="http://www.wikidata.org/entity/Q101747">
+                <placeName>Calecut (Kozhikode)</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="melinde" ref="http://www.wikidata.org/entity/Q272447">
+                <placeName>Melinde (Malindi)</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="mocambique" ref="http://www.wikidata.org/entity/Q1029">
+                <placeName>Moçambique</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="cabo_boa_esperanca" ref="http://www.wikidata.org/entity/Q4091">
+                <placeName>Cabo da Boa Esperança</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="taprobana" ref="http://www.wikidata.org/entity/Q1266016">
+                <placeName>Taprobana (Sri Lanka)</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="olimpo" ref="http://www.wikidata.org/entity/Q80325">
+                <placeName>Monte Olimpo</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>                
+                <place xml:id="imperio_portugues_oriente" ref="https://www.wikidata.org/wiki/Q200464">
+                <placeName>Império Português do Oriente</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                </place>
+            <place xml:id="hipocrene" ref="https://www.wikidata.org/wiki/Q195848">
+                <placeName>Hipocrene</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="rio_ganges" ref="https://www.wikidata.org/wiki/Q5089">
+                <placeName>Rio Ganges</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="inglaterra" ref="https://www.wikidata.org/wiki/Q21">
+                <placeName>Inglaterra</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="franca" ref="http://www.wikidata.org/entity/Q142">
+                <placeName>França</placeName>
+            </place>
+            <place xml:id="tejo" ref="http://www.wikidata.org/entity/Q14305">
+                <placeName>Rio Tejo</placeName>
+            </place>
+            <place xml:id="espanha" ref="https://www.wikidata.org/wiki/Q29">
+                <placeName>Espanha</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="nisa" ref="https://www.wikidata.org/wiki/Q1238530">
+                <placeName>Nisa</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="indo" ref="https://www.wikidata.org/wiki/Q7348">
+                <placeName>Indo</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="parnaso" ref="https://www.wikidata.org/wiki/Q105261">
+                <placeName>Parnaso</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="lete" ref="https://www.wikidata.org/wiki/Q161096">
+                <placeName>Rio Lete></placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>    
+            </place>
+            <place xml:id="tingitana" ref="https://www.wikidata.org/wiki/Q1244742">
+                <placeName>Tingitana</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="etiopia" ref="https://www.wikidata.org/wiki/Q115">
+                <placeName>Etiópia</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="rio_pado" ref="https://www.wikidata.org/wiki/Q643">
+                <placeName>Rio Pado</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="aqueronte" ref="https://www.wikidata.org/wiki/Q12626619">
+                <placeName>Aqueronte</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="quiloa" ref="https://www.wikidata.org/wiki/Q1741475">
+                <placeName>Quíloa</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="mombaca" ref="https://www.wikidata.org/wiki/Q225641">
+                <placeName>Mombaca</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="sofala" ref="https://www.wikidata.org/wiki/Q622801">
+                <placeName>Sofala</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+            <place xml:id="idaspe" ref="https://www.wikidata.org/wiki/Q214874">
+                <placeName>Idaspe</placeName>
+                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            </place>
+        </listPlace>
+    </settingDesc>
+</profileDesc>
