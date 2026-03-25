@@ -14,8 +14,6 @@ except:
 # 2. DICIONÁRIO DE AUTORIDADES (Prioridade Máxima)
 entidades_fixas = {
     "ocidental praia Lusitana": ("rs", "place", "portugal"),
-    "peito ilustre lusitano": ("rs", "person", "portugueses"),
-    "barões assinalados": ("rs", "person", "portugueses"),
     "O forte Capitão": ("rs", "person", "v_gama"),
     "O ilustre Gama": ("rs", "person", "v_gama"),
     "Sublime Rei": ("rs", "person", "d_sebastiao"),

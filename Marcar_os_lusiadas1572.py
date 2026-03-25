@@ -11,7 +11,6 @@ nlp = spacy.load("pt_core_news_lg")
 # Mapeia a palavra como ela aparece em 1572 para o ID correto
 entidades_1572 = {
     # --- LUGARES ---
-    "Occidental": ("placeName", "real", "ocidente"),
     "Lusitana": ("placeName", "real", "portugal"),
     "Taprobana": ("placeName", "real", "taprobana"),
     "Africa": ("placeName", "real", "africa"),
@@ -32,23 +31,18 @@ entidades_1572 = {
     "Baco": ("persName", "myth", "baco"),
     "Musa": ("persName", "myth", "musas"),
     "Tagides": ("persName", "myth", "tagides"),
-    "Troyano": ("persName", "myth", "eneias"), # Referência ao herói Eneias
-    "Grego": ("persName", "myth", "ulisses"),  # Referência ao sábio Ulisses
+    "Troyano": ("rs", "myth", "eneias"), # Referência ao herói Eneias
+    "Grego": ("rs", "myth", "ulisses"),  # Referência ao sábio Ulisses
 
     # --- HISTÓRICOS ---
     "Alexandro": ("persName", "hist", "alexandre_magno"),
     "Trajano": ("persName", "hist", "trajano"),
     "Christo": ("persName", "hist", "cristo"),
-    "Deos": ("persName", "hist", "deus"),
+    "Deos": ("persName", "myth", "deus"),
     "Constantino": ("persName", "hist", "constantino"),
     "Vasco da Gama": ("persName", "hist", "v_gama"),
     "Gama": ("persName", "hist", "v_gama"),
 
-    # --- EPÍTETOS / RS ---
-    "Maura lanca": ("rs", "person", "mouros"),
-    "Maura gente": ("rs", "person", "mouros"),
-    "Ismaelita": ("rs", "person", "mouros"),
-    "Gentio": ("rs", "person", "gentios")
 }
 
 def regex_trans_tag(termo):
