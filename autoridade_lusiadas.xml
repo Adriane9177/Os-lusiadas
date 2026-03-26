@@ -4,315 +4,296 @@
     <particDesc>
         <listPerson>
             <!-- DIVINDADES (Mitos) -->
-            <person xml:id="jupiter" ref="http://www.wikidata.org/entity/Q103">
+            <person xml:id="jupiter" ref="https://www.wikidata.org/wiki/Q4649">
                 <persName>Júpiter</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mit., pai dos deuses, ou dos dias, conforme se infere do exame do vocabulo; Jupiter-Amon, adorado rios areiais africanos ou líbicos (7.48); o planeta Jupiter (10.89):</note>
             </person>
-            <person xml:id="venus" ref="http://www.wikidata.org/entity/Q47657">
+            <person xml:id="venus" ref="https://www.wikidata.org/wiki/Q47652">
                 <persName>Vénus</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Venus, deusa da beleza e do amor, que protege os Portugueses, como na "Eneida" a Enéas, tronco dos latinos</note>
             </person>
-            <person xml:id="baco" ref="http://www.wikidata.org/entity/Q7849">
+            <person xml:id="baco" ref="https://www.wikidata.org/wiki/Q645312">
                 <persName>Baco</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mitol., filho de Jupiter e de Semele, tambem chamada Tiône. Segundo a lenda, foi pai ou companheiro de Luso, ou Lisias, personagens fabulosos, que ligaram seus nomes á Lusitania:</note>
             </person>
-            <person xml:id="marte" ref="http://www.wikidata.org/entity/Q111">
+            <person xml:id="marte" ref="https://www.wikidata.org/wiki/Q112">
                 <persName>Marte</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">fabuloso deus da guerra</note>
             </person>
-            <person xml:id="mercurio" ref="http://www.wikidata.org/entity/Q23075">
+            <person xml:id="mercurio" ref="https://www.wikidata.org/wiki/Q1150">
                 <persName>Mercúrio</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">deus fabuloso, filho de Júpiter e de Maia, neto de Atlas ou Atlante</note>
             </person>
-            <person xml:id="neptuno" ref="http://www.wikidata.org/entity/Q42247">
+            <person xml:id="neptuno" ref="https://www.wikidata.org/wiki/Q3954">
                 <persName>Neptuno</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">fabuloso deus do mar</note>
             </person>
-            <person xml:id="adamastor" ref="http://www.wikidata.org/entity/Q351572">
+            <person xml:id="adamastor" ref="https://www.wikidata.org/wiki/Q2657005">
                 <persName>Adamastor</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mit., um dos gigantes, filho da terra</note>
             </person>
-            <person xml:id="tetis" ref="http://www.wikidata.org/entity/Q184470">
+            <person xml:id="tetis" ref="https://www.wikidata.org/wiki/Q184216">
                 <persName>Tétis (Nereida)</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Thetis, deusa fabulosa do mar, filha do Céu e da Terra e que o Poeta confunde com uma neta do mesmo nome, filha de Doris e espôsa de Peleu (5.52) (J. M. Rodrigues)</note>
             </person>
             <person xml:id="musa" ref="https://www.wikidata.org/wiki/Q66016">
                 <persName>Musa</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">ou Musas, filhas de Jupiter e de Memoria, inspiradoras dos artistas e sábios; a Poesia, a Inspiração.</note>
             </person>
             <person xml:id="tagides" ref="https://www.wikidata.org/wiki/Q10385807">
                 <persName>Tagides</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">ninfas, filhas do Tejo (5.99), que o Poeta invoca para sua inspiração</note>
             </person>
             <person xml:id="apolo" ref="https://www.wikidata.org/wiki/Q37340">
                 <persName>Apolo</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mit., Sol ou Fébo, deus das artes</note>
             </person>
             <person xml:id="rodamonte" ref="https://www.wikidata.org/wiki/Q1116690">
                 <persName>Rodamonte</persName>
-                <note type="peixoto">COLE_QUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Rodomonte, personagem do “Orlando furioso”, de Ariosto</note>
             </person>
             <person xml:id="rugeiro" ref="https://www.wikidata.org/wiki/Q1163476">
                 <persName>Rugeiro</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Rogerio, personagem do “Orlando furioso”, de Ariosto</note>
             </person>
             <person xml:id="orlando" ref="https://www.wikidata.org/wiki/Q207535">
                 <persName>Orlando</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </person>
-            <person xml:id="tetis" ref="https://www.wikidata.org/wiki/Q184437">
-                <persName>Tétis (Nereida)</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Orlando, ou Rolando, ou Roldão, cavalheiro andante, do ciclo de Carlos Magno, que inspirou muitos romances medievaes, e o poema de Ariosto</note>
             </person>
             <person xml:id="proteu" ref="https://www.wikidata.org/wiki/Q191481">
                 <persName>Próteo</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Próteo, Protêu, Proteio, fabuloso deus marinho, guardador de peixes e baleias, que possuia o dom da profecia e das metamorfoses:</note>
             </person>
             <person xml:id="atlante" ref="https://www.wikidata.org/wiki/Q130818">
                 <persName>Atlante</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Atlante, Mit., filho de Jupiter e avô de Mercurio. Foi conver- tido em cordilheira do Atlas ou Atlante</note>
             </person>
             <person xml:id="vulcano" ref="https://www.wikidata.org/wiki/Q4640">
                 <persName>Vulcano</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Vulcano, deus fabuloso, que fabricava os raios para o tonante Júpiter; marido da infiel Vênus</note>
             </person>
             <person xml:id="romulo" ref="https://www.wikidata.org/wiki/Q2186">
                 <persName>Romulo</persName>
+                <note type="peixoto">Rómulo, fundador de Roma, com seu irmão Remo; os Romanos, gente de Rómulo</note>
             </person>
             <person xml:id="africo" ref="https://www.wikidata.org/wiki/Q5733340">
                 <persName>Áfrico</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Africo, vento sudoéste:</note>
             </person>
             <person xml:id="noto" ref="https://www.wikidata.org/wiki/Q903273">
                 <persName>Noto</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Noto (2), vento sul</note>
             </person>
-        <person xml:id="fado" ref="https://www.wikidata.org/wiki/Q903273">
+        <person xml:id="fado" ref="https://www.wikidata.org/wiki/Q61415823">
                 <persName>Fado</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Fado, destino, fatalidade</note>
             </person>
             <person xml:id="doris" ref="https://www.wikidata.org/wiki/Q726279">
                 <persName>Dóris</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Dóris, Mitol., filha do Oceano e de Tetis, mar:</note>
             </person>
             <person xml:id="fortuna" ref="https://www.wikidata.org/wiki/Q4654">
                 <persName>Fortuna</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Fortuna, o que sucede por acaso, sorte</note>
             </person>
             <person xml:id="parcas" ref="https://www.wikidata.org/wiki/Q370547">
                 <persName>Parcas</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Parca, divindade fabulosa; eram tres, que teciam e cortavam o fio da vida</note>
             </person>
             <person xml:id="tifeu" ref="https://www.wikidata.org/wiki/Q180237">
                 <persName>Tifeu</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Tifeu, a, relativo a Tifêu, gigante fulminado por Júpiter; suas armas seriam os raios do Tonante</note>
             </person>
-            <person xml:id="faetonte" ref="https://www.wikidata.org/wiki/Q203480">
-                <persName>Faetonte</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+            <person xml:id="faeton" ref="https://www.wikidata.org/wiki/Q203480">
+                <persName>Faeton</persName>
+                <note type="peixoto">Mit., filho do sol e de Climene</note>
             </person>
             <person xml:id="lampetusa" ref="https://www.wikidata.org/wiki/Q1638536">
                 <persName>Lampetusa</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Lampetusa, outra irmã de Faeton, que tambem lhe deplorou a morte, quando fulminado, porque mal guiára o carro paterno, do Sol:</note>
             </person>
             <person xml:id="calisto" ref="https://www.wikidata.org/wiki/Q203673">
                 <persName>Calisto</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Calisto, outro nome da constelação dita Ursa Maior ou Carreta</note>
             </person>
             <person xml:id="aurora" ref="https://www.wikidata.org/wiki/Q178831">
                 <persName>Aurora</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>    
+                <note type="peixoto">Aurora, Mit., à deusa da manhã que abre ao sol as portas do Orienté, Oriente, antemanhã</note>    
             </person>
             <person xml:id="hiperiao" ref="https://www.wikidata.org/wiki/Q179209">
                 <persName>Hiperiónio</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Hiperionio, Mit., o mesmo que Titáno, filho de Celo</note>
             </person>
             <person xml:id="anfitrite" ref="https://www.wikidata.org/wiki/Q180222">
                 <persName>Anfitrite</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Anfitrite, Mit., deusa do mar, espõôsa de Neptuno</note>
             </person>
              <person xml:id="nereu" ref="https://www.wikidata.org/wiki/Q189527">
                 <persName>Nereu</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Nereu, divindade maritima, marido de Doris, paes das Nereidas</note>
             </person>
              <person xml:id="nereidas" ref="https://www.wikidata.org/wiki/Q54230">
                 <persName>Nereidas</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">filha de Nereu; divindade marinha</note>
             </person>
             <person xml:id="sinon" ref="https://www.wikidata.org/wiki/Q663792">
                 <persName>Sinon</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Sinon, guerreiro grego que persuadiu os Troianos de deixarem entrar na cidade o famoso caválo de pau, em cujo bôjo iam os mais fortes guerreiros Helenos:</note>
+            </person>
+            <person xml:id="deus" ref="https://www.wikidata.org/wiki/Q825">
+                <persName>Deus</persName>
+                <note type="peixoto">principio supremo que as religiões consideram superior à natureza (Figueiredo)</note>
             </person>
 
             <!-- FIGURAS HISTÓRICAS -->
             <person xml:id="v_gama" ref="http://www.wikidata.org/entity/Q7328">
                 <persName>Vasco da Gama</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">nome próprio; Vasco da Gama, o almirante da primeira expedição ás Indias</note>
             </person>
-            <person xml:id="d_sebastiao" ref="http://www.wikidata.org/entity/Q215112">
+            <person xml:id="d_sebastiao" ref="https://www.wikidata.org/wiki/Q272899">
                 <persName>D. Sebastião I</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <person xml:id="afonso_henriques" ref="http://www.wikidata.org/entity/Q193444">
+            <person xml:id="afonso_henriques" ref="https://www.wikidata.org/wiki/Q587697">
                 <persName>D. Afonso Henriques</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Afonso nome de vários reis portugueses e espanhões:</note>
             </person>
-            <person xml:id="ines_castro" ref="http://www.wikidata.org/entity/Q234113">
-                <persName>Inês de Castro</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </person>
-            <person xml:id="d_manuel_i" ref="http://www.wikidata.org/entity/Q214973">
+            <person xml:id="d_manuel_i" ref="https://www.wikidata.org/wiki/Q191231">
                 <persName>D. Manuel I</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <person xml:id="nuno_alvares" ref="http://www.wikidata.org/entity/Q440473">
+            <person xml:id="nuno_alvares" ref="https://www.wikidata.org/wiki/Q374056">
                 <persName>Nuno Álvares Pereira</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">nome próprio; aqui é Nuno Alvares Pereira, condestavel de D. João I</note>
             </person>
-            <personGrp xml:id="reis_portugueses" ref="https://www.wikidata.org/wiki/Q10510313">
-                <persName>Reis de Portugal (Dinastias expansionistas)</persName>
-                <note source="#peixoto">
-                    Refere-se à sucessão de monarcas que promoveram a expansão territorial e religiosa. 
-                    Inclui Afonso Henriques, João I, João II e Manuel I.
-                </note>
+            <personGrp xml:id="reis_portugueses"> 
+                <persName> Reis de Portugal (Dinastias expansionistas)</persName>
+                <note source="#peixoto"> não há informações em Peixoto(1924) </note>
                 <linkGrp>
-                    <ptr target="http://www.wikidata.org/entity/Q193444"/> <!-- Afonso Henriques -->
-                    <ptr target="http://www.wikidata.org/entity/Q187195"/> <!-- João I -->
-                    <ptr target="http://www.wikidata.org/entity/Q214973"/> <!-- Manuel I -->
+                    <ptr target="https://www.wikidata.org/wiki/Q587697"/> <!-- Afonso Henriques -->
+                    <ptr target="https://www.wikidata.org/wiki/Q201575"/> <!-- João I -->
+                    <ptr target="https://www.wikidata.org/wiki/Q191231"/> <!-- Manuel I -->
                 </linkGrp>
             </personGrp>
             <person xml:id="ulisses" ref="https://www.wikidata.org/wiki/Q47231">
                 <persName>Ulisses</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Ulisses, heróe grego, fertil em discursos e manhas, que se diz fundou Lisbôa, Ulissipo, Ulisséa</note>
             </person>
             <person xml:id="eneias" ref="https://www.wikidata.org/wiki/Q82732">
                 <persName>Eneias</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Enéas, principe troiano, filho de Anquises:</note>
             </person>
             <person xml:id="alexandro" ref="https://www.wikidata.org/wiki/Q8409">
                 <persName>Alexandro Magno</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">"Alexandre, filho de Filipe da Macedônia</note>
             </person>
             <person xml:id="trajano" ref="https://www.wikidata.org/wiki/Q1425">
                 <persName>Trajano</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Trajano, imperador romano, que venceu os Dácios e Pérsas, e se aventurava mesmo ás Indias, o que não realizou</note>
             </person>
-            <person xml:id="deus" ref="https://www.wikidata.org/wiki/Q825">
-                <persName>Deus</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </person>
+          
             <person xml:id="jesus_cristo" ref="https://www.wikidata.org/wiki/Q302">
                 <persName>Jesus Cristo</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Cristo, para os catolicos é o fundador de sua religião:</note>
             </person>
             <person xml:id="egas" ref="https://www.wikidata.org/wiki/Q1296765">
                 <persName>Egas Moniz</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Egas, Egas Moniz</note>
             </person>
             <person xml:id="d._fuas" ref="https://www.wikidata.org/wiki/Q10286138">
                 <persName>D. Fuas Roupinho</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Fuas, D. Fuas Roupinho, talvez o primeiro português que dirigiu uma batalha naval</note>
             </person>
             <person xml:id="homero" ref="https://www.wikidata.org/wiki/Q6691">
                 <persName>Homero</persName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Homéro, o maior poéta da antiguidade, autor da Iliade e da Odisséa</note>
             </person>
-            <person xml:id="magrico" ref="http://www.wikidata.org/entity/Q16489312">
+            <person xml:id="magrico" ref="https://www.wikidata.org/wiki/Q10395802">
                 <persName>Álvaro Gonçalves Coutinho (O Magriço)</persName>
-                <note source="#peixoto">
-                    Célebre cavaleiro português do século XIV. Protagonista do episódio dos 
-                    'Doze de Inglaterra', em que defendeu, em Londres, a honra de damas inglesas. 
-                    Camões o descreve como o modelo da cavalaria errante e valerosa.
-                </note>
+                <note source="#peixoto"> Magriço, cognome de Alvaro Gonçalves Coutinho, filho de Goncalo Vaz Coutinho, primeiro marechal de Portugal.</note>
             </person>
-            <personGrp xml:id="doze_inglaterra" ref="http://www.wikidata.org/entity/Q10342211">
+            <personGrp xml:id="doze_inglaterra" ref="https://www.wikidata.org/wiki/Q3774650">
                 <persName>Os Doze de Inglaterra</persName>
-                <note source="#peixoto">
-                    Episódio cavaleiresco e lendário ocorrido no reinado de D. João I. 
-                    Refere-se aos doze cavaleiros portugueses que foram a Londres defender a honra 
-                    de doze damas inglesas. Afrânio Peixoto destaca este episódio como prova da 
-                    fama internacional da bravura portuguesa na Europa medieval.
-                </note>
+                <note source="#peixoto"> não há informações em Peixoto(1924)</note>
             </personGrp>
             <person xml:id="carlos_magno" ref="http://www.wikidata.org/entity/Q3044">
                 <persName>Carlos Magno</persName>
+                <note source="#peixoto">Carlos Magno</note>
             </person>
             <person xml:id="julio_cesar" ref="http://www.wikidata.org/entity/Q1048">
                 <persName>Júlio César</persName>
+                <note source="#peixoto">Cesar, Julio:</note>
             </person>
-            <person xml:id="afonso_henriques" ref="http://www.wikidata.org/entity/Q193444">
-                <persName>D. Afonso Henriques</persName>
-                <note source="#peixoto">O "primeiro Afonso". Fundador do reino.</note>
-            </person>
-            <person xml:id="d_joao_i" ref="http://www.wikidata.org/entity/Q187195">
+            <person xml:id="d_joao_i" ref="https://www.wikidata.org/wiki/Q201575">
                 <persName>D. João I</persName>
-                <note source="#peixoto">Mestre de Avis. Referido pela vitória de Aljubarrota.</note>
+                <note source="#peixoto">Joane, n. p., forma alatinada de João, D. João I, o Mestre de Aviz</note>
             </person>
-            <person xml:id="d_joao_ii" ref="http://www.wikidata.org/entity/Q210735">
+            <person xml:id="d_joao_ii" ref="https://www.wikidata.org/wiki/Q217637">
                 <persName>D. João II</persName>
-                <note source="#peixoto">O "outro Joane". Estrategista da expansão marítima.</note>
+                <note source="#peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <person xml:id="afonso_iii" ref="http://www.wikidata.org/entity/Q311545">
+            <person xml:id="afonso_iii" ref="https://www.wikidata.org/wiki/Q295850">
                 <persName>D. Afonso III</persName>
+                <note source="#peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <person xml:id="afonso_iv" ref="http://www.wikidata.org/entity/Q212890">
+            <person xml:id="afonso_iv" ref="https://www.wikidata.org/wiki/Q272903">
                 <persName>D. Afonso IV</persName>
+                <note source="#peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <person xml:id="afonso_v" ref="http://www.wikidata.org/entity/Q311516">
+            <person xml:id="afonso_v" ref="https://www.wikidata.org/wiki/Q299119">
                 <persName>D. Afonso V</persName>
-                <note source="#peixoto">Chamado 'O Africano' pelas conquistas no Norte de África.</note>
+                <note source="#peixoto">não há informações em Peixoto(1924)</note>
             </person>
-            <!-- PESSOAS HISTÓRICAS (MILITARES) -->
-            <person xml:id="duarte_pacheco" ref="http://www.wikidata.org/entity/Q1239374">
+            <person xml:id="duarte_pacheco" ref="https://www.wikidata.org/wiki/Q686754">
                 <persName>Duarte Pacheco Pereira</persName>
-                <note source="#peixoto">Guerreiro e cosmógrafo. Famoso pela defesa de Cochim.</note>
+                <note source="#peixoto">Pacheco, apelido de familia; Duarte Coelho Pacheco, heróe português das Indias.</note>
             </person>
             
-            <personGrp xml:id="familia_almeida" ref="http://www.wikidata.org/entity/Q347233">
-                <persName>Os Almeidas (D. Francisco e D. Lourenço)</persName>
-                <note source="#peixoto">D. Francisco foi o 1º vice-rei da Índia. Ele e seu filho Lourenço morreram em combate marítimo.</note>
+            <personGrp xml:id="almeidas" ref="https://www.wikidata.org/wiki/Q337066" ref="https://www.wikidata.org/wiki/Q2657862">
+                <persName>Almeidas. D. Francisco e D.Lourenço</persName>
+                <note source="#peixoto">D. Francisco e seu filho D. Lourenço.</note>
             </personGrp>
             
-            <person xml:id="afonso_albuquerque" ref="http://www.wikidata.org/entity/Q204505">
+            <person xml:id="afonso_albuquerque" ref="https://www.wikidata.org/wiki/Q204397">
                 <persName>Afonso de Albuquerque</persName>
-                <note source="#peixoto">O "Marte Português". Conquistador de Goa, Malaca e Ormuz.</note>
+                <note source="#peixoto">Albuquerque, Afonso de....</note>
             </person>
             
-            <person xml:id="joao_castro" ref="http://www.wikidata.org/entity/Q712530">
+            <person xml:id="joao_castro" ref="https://www.wikidata.org/wiki/Q1621235">
                 <persName>D. João de Castro</persName>
-                <note source="#peixoto">Vice-rei da Índia e homem de ciência. Símbolo da honra e desinteresse material.</note>
+                <note source="#peixoto">Castro, D. João de Castro:.</note>
             </person>
            <person xml:id="viriato" ref="https://www.wikidata.org/wiki/Q331889">
                 <persName>Viriato</persName>
-                <note source="#peixoto">Líder lusitano que resistiu à conquista romana. Símbolo da bravura e resistência.</note>
+                <note source="#peixoto">Viriato, nome próprio; pastor hispano, do monte Herminio (serra da Estrela) que derrotou vários generaes romanos, até que, atraiçoado, o assassinaram (140 A. €.).</note>
             </person>
             <person xml:id="sertorio" ref="https://www.wikidata.org/wiki/Q296238">
                 <persName>Sertório</persName>
-                <note source="#peixoto">General romano que se rebelou contra Roma e se refugiou na Hispânia, onde liderou uma resistência contra as forças romanas.</note>
+                <note source="#peixoto">Sertório, general romano, rebelde contra Sila e que na Lusitania venceu muitos fieis deste.</note>
             </person>
             <person xml:id="abraao" ref="https://www.wikidata.org/wiki/Q9181">
                 <persName>Abraão</persName>
-                <note source="#peixoto">Figura bíblica, considerado o patriarca das três grandes religiões monoteístas: judaísmo, cristianismo e islamismo.</note>
+                <note source="#peixoto">Abraão, o patriarca dos hebrêus.</note>
             </person>
             <person xml:id="d_manuel_i" ref="https://www.wikidata.org/wiki/Q191231">
                 <persName>D. Manuel I</persName>
-                <note source="#peixoto">O "Venturoso". Monarca que promoveu a Era dos Descobrimentos.</note>
+                <note source="#peixoto">não há informações em Peixoto(1924).</note>
             </person>
             <person xml:id="constantino" ref="https://www.wikidata.org/wiki/Q37142">
                 <persName>Constantino</persName>
-                <note source="#peixoto">Imperador romano que legalizou o cristianismo e fundou Constantinopla.</note>
+                <note source="#peixoto">Costantino, imperador romano do Oriente, filho de Santa Helêna.</note>
             </person>
             <person xml:id="david" ref="https://www.wikidata.org/wiki/Q41370">
                 <persName>David</persName>
-                <note source="#peixoto"> nota de peixoto</note>
+                <note source="#peixoto"> David, rei judaico. Foi condenado por ter cometido crime adulterio com Betsabé, cujo marido mandou matar</note>
             </person>
             <person xml:id="filipo" ref="https://www.wikidata.org/wiki/Q130650">
                 <persName>Filipo</persName>
-                <note source="#peixoto"> nota de peixoto</note>
+                <note source="#peixoto"> Filipo, pai de Alexandre</note>
             </person>
                 <person xml:id="maome" ref="https://www.wikidata.org/wiki/Q9458">
                     <persName>Maomé</persName>
-                    <note source="#peixoto">nota de peixoto</note>
+                    <note source="#peixoto">Mahamede, Mafamede, Mohammed ou Mahomet: Mafamede, Mohammed ou Mahomet, profeta pa fundador do Islamismo</note>
                 </person>
         </listPerson>
     </particDesc>
@@ -322,137 +303,123 @@
         <listPlace>
             <place xml:id="portugal" ref="http://www.wikidata.org/entity/Q45">
                 <placeName>Portugal</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Portugal, a parte mais ocidental da Ibéria, Lusitania</note>
             </place>
             <place xml:id="lisboa" ref="http://www.wikidata.org/entity/Q597">
                 <placeName>Lisboa</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Lisbôa, cidade principal da Lusitania, capital de Portugal:</note>
             </place>
-            <place xml:id="tejo" ref="http://www.wikidata.org/entity/Q14305">
+            <place xml:id="tejo" ref="https://www.wikidata.org/wiki/Q14294">
                 <placeName>Rio Tejo</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Tejo, rio de Espanha e Portugal, que desagua nó Atlantico, junto de Lisbôa</note>
             </place>
             <place xml:id="india" ref="http://www.wikidata.org/entity/Q668">
                 <placeName>Índia</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </place>
-            <place xml:id="calecut" ref="http://www.wikidata.org/entity/Q101747">
-                <placeName>Calecut (Kozhikode)</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </place>
-            <place xml:id="melinde" ref="http://www.wikidata.org/entity/Q272447">
-                <placeName>Melinde (Malindi)</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Índia, região meridional da Asia:</note>
             </place>
             <place xml:id="mocambique" ref="http://www.wikidata.org/entity/Q1029">
                 <placeName>Moçambique</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Moçambique, região da costa oriental de Africa</note>
             </place>
-            <place xml:id="cabo_boa_esperanca" ref="http://www.wikidata.org/entity/Q4091">
-                <placeName>Cabo da Boa Esperança</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
-            </place>
-            <place xml:id="taprobana" ref="http://www.wikidata.org/entity/Q1266016">
+            <place xml:id="taprobana" ref="https://www.wikidata.org/wiki/Q854">
                 <placeName>Taprobana (Sri Lanka)</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Taprobana, Ceilão, a grande ilha do Oceano Indico, assim chamada pelos geógrafos, do nome sanscrito "Tamraparna"</note>
             </place>
-            <place xml:id="olimpo" ref="http://www.wikidata.org/entity/Q80325">
+            <place xml:id="olimpo" ref="https://www.wikidata.org/wiki/Q70054479">
                 <placeName>Monte Olimpo</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Olimpo, monte na Tessália, em cujo alto tinham morada os deuses fabulosos</note>
             </place>                
                 <place xml:id="imperio_portugues_oriente" ref="https://www.wikidata.org/wiki/Q200464">
                 <placeName>Império Português do Oriente</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">não há informação em Peixoto(1924)</note>
                 </place>
             <place xml:id="hipocrene" ref="https://www.wikidata.org/wiki/Q195848">
                 <placeName>Hipocrene</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mit., fonte na Beócia, proxima do monte Hélicon:</note>
             </place>
             <place xml:id="rio_ganges" ref="https://www.wikidata.org/wiki/Q5089">
                 <placeName>Rio Ganges</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Gange, o mais notavel rio da India, tambem chamado Pischon, tido como sagrado pelos naturais</note>
             </place>
             <place xml:id="inglaterra" ref="https://www.wikidata.org/wiki/Q21">
                 <placeName>Inglaterra</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Inglaterra, país da Europa, tambem chamado Gram Bretanha</note>
             </place>
             <place xml:id="franca" ref="http://www.wikidata.org/entity/Q142">
                 <placeName>França</placeName>
-            </place>
-            <place xml:id="tejo" ref="http://www.wikidata.org/entity/Q14305">
-                <placeName>Rio Tejo</placeName>
+                <note type="peixoto">França, país do sul da Europa, que tem por capital Paris</note>
             </place>
             <place xml:id="espanha" ref="https://www.wikidata.org/wiki/Q29">
                 <placeName>Espanha</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Espanha, Nação que, com Portugal, forma a Peninsula Iberica. Antigamente designava o termo Espanha toda a Peninsula Iberica, que compreendia muitos reinos, como Castela, Oviêdo...:</note>
             </place>
             <place xml:id="nisa" ref="https://www.wikidata.org/wiki/Q1238530">
                 <placeName>Nisa</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Nisa, cidade mencionada na lenda fabulosa de Baco: Camões a sitúa junto do Hidaspe</note>
             </place>
             <place xml:id="indo" ref="https://www.wikidata.org/wiki/Q7348">
                 <placeName>Indo</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Indo, grande rio de Asia, que nasce no Tibé e desagúa no mar de Oman, depois de atravessar o Indostão</note>
             </place>
             <place xml:id="parnaso" ref="https://www.wikidata.org/wiki/Q105261">
                 <placeName>Parnaso</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Parnaso, monte na Beócia, onde havia a fonte Castália, consagrada a Apolo e as Musas que davam o dom da poesia</note>
             </place>
             <place xml:id="lete" ref="https://www.wikidata.org/wiki/Q161096">
                 <placeName>Rio Lete></placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>    
+                <note type="peixoto">Leteu, a, de Letes, rio fabuloso do esquecimento</note>    
             </place>
             <place xml:id="tingitana" ref="https://www.wikidata.org/wiki/Q1244742">
                 <placeName>Tingitana</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Tingitania, de Tinge, hoje Tanger, nome antigo da Mauritania:</note>
             </place>
             <place xml:id="etiopia" ref="https://www.wikidata.org/wiki/Q115">
                 <placeName>Etiópia</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Etiopia, abessinia</note>
             </place>
             <place xml:id="rio_pado" ref="https://www.wikidata.org/wiki/Q643">
                 <placeName>Rio Pado</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Pado, rio da Itália, o Pó (Padus) onde caiu precipitado do céu fulminado por Jupiter, Faetonte, filho de Apólo, que inexperto guiára o carro do Sol; as irmãs, entre as quais Lampetusa, 0) choraram amargamente</note>
             </place>
             <place xml:id="aqueronte" ref="https://www.wikidata.org/wiki/Q12626619">
                 <placeName>Aqueronte</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Aqueronte, Mit., lago ou rio do inferno, região da morte</note>
             </place>
             <place xml:id="quiloa" ref="https://www.wikidata.org/wiki/Q1741475">
                 <placeName>Quíloa</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Quíloa, cidade da costa oriental de Africa</note>
             </place>
             <place xml:id="mombaca" ref="https://www.wikidata.org/wiki/Q225641">
                 <placeName>Mombaca</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Mombaça, cidade africana, da costa oriental, entre Quíloa e Melinde</note>
             </place>
             <place xml:id="sofala" ref="https://www.wikidata.org/wiki/Q622801">
                 <placeName>Sofala</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Sofala, porto e povoação na costa d'África, em Moçambique</note>
             </place>
             <place xml:id="idaspe" ref="https://www.wikidata.org/wiki/Q214874">
                 <placeName>Idaspe</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Hidáspe, Geogr., nome antigo do rio hoje dito Yelum, afluente do Indo e limite oriental das expedições de Alexandre</note>
             </place>
             <place xml:id="turquia" ref="https://www.wikidata.org/wiki/Q43">
                 <placeName>Turquia</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Turquia, país da Europa e da Asia Menor:</note>
             </place>
             <place xml:id="europa" ref="https://www.wikidata.org/wiki/Q46">
                 <placeName>Europa</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Europa (2), uma das tres grandes divisões do mundo, conhecido pelos antigos</note>
             </place>
             <place xml:id="prasso_promontorio" ref="https://www.wikidata.org/wiki/Q466538">
                 <placeName>Promontório do Prasso</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Prasso, cabo ou promontorio, limite meridional da costa de África, segundo geografos antigos; talvez o Cabo Delgado</note>
             </place>
             <place xml:id="nabateia" ref="https://www.wikidata.org/wiki/Q11029653">
                 <placeName>Nabateia</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Nabateu, de Nabath, filho de Ismael, filho de Agar, de quem descendem os Arabes ou Agarenos</note>
             </place>
             <place xml:id="citera" ref="https://www.wikidata.org/wiki/Q207239">
                 <placeName>Citere</placeName>
-                <note type="peixoto">COLE_AQUI_A_DEFINIÇÃO_DE_AFRÂNIO_PEIXOTO</note>
+                <note type="peixoto">Citera, ilha do Mediterraneo, consagrada a Venus:</note>
             </place>
         </listPlace>
     </settingDesc>
