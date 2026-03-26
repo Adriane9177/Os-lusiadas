@@ -1,9 +1,10 @@
 import spacy
+import re
 
 # =========================
 # 1. CARREGAR MODELO
 # =========================
-nlp = spacy.load("pt_core_news_sm")
+nlp = spacy.load("pt_core_news_lg")
 
 # =========================
 # 2. DICIONÁRIO EXPANDIDO
@@ -58,40 +59,38 @@ TERMOS_FIXOS_LOWER = {k.lower() for k in entidades_fixas}
 # =========================
 def marcar_entidades(texto):
     mapa = {}
-    texto_processado = texto
+    texto_proc = texto
 
     # =========================
-    # 3.1 Substituir termos fixos (prioridade máxima)
+    # 3.1 Substituir entidades fixas (PRIORIDADE)
     # =========================
     for i, termo in enumerate(sorted(entidades_fixas.keys(), key=len, reverse=True)):
         placeholder = f"__ENT_{i}__"
-        if termo in texto_processado:
-            texto_processado = texto_processado.replace(termo, placeholder)
+        if termo in texto_proc:
+            texto_proc = texto_proc.replace(termo, placeholder)
             mapa[placeholder] = termo
 
     # =========================
     # 3.2 Rodar spaCy
     # =========================
-    doc = nlp(texto_processado)
-
-    resultado = texto_processado
+    doc = nlp(texto_proc)
+    resultado = texto_proc
 
     # =========================
-    # 3.3 Marcar entidades detectadas pela IA
+    # 3.3 Marcação automática
     # =========================
     for ent in doc.ents:
-
         texto_ent = ent.text
 
         # ignorar placeholders
         if texto_ent.startswith("__ENT_"):
             continue
 
-        # ignorar se já é entidade fixa
+        # ignorar termos já controlados
         if texto_ent.lower() in TERMOS_FIXOS_LOWER:
             continue
 
-        # decidir tipo
+        # classificar
         if ent.label_ == "PER":
             tag = "persName"
             tipo = "hist"
@@ -103,10 +102,11 @@ def marcar_entidades(texto):
 
         marcado = f'<{tag} type="{tipo}" ref="{texto_ent.lower().replace(" ", "_")}">{texto_ent}</{tag}>'
 
+        # substituição segura (evita duplicação)
         resultado = resultado.replace(texto_ent, marcado)
 
     # =========================
-    # 3.4 Restaurar entidades fixas com marcação correta
+    # 3.4 Restaurar entidades fixas
     # =========================
     for placeholder, termo in mapa.items():
         tag, tipo, ref = entidades_fixas[termo]
@@ -120,9 +120,22 @@ def marcar_entidades(texto):
 
     return resultado
 
-# =========================
-# 4. TESTE
-# =========================
-texto = "Vênus protegeu Vasco da Gama na viagem para a Índia e enfrentou Baco."
 
-print(marcar_entidades(texto))
+# =========================
+# 4. LEITURA DO XML ORIGINAL (NÃO ALTERA)
+# =========================
+with open("LusiadasModernizado.xml", "r", encoding="utf-8") as f:
+    conteudo = f.read()
+
+# =========================
+# 5. PROCESSAR
+# =========================
+conteudo_marcado = marcar_entidades(conteudo)
+
+# =========================
+# 6. SALVAR (MESMO NOME QUE VOCÊ USAVA)
+# =========================
+with open("Lusiadasteste2_marcado.xml", "w", encoding="utf-8") as f:
+    f.write(conteudo_marcado)
+
+print("Processamento concluído!")

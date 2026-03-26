@@ -249,8 +249,8 @@
                 <note source="#peixoto">Pacheco, apelido de familia; Duarte Coelho Pacheco, heróe português das Indias.</note>
             </person>
             
-            <personGrp xml:id="almeidas" ref="https://www.wikidata.org/wiki/Q337066" ref="https://www.wikidata.org/wiki/Q2657862">
-                <persName>Almeidas. D. Francisco e D.Lourenço</persName>
+            <personGrp xml:id="almeidas" ref="https://www.wikidata.org/wiki/Q337066">
+                <persName> Almeidas. D. Francisco e D.Lourenço </persName>
                 <note source="#peixoto">D. Francisco e seu filho D. Lourenço.</note>
             </personGrp>
             
