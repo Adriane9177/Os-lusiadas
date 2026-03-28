@@ -24,7 +24,7 @@
           <l>As armas e os barões assinalados,</l>
           <l>Que da <rs type="place" ref="#portugal">ocidental praia Lusitana</rs>,</l>
           <l>Por mares nunca de antes navegados,</l>
-          <l>Passaram ainda além da <placeName type="real" ref="taprobana">Taprobana</placeName>,</l>
+          <l>Passaram ainda além da <placeName type="real" ref="#taprobana">Taprobana</placeName>,</l>
           <l>Em perigos e guerras esforçados,</l>
           <l>Mais do que prometia a força humana,</l>
           <l>E entre gente remota edificaram</l>
@@ -34,14 +34,14 @@
           <l>E também as memórias gloriosas</l>
           <l><rs type="person" ref="#reis_portugueses">Daqueles Reis</rs>, que foram dilatando</l>
           <l>A Fé, o Império, e as terras viciosas</l>
-          <l>De <placeName type="real" ref="africa">África</placeName> e de <placeName type="real" ref="#asia">Ásia</placeName> andaram devastando;</l>
+          <l>De <placeName type="real" ref="#africa">África</placeName> e de <placeName type="real" ref="#asia">Ásia</placeName> andaram devastando;</l>
           <l>E aqueles, que por obras valerosas</l>
           <l>Se vão da lei da morte libertando;</l>
           <l>Cantando espalharei por toda parte,</l>
           <l>Se a tanto me ajudar o engenho e arte.</l>
         </lg>
         <lg type="estrofe" n="3">
-          <l>Cessem do sábio <rs type="person" ref="#ulisses">Grego</rs> e do <rs type="person" ref="eneias">Troiano</rs></l>
+          <l>Cessem do sábio <rs type="person" ref="#ulisses">Grego</rs> e do <rs type="person" ref="#eneias">Troiano</rs></l>
           <l>As navegações grandes que fizeram;</l>
           <l>Cale-se de <persName type="hist" ref="#alexandro">Alexandro</persName> e de <persName type="hist" ref="#trajano">Trajano</persName></l>
           <l>A fama das vitórias que tiveram;</l>
@@ -91,14 +91,14 @@
           <l>As que Ele para si na Cruz tomou)</l>
         </lg>
         <lg type="estrofe" n="8">
-          <l>Vós, <rs type="person" ref="d_sebastiao">poderoso Rei</rs>, cujo alto <rs type="place" ref="portugal">Império</rs></l>
+          <l>Vós, <rs type="person" ref="d_sebastiao">poderoso Rei</rs>, cujo alto <rs type="place" ref="#portugal">Império</rs></l>
           <l>O Sol, logo em nascendo, vê primeiro;</l>
           <l>Vê-o também no meio do Hemisfério,</l>
           <l>E quando desce o deixa derradeiro;</l>
           <l>Vós, que esperamos jugo e vitupério</l>
           <l>Do torpe Ismaelita cavaleiro,</l>
           <l>Do Turco oriental, e do Gentio,</l>
-          <l>Que inda bebe o licor do <rs type="place" ref="rio_ganges">santo rio</rs>;</l>
+          <l>Que inda bebe o licor do <rs type="place" ref="#rio_ganges">santo rio</rs>;</l>
         </lg>
         <lg type="estrofe" n="9">
           <l>Inclinai por um pouco a majestade,</l>
@@ -127,7 +127,7 @@
           <l><persName type="myth" ref="#musa">Musas</persName>, de engrandecer-se desejosas:</l>
           <l>As verdadeiras vossas são tamanhas,</l>
           <l>Que excedem as sonhadas, fabulosas;</l>
-          <l>Que excedem <persName type="myth" ref="#rodamonte">Rodamonte</persName>, e o vão <persName type="myth" ref="rugeiro">Rugeiro</persName>,</l>
+          <l>Que excedem <persName type="myth" ref="#rodamonte">Rodamonte</persName>, e o vão <persName type="myth" ref="#rugeiro">Rugeiro</persName>,</l>
           <l>E <persName type="myth" ref="#orlando">Orlando</persName>, inda que fora verdadeiro,</l>
         </lg>
         <lg type="estrofe" n="12">
@@ -136,16 +136,16 @@
           <l>Um <persName type="hist" ref="#egas">Egas</persName>, e um <persName type="hist" ref="#d._fuas">D. Fuas</persName>, que de <persName type="hist" ref="#homero">Homero</persName></l>
           <l>A cítara para eles só cobiço.</l>
           <l>Pois pelos doze Pares dar-vos quero</l>
-          <l><rs type="person" ref="doze_inglaterra">Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName></rs>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
-          <l>Dou-vos também aquele ilustre <persName type="hist" ref="v_gama">Gama</persName>,</l>
+          <l><rs type="person" ref="#doze_inglaterra">Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName></rs>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
+          <l>Dou-vos também aquele ilustre <persName type="hist" ref="#v_gama">Gama</persName>,</l>
           <l>Que para si de <persName type="hist" ref="#eneias">Eneias</persName> toma a fama.</l>
         </lg>
         <lg type="estrofe" n="13">
           <l>Pois se a troco de <persName type="hist" ref="#carlos_magno">Carlos</persName>, Rei de <placeName type="real" ref="#franca">França</placeName>,</l>
           <l>Ou de <persName type="hist" ref="#julio_césar">César</persName>, quereis igual memória,</l>
-          <l>Vede o <rs type="person" ref="afonso_henriques">primeiro <persName type="hist">Afonso</persName></rs>, cuja lança</l>
+          <l>Vede o <rs type="person" ref="#afonso_henriques">primeiro <persName type="hist">Afonso</persName></rs>, cuja lança</l>
           <l>Escura faz qualquer estranha glória;</l>
-          <l>E <rs type="person" ref="d_joao_i">aquele</rs> que a seu <rs type="place" ref="#portugal">Reino</rs> a segurança</l>
+          <l>E <rs type="person" ref="#d_joao_i">aquele</rs> que a seu <rs type="place" ref="#portugal">Reino</rs> a segurança</l>
           <l>Deixou com a grande e próspera vitória;</l>
           <l><rs type="person" ref="#d_joao_ii">Outro <persName type="hist">Joane</persName></rs>, invicto cavaleiro,</l>
           <l>O <rs type="person" ref="#afonso_iv">quarto</rs> e <rs type="person" ref="#afonso_v">quinto</rs> <persName type="hist">Afonsos</persName>, e o <rs type="person" ref="#afonso_iii">terceiro</rs>.</l>
@@ -337,7 +337,7 @@
           <l>De quantos bebem a água de <placeName type="real" ref="#parnaso">Parnaso</placeName>.</l>
           <l>Teme agora que seja sepultado</l>
           <l>Seu tão célebre nome em negro vaso</l>
-          <l><rs type="place" ref="lete">D'água do esquecimento</rs>, se lá chegam</l>
+          <l><rs type="place" ref="#lete">D'água do esquecimento</rs>, se lá chegam</l>
           <l>Os fortes Portugueses, que navegam.</l>
         </lg>
         <lg type="estrofe" n="33">
@@ -645,7 +645,7 @@
           <l>E mais lhe diz também, que ver deseja</l>
           <l>Os livros de sua Lei, preceito eu fé,</l>
           <l>Para ver se conforme à sua seja,</l>
-          <l>Ou se são dos de <persName type="hist" ref="#jesus_cristo">Cristo</persName>, como <persName type="hist" ref="#crê">Crê</persName>.</l>
+          <l>Ou se são dos de <persName type="hist" ref="#jesus_cristo">Cristo</persName>, como Crê.</l>
           <l>E porque tudo note e tudo veja,</l>
           <l>Ao <rs type="person" ref="#v_gama">Capitão</rs> pedia que lhe dê</l>
           <l>Mostra das fortes armas de que usavam,</l>
@@ -784,7 +784,7 @@
         <lg type="estrofe" n="77">
           <l>Isto dizendo, irado e quase insano,</l>
           <l>Sobre a terra africana descendeu,</l>
-          <l>Do <placeName type="real" ref="prasso_promontorio">Prasso</placeName> sabido se moveu.</l>
+          <l>Do <placeName type="real" ref="#prasso_promontorio">Prasso</placeName> sabido se moveu.</l>
           <l>E por melhor tecer o astuto engano,</l>
           <l>No gesto natural se converteu</l>
           <l>Dum Mouro em <placeName type="real" ref="#moçambique">Moçambique</placeName> conhecido</l>
@@ -853,7 +853,7 @@
         <lg type="estrofe" n="84">
           <l>Já o raio Apolíneo visitava</l>
           <l>Os <placeName type="real" ref="#nabateia">montes Nabatêos</placeName> acendido,</l>
-          <l>Quando o <persName type="hist" ref="v_gama">Gama</persName>, co'os seus determinava</l>
+          <l>Quando o <persName type="hist" ref="#v_gama">Gama</persName>, co'os seus determinava</l>
           <l>De vir por água a terra apercebido.</l>
           <l>A gente nos batéis se concertava,</l>
           <l>Como se fosse o engano já sabido:</l>
