@@ -3,7 +3,7 @@ from lxml import etree
 # Arquivos
 xml_file = "Lusiadas_Canto1_marcado.xml"
 xsl_file = "transformação.xsl"
-output_file = "saida.html"
+output_file = "saidateste2.html"
 
 # Carregar XML
 xml = etree.parse(xml_file)
