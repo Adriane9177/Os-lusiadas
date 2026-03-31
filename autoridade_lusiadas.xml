@@ -373,31 +373,49 @@
                 <placeName>Portugal</placeName>
                 <note type="peixoto">Portugal, a parte mais ocidental da Ibéria, Lusitania</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/b/bf/Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg"/>
+            <location>
+                    <geo>39.0 -9.0</geo>
+            </location>    
             </place>
             <place xml:id="lisboa" ref="http://www.wikidata.org/entity/Q597">
                 <placeName>Lisboa</placeName>
                 <note type="peixoto">Lisbôa, cidade principal da Lusitania, capital de Portugal:</note>
                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/4/43/Lisboa837.png"/>
+                <location>
+                    <geo>39.0 -9.0</geo>
+                </location>
             </place>
             <place xml:id="tejo" ref="https://www.wikidata.org/wiki/Q14294">
                 <placeName>Rio Tejo</placeName>
                 <note type="peixoto">Tejo, rio de Espanha e Portugal, que desagua nó Atlantico, junto de Lisbôa</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/5/55/Castelo_de_Rodao.jpg"/>
+                <location>
+                    <geo>40.3197 -1.6975</geo>
+                </location>
             </place>
             <place xml:id="india" ref="http://www.wikidata.org/entity/Q668">
                 <placeName>Índia</placeName>
                 <note type="peixoto">Índia, região meridional da Asia:</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/e7/India_Montage.jpg"/>
+                <location>
+                    <geo>22.8 83.0</geo>
+                </location>
             </place>
             <place xml:id="mocambique" ref="http://www.wikidata.org/entity/Q1029">
                 <placeName>Moçambique</placeName>
                 <note type="peixoto">Moçambique, região da costa oriental de Africa</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/0/05/Mozambique_-_Location_Map_%282013%29_-_MOZ_-_UNOCHA.svg"/>
+                <location>
+                    <geo>-19.0 35.0</geo>
+                </location>
             </place>
             <place xml:id="taprobana" ref="https://www.wikidata.org/wiki/Q854">
                 <placeName>Taprobana (Sri Lanka)</placeName>
                 <note type="peixoto">Taprobana, Ceilão, a grande ilha do Oceano Indico, assim chamada pelos geógrafos, do nome sanscrito "Tamraparna"</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/b/b6/Topography_Sri_Lanka.jpg"/>
+                <location>
+                <geo>7.0 81.0</geo> 
+                </location>
             </place>
             <place xml:id="olimpo" ref="https://www.wikidata.org/wiki/Q70054479">
                 <placeName>Monte Olimpo</placeName>
@@ -413,26 +431,41 @@
                 <placeName>Hipocrene</placeName>
                 <note type="peixoto">Mit., fonte na Beócia, proxima do monte Hélicon:</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/24/Hippocrenesource.jpg"/>
+                <location>
+                    <geo>38.32 23.03</geo>
+                </location>
             </place>
             <place xml:id="rio_ganges" ref="https://www.wikidata.org/wiki/Q5089">
                 <placeName>Rio Ganges</placeName>
                 <note type="peixoto">Gange, o mais notavel rio da India, tambem chamado Pischon, tido como sagrado pelos naturais</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/29/View_of_Ghats_across_the_Ganges%2C_Varanasi.jpg"/>
+                    <location>
+                    <geo>30.9833 78.9167</geo>
+                    </location>
             </place>
             <place xml:id="inglaterra" ref="https://www.wikidata.org/wiki/Q21">
                 <placeName>Inglaterra</placeName>
                 <note type="peixoto">Inglaterra, país da Europa, tambem chamado Gram Bretanha</note>
                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/b/b1/England_satellite_image.png"/>
+                <location>
+                    <geo>53.0 -1.0</geo>
+                </location>
             </place>
             <place xml:id="franca" ref="http://www.wikidata.org/entity/Q142">
                 <placeName>França</placeName>
                 <note type="peixoto">França, país do sul da Europa, que tem por capital Paris</note>
             <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"/>
+                <location>
+                    <geo>47.0 2.0</geo>
+                </location>
             </place>
             <place xml:id="espanha" ref="https://www.wikidata.org/wiki/Q29">
                 <placeName>Espanha</placeName>
                 <note type="peixoto">Espanha, Nação que, com Portugal, forma a Peninsula Iberica. Antigamente designava o termo Espanha toda a Peninsula Iberica, que compreendia muitos reinos, como Castela, Oviêdo...:</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"/>
+                <location>
+                    <geo>40.2 -3.5</geo>
+                </location>
             </place>
             <place xml:id="nisa" ref="https://www.wikidata.org/wiki/Q1238530">
                 <placeName>Nisa</placeName>
@@ -443,11 +476,17 @@
                 <placeName>Indo</placeName>
                 <note type="peixoto">Indo, grande rio de Asia, que nasce no Tibé e desagúa no mar de Oman, depois de atravessar o Indostão</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/d/d2/Indus_near_Skardu.jpg"/>
+                <location>
+                    <geo>32.4983 79.6911</geo>
+                </location>
             </place>
             <place xml:id="parnaso" ref="https://www.wikidata.org/wiki/Q105261">
                 <placeName>Parnaso</placeName>
                 <note type="peixoto">Parnaso, monte na Beócia, onde havia a fonte Castália, consagrada a Apolo e as Musas que davam o dom da poesia</note>
             <graphic url="https://upload.wikimedia.org/wikipedia/commons/a/a0/Parnassos2.jpg"/>
+                <location>
+                    <geo>38.533 22.6167</geo>
+                </location>
             </place>
             <place xml:id="lete" ref="https://www.wikidata.org/wiki/Q161096">
                 <placeName>Rio Lete></placeName>
@@ -458,16 +497,25 @@
                 <placeName>Tingitana</placeName>
                 <note type="peixoto">Tingitania, de Tinge, hoje Tanger, nome antigo da Mauritania:</note>
                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/5/51/Mauretania_Tingitana_SPQR.png"/>
+                <location>
+                    <geo>35.8903 -5.48</geo>
+                </location>
             </place>
             <place xml:id="etiopia" ref="https://www.wikidata.org/wiki/Q115">
                 <placeName>Etiópia</placeName>
                 <note type="peixoto">Etiopia, abessinia</note>
             <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c4/Ethiopia_in_its_region.svg"/>
+                <location>
+                    <geo>9.0 40.0</geo>
+                </location>
             </place>
             <place xml:id="rio_pado" ref="https://www.wikidata.org/wiki/Q643">
                 <placeName>Rio Pado</placeName>
                 <note type="peixoto">Pado, rio da Itália, o Pó (Padus) onde caiu precipitado do céu fulminado por Jupiter, Faetonte, filho de Apólo, que inexperto guiára o carro do Sol; as irmãs, entre as quais Lampetusa, 0) choraram amargamente</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/e8/Po_bei_Mantova.jpg"/>
+                <location> 
+                    <geo>44.9697 12.5467</geo>
+                </location>
             </place>
             <place xml:id="aqueronte" ref="https://www.wikidata.org/wiki/Q12626619">
                 <placeName>Aqueronte</placeName>
@@ -478,46 +526,89 @@
                 <placeName>Quíloa</placeName>
                 <note type="peixoto">Quíloa, cidade da costa oriental de Africa</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/d/dc/GreatMosque.jpg"/>
+                <location>
+                    <geo>-8.9817 39.5172</geo>
+                </location>
             </place>
             <place xml:id="mombaca" ref="https://www.wikidata.org/wiki/Q225641">
                 <placeName>Mombaca</placeName>
                 <note type="peixoto">Mombaça, cidade africana, da costa oriental, entre Quíloa e Melinde</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/21/Downtown_Mombasa.jpg"/>
+                <location>
+                    <geo>-4.05 39.6667</geo>
+                </location>
             </place>
             <place xml:id="sofala" ref="https://www.wikidata.org/wiki/Q622801">
                 <placeName>Sofala</placeName>
                 <note type="peixoto">Sofala, porto e povoação na costa d'África, em Moçambique</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/9/95/Gorongosa_-_Gogogo_peak._%284403966914%29.jpg"/>
+                <location>
+                    <geo>-19.0 34.75</geo>
+                </location>
             </place>
             <place xml:id="idaspe" ref="https://www.wikidata.org/wiki/Q214874">
                 <placeName>Idaspe</placeName>
                 <note type="peixoto">Hidáspe, Geogr., nome antigo do rio hoje dito Yelum, afluente do Indo e limite oriental das expedições de Alexandre</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c7/Jhelum_River-Pakistan.jpg"/>
+                <location>
+                    <geo>33.5347 75.2497</geo>
+                </location>
             </place>
             <place xml:id="turquia" ref="https://www.wikidata.org/wiki/Q43">
                 <placeName>Turquia</placeName>
                 <note type="peixoto">Turquia, país da Europa e da Asia Menor:</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/a/aa/Europe_location_Turkey.svg"/>
+                <location>
+                    <geo>39.0 36.0</geo>
+                </location>
             </place>
             <place xml:id="europa" ref="https://www.wikidata.org/wiki/Q46">
                 <placeName>Europa</placeName>
                 <note type="peixoto">Europa (2), uma das tres grandes divisões do mundo, conhecido pelos antigos</note>
             <graphic url="https://upload.wikimedia.org/wikipedia/commons/1/1b/Europe_satellite_orthographic.jpg"/>
+                <location>
+                    <geo>48.6909 9.1406</geo>
+                </location>
             </place>
             <place xml:id="prasso_promontorio" ref="https://www.wikidata.org/wiki/Q466538">
                 <placeName>Promontório do Prasso</placeName>
                 <note type="peixoto">Prasso, cabo ou promontorio, limite meridional da costa de África, segundo geografos antigos; talvez o Cabo Delgado</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/9/93/Bridge_over_Rio_Lurio_EN1_road_%283911465523%29.jpg"/>
+                <location>
+                    <geo>-12.75 39.5</geo>
+                </location>
             </place>
             <place xml:id="nabateia" ref="https://www.wikidata.org/wiki/Q11029653">
                 <placeName>Nabateia</placeName>
                 <note type="peixoto">Nabateu, de Nabath, filho de Ismael, filho de Agar, de quem descendem os Arabes ou Agarenos</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/0/0b/Al-Khazneh%2C_Petra%2C_Jordan.jpg"/>
+                <location>
+                    <geo>30.3286 35.4419</geo>
+                </location>
             </place>
             <place xml:id="citera" ref="https://www.wikidata.org/wiki/Q207239">
                 <placeName>Citere</placeName>
                 <note type="peixoto">Citera, ilha do Mediterraneo, consagrada a Venus:</note>
         <graphic url="https://upload.wikimedia.org/wikipedia/commons/9/9b/Kythira_-_Kapsali.jpg"/>
+                <location>
+                    <geo>36.2575 22.9975</geo>
+                </location>
+            </place>
+            <place xml:id="africa" ref="https://www.wikidata.org/wiki/Q15">
+                <placeName>África</placeName>
+                <note type="peixoto">Africa, a terceira parte da terra, na ordem comum de enumeração:</note>
+                <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/21/Africa_satellite_orthographic.jpg"/>
+                <location>
+                    <geo>-7.455425189682856, 34.40834322591169</geo>
+                </location>
+            </place>
+            <place xml:id="asia" ref="https://www.wikidata.org/wiki/Q48">
+                <placeName>Ásia</placeName>
+                <note type="peixoto">Ásia, a maior e mais oriental das tres divisões do antigo continente</note>
+                <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/2a/Asia_satellite_orthographic.jpg"/>
+                <location>
+                    <geo>35.52516041564837, 100.40441255830005</geo>
+                </location>
             </place>
         </listPlace>
     </settingDesc>
