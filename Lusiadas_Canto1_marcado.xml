@@ -217,7 +217,7 @@
           <l>Sobre as cousas futuras do Oriente.</l>
           <l>Pisando o cristalino Céu formoso,</l>
           <l>Vêm pela Via-Láctea juntamente,</l>
-          <l>Convocados da parte do <rs type="myth" ref="#jupiter">Tonante</rs>,</l>
+          <l>Convocados da parte do <rs type="person" ref="#jupiter">Tonante</rs>,</l>
           <l>Pelo neto gentil do velho <persName type="myth" ref="#atlante">Atlante</persName>.</l>
         </lg>
         <lg type="estrofe" n="21">
@@ -353,7 +353,7 @@
         <lg type="estrofe" n="34">
           <l>Estas causas moviam <persName type="myth" ref="#venus">Citereia</persName>,</l>
           <l>E mais, porque das <persName type="myth" ref="#parcas">Parcas</persName> claro entende</l>
-          <l>Que há de ser celebrada a <rs type="myth" ref="#venus">clara Deia</rs>,</l>
+          <l>Que há de ser celebrada a <rs type="person" ref="#venus">clara Deia</rs>,</l>
           <l>Onde a gente belígera se estende.</l>
           <l>Assim que, um pela infâmia, que arreceia,</l>
           <l>E o outro pelas honras, que pretende,</l>
@@ -371,7 +371,7 @@
           <l>Entre os Deuses, no <placeName type="myth" ref="#olimpo">Olimpo</placeName> consagrado.</l>
         </lg>
         <lg type="estrofe" n="36">
-          <l>Mas <persName type="myth" ref="#marte">Marte</persName>, que da <rs type="myth" ref="#venus">Deusa</rs> sustentava</l>
+          <l>Mas <persName type="myth" ref="#marte">Marte</persName>, que da <rs type="person" ref="#venus">Deusa</rs> sustentava</l>
           <l>Entre todos as partes em porfia,</l>
           <l>Ou porque o amor antigo o obrigava,</l>
           <l>Ou porque a gente forte o merecia,</l>
@@ -454,7 +454,7 @@
           <l><persName type="hist" ref="#v_gama">Vasco da Gama</persName>, o forte capitão,</l>
           <l>Que a tamanhas empresas se oferece,</l>
           <l>De soberbo e de altivo coração,</l>
-          <l>A quem <persName type="hist" ref="#fortuna">Fortuna</persName> sempre favorece,</l>
+          <l>A quem <persName type="myth" ref="#fortuna">Fortuna</persName> sempre favorece,</l>
           <l>Para se aqui deter não vê razão,</l>
           <l>Que inabitada a terra lhe parece:</l>
           <l>Por diante passar determinava;</l>
@@ -622,7 +622,7 @@
           <l>O Império tomaram a <persName type="hist" ref="#constantino">Constantino</persName>.</l>
         </lg>
         <lg type="estrofe" n="61">
-          <l>Recebe o <rs type="hist" ref="#v_gama">Capitão</rs> alegremente</l>
+          <l>Recebe o <rs type="person" ref="#v_gama">Capitão</rs> alegremente</l>
           <l>O Mouro, e toda a sua companhia;</l>
           <l>Dá-lhe de ricas peças um presente,</l>
           <l>Que só para este efeito já trazia;</l>
@@ -742,7 +742,7 @@
           <l>Se foi o Mouro ao côgnito aposento.</l>
         </lg>
         <lg type="estrofe" n="73">
-          <l>Do claro assento etóreo o <rs type="myth" ref="#baco">grão Tebano</rs>,</l>
+          <l>Do claro assento etóreo o <rs type="person" ref="#baco">grão Tebano</rs>,</l>
           <l>Que da paternal coxa foi nascido,</l>
           <l>Olhando o ajuntamento Lusitano</l>
           <l>Ao Mouro ser molesto e avorrecido,</l>

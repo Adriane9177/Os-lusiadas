@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_Lusiadas.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Os Lusíadas</title>
+                <author>Luís de Camões</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>António Gonçalves</publisher>
+                <date>1572</date>
+                <pubPlace>Lisboa</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Edição de Os Lusíadas com o pelicano à direita no frontispício.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart>OS <lb />LVSIADAS</titlePart>
+                </docTitle>
+                <docAuthor><lb />de Luis de Ca-<lb break="no" />moẽs.</docAuthor>
+                <docImprint><lb />COM PRIVILEGIO <lb />REAL. <lb />Impressos em <pubPlace>Lisboa</pubPlace>,
+                    com licença da <lb />sancta lnquisição, &amp; do Ordina-<lb break="no" />rio: em
+                    casa de <name>Antonio <lb />Gõçaluez</name> Impressor. <lb /><date>1572</date> .</docImprint>
+            </titlePage>
+            <pb />
+            <div type="AlvaraRegio">
+                <p>EV elRey faço saber aos que este Aluara virẽ <lb />que eu ey por bem &amp; me
+                    praz dar licença <lb />a Luis de Camẽes pera que possa fazer im- <lb break="no"
+                    />primir
+                    nesta cidade de Lisboa hũa obra em <lb />Octaua rima chamada Os Lusiadas, que cõ <lb
+                        break="no" />tem dez cãtos perfeitos, na qual por ordem <lb />poetica em
+                    versos se declarão os principaes <lb />feitos dos Portugueses nas partes da
+                    India depois q̃ se desecobrio <lb />a nauegação pera ellas por mãdado del Rey
+                    dom ManoeL meu <lb />visauo q̃ sancta gloria aja, &amp; isto com priuilegio pera
+                    que em tẽ- <lb break="no" />po de dez annos que se começarão do dia q̃ se a dita
+                    cbra acabar <lb />de imprimir em diãte, se não possa imprimir nẽ vender em meus <lb />reinos
+                    &amp; senhorios nem trazer a elles de fora, nẽ leuar aas ditas <lb />partes da
+                    India pera se vẽder sem licẽça do dito Luis de Camões <lb /><supplied
+                        reason="ilegível">ou da</supplied> pessoa que pera isso seu poder tiuer,
+                    sobpena de quẽ o con <lb break="no" /><supplied reason="ilegível"
+                    >trar</supplied>io
+                    fizer pagar cinquoẽta cruzados &amp; perder os volumes que <lb />imprimir, ou
+                    vender, a metade pera o dito Luis de Camões, &amp; a <lb />outra metade pera
+                    quem os acusar. E antes de se a dita obra ven <lb
+                        break="no" />der lhe sera posto o preço na mesa do despacho dos meus Desem <lb
+                        break="no" />bargadores do paço, o qual se declarará &amp; porá impresso na
+                    pri- <lb break="no" />meira folha da dita obra pera ser a todos notorio, &amp;
+                    antes de se <lb />imprimir sera vista &amp; examinada na mesa do conselho geeral <lb />do
+                    sancto officio da Inquisiçam, pera com sua licença se auer de <lb />suprimir,
+                    &amp; se o dito Luis de Camões tiuer acrecentados mais <lb />algũs Cantos,
+                    tambem se imprimirão auendo pera isso licença <lb />do sancto officio, como
+                    acima he dito. E este meu Aluara se <lb />imprimirá outrosi no principio da dita
+                    obra, o qual ey por bem <lb />que valha &amp; tenha força &amp; vigor, como se
+                    fosse carta feyta em <lb />meu nome, per mim assinada, &amp; passada por minha
+                    Chancel-<lb break="no" />laria, sem embargo da Ordenaçam do segundo livro,
+                    titulo xx. <lb />que diz que as cousas cujo effeito ouuer de durar mais que hum <lb />anno
+                    passem per cartas, &amp; passando per aluaras não valham. <lb /><name>Gaspar de
+                    Seixas</name> o fiz em Lisboa, a vinte &amp; quatro dias do mes <lb />de
+                    Setembro, de M. D. LXXl. <name>Iorge da Costa</name> o fiz escreuer.</p>
+            </div>
+            <pb />
+            <div type="LicencaSantoOficio">
+                <p><lb />VI por mandado da sancta &amp; geral inquisição estes dez <lb />Cantos dos
+                    Lusiadas de Luis de Camões, dos valerosos <lb />feitos em armas que os
+                    Portugueses fizeram em Asia &amp; <lb />Europa, &amp; não achey nelles cousa
+                    algũa escandalosa, nem <lb />contraria â fee &amp; bõs costumes, somente me
+                    pareceo que era <lb />necessario aduertir os Lectores que o Author pera
+                    encarecer <lb />a difficuldade da nauegaçam &amp; entrada dos Portugueses na <lb />India,
+                    vsa de hũa fição dos Deoses dos Gentios. E ainda que <lb />sancto Augustinho nas
+                    suas Retractações se retracte de ter <lb />chamado nos livros que compos de
+                    Ordine, aas Musas Deo- <lb break="no" />sas. Toda via como isto he Poesia &amp;
+                    fingimento, &amp; o Au- <lb break="no" />tor como poeta, não pretenda mais que
+                    ornar o estillo Poeti- <lb />co, não tiuemos por inconueniente yr esta fabula
+                    dos Deoses <lb />na obra, conhecendoa por tal, &amp; ficando sempre salua a ver- <lb
+                        break="no" />dade de nossa sancta fee, que todos os Deoses dos Gentios sam <lb />Demonios.
+                    E por isso me pareceo o Liuro digno de se impri- <lb break="no"
+                    />mir, &amp; o
+                    Autor mostra nelle muito engenho, &amp; muita eru- <lb break="no"
+                    />dição nas
+                    sciencias humanas. Em fe do qual assiney aqui. <lb /><name>Frey Bertholameu <lb />
+                    Ferreira</name>.</p>
+            </div>
+            <pb />
+        </front>
+        <body>
+            <div type="canto" n="1">
+                <head><placeName type="real" ref="#os_lvsiadas">OS LVSIADAS</placeName> <lb />DE <placeName type="real" ref="#lvis">LVIS</placeName> DE <lb /><placeName type="real" ref="#camões">CAMÕES</placeName>.</head>
+                <lb />
+                <head><persName type="hist" ref="#canto_primeiro">Canto Primeiro</persName>.</head>
+                <lg
+                    type="estrofe" n="1">
+                    <l><placeName type="real" ref="#as">AS</placeName> armas, &amp; os ba-<lb break="no" />rões assinalados,</l>
+                    <l>Que da Occidental praya <persName type="hist" ref="#lusi">Lusi</persName><lb break="no" />tana,</l>
+                    <l>Por mares, nunca de antes na-<lb break="no" />uegados,</l>
+                    <l>Passaram, ainda alem da <placeName type="real" ref="#taprobana">Taprobana</placeName>,</l>
+                    <l>Em perigos, &amp; guerras esforçados,</l>
+                    <l>Mais do que prometia a força humana:</l>
+                    <l>Entre gente remota edificáram</l>
+                    <l><placeName type="real" ref="#nouo_reino">Nouo Reino</placeName>, que tanto sublimáram.</l>
+                </lg>
+                <lg type="estrofe" n="2">
+                    <l>E tambem as memorias gloriosas</l>
+                    <l><persName type="hist" ref="#daquelles_reis">Daquelles Reis</persName>, que foram dilatando</l>
+                    <l>A Fee, o <placeName type="real" ref="#imperio">Imperio</placeName>, &amp; as terras viciosas</l>
+                    <l>De <placeName type="real" ref="#africa">Africa</placeName>, &amp; de <placeName type="real" ref="#asia">Asia</placeName>, andaram deuastãdo</l>
+                    <l>E aquelles que por obras valerosas</l>
+                    <l>Se vão da <placeName type="real" ref="#ley_da_morte">ley da Morte</placeName> libertando.</l>
+                    <l>Cantando espalharey por toda parte,</l>
+                    <l>Se a tanto me ajudar o engenho &amp; arte.</l>
+                </lg>
+                <fw type="sig" place="bottom">A</fw>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#cessem">Cessem</placeName></fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="3">
+                    <l><placeName type="real" ref="#cessem_do_sabio_grego">Cessem do sabio Grego</placeName>, &amp; do <placeName type="real" ref="#troyano">Troyano</placeName>,</l>
+                    <l>As nauegações grandes que fizeram:</l>
+                    <l><persName type="hist" ref="#callese_de_alexandro">Callese de Alexandro</persName>, &amp; de <persName type="hist" ref="#trajano">Trajano</persName></l>
+                    <l>A fama das victorias que tiueram,</l>
+                    <l>Que eu canto o <persName type="hist" ref="#peyto_illustre_lusitano">peyto illustre Lusitano</persName>,</l>
+                    <l>A quem <placeName type="real" ref="#neptuno">Neptuno</placeName>, &amp; <placeName type="real" ref="#marte">Marte</placeName> obedecéram:</l>
+                    <l>Cesse tudo o que a <persName type="hist" ref="#musa_antigua">Musa antigua</persName> canta,</l>
+                    <l>Que outro valor mais alto se aleuanta.</l>
+                </lg>
+                <lg type="estrofe" n="4">
+                    <l>E vos <persName type="hist" ref="#tagides">Tagides</persName> minhas, pois criado</l>
+                    <l>Tendes em my hum nouo engenho ardente,</l>
+                    <l>Se sempre em verso humilde celebrado,</l>
+                    <l>Foy de my vosso rio alegremente,</l>
+                    <l><persName type="hist" ref="#daime">Daime</persName> agora hum som alto, &amp; sublimado,</l>
+                    <l>Hum estillo grandiloco, &amp; corrente:</l>
+                    <l>Porque de vossas agoas <placeName type="real" ref="#phebo">Phebo</placeName> ordene,</l>
+                    <l>Que nam tenham enueja ás de <placeName type="real" ref="#hypocrene">Hypocrene</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="5">
+                    <l><persName type="hist" ref="#daime">Daime</persName> hũa furia grande &amp; sonorosa,</l>
+                    <l>E nam de agreste a vena, ou <persName type="hist" ref="#frauta_ruda">frauta ruda</persName>:</l>
+                    <l>Mas de tuba canora &amp; belicosa,</l>
+                    <l>Que o peito acende, &amp; a cor ao gesto muda:</l>
+                    <l><persName type="hist" ref="#daime_igoal">Daime igoal</persName> canto aos feitos da famosa</l>
+                    <l>Gente vossa, que a <placeName type="real" ref="#marte">Marte</placeName> tanto ajuda:</l>
+                    <l>Que se espalhe &amp; se cante no <placeName type="real" ref="#vniuerso">vniuerso</placeName>,</l>
+                    <l>Se tam sublime preço cabe em verso.</l>
+                </lg>
+                <fw type="catch" place="bottom">E vos</fw>
+                <pb n="2" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="6">
+                    <l>E vos ò bem nascida segurança</l>
+                    <l>Da Lusitana antigua liberdade,</l>
+                    <l>E não menos certissima esperança,</l>
+                    <l>De aumento da pequena <placeName type="real" ref="#christandade">Christandade</placeName>:</l>
+                    <l>Vos ò nouo temor da <persName type="hist" ref="#maura">Maura</persName> lança,</l>
+                    <l><placeName type="real" ref="#marauilha">Marauilha</placeName> fatal da nossa idade:</l>
+                    <l>Dada ao mundo por <persName type="hist" ref="#deos">Deos</persName> que todo o mande,</l>
+                    <l>Pera do mundo a <persName type="hist" ref="#deos">Deos</persName> dar parte grande.</l>
+                </lg>
+                <lg type="estrofe" n="7">
+                    <l>Vos tenrro, &amp; nouo ramo florecente,</l>
+                    <l>De hũa aruore de <persName type="hist" ref="#christo">Christo</persName> mais amada</l>
+                    <l>Que nenhũa nascida no <placeName type="real" ref="#occidente">Occidente</placeName>,</l>
+                    <l>Cesaria, ou <placeName type="real" ref="#christianissima">Christianissima</placeName> chamada:</l>
+                    <l>Vedeo no vosso escudo, que presente</l>
+                    <l>Vos amostra a victoria ja passada.</l>
+                    <l>Na qual vos deu por armas, &amp; deixou</l>
+                    <l>As que elle pera si na <persName type="hist" ref="#cruz">Cruz</persName> tomou.</l>
+                </lg>
+                <lg type="estrofe" n="8">
+                    <l>Vos poderoso Rei, cujo alto <placeName type="real" ref="#imperio">Imperio</placeName>,</l>
+                    <l>O <placeName type="real" ref="#sol">Sol</placeName> logo em nascendo <placeName type="real" ref="#ve_primeiro">ve primeiro</placeName>:</l>
+                    <l><placeName type="real" ref="#veo">Veo</placeName> tambem no meyo do <placeName type="real" ref="#hemispherio">Hemispherio</placeName>,</l>
+                    <l>E quando dece o deixa derradeiro.</l>
+                    <l>Vos que esperamos jugo &amp; vituperio,</l>
+                    <l>Do torpe <placeName type="real" ref="#ismaelita">Ismaelita</placeName> caualleiro:</l>
+                    <l>Do Turco Oriental, &amp; do <placeName type="real" ref="#gentio">Gentio</placeName>,</l>
+                    <l>Que inda bebe o licor do <placeName type="real" ref="#sancto_rio">sancto Rio</placeName>.</l>
+                </lg>
+                <fw type="sig" place="bottom">A 2</fw>
+                <fw type="catch" place="bottom">Inclinay</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="9">
+                    <l>Inclinay por hum pouco a magestade,</l>
+                    <l>Que nesse tenro gesto vos contemplo,</l>
+                    <l>Que ja se mostra, qual na inteira idade,</l>
+                    <l>Quando sobindo yreis ao eterno templo,</l>
+                    <l>Os olhos da real benignidade</l>
+                    <l>Ponde no chão: vereis hum nouo exemplo,</l>
+                    <l>De amor, dos patrios feitos valerosos,</l>
+                    <l>Em versos deuulgado numerosos.</l>
+                </lg>
+                <lg type="estrofe" n="10">
+                    <l>Vereis amor da patria, nam mouido</l>
+                    <l>De premio vil: mas alto, &amp; quasi eterno,</l>
+                    <l>Que nam he premio vil ser conhecido,</l>
+                    <l>Por hum pregam do ninho meu paterno.</l>
+                    <l><persName type="hist" ref="#ouui">Ouui</persName> vereis o nome engrandecido</l>
+                    <l><placeName type="real" ref="#daquelles">Daquelles</placeName> de quem sois senhor superno:</l>
+                    <l>E julgareis qual he mais excellente,</l>
+                    <l>Se ser do mundo Rei, se de tal gente.</l>
+                </lg>
+                <lg type="estrofe" n="11">
+                    <l><persName type="hist" ref="#ouui">Ouui</persName>, que nam vereis com vãs façanhas,</l>
+                    <l>Fantasticas, fingidas, mentirosas,</l>
+                    <l><persName type="hist" ref="#louuar">Louuar</persName> os vossos, como nas estranhas</l>
+                    <l><persName type="hist" ref="#musas">Musas</persName>, de engrandecerse desejosas:</l>
+                    <l>As verdadeiras vossas <persName type="hist" ref="#sam_tamanhas">sam tamanhas</persName>,</l>
+                    <l>Que excedem as sonhadas fabulosas:</l>
+                    <l>Que excedem Rodamõte, &amp; o vão <placeName type="real" ref="#rugeiro">Rugeiro</placeName>,</l>
+                    <l>E <placeName type="real" ref="#orlando">Orlando</placeName>, inda que fora verdadeiro.</l>
+                </lg>
+                <fw type="catch" place="bottom">Por</fw>
+                <pb n="3" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="12">
+                    <l>Por estes vos darey hum Nuno fero,</l>
+                    <l>Que fez ao <persName type="hist" ref="#rei">Rei</persName>, &amp; ao <placeName type="real" ref="#reino">Reino</placeName> tal seruiço,</l>
+                    <l>Hum Egas, &amp; hũ <persName type="hist" ref="#dom_fuas">dom Fuas</persName>, q̃ de <persName type="hist" ref="#homero">Homero</persName></l>
+                    <l>A <placeName type="real" ref="#citera">Citera</placeName> <persName type="hist" ref="#parelles_so_cobiço">parelles so cobiço</persName>:</l>
+                    <l>Pois polos doze Pares daruos quero,</l>
+                    <l>Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName>, &amp; o seu <persName type="hist" ref="#magriço">Magriço</persName>:</l>
+                    <l>Douuos tambem aquelle illustre Gama</l>
+                    <l>Que para si de <persName type="hist" ref="#eneas">Eneas</persName> toma a fama.</l>
+                </lg>
+                <lg type="estrofe" n="13">
+                    <l>Pois se a troco de <persName type="hist" ref="#carlos_rei_de_frança">Carlos Rei de França</persName>,</l>
+                    <l>Ou de <persName type="hist" ref="#cesar">Cesar</persName>, quereis igual memoria,</l>
+                    <l>Vede o primeiro <persName type="hist" ref="#afonso">Afonso</persName>, cuja lança</l>
+                    <l><persName type="hist" ref="#escura">Escura</persName> faz qualquer estranha gloria:</l>
+                    <l>E aquelle que a seu <placeName type="real" ref="#reino">Reino</placeName> a segurança</l>
+                    <l>Deixou, com a grande &amp; prospera victoria:</l>
+                    <l>Outro <placeName type="real" ref="#ioanne">Ioanne</placeName>, <persName type="hist" ref="#inuicto_caualleiro">inuicto caualleiro</persName>,</l>
+                    <l>O quarto, &amp; quinto <placeName type="real" ref="#afonsos">Afonsos</placeName>, &amp; o terceiro.</l>
+                </lg>
+                <lg type="estrofe" n="14">
+                    <l>Nem deixarão meus versos esquecidos,</l>
+                    <l>Aquelles que nos <placeName type="real" ref="#reinos_la_da_aurora">Reinos la da Aurora</placeName>,</l>
+                    <l>Se fizeram por armas tam subidos,</l>
+                    <l>Vossa bandeira sempre vencedora.</l>
+                    <l><persName type="hist" ref="#hum_pacheco">Hum Pacheco</persName> fortissimo, &amp; os temidos</l>
+                    <l><placeName type="real" ref="#almeidas">Almeidas</placeName>, por quem sempre o <placeName type="real" ref="#tejo">Tejo</placeName> chora:</l>
+                    <l><persName type="hist" ref="#albuquerque_terribil">Albuquerque terribil</persName>, <persName type="hist" ref="#castro">Castro</persName> forte,</l>
+                    <l>E outros em quem poder não teue a morte.</l>
+                </lg>
+                <fw type="sig" place="bottom">A 3</fw>
+                <fw type="catch" place="bottom">E em</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="15">
+                    <l>E em quanto eu estes canto, &amp; a vos nam posso</l>
+                    <l><persName type="hist" ref="#sublime_rei">Sublime Rei</persName>, que nam me atreuo a tanto,</l>
+                    <l><placeName type="real" ref="#tomay">Tomay</placeName> as redeas vos do <placeName type="real" ref="#reino">Reino</placeName> vosso,</l>
+                    <l><placeName type="real" ref="#dareis">Dareis</placeName> materia a nunca ouuido canto:</l>
+                    <l>Comecem a sentir o peso grosso,</l>
+                    <l>(Que polo mundo todo faça espanto,)</l>
+                    <l>De exercitos, &amp; feitos singulares,</l>
+                    <l>De <placeName type="real" ref="#africa">Africa</placeName> as terras, &amp; do <placeName type="real" ref="#oriẽte">Oriẽte</placeName> os mares.</l>
+                </lg>
+                <lg type="estrofe" n="16">
+                    <l>Em <placeName type="real" ref="#vòs_os_olhos">vòs os olhos</placeName> tem o <placeName type="real" ref="#mouro">Mouro</placeName> frio,</l>
+                    <l>Em quem vè seu exicio afigurado,</l>
+                    <l>So com vos ver o barbaro <persName type="hist" ref="#gentio">Gentio</persName>,</l>
+                    <l>Mostra o pescoço ao jugo ja inclinado,</l>
+                    <l><placeName type="real" ref="#thetis">Thetis</placeName> todo o ceruleo senhorio,</l>
+                    <l>Tem pera vòs por dote aparelhado:</l>
+                    <l>Que affeiçoada ao gesto bello, &amp; tenro,</l>
+                    <l>Deseja de <persName type="hist" ref="#compraruos_pera_genro">compraruos pera genro</persName>.</l>
+                </lg>
+                <lg type="estrofe" n="17">
+                    <l>Em <placeName type="real" ref="#vôs">vôs</placeName> se vem da <placeName type="real" ref="#olimpica">Olimpica</placeName> morada,</l>
+                    <l>Dos dous auòs, as almas ca famosas,</l>
+                    <l>Hũa na paz Angelica dourada,</l>
+                    <l>Outra polas batalhas sanguinosas:</l>
+                    <l>Em <placeName type="real" ref="#vòs">vòs</placeName> esperam, verse renouada</l>
+                    <l>Sua memoria, &amp; obras valerosas.</l>
+                    <l>E la vos tem lugar no fim da idade,</l>
+                    <l>No templo da suprema eternidade.</l>
+                </lg>
+                <fw type="catch" place="bottom">Mas</fw>
+                <pb n="4" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="18">
+                    <l>Mas em quanto este tempo passa lento,</l>
+                    <l>De regerdes os pouos, que o desejam:</l>
+                    <l><placeName type="real" ref="#day_vos">Day vos</placeName> fauor ao nouo atreuimento,</l>
+                    <l>Pera que estes meus versos vossos sejam:</l>
+                    <l>E vereis ir cortando o salso argento:</l>
+                    <l>Os vossos <placeName type="real" ref="#argonautas">Argonautas</placeName>, porque vejam,</l>
+                    <l>Que sam vistos de vos no mar yrado,</l>
+                    <l>E costumaiuos ja a ser inuocado.</l>
+                </lg>
+                <lg type="estrofe" n="19">
+                    <l>Ia no largo <placeName type="real" ref="#occeano">Occeano</placeName> nauegauam,</l>
+                    <l>As inquietas ondas apartando,</l>
+                    <l>Os ventos brandamente respirauam,</l>
+                    <l>Das naos as vellas concauas inchando:</l>
+                    <l>Da branca escuma, os mares se mostrauão</l>
+                    <l><placeName type="real" ref="#cubertos">Cubertos</placeName>, onde as proas vam cortando,</l>
+                    <l>As maritimas agoas consagradas,</l>
+                    <l>Que do gado de <placeName type="real" ref="#proteo">Proteo</placeName> sam cortadas:</l>
+                </lg>
+                <lg type="estrofe" n="20">
+                    <l>Quando os <placeName type="real" ref="#deoses">Deoses</placeName> no <placeName type="real" ref="#olimpo">Olimpo</placeName> luminoso,</l>
+                    <l>Onde o gouerno està da humana gente,</l>
+                    <l>Se ajuntam em consilio glorioso,</l>
+                    <l>Sobre as cousas futuras do <placeName type="real" ref="#oriente">Oriente</placeName>:</l>
+                    <l>Pisando o cristalino <placeName type="real" ref="#ceo">Ceo</placeName> fermoso,</l>
+                    <l>Vem pela via <persName type="hist" ref="#lactea">Lactea</persName>, juntamente,</l>
+                    <l><placeName type="real" ref="#conuocados">Conuocados</placeName> da parte de <persName type="hist" ref="#tonante">Tonante</persName>,</l>
+                    <l>Pelo <persName type="hist" ref="#neto">Neto</persName> gentil do velho <placeName type="real" ref="#atlante">Atlante</placeName>.</l>
+                </lg>
+                <fw type="sig" place="bottom">A 4</fw>
+                <fw type="catch" place="bottom">Deixão</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="21">
+                    <l>Deixam dos sete Ceos o regimento,</l>
+                    <l>Que do poder mais alto lhe foy dado,</l>
+                    <l>Alto poder, que so co pensamento</l>
+                    <l><persName type="hist" ref="#gouerna_o_ceo">Gouerna o Ceo</persName>, a <placeName type="real" ref="#terra">Terra</placeName>, &amp; o <placeName type="real" ref="#mar">Mar</placeName> yrado:</l>
+                    <l>Ali se acháram juntos num momento,</l>
+                    <l>Os que habitam o <placeName type="real" ref="#arcturo">Arcturo</placeName> congelado.</l>
+                    <l>E os que o <placeName type="real" ref="#austro">Austro</placeName> tem, &amp; as partes onde</l>
+                    <l>A <placeName type="real" ref="#aurora">Aurora</placeName> nasce, &amp; o claro <persName type="hist" ref="#sol">Sol</persName> se esconde.</l>
+                </lg>
+                <lg type="estrofe" n="22">
+                    <l><persName type="hist" ref="#estaua_o">Estaua o</persName> <persName type="hist" ref="#padre">Padre</persName> ali sublime &amp; dino,</l>
+                    <l>Que vibra os feros rayos de <placeName type="real" ref="#vulcano">Vulcano</placeName>,</l>
+                    <l>Num assento de estrellas cristalino,</l>
+                    <l>Com gesto alto, seuero, &amp; soberano,</l>
+                    <l>Do rosto respiraua hum ar diuino,</l>
+                    <l>Que diuino tornàra hum corpo humano:</l>
+                    <l>Com hũa coroa, &amp; ceptro rutilante,</l>
+                    <l>De outra pedra mais clara que diamante.</l>
+                </lg>
+                <lg type="estrofe" n="23">
+                    <l>Em luzentes assentos marchetados</l>
+                    <l>De ouro, &amp; de perlas, mais abaixo estauão</l>
+                    <l>Os outros <persName type="hist" ref="#deoses">Deoses</persName> todos assentados,</l>
+                    <l>Como a <placeName type="real" ref="#razam">Razam</placeName>, &amp; a <persName type="hist" ref="#ordem">Ordem</persName> concertauam:</l>
+                    <l>Precedem os antigos mais honrados,</l>
+                    <l>Mais abaixo os menores se assentauam:</l>
+                    <l>Quando <persName type="hist" ref="#iupiter">Iupiter</persName> alto assi dizendo,</l>
+                    <l>Cum tom de voz começa, <placeName type="real" ref="#graue">graue</placeName> &amp; horendo.</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#eternos">Eternos</placeName></fw>
+                <pb n="5" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="24">
+                    <l><placeName type="real" ref="#eternos">Eternos</placeName> moradores do luzente</l>
+                    <l><persName type="hist" ref="#estelifero">Estelifero</persName> polo, &amp; claro assento,</l>
+                    <l>Se do grande valor da forte gente,</l>
+                    <l>Do <placeName type="real" ref="#luso">Luso</placeName>, nam perdeis o pensamento,</l>
+                    <l>Deueis de ter sabido claramente</l>
+                    <l>Como he dos fados grandes, certo intento,</l>
+                    <l>Que por ella sesqueçam os humanos,</l>
+                    <l>De <placeName type="real" ref="#assirios">Assirios</placeName>, <placeName type="real" ref="#persas">Persas</placeName>, <placeName type="real" ref="#gregos">Gregos</placeName> &amp; <placeName type="real" ref="#romanos">Romanos</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="25">
+                    <l>Ia lhe foy (bem o vistes) concedido</l>
+                    <l>Cum poder tam singelo, &amp; tam pequeno,</l>
+                    <l><placeName type="real" ref="#tomar">Tomar</placeName> ao <placeName type="real" ref="#mouro">Mouro</placeName> forte &amp; guarnecido,</l>
+                    <l>Toda a terra que rega o <placeName type="real" ref="#tejo">Tejo</placeName> ameno:</l>
+                    <l>Pois contra o <placeName type="real" ref="#castelhano">Castelhano</placeName> tam temido,</l>
+                    <l>Sempre alcançou fauor do <placeName type="real" ref="#ceo">Ceo</placeName> sereno.</l>
+                    <l>Assi que sempre em fim com fama &amp; gloria</l>
+                    <l>Teue os tropheos pendentes da <placeName type="real" ref="#victoria">victoria</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="26">
+                    <l>Deixo <placeName type="real" ref="#deoses">Deoses</placeName> atras a fama antiga,</l>
+                    <l>Que co a gente de <persName type="hist" ref="#romulo">Romulo</persName> alcançáram,</l>
+                    <l>Quando com <persName type="hist" ref="#variato">Variato</persName>, na inimiga</l>
+                    <l><placeName type="real" ref="#guerra_romana">Guerra Romana</placeName> tanto se affamáram.</l>
+                    <l><placeName type="real" ref="#tambem">Tambem</placeName> deixo a memoria que os obriga</l>
+                    <l>A grande nome, quando aleuantáram</l>
+                    <l>Hum por seu capitam, que peregrino</l>
+                    <l><placeName type="real" ref="#fingio">Fingio</placeName> na <placeName type="real" ref="#cerua">Cerua</placeName> espirito diuino.</l>
+                </lg>
+                <fw type="catch" place="bottom">Agora</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="27">
+                    <l>Agora vedes bem, que cometendo,</l>
+                    <l>O diuidoso mar, num lenho leue</l>
+                    <l>Por vias nunca vsadas, nam temendo</l>
+                    <l>De <placeName type="real" ref="#africo_&amp">Africo &amp</placeName>; Noto a força a mais satreue:</l>
+                    <l>Que auendo tanto ja que as partes vendo,</l>
+                    <l>Onde o dia he comprido, &amp; onde breue.</l>
+                    <l>Inclinam seu proposito, &amp; perfia</l>
+                    <l>A ver os berços, onde nasce o dia.</l>
+                </lg>
+                <lg type="estrofe" n="28">
+                    <l>Prometido lhe està do fado eterno,</l>
+                    <l><persName type="hist" ref="#cuja">Cuja</persName> alta ley nam pode ser quebrada,</l>
+                    <l>Que tenham longos tempos o gouerno</l>
+                    <l>Do mar, que vè do <placeName type="real" ref="#sol">Sol</placeName> a roxa entrada:</l>
+                    <l>Nas agoas tem passado o duro <placeName type="real" ref="#inuerno">Inuerno</placeName>,</l>
+                    <l>A gente vem perdida &amp; trabalhada.</l>
+                    <l><placeName type="real" ref="#ia">Ia</placeName> parece bem feito, que lhe seja</l>
+                    <l>Mostrada a noua terra que deseja.</l>
+                </lg>
+                <lg type="estrofe" n="29">
+                    <l>E porque, como vistes, tem passados</l>
+                    <l>Na viagem, tam asperos perigos,</l>
+                    <l>Tantos climas, &amp; ceos experimentados,</l>
+                    <l>Tanto furor de ventos inimigos</l>
+                    <l>Que sejam, determino, agasalhados</l>
+                    <l>Nesta costa <placeName type="real" ref="#africana">Africana</placeName>, como amigos.</l>
+                    <l>E tendo guarnecida a lassa frota,</l>
+                    <l><persName type="hist" ref="#começaram">Começáram</persName> a seguir sua longa rota.</l>
+                </lg>
+                <fw type="catch" place="bottom">Estas</fw>
+                <pb n="6" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="30">
+                    <l>Estas palauras <persName type="hist" ref="#iupiter">Iupiter</persName> dezia,</l>
+                    <l>Quando os <placeName type="real" ref="#deoses">Deoses</placeName> per ordem respondendo,</l>
+                    <l>Na sentença hum do outro difiria,</l>
+                    <l>Razões diuersas dando &amp; recebendo:</l>
+                    <l>O padre <persName type="hist" ref="#baco">Baco</persName>, ali nam consentia</l>
+                    <l>No que <persName type="hist" ref="#iupiter">Iupiter</persName> disse, conhecendo</l>
+                    <l>Que esqueceram seus feitos no <placeName type="real" ref="#oriente">Oriente</placeName>,</l>
+                    <l>Se la passar a <placeName type="real" ref="#lusitana">Lusitana</placeName> gente.</l>
+                </lg>
+                <lg type="estrofe" n="31">
+                    <l><placeName type="real" ref="#ouuido">Ouuido</placeName> tinha aos <placeName type="real" ref="#fados">Fados</placeName> que viria</l>
+                    <l>Hũa gente fortissima de <persName type="hist" ref="#hespanha">Hespanha</persName></l>
+                    <l>Pelo <placeName type="real" ref="#mar_alto">mar alto</placeName>, a qual sojeitaria</l>
+                    <l>Da <placeName type="real" ref="#india">India</placeName>, tudo quanto <persName type="hist" ref="#doris">Doris</persName> banha,</l>
+                    <l>E com nouas victorias venceria</l>
+                    <l>A fama antiga, ou sua, ou fosse estranha.</l>
+                    <l>Altamente lhe doe perder a gloria,</l>
+                    <l>De que <placeName type="real" ref="#nisa">Nisa</placeName> celebra inda a memoria.</l>
+                </lg>
+                <lg type="estrofe" n="32">
+                    <l><placeName type="real" ref="#ve">Ve</placeName> que ja teue o <placeName type="real" ref="#indo">Indo</placeName> sojugado,</l>
+                    <l>E nunca lhe tirou <persName type="hist" ref="#fortuna">Fortuna</persName>, ou caso,</l>
+                    <l>Por vencedor da <placeName type="real" ref="#india">India</placeName> ser cantado,</l>
+                    <l>De quantos bebem a agoa de <placeName type="real" ref="#parnaso">Parnaso</placeName>:</l>
+                    <l><placeName type="real" ref="#teme">Teme</placeName> agora que seja sepultado</l>
+                    <l>Seu tam celebre nome, em negro vaso,</l>
+                    <l>Dagoa do esquecimento, se la chegam</l>
+                    <l>Os fortes <placeName type="real" ref="#portugueses">Portugueses</placeName>, que nauegam.</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#sustentaua">Sustentaua</placeName></fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="33">
+                    <l><placeName type="real" ref="#sustentaua">Sustentaua</placeName> contra elle <persName type="hist" ref="#venus_bella">Venus bella</persName>,</l>
+                    <l><placeName type="real" ref="#affeiçoada">Affeiçoada</placeName> aa gente <persName type="hist" ref="#lusitana">Lusitana</persName>,</l>
+                    <l>Por quantas qualidades via nella,</l>
+                    <l>Da antiga tam amada sua <placeName type="real" ref="#romana">Romana</placeName>,</l>
+                    <l>Nos fortes corações, na grande estrella,</l>
+                    <l>Que mostráram na <placeName type="real" ref="#terra_tingitana">terra Tingitana</placeName>:</l>
+                    <l>E na <placeName type="real" ref="#lingoa">lingoa</placeName>, na qual, quando imagina,</l>
+                    <l>Com pouca corrupçam <placeName type="real" ref="#cre">cre</placeName> que he a <placeName type="real" ref="#latina">Latina</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="34">
+                    <l>Estas causas mouiam <placeName type="real" ref="#cyterea">Cyterea</placeName>,</l>
+                    <l>E mais, porque das <placeName type="real" ref="#parcas">Parcas</placeName> claro entende</l>
+                    <l>Que ha de ser celebrada a clara <placeName type="real" ref="#dea">Dea</placeName>,</l>
+                    <l>Onde a gente beligera se estende.</l>
+                    <l>Assi que hum pela infamia que <placeName type="real" ref="#arrecea">arrecea</placeName></l>
+                    <l>E o outro pelas honras que pretende,</l>
+                    <l><placeName type="real" ref="#debatem">Debatem</placeName>, &amp; na perfia permanecem,</l>
+                    <l>A qualquer seus amigos fauorecem.</l>
+                </lg>
+                <lg type="estrofe" n="35">
+                    <l>Qual <placeName type="real" ref="#austro">Austro</placeName> fero, ou <persName type="hist" ref="#boreas">Boreas</persName> na espessura,</l>
+                    <l>De siluestre aruoredo abastecida,</l>
+                    <l>Rompendo os ramos vão da mata escura,</l>
+                    <l>Com <placeName type="real" ref="#impito_&amp">impito &amp</placeName>; braueza desmedida:</l>
+                    <l><persName type="hist" ref="#brama">Brama</persName> toda montanha, o som murmura,</l>
+                    <l>Rompense as folhas, ferue a serra erguida,</l>
+                    <l>Tal andaua o tumulto leuantado,</l>
+                    <l>Entre os <persName type="hist" ref="#deoses">Deoses</persName> no <placeName type="real" ref="#olimpo">Olimpo</placeName> consagrado,</l>
+                </lg>
+                <fw type="catch" place="bottom">Mas</fw>
+                <pb n="7" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="36">
+                    <l>Mas <placeName type="real" ref="#marte">Marte</placeName> que da <placeName type="real" ref="#deosa">Deosa</placeName> sustentaua</l>
+                    <l>Entre todos as partes em porfia,</l>
+                    <l>Ou porque o amor antigo o obrigaua,</l>
+                    <l>Ou porque a gente forte o merecia,</l>
+                    <l>De antre os <placeName type="real" ref="#deoses">Deoses</placeName> em pee se leuantaua,</l>
+                    <l><persName type="hist" ref="#merencorio">Merencorio</persName> no gesto parecia:</l>
+                    <l>O forte escudo ao collo pendurado,</l>
+                    <l>Deitando pera tras medonho, &amp; yrado.</l>
+                </lg>
+                <lg type="estrofe" n="37">
+                    <l>A viseira do elmo de <placeName type="real" ref="#diamante">Diamante</placeName>,</l>
+                    <l>Aleuantando hum pouco, muy seguro,</l>
+                    <l>Por dar seu parecer se pos diante</l>
+                    <l><persName type="hist" ref="#de_iupiter">De Iupiter</persName>, armado, forte &amp; duro:</l>
+                    <l>E dando hũa pancada penetrante,</l>
+                    <l>Co conto do bastão, no solio puro:</l>
+                    <l>O <placeName type="real" ref="#ceo_tremeo">ceo tremeo</placeName>, &amp; <persName type="hist" ref="#apolo">Apolo</persName> de toruado,</l>
+                    <l>Hum pouco a luz perdeo, como infiado.</l>
+                </lg>
+                <lg type="estrofe" n="38">
+                    <l>E disse assi, <persName type="hist" ref="#ò_padre">ò Padre</persName> a cujo imperio,</l>
+                    <l>Tudo aquillo obedece, que criaste,</l>
+                    <l>Se esta gente que busca outro <placeName type="real" ref="#emispherio">Emispherio</placeName>,</l>
+                    <l><persName type="hist" ref="#cuja">Cuja</persName> valia, &amp; obras tanto amaste:</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> queiras que padeçam vituperio,</l>
+                    <l>Como ha ja tanto tempo que ordenaste.</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> ouças mais, pois <placeName type="real" ref="#es_juiz_direito">es juiz direito</placeName>,</l>
+                    <l>Razões de quem parece que he sospeito.</l>
+                </lg>
+                <fw type="catch" place="bottom">Que</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="39">
+                    <l>Que se aqui a razam se nam mostrasse,</l>
+                    <l>Vencida do temor demasiado,</l>
+                    <l>Bem fora que aqui <persName type="hist" ref="#baco">Baco</persName> os sostentasse,</l>
+                    <l>Pois que de <placeName type="real" ref="#luso">Luso</placeName> vem, seu <placeName type="real" ref="#tam_priuado">tam priuado</placeName>:</l>
+                    <l>Mas esta tençam sua, agora passe,</l>
+                    <l>Porque em fim vem de estamago danado.</l>
+                    <l>Que nunca <persName type="hist" ref="#tirarà_alhea_enueja">tirarà alhea enueja</persName>,</l>
+                    <l>O bem que outrem merece, &amp; o <placeName type="real" ref="#ceo">ceo</placeName> deseja.</l>
+                </lg>
+                <lg type="estrofe" n="40">
+                    <l>E tu <persName type="hist" ref="#padre">Padre</persName> de grande fortaleza,</l>
+                    <l>Da determinaçam que tẽs tomada,</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> tornes por detras, pois he fraqueza</l>
+                    <l>Desistir se da cousa começada.</l>
+                    <l><persName type="hist" ref="#mercurio">Mercurio</persName> pois excede em ligeireza</l>
+                    <l>Ao vento leve, &amp; aa seta bem talhada,</l>
+                    <l><persName type="hist" ref="#lhe_va">Lhe va</persName> mostrar a terra, onde se informe</l>
+                    <l>Da <placeName type="real" ref="#india">India</placeName>, &amp; onde a gente se reforme.</l>
+                </lg>
+                <lg type="estrofe" n="41">
+                    <l>Como isto disse o <persName type="hist" ref="#padre">Padre</persName> poderoso,</l>
+                    <l>A cabeça inclinando, consentio</l>
+                    <l>No que disse <persName type="hist" ref="#mauorte">Mauorte</persName> valeroso,</l>
+                    <l>E <placeName type="real" ref="#nectar">Nectar</placeName> sobre todos esparzio:</l>
+                    <l>Pelo caminho <placeName type="real" ref="#lacteo">Lacteo</placeName> glorioso,</l>
+                    <l>Logo cada hum dos <placeName type="real" ref="#deoses">Deoses</placeName> se partio.</l>
+                    <l>Fazendo seus reaes acatamentos,</l>
+                    <l>Pera os determinados apousentos.</l>
+                </lg>
+                <fw type="catch" place="bottom">Em</fw>
+                <pb n="8" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="42">
+                    <l>Em quanto isto se passa, na <placeName type="real" ref="#fermosa">fermosa</placeName></l>
+                    <l><placeName type="real" ref="#casa_eterea_do_olimpo">Casa Eterea do Olimpo</placeName> omnipotente,</l>
+                    <l><placeName type="real" ref="#cortaua">Cortaua</placeName> o mar a gente belicosa:</l>
+                    <l>Ia la da banda do <placeName type="real" ref="#austro">Austro</placeName>, &amp; do <placeName type="real" ref="#oriente">Oriente</placeName>,</l>
+                    <l>Entre a costa <placeName type="real" ref="#ethiopica">Ethiopica</placeName>, &amp; a famosa</l>
+                    <l><placeName type="real" ref="#ilha_de_sam_lourenço">Ilha de sam Lourenço</placeName>, &amp; o <placeName type="real" ref="#sol">Sol</placeName> ardente</l>
+                    <l><placeName type="real" ref="#queimaua">Queimaua</placeName> entam os <placeName type="real" ref="#deoses">Deoses</placeName>, que <persName type="hist" ref="#tifeô">Tifeô</persName></l>
+                    <l>Co temor grande em peixes conuerteo.</l>
+                </lg>
+                <lg type="estrofe" n="43">
+                    <l><placeName type="real" ref="#tam">Tam</placeName> brandamente os ventos os leuauam,</l>
+                    <l>Como quem o <placeName type="real" ref="#ceo">ceo</placeName> tinha por amigo:</l>
+                    <l>Sereno o ar, &amp; os tempos se mostrauam</l>
+                    <l>Sem nuuẽs, sem <placeName type="real" ref="#receyo">receyo</placeName> de perigo:</l>
+                    <l>O promontorio prasso ja <placeName type="real" ref="#passauam">passauam</placeName>,</l>
+                    <l>Na costa de <placeName type="real" ref="#ethiopia">Ethiopia</placeName>, nome antigo:</l>
+                    <l>Quando o mar descobrindo lhe mostraua,</l>
+                    <l><placeName type="real" ref="#nouas">Nouas</placeName> ilhas que em torno cerca, &amp; laua.</l>
+                </lg>
+                <lg type="estrofe" n="44">
+                    <l><persName type="hist" ref="#vasco_da_gama">Vasco da Gama</persName>, o forte <persName type="hist" ref="#capitão">Capitão</persName>,</l>
+                    <l>Que a tamanhas empresas se offerece,</l>
+                    <l>De soberbo, &amp; de <persName type="hist" ref="#altiuo_coraçam">altiuo coraçam</persName>,</l>
+                    <l>A quem fortuna sempre <persName type="hist" ref="#fauorece">fauorece</persName>,</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> se aqui deter nam ve razam,</l>
+                    <l>Que inhabitada a terra lhe parece:</l>
+                    <l>Por diante passar determinaua:</l>
+                    <l>Mas nam lhe soccedeo como cuidaua.</l>
+                </lg>
+                <fw type="catch" place="bottom">Eis</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="45">
+                    <l>Eis aparecem logo em companhia,</l>
+                    <l><placeName type="real" ref="#hũs">Hũs</placeName> pequenos bateis, que vem daquella</l>
+                    <l>Que mais chegada à terra parecia,</l>
+                    <l>Cortando o longo mar com larga vella:</l>
+                    <l>A gente se aluoroça, &amp; de alegria</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> sabe mais que olhar a causa della:</l>
+                    <l>Que gente sera esta, em si deziam,</l>
+                    <l>Que costumes, que <persName type="hist" ref="#ley">ley</persName>, que <persName type="hist" ref="#rei">Rei</persName> teriam?</l>
+                </lg>
+                <lg type="estrofe" n="46">
+                    <l>As embarcações eram, na maneira</l>
+                    <l><placeName type="real" ref="#muy_veloces">Muy veloces</placeName>, estreitas, &amp; compridas,</l>
+                    <l>As vellas com que vem eram de esteira,</l>
+                    <l><persName type="hist" ref="#dũas_folhas_de_palma">Dũas folhas de Palma</persName> bem tecidas:</l>
+                    <l>A gente da cor era verdadeira,</l>
+                    <l>Que Phaeton, nas terras acendidas</l>
+                    <l>Ao mundo deu, de ousado, &amp; nam prudente,</l>
+                    <l>O Pado o sabe, &amp; <placeName type="real" ref="#lampetusa">Lampetusa</placeName> o sente.</l>
+                </lg>
+                <lg type="estrofe" n="47">
+                    <l>De panos de algodam vinham vestidos,</l>
+                    <l>De varias cores, brancos, &amp; listrados,</l>
+                    <l><placeName type="real" ref="#hũs">Hũs</placeName> trazem derredor de si cingidos,</l>
+                    <l>Outros em modo ayroso sobraçados:</l>
+                    <l>Da cinta pera cima vem despidos,</l>
+                    <l>Por armas tem adagas &amp; tarçados:</l>
+                    <l>Com toucas na cabeça, &amp; nauegando,</l>
+                    <l><placeName type="real" ref="#anafis">Anafis</placeName> sonorosos vão tocando.</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#cos">Cos</placeName></fw>
+                <pb n="9" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="48">
+                    <l><placeName type="real" ref="#cos">Cos</placeName> panos, &amp; cos braços acenauam,</l>
+                    <l>Aas gentes <placeName type="real" ref="#lusitanas">Lusitanas</placeName>, que esperassem:</l>
+                    <l>Mas ja as proas ligeiras se inclinauam</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> que junto aas <placeName type="real" ref="#ilhas">Ilhas</placeName> <placeName type="real" ref="#amainassem">amainassem</placeName>.</l>
+                    <l>A gente, &amp; marinheiros trabalhauam,</l>
+                    <l>Como se aqui os trabalhos sacabassem:</l>
+                    <l><placeName type="real" ref="#tomão">Tomão</placeName> vellas, amainase a verga alta,</l>
+                    <l>Da ancora o mar ferido, encima salta.</l>
+                </lg>
+                <lg type="estrofe" n="49">
+                    <l><placeName type="real" ref="#nam">Nam</placeName> erão ancorados, quando a gente</l>
+                    <l>Estranha, polas cordas ja sobia,</l>
+                    <l>No gesto ledos vem, &amp; humanamente,</l>
+                    <l>O <persName type="hist" ref="#capitão">Capitão</persName> sublime os recebia.</l>
+                    <l>As mesas manda por em continente,</l>
+                    <l>Do licor que <placeName type="real" ref="#lieo">Lieo</placeName> prantado auia:</l>
+                    <l>Enchem vasos de vidro, &amp; do que <persName type="hist" ref="#deitão">deitão</persName>,</l>
+                    <l>Os de <placeName type="real" ref="#phaetom">Phaetom</placeName> queimados nada engeitam.</l>
+                </lg>
+                <lg type="estrofe" n="50">
+                    <l>Comendo alegremente perguntauam,</l>
+                    <l>Pela Arabica lingoa, donde vinham,</l>
+                    <l>Quem eram, de que terra, que <placeName type="real" ref="#buscauão">buscauão</placeName>,</l>
+                    <l>Ou que partes do mar corrido tinham?</l>
+                    <l>Os fortes <placeName type="real" ref="#lusitanos">Lusitanos</placeName> lhe tornauam,</l>
+                    <l>As discretas repostas que <persName type="hist" ref="#conuinham">conuinham</persName>:</l>
+                    <l>Os <placeName type="real" ref="#portugueses">Portugueses</placeName> somos do <placeName type="real" ref="#occidente">Occidente</placeName>,</l>
+                    <l><persName type="hist" ref="#himos">Himos</persName> buscando as terras do <placeName type="real" ref="#oriente">Oriente</placeName>:</l>
+                </lg>
+                <fw type="sig" place="bottom">B</fw>
+                <fw type="catch" place="bottom">Do</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="51">
+                    <l>Do mar temos corrido, &amp; nauegado</l>
+                    <l>Toda a parte do <placeName type="real" ref="#antartico">Antartico</placeName>, &amp; <placeName type="real" ref="#calisto">Calisto</placeName>,</l>
+                    <l>Toda a costa <placeName type="real" ref="#africana">Africana</placeName> rodeado,</l>
+                    <l><placeName type="real" ref="#diuersos_ceos">Diuersos Ceos</placeName>, &amp; <placeName type="real" ref="#terras">Terras</placeName> temos visto:</l>
+                    <l><placeName type="real" ref="#dum_rei">Dum Rei</placeName> potente somos, tam amado,</l>
+                    <l><placeName type="real" ref="#tam">Tam</placeName> querido de todos, &amp; bem quisto:</l>
+                    <l>Que nam no largo <placeName type="real" ref="#mar">Mar</placeName>, com leda fronte:</l>
+                    <l>Mas no lago entraremos de <placeName type="real" ref="#acheronte">Acheronte</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="52">
+                    <l>E por mandado seu, buscando andamos</l>
+                    <l>A terra <placeName type="real" ref="#oriental">Oriental</placeName>, que o <placeName type="real" ref="#indo">Indo</placeName> rega,</l>
+                    <l>Por elle o <placeName type="real" ref="#mar">Mar</placeName> remoto nauegamos,</l>
+                    <l>Que so dos feos <persName type="hist" ref="#focas">Focas</persName> se nauega:</l>
+                    <l>Mas ja razam parece que saibamos,</l>
+                    <l>Se entre vòs a verdade nam se nega:</l>
+                    <l>Quem sois, que terra he esta que habitais?</l>
+                    <l>Ou se tendes da <placeName type="real" ref="#india">India</placeName> algũs sinais?</l>
+                </lg>
+                <lg type="estrofe" n="53">
+                    <l>Somos, hum dos das <placeName type="real" ref="#ilhas">Ilhas</placeName>, lhe tornou,</l>
+                    <l><placeName type="real" ref="#estrangeiros">Estrangeiros</placeName> na terra, <placeName type="real" ref="#lei,_&amp">Lei, &amp</placeName>; nação</l>
+                    <l>Que os proprios, <persName type="hist" ref="#sam_aquelles">sam aquelles</persName> que criou</l>
+                    <l>A <placeName type="real" ref="#natura_sem_lei">Natura sem Lei</placeName>, &amp; sem <placeName type="real" ref="#razão:">Razão:</placeName></l>
+                    <l>Nos temos a <placeName type="real" ref="#lei">Lei</placeName> certa que ensinou,</l>
+                    <l>O claro descendente de <persName type="hist" ref="#abrahão">Abrahão</persName>:</l>
+                    <l>Que agora tem do <placeName type="real" ref="#mundo">Mundo</placeName> o senhorio,</l>
+                    <l>A mãy Hebrea teue, &amp; o pay <persName type="hist" ref="#gentio">Gentio</persName>.</l>
+                </lg>
+                <fw type="catch" place="bottom">Esta</fw>
+                <pb n="10" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="54">
+                    <l>Esta <placeName type="real" ref="#ilha">Ilha</placeName> pequena que habitamos,</l>
+                    <l><persName type="hist" ref="#he">He</persName> em toda esta terra certa escala,</l>
+                    <l>De todos os que as <placeName type="real" ref="#ondas_nauegamos">Ondas nauegamos</placeName>,</l>
+                    <l>De <placeName type="real" ref="#quiloa">Quiloa</placeName>, de <placeName type="real" ref="#mombaça">Mombaça</placeName>, &amp; de <placeName type="real" ref="#sofala">Sofala</placeName>:</l>
+                    <l>E por ser necessaria, procuramos,</l>
+                    <l>Como proprios da terra, de <placeName type="real" ref="#habitala">habitala</placeName>.</l>
+                    <l>E porque tudo em fim vos notifique,</l>
+                    <l><placeName type="real" ref="#chamase">Chamase</placeName> a pequena <placeName type="real" ref="#ilha_moçambique">Ilha Moçambique</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="55">
+                    <l>E ja que de <placeName type="real" ref="#tam">tam</placeName> longe nauegais,</l>
+                    <l>Buscando o <placeName type="real" ref="#indo_idaspe">Indo Idaspe</placeName>, &amp; terra ardente,</l>
+                    <l><placeName type="real" ref="#piloto">Piloto</placeName> aqui tereis, por quem sejais</l>
+                    <l>Guiados pelas ondas sabiamente.</l>
+                    <l>Tambem sera bem feito que tenhais,</l>
+                    <l>Da terra algum refresco, &amp; que o <persName type="hist" ref="#regente">Regente</persName></l>
+                    <l>Que esta terra gouerna, que vos veja,</l>
+                    <l>E do mais necessario vos proueja.</l>
+                </lg>
+                <lg type="estrofe" n="56">
+                    <l>Isto dizendo, o <placeName type="real" ref="#mouro">Mouro</placeName> se tornou</l>
+                    <l>A seus bateis com toda a companhia,</l>
+                    <l>Do Capitão &amp; gente se apartou,</l>
+                    <l>Com mostras de <persName type="hist" ref="#deuida_cortesia">deuida cortesia</persName>:</l>
+                    <l>Nisto <persName type="hist" ref="#febo">Febo</persName> nas agoas encerrou,</l>
+                    <l>Co carro de <placeName type="real" ref="#christal">Christal</placeName>, o claro dia.</l>
+                    <l>Dando cargo <persName type="hist" ref="#aa_irmaã">aa Irmaã</persName> que alumiasse,</l>
+                    <l>O largo <placeName type="real" ref="#mundo">Mundo</placeName>, em quanto repousasse.</l>
+                </lg>
+                <fw type="sig" place="bottom">B 2</fw>
+                <fw type="catch" place="bottom">A noite</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="57">
+                    <l>A noyte se passou na lassa frota,</l>
+                    <l>Com estranha alegria, &amp; não cuydada,</l>
+                    <l>Por acharem da terra tam remota,</l>
+                    <l><persName type="hist" ref="#noua">Noua</persName> de tanto tempo desejada:</l>
+                    <l>Qualquer entam consigo cuyda, &amp; nota</l>
+                    <l>Na gente, &amp; na maneira desusada.</l>
+                    <l>E como os que na errada <persName type="hist" ref="#seita_crèrão">Seita crèrão</persName>,</l>
+                    <l>Tanto por todo o mundo se estendèram.</l>
+                </lg>
+                <lg type="estrofe" n="58">
+                    <l>Da <placeName type="real" ref="#lũa">Lũa</placeName> os claros rayos rutilauão,</l>
+                    <l><placeName type="real" ref="#polas">Polas</placeName> argenteas <placeName type="real" ref="#ondas_neptuninas">ondas Neptuninas</placeName>,</l>
+                    <l>As Estrellas os Ceos acompanhauão.</l>
+                    <l>Qual campo reuestido de <placeName type="real" ref="#boninas">boninas</placeName>,</l>
+                    <l>Os furiosos ventos repousauão,</l>
+                    <l><placeName type="real" ref="#polas">Polas</placeName> couas escuras peregrinas.</l>
+                    <l>Porem da armada a gente vigiaua,</l>
+                    <l>Como por longo tempo costumaua.</l>
+                </lg>
+                <lg type="estrofe" n="59">
+                    <l>Mas assy como a <placeName type="real" ref="#aurora_marchetada">Aurora marchetada</placeName>,</l>
+                    <l>Os fermosos cabellos espalhou,</l>
+                    <l>No <placeName type="real" ref="#ceo">Ceo</placeName> sereno, abrindo a roxa entrada,</l>
+                    <l>Ao claro <persName type="hist" ref="#hiperionio">Hiperionio</persName> que acordou,</l>
+                    <l>Começa a embandeirarse toda a armada,</l>
+                    <l>E de toldos alegres se adornou:</l>
+                    <l>Por receber com festas, &amp; alegria,</l>
+                    <l>O <placeName type="real" ref="#regedor">Regedor</placeName> das Ilhas que partia.</l>
+                </lg>
+                <fw type="catch" place="bottom">Partia</fw>
+                <pb n="11" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="60">
+                    <l>Partia alegremente nauegando,</l>
+                    <l>A ver as naos ligeiras <placeName type="real" ref="#lusitanas">Lusitanas</placeName>,</l>
+                    <l>Com refresco da terra, em si cuidando,</l>
+                    <l>Que sam aquellas gentes inhumanas:</l>
+                    <l>Que os apousentos <placeName type="real" ref="#caspios">Caspios</placeName> habitando.</l>
+                    <l>A conquistar as terras <placeName type="real" ref="#asianas">Asianas</placeName></l>
+                    <l><placeName type="real" ref="#vierão">Vierão</placeName>: &amp; por ordem do destino,</l>
+                    <l>O <placeName type="real" ref="#imperio">Imperio</placeName> tomáram a <placeName type="real" ref="#costantino">Costantino</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="61">
+                    <l>Recebe o <persName type="hist" ref="#capitão">Capitão</persName> alegremente,</l>
+                    <l>O <placeName type="real" ref="#mouro">Mouro</placeName>, &amp; toda sua companhia,</l>
+                    <l><placeName type="real" ref="#dalhe">Dalhe</placeName> de ricas peças hum presente,</l>
+                    <l>Que so pera este effeito ja trazia:</l>
+                    <l><persName type="hist" ref="#dalhe_conserua_doçe">Dalhe conserua doçe</persName>, &amp; dalhe o ardente</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> vsado licor que dá alegria.</l>
+                    <l>Tudo o <placeName type="real" ref="#mouro">Mouro</placeName> contente bem recebe,</l>
+                    <l>E muito mais contente come, &amp; bebe.</l>
+                </lg>
+                <lg type="estrofe" n="62">
+                    <l><persName type="hist" ref="#està">Està</persName> a gente maritima de <placeName type="real" ref="#luso">Luso</placeName>,</l>
+                    <l>Subida pela exarcia, de admirada,</l>
+                    <l>Notando o estrangeiro modo, &amp; vso,</l>
+                    <l>E a lingoagem tam barbara, &amp; enleada.</l>
+                    <l><placeName type="real" ref="#tambem">Tambem</placeName> o <placeName type="real" ref="#mouro">Mouro</placeName> astuto está confuso,</l>
+                    <l>Olhando a cor, o trajo, &amp; a forte armada.</l>
+                    <l>E perguntando tudo lhe dezia,</l>
+                    <l>Se porventura vinham de <placeName type="real" ref="#turquia">Turquia</placeName>.</l>
+                </lg>
+                <fw type="sig" place="bottom">B 3</fw>
+                <fw type="catch" place="bottom">E mais</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="63">
+                    <l>E mais lhe diz tambem, que ver deseja</l>
+                    <l>Os liuros de sua ley, preceito, ou fè,</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> ver se conforme à sua seja,</l>
+                    <l>Ou se <persName type="hist" ref="#sam_dos_de_christo">sam dos de Christo</persName>, como crè:</l>
+                    <l>E porque tudo note, &amp; tudo veja,</l>
+                    <l>Ao <persName type="hist" ref="#capitão">Capitão</persName> pedia, que lhe dè,</l>
+                    <l>Mostra das fortes armas de que <placeName type="real" ref="#vsauão">vsauão</placeName>,</l>
+                    <l>Quando cos inimigos pelejauão.</l>
+                </lg>
+                <lg type="estrofe" n="64">
+                    <l>Respondeo ô valeroso <persName type="hist" ref="#capitão">Capitão</persName>,</l>
+                    <l>Por hum que a lingoa escura bem sabia:</l>
+                    <l>Darte ey Senhor illustre relação</l>
+                    <l>De my, da <placeName type="real" ref="#ley">ley</placeName>, das armas que trazia:</l>
+                    <l>Nem sou da terra, nem da geraçam,</l>
+                    <l>Das gentes enojosas de <placeName type="real" ref="#turquia">Turquia</placeName>:</l>
+                    <l>Mas sou da forte <placeName type="real" ref="#europa">Europa</placeName> belicosa,</l>
+                    <l>Busco as terras da <placeName type="real" ref="#india">India</placeName> tam famosa?</l>
+                </lg>
+                <lg type="estrofe" n="65">
+                    <l>A ley tenho daquelle, a cujo imperio</l>
+                    <l>Obedece o visibil, &amp; inuisibil,</l>
+                    <l>Aquelle que criou todo o <placeName type="real" ref="#emispherio">Emispherio</placeName>,</l>
+                    <l>Tudo o que sente, &amp; todo o insensibil</l>
+                    <l>Que padeceo deshonra, &amp; vituperio,</l>
+                    <l>Sofrendo morte injusta, &amp; insufribil:</l>
+                    <l>E que do <placeName type="real" ref="#ceo_aa_terra">ceo aa terra</placeName> em fim deceo,</l>
+                    <l>Por <persName type="hist" ref="#sobir">sobir</persName> os mortais da <placeName type="real" ref="#terra">terra</placeName> ao <placeName type="real" ref="#ceo">ceo</placeName>.</l>
+                </lg>
+                <fw type="catch" place="bottom">Deste</fw>
+                <pb n="12" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="66">
+                    <l>Deste <persName type="hist" ref="#deos">Deos</persName> homem, alto, &amp; infinito,</l>
+                    <l>Os liuros que tu pedes nam trazia,</l>
+                    <l>Que bem posso escusar trazer escripto</l>
+                    <l>Em papel, o que na alma andar deuia.</l>
+                    <l>Se as armas queres ver, como tẽs dito,</l>
+                    <l><placeName type="real" ref="#comprido">Comprido</placeName> esse desejo te seria:</l>
+                    <l>Como amigo as <persName type="hist" ref="#veras">veras</persName>, porque eu me obrigo,</l>
+                    <l>Que nunca as queiras ver como inimigo.</l>
+                </lg>
+                <lg type="estrofe" n="67">
+                    <l>Isto dizendo, manda os diligentes</l>
+                    <l><placeName type="real" ref="#ministros">Ministros</placeName>, amostrar as armaduras,</l>
+                    <l>Vem arneses, &amp; peitos reluzentes,</l>
+                    <l>Malhas finas, &amp; laminas seguras,</l>
+                    <l>Escudos de pinturas differentes,</l>
+                    <l>Pilouros, espingardas de aço puras,</l>
+                    <l><placeName type="real" ref="#arcos">Arcos</placeName>, &amp; sagittiferas aljauas,</l>
+                    <l><persName type="hist" ref="#partasanas">Partasanas</persName> agudas, chuças brauas,</l>
+                </lg>
+                <lg type="estrofe" n="68">
+                    <l>As bombas vem de fogo, &amp; juntamente</l>
+                    <l>As panellas sulfuneas, <placeName type="real" ref="#tam">tam</placeName> danosas,</l>
+                    <l>Porem aos de <persName type="hist" ref="#vulcano">Vulcano</persName> nam consente</l>
+                    <l>Que dem fogo aas bombardas temerosas:</l>
+                    <l>Porque o generoso animo, &amp; valente,</l>
+                    <l>Entre gentes tam poucas, &amp; medrosas,</l>
+                    <l>Não mostra quanto pode, &amp; com razão,</l>
+                    <l>Que he fraqueza entre ouelhas ser lião.</l>
+                </lg>
+                <fw type="sig" place="bottom">B 4</fw>
+                <fw type="catch" place="bottom">Porem</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="69">
+                    <l>Porem disto que o <placeName type="real" ref="#mouro">Mouro</placeName> aqui notou,</l>
+                    <l>E de tudo o que vio, com olho atento,</l>
+                    <l>Hum odio certo na alma lhe ficou,</l>
+                    <l>Hũa vontade má de pensamento.</l>
+                    <l>Nas mostras, &amp; no gesto o não mostrou:</l>
+                    <l>Mas com risonho, &amp; ledo fingimento,</l>
+                    <l><placeName type="real" ref="#tratallos">Tratallos</placeName> brandamente determina,</l>
+                    <l>Ate que mostrar possa o que imagina.</l>
+                </lg>
+                <lg type="estrofe" n="70">
+                    <l>Pilotos lhe pedia o <persName type="hist" ref="#capitão">Capitão</persName>,</l>
+                    <l>Por quem podesse aa <placeName type="real" ref="#india">India</placeName> ser leuado,</l>
+                    <l>Dizlhe, que o largo premio leuarão,</l>
+                    <l>Do trabalho que nisso for tomado.</l>
+                    <l><placeName type="real" ref="#prometelhos">Prometelhos</placeName> o <placeName type="real" ref="#mouro">Mouro</placeName>, com tenção</l>
+                    <l>De peito venenoso, &amp; tam danado:</l>
+                    <l>Que a morte se podesse neste dia,</l>
+                    <l>Em lugar de <placeName type="real" ref="#pilotos">Pilotos</placeName> lhe daria.</l>
+                </lg>
+                <lg type="estrofe" n="71">
+                    <l>Tamanho o odio foy, &amp; a mà vontade,</l>
+                    <l>Que aos estrangeiros supito tomou,</l>
+                    <l>Sabendo ser sequaces da verdade,</l>
+                    <l>Que o filho de <persName type="hist" ref="#dauid">Dauid</persName> nos ensinou,</l>
+                    <l>Os segredos daquella <placeName type="real" ref="#eternidade">Eternidade</placeName>,</l>
+                    <l>A quem juyzo algum nam alcançou.</l>
+                    <l>Que nunca falte hum perfido inimigo,</l>
+                    <l>A aquelles de quem foste tanto amigo?</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#partiose">Partiose</placeName></fw>
+                <pb n="13" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="72">
+                    <l><placeName type="real" ref="#partiose">Partiose</placeName> nisto em fim co a companhia,</l>
+                    <l>Das naos o falso <placeName type="real" ref="#mouro">Mouro</placeName> despedido,</l>
+                    <l>Com enganosa &amp; grande cortesia,</l>
+                    <l>Com gesto ledo a todos, &amp; fingido:</l>
+                    <l>Cortàram os bateis a curta via</l>
+                    <l>Das agoas de <placeName type="real" ref="#neptuno">Neptuno</placeName>, &amp; recebido</l>
+                    <l>Na terra do obsequente ajuntamento,</l>
+                    <l>Se foy o <placeName type="real" ref="#mouro">Mouro</placeName> ao cognito aposento.</l>
+                </lg>
+                <lg type="estrofe" n="73">
+                    <l>Do claro assento <persName type="hist" ref="#etereo">Etereo</persName>, o gram <persName type="hist" ref="#tebano">Tebano</persName>,</l>
+                    <l>Que da paternal coxa foy nascido,</l>
+                    <l>Olhando o ajuntamento <persName type="hist" ref="#lusitano">Lusitano</persName>,</l>
+                    <l>Ao <placeName type="real" ref="#mouro">Mouro</placeName> ser molesto, &amp; auorrecido:</l>
+                    <l>No pensamento cuyda hum falso engano</l>
+                    <l>Com que seja de todo destruydo.</l>
+                    <l>E em quanto isto so na alma imaginaua</l>
+                    <l>Consigo estas palauras praticaua.</l>
+                </lg>
+                <lg type="estrofe" n="74">
+                    <l>Està do fado ja determinado,</l>
+                    <l>Que tamanhas victorias tam famosas,</l>
+                    <l>Ajam os <placeName type="real" ref="#portugueses">Portugueses</placeName> alcansado,</l>
+                    <l><placeName type="real" ref="#das_indianas">Das Indianas</placeName> gentes belicosas.</l>
+                    <l>E eu so filho do <persName type="hist" ref="#padre">Padre</persName> sublimado,</l>
+                    <l>Com tantas qualidades generosas:</l>
+                    <l>Ey de sofrer que o <placeName type="real" ref="#fado_fauoreça">Fado fauoreça</placeName></l>
+                    <l>Outrem, por quem meu nome se escureça?</l>
+                </lg>
+                <fw type="catch" place="bottom">Ia quiserão</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="75">
+                    <l>Ia quiseram os <placeName type="real" ref="#deoses">Deoses</placeName> que tiuesse,</l>
+                    <l>O filho de <persName type="hist" ref="#filipo">Filipo</persName> nesta parte,</l>
+                    <l>Tanto poder, que tudo sometesse</l>
+                    <l>Debaixo de seu jugo, o fero <placeName type="real" ref="#marte">Marte</placeName>:</l>
+                    <l>Mas asse de <persName type="hist" ref="#soffrer">soffrer</persName> que o <placeName type="real" ref="#fado_desse">Fado desse</placeName>,</l>
+                    <l>A tam poucos tamanho esforço, &amp; arte</l>
+                    <l><placeName type="real" ref="#queu_co_gram_macedonio">Queu co gram Macedonio</placeName>, &amp; <placeName type="real" ref="#romano">Romano</placeName>,</l>
+                    <l>Demos lugar ao nome <placeName type="real" ref="#lusitano">Lusitano</placeName>?</l>
+                </lg>
+                <lg type="estrofe" n="76">
+                    <l>Não sera assy, porque antes que chegado</l>
+                    <l>Seja este <persName type="hist" ref="#capitão">Capitão</persName>, astutamente</l>
+                    <l>Lhe sera tanto engano fabricado,</l>
+                    <l>Que nunca veja as partes do <placeName type="real" ref="#oriente">Oriente</placeName>:</l>
+                    <l>Eu decerey aa terra, &amp; o indignado</l>
+                    <l>Peito, reuoluerey da <persName type="hist" ref="#maura">Maura</persName> gente,</l>
+                    <l>Porque sempre por via yra dereita,</l>
+                    <l>Quem do oportuno tempo se aproueita.</l>
+                </lg>
+                <lg type="estrofe" n="77">
+                    <l>Isto dizendo yrado, &amp; quasi insano,</l>
+                    <l>Sobre a terra <placeName type="real" ref="#affricana">Affricana</placeName> descendeo,</l>
+                    <l>Onde vestindo a forma &amp; gesto humano,</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> o <placeName type="real" ref="#prasso">Prasso</placeName> sabido se moueo.</l>
+                    <l>E por milhor tecer o astuto engano,</l>
+                    <l>No gesto natural se conuerteo,</l>
+                    <l><placeName type="real" ref="#dum_mouro">Dum Mouro</placeName>, em <placeName type="real" ref="#moçambique">Moçambique</placeName> conhecido,</l>
+                    <l>Velho, <placeName type="real" ref="#sabio">sabio</placeName>, &amp; co Xeque muy valido.</l>
+                </lg>
+                <fw type="catch" place="bottom">E entrando</fw>
+                <pb n="14" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="78">
+                    <l>E entrando assy a <placeName type="real" ref="#falarlhe">falarlhe</placeName>, a tempo &amp; horas,</l>
+                    <l>A sua falsidade acomodadas,</l>
+                    <l><persName type="hist" ref="#lhe">Lhe</persName> diz como erão gentes roubadoras,</l>
+                    <l>Estas que ora de <persName type="hist" ref="#nouo_sam">nouo sam</persName> chegadas:</l>
+                    <l>Que das nações na costa moradoras,</l>
+                    <l>Correndo a fama veio, que roubadas</l>
+                    <l><persName type="hist" ref="#forão">Forão</persName> por estes homẽs que passauam,</l>
+                    <l>Que com pactos de paz sempre ancorauam.</l>
+                </lg>
+                <lg type="estrofe" n="79">
+                    <l>E sabe mais, lhe diz, como entendido</l>
+                    <l>Tenho destes <placeName type="real" ref="#christãos">Christãos</placeName> sanguinolentos,</l>
+                    <l>Que quasi todo o mar tem destruido,</l>
+                    <l>Com roubos, com incendios violentos:</l>
+                    <l>E trazem ja de longe engano vrdido,</l>
+                    <l>Contra nòs, &amp; que todos seus intentos</l>
+                    <l><persName type="hist" ref="#sam">Sam</persName> pera nos matarem, &amp; roubarem,</l>
+                    <l>E molheres &amp; filhos captiuarem.</l>
+                </lg>
+                <lg type="estrofe" n="80">
+                    <l>E tambem sey que tem determinado,</l>
+                    <l>De vir por agoa a terra muito cedo,</l>
+                    <l>O <persName type="hist" ref="#capitão">Capitão</persName> dos seus acompanhado,</l>
+                    <l>Que da tençam danada nasce o medo:</l>
+                    <l>Tu deues de yr tambem cos teus armado</l>
+                    <l><placeName type="real" ref="#esperallo">Esperallo</placeName> em cilado, occulto &amp; quedo:</l>
+                    <l>Porque saindo a gente descuydada,</l>
+                    <l><placeName type="real" ref="#cairão">Cairão</placeName> facilmente na cilada.</l>
+                </lg>
+                <fw type="catch" place="bottom">E se inda</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="81">
+                    <l>E se inda nam ficarem deste geito,</l>
+                    <l><placeName type="real" ref="#destruydos">Destruydos</placeName>, ou mortos totalmente,</l>
+                    <l>Eu tenho imaginada no conceito,</l>
+                    <l>Outra manha &amp; ardil que te contente:</l>
+                    <l><placeName type="real" ref="#mandalhe">Mandalhe</placeName> dar <placeName type="real" ref="#piloto">Piloto</placeName>, que de geito</l>
+                    <l>Seja astuto no engano, &amp; tam prudente,</l>
+                    <l>Que os leue aonde sejam destruydos,</l>
+                    <l>Desbaratados, mortos, ou perdidos.</l>
+                </lg>
+                <lg type="estrofe" n="82">
+                    <l>Tanto que estas palauras acabou,</l>
+                    <l>O <placeName type="real" ref="#mouro">Mouro</placeName> nos taes casos, sabio &amp; velho</l>
+                    <l>Os braços pelo collo lhe lançou,</l>
+                    <l>Agradecendo muito o tal conselho:</l>
+                    <l>E logo nesse instante concertou,</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> a guerra o beligero aparelho:</l>
+                    <l>Pera que ao <placeName type="real" ref="#portugues">Portugues</placeName> se lhe tornasse,</l>
+                    <l>Em roxo sangue a agoa que buscasse.</l>
+                </lg>
+                <lg type="estrofe" n="83">
+                    <l>E busca mais pera o cuydado engano,</l>
+                    <l><placeName type="real" ref="#mouro">Mouro</placeName> que por <persName type="hist" ref="#piloto">Piloto</persName> aa não lhe mande,</l>
+                    <l>Sagaz, astuto, &amp; <persName type="hist" ref="#sabio">sabio</persName> em todo dano,</l>
+                    <l>De quem fiar se possa hum feito grande,</l>
+                    <l>Dizlhe que acompanhando o <placeName type="real" ref="#lusitano">Lusitano</placeName>,</l>
+                    <l>Por tais costas, &amp; <placeName type="real" ref="#mares_co_elle_ande">mares co elle ande</placeName>:</l>
+                    <l>Que se daqui escapar, que la diante</l>
+                    <l>Va cair onde nunca se aleuante.</l>
+                </lg>
+                <fw type="catch" place="bottom">Ia o</fw>
+                <pb n="15" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="84">
+                    <l>Ia o rayo <persName type="hist" ref="#apolineo">Apolineo</persName> visitaua,</l>
+                    <l>Os <placeName type="real" ref="#montes_nabatheos">Montes Nabatheos</placeName> acendido,</l>
+                    <l>Quando <persName type="hist" ref="#gama">Gama</persName> cos seus determinau</l>
+                    <l>De vir por agoa a terra apercebido:</l>
+                    <l>A gente nos bateis se concertaua,</l>
+                    <l>Como se fosse o engano ja sabido:</l>
+                    <l>Mas pode sospeitarse facilmente,</l>
+                    <l>Que o coração presago nunca mente.</l>
+                </lg>
+                <lg type="estrofe" n="85">
+                    <l>E mais tambem mandado tinha a terra,</l>
+                    <l>De antes pelo <placeName type="real" ref="#piloto">Piloto</placeName> necessario:</l>
+                    <l>E foilhe respondido em som de guerra,</l>
+                    <l>Caso do que cuidaua muy contrario:</l>
+                    <l>Por isto, &amp; porque sabe quanto erra,</l>
+                    <l>Quem se crè de seu perfido aduersario,</l>
+                    <l><placeName type="real" ref="#apercebido_vay">Apercebido vay</placeName> como podia,</l>
+                    <l>Em tres bateis somente que trazia:</l>
+                </lg>
+                <lg type="estrofe" n="86">
+                    <l>Mas os <placeName type="real" ref="#mouros">Mouros</placeName> que <placeName type="real" ref="#andauão">andauão</placeName> pela <placeName type="real" ref="#praya">praya</placeName>,</l>
+                    <l>Por lhe defender a agoa desejada,</l>
+                    <l>Hum de escudo embarçado, &amp; de azagaya,</l>
+                    <l>Outro de arco encuruado, &amp; seta eruada:</l>
+                    <l><persName type="hist" ref="#esperão">Esperão</persName> que a guerreira gente saya,</l>
+                    <l>Outros muytos ja postos em cillada.</l>
+                    <l>E porque o caso leue selhe faça,</l>
+                    <l><placeName type="real" ref="#poem_hũs">Poem hũs</placeName> poucos diante por <placeName type="real" ref="#negaça">negaça</placeName>.</l>
+                </lg>
+                <fw type="catch" place="bottom">Andão</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="87">
+                    <l>Andão pela ribeira alua arenosa,</l>
+                    <l>Os belicosos <placeName type="real" ref="#mouros">Mouros</placeName> acenando,</l>
+                    <l>Com a <placeName type="real" ref="#adarga">adarga</placeName>, &amp; co a <placeName type="real" ref="#astea">astea</placeName> perigosa,</l>
+                    <l>Os fortes <placeName type="real" ref="#portugueses">Portugueses</placeName> incitando:</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> soffre muito a gente generosa,</l>
+                    <l><placeName type="real" ref="#andarlhe">Andarlhe</placeName> os cães os dentes amostrando.</l>
+                    <l>Qualquer em terra salta, <persName type="hist" ref="#tam_ligeiro">tam ligeiro</persName>,</l>
+                    <l>Que nenhum dizer pode que he primeiro.</l>
+                </lg>
+                <lg type="estrofe" n="88">
+                    <l>Qual no corro sanguino, o ledo amante,</l>
+                    <l>Vendo a fermosa dama desejada,</l>
+                    <l>O <placeName type="real" ref="#touro">Touro</placeName> busca, &amp; <placeName type="real" ref="#pondose">pondose</placeName> diante,</l>
+                    <l><placeName type="real" ref="#salta">Salta</placeName>, corre, sibila, acena, &amp; brada:</l>
+                    <l>Mas o animal atroce nesse instante,</l>
+                    <l>Com a fronte cornigera inclinada,</l>
+                    <l>Bramando duro corre, &amp; os olhos cerra,</l>
+                    <l><persName type="hist" ref="#derriba">Derriba</persName>, fere, &amp; mata &amp; poem por terra.</l>
+                </lg>
+                <lg type="estrofe" n="89">
+                    <l>Eis nos bateis fogo se <persName type="hist" ref="#leuanta">leuanta</persName>,</l>
+                    <l>Na furiosa &amp; dura artilheria,</l>
+                    <l>A plumbea pela mata, o brado espanta.</l>
+                    <l>Ferido o ar retumba, &amp; assouia:</l>
+                    <l>O <placeName type="real" ref="#coraçam_dos_mouros">coraçam dos Mouros</placeName> se quebranta,</l>
+                    <l>O temor grande o sangue lhe resfria.</l>
+                    <l>Ia foge o escondido de medroso,</l>
+                    <l>E morre o descuberto auenturoso.</l>
+                </lg>
+                <fw type="catch" place="bottom">Não</fw>
+                <pb n="16" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="90">
+                    <l>Não se contenta a gente <placeName type="real" ref="#portuguesa">Portuguesa</placeName>:</l>
+                    <l>Mas seguindo a <placeName type="real" ref="#victoria_estrue">victoria estrue</placeName>, &amp; mata</l>
+                    <l>A pouoaçam sem muro, &amp; sem defesa,</l>
+                    <l><placeName type="real" ref="#esbombardea">Esbombardea</placeName>, acende, &amp; desbarata.</l>
+                    <l>Da caualgada ao <placeName type="real" ref="#mouro">Mouro</placeName> ja lhe pesa,</l>
+                    <l>Que bem cuidou comprala mais barata:</l>
+                    <l>Ia blasfema da guerra, &amp; maldizia,</l>
+                    <l>O velho <persName type="hist" ref="#inerte">Inerte</persName>, &amp; a mãy que o filho cria.</l>
+                </lg>
+                <lg type="estrofe" n="91">
+                    <l>Fugindo, a seta o <placeName type="real" ref="#mouro">Mouro</placeName> vay tirando,</l>
+                    <l>Sem força, de couarde, &amp; de apressado,</l>
+                    <l>A pedra, o <placeName type="real" ref="#pao">pao</placeName>, &amp; o canto arremessando,</l>
+                    <l><placeName type="real" ref="#dalhe">Dalhe</placeName> armas o furor desatinado:</l>
+                    <l>Ia a <placeName type="real" ref="#ilha">Ilha</placeName>, &amp; todo o mais, <placeName type="real" ref="#desemparando">desemparando</placeName>,</l>
+                    <l><placeName type="real" ref="#aa">Aa</placeName> terra firme foge amedrontado.</l>
+                    <l>Passa, &amp; corta do mar o <placeName type="real" ref="#estreito_braço">estreito braço</placeName>,</l>
+                    <l>Que a <placeName type="real" ref="#ilha">Ilha</placeName> em torno cerca, em pouco espaço.</l>
+                </lg>
+                <lg type="estrofe" n="92">
+                    <l><placeName type="real" ref="#hũs">Hũs</placeName> vão nas almàdias carregadas,</l>
+                    <l>Hum corta o mar a nado diligente,</l>
+                    <l>Quem se affoga nas ondas encuruadas,</l>
+                    <l>Quem bebe o mar, &amp; o deita juntamente:</l>
+                    <l>Arrombão as meudas bombardadas</l>
+                    <l>Os Pangaios sotis da bruta gente.</l>
+                    <l>Desta arte o <placeName type="real" ref="#portugues">Portugues</placeName> em fim castiga,</l>
+                    <l>A vil malicia, perfida, inimiga.</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#tornão">Tornão</placeName></fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="93">
+                    <l>Tornam victoriosos pera a armada,</l>
+                    <l>Co despojo da guerra, &amp; rica presa,</l>
+                    <l>E vão a seu prazer fazer agoada,</l>
+                    <l>Sem achar resistencia, nem defesa,</l>
+                    <l><placeName type="real" ref="#ficaua">Ficaua</placeName> a <persName type="hist" ref="#maura">Maura</persName> gente magoada,</l>
+                    <l>No odio antigo, mais que nunca acesa.</l>
+                    <l>E vendo sem vingança tanto dano,</l>
+                    <l>Somente estriba no segundo engano.</l>
+                </lg>
+                <lg type="estrofe" n="94">
+                    <l>Pazes cometer manda arrependido,</l>
+                    <l>O <placeName type="real" ref="#regedor">Regedor</placeName> daquella inica terra,</l>
+                    <l>Sem ser dos <placeName type="real" ref="#lusitanos">Lusitanos</placeName> entendido,</l>
+                    <l>Que em figura de paz lhe manda guerra:</l>
+                    <l>Porque o <placeName type="real" ref="#piloto">Piloto</placeName> falso prometido,</l>
+                    <l>Que toda a má tençam no peito encerra.</l>
+                    <l><placeName type="real" ref="#pera">Pera</placeName> os guiar <persName type="hist" ref="#aa">aa</persName> morte lhe mandaua,</l>
+                    <l>Como em sinal das pazes que trataua.</l>
+                </lg>
+                <lg type="estrofe" n="95">
+                    <l>O <placeName type="real" ref="#capitam">Capitam</placeName>, que ja lhe entam conuinha,</l>
+                    <l>Tornar a seu caminho acostumado,</l>
+                    <l>Que tempo concertado, &amp; ventos tinha,</l>
+                    <l>Pera yr buscar o <placeName type="real" ref="#indo">Indo</placeName> desejado.</l>
+                    <l>Recebendo o <persName type="hist" ref="#piloto">Piloto</persName> que lhe vinha,</l>
+                    <l><persName type="hist" ref="#foy_delle">Foy delle</persName> alegremente agasalhado:</l>
+                    <l>E respondendo ao mensageiro, atento</l>
+                    <l>Aas vellas manda dar ao largo vento.</l>
+                </lg>
+                <fw type="catch" place="bottom">Desta</fw>
+                <pb n="17" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="96">
+                    <l>Desta arte despedida a forte armada,</l>
+                    <l>As <placeName type="real" ref="#ondas_de_anfitrite_diuidia">ondas de Anfitrite diuidia</placeName>,</l>
+                    <l>Das filhas de <placeName type="real" ref="#nerèo">Nerèo</placeName> acompanhada,</l>
+                    <l>Fiel, <placeName type="real" ref="#alegre">alegre</placeName>, &amp; <persName type="hist" ref="#doçe_companhia">doçe companhia</persName>.</l>
+                    <l>O <placeName type="real" ref="#capitam">Capitam</placeName>, que nam cahia em nada,</l>
+                    <l>Do enganoso ardil que o <placeName type="real" ref="#mouro">Mouro</placeName> vrdia:</l>
+                    <l><persName type="hist" ref="#delle">Delle</persName> muy largamente se informaua,</l>
+                    <l>Da <placeName type="real" ref="#india">India</placeName> toda, &amp; costas que passaua.</l>
+                </lg>
+                <lg type="estrofe" n="97">
+                    <l>Mas o <placeName type="real" ref="#mouro">Mouro</placeName> instruido nos enganos,</l>
+                    <l>Que o maléuolo <persName type="hist" ref="#baco">Baco</persName> lhe ensinàra</l>
+                    <l>De morte, ou <persName type="hist" ref="#captiueiro_nouos">captiueiro nouos</persName> danos,</l>
+                    <l>Antes que aa <placeName type="real" ref="#india">India</placeName> chegue lhe prepara,</l>
+                    <l>Dando razam dos portos <placeName type="real" ref="#indianos">Indianos</placeName>,</l>
+                    <l><placeName type="real" ref="#tambem">Tambem</placeName> tudo o que pede lhe declara:</l>
+                    <l>Que auendo por verdade o que dizia,</l>
+                    <l>De nada a forte gente se temia.</l>
+                </lg>
+                <lg type="estrofe" n="98">
+                    <l>E dizlhe mais co falso pensamento,</l>
+                    <l>Com que <persName type="hist" ref="#synon">Synon</persName> os <placeName type="real" ref="#phrigios">Phrigios</placeName> enganou,</l>
+                    <l>Que perto està hũa Ilha, cujo assento,</l>
+                    <l>Pouo antigo Christão sempre abitou:</l>
+                    <l>O <persName type="hist" ref="#capitão">Capitão</persName> que a tudo estaua a tento,</l>
+                    <l>Tanto co estas nouas se alegrou,</l>
+                    <l>Que com dadiuas grandes lhe rogaua,</l>
+                    <l>Que o leue aa terra onde esta gente estaua.</l>
+                </lg>
+                <fw type="sig" place="bottom"><placeName type="real" ref="#c">C</placeName></fw>
+                <fw type="catch" place="bottom">Ho</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="99">
+                    <l>Ho mesmo o falso <placeName type="real" ref="#mouro">Mouro</placeName> determina,</l>
+                    <l>Que o seguro <placeName type="real" ref="#christão">Christão</placeName> lhe manda &amp; pede,</l>
+                    <l>Que a <placeName type="real" ref="#ilha_he">Ilha he</placeName> possuida da malina</l>
+                    <l>Gente, que segue o torpe <persName type="hist" ref="#mahamede">Mahamede</persName>:</l>
+                    <l>Aqui o engano &amp; morte lhe imagina,</l>
+                    <l>Porque em poder &amp; forças muito excede</l>
+                    <l><placeName type="real" ref="#aa_moçambique">Aa Moçambique</placeName>, esta <placeName type="real" ref="#ilha">Ilha</placeName> que se chama</l>
+                    <l><placeName type="real" ref="#quîloa">Quîloa</placeName>, muy conhecida pola fama.</l>
+                </lg>
+                <lg type="estrofe" n="100">
+                    <l><placeName type="real" ref="#pera">Pera</placeName> lá se inclinaua a leda frota:</l>
+                    <l>Mas a <placeName type="real" ref="#deosa">Deosa</placeName> em <placeName type="real" ref="#cythere">Cythere</placeName> celebrada,</l>
+                    <l>Vendo como deixaua a certa rota,</l>
+                    <l>Por yr buscar a morte não cuidada,</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> consente que em terra tam remota</l>
+                    <l>Se perca a gente della tanto amada.</l>
+                    <l>E com ventos contrairos a desuia,</l>
+                    <l>Donde o <persName type="hist" ref="#piloto">Piloto</persName> falso a leua, &amp; guia.</l>
+                </lg>
+                <lg type="estrofe" n="101">
+                    <l>Mas o maluado <placeName type="real" ref="#mouro">Mouro</placeName> nam podendo,</l>
+                    <l>Tal determinaçam <persName type="hist" ref="#leuar">leuar</persName> a vante,</l>
+                    <l>Outra maldade inica cometendo,</l>
+                    <l>Ainda em seu proposito constante,</l>
+                    <l><persName type="hist" ref="#lhe">Lhe</persName> diz, que pois as agoas discorrendo,</l>
+                    <l>Os <persName type="hist" ref="#leuàrão">leuàrão</persName> por força por diante,</l>
+                    <l>Que outra <placeName type="real" ref="#ilha">Ilha</placeName> tem perto, cuja gente,</l>
+                    <l>Eram <placeName type="real" ref="#christãos">Christãos</placeName> com <placeName type="real" ref="#mouros">Mouros</placeName> juntamente.</l>
+                </lg>
+                <fw type="catch" place="bottom"><placeName type="real" ref="#tambem">Tambem</placeName></fw>
+                <pb n="18" />
+                <fw type="header" place="top"><placeName type="real" ref="#canto_primeiro">CANTO PRIMEIRO</placeName>.</fw>
+                <lg type="estrofe" n="102">
+                    <l>Tambem nestas palauras lhe mentia,</l>
+                    <l>Como por regimento em fim leuaua,</l>
+                    <l>Que aqui gente de <persName type="hist" ref="#christo">Christo</persName> nam auia:</l>
+                    <l>Mas a que a <persName type="hist" ref="#mahamede">Mahamede</persName> celebraua.</l>
+                    <l>O <placeName type="real" ref="#capitam">Capitam</placeName> que em tudo o <placeName type="real" ref="#mouro">Mouro</placeName> cria,</l>
+                    <l>Virando as vellas, a <placeName type="real" ref="#ilha_demandaua">Ilha demandaua</placeName>:</l>
+                    <l>Mas nam querendo a <placeName type="real" ref="#deosa">Deosa</placeName> guardadora,</l>
+                    <l><placeName type="real" ref="#nam">Nam</placeName> entra pela barra, &amp; surge fora.</l>
+                </lg>
+                <lg type="estrofe" n="103">
+                    <l><persName type="hist" ref="#estaua">Estaua</persName> a <placeName type="real" ref="#ilha">Ilha</placeName> aà terra tam chegada,</l>
+                    <l>Que hum estreito pequeno a <placeName type="real" ref="#diuidia">diuidia</placeName>,</l>
+                    <l>Hũa cidade nella situada,</l>
+                    <l>Que na fronte do mar aparecia,</l>
+                    <l>De nobres edificios fabricada,</l>
+                    <l>Como por fora, ao longe descobria,</l>
+                    <l>Regida por hum Rei de antigua idade,</l>
+                    <l><placeName type="real" ref="#mombaça">Mombaça</placeName> he o nome da <placeName type="real" ref="#ilha">Ilha</placeName>, &amp; da <placeName type="real" ref="#cidade">Cidade</placeName>.</l>
+                </lg>
+                <lg type="estrofe" n="104">
+                    <l>E sendo a ella o <placeName type="real" ref="#capitam">Capitam</placeName> chegado,</l>
+                    <l>Estranhamente ledo, porque espera</l>
+                    <l>De poder ver o pouo baptizado,</l>
+                    <l>Como o falso <persName type="hist" ref="#piloto">Piloto</persName> lhe dissera:</l>
+                    <l>Eis vem bateis da terra com recado</l>
+                    <l>Do Rei, que ja sabia a gente que era,</l>
+                    <l>Que Baco muito de antes o auisara,</l>
+                    <l>Na forma doutro <placeName type="real" ref="#mouro">Mouro</placeName> que tomàra.</l>
+                </lg>
+                <fw type="sig" place="bottom"><placeName type="real" ref="#c_2">C 2</placeName></fw>
+                <fw type="catch" place="bottom">O recado</fw>
+                <pb />
+                <fw type="header" place="top"><placeName type="real" ref="#os_lvsiadas_de_l._de_ca">OS LVSIADAS DE L. DE CA</placeName>.</fw>
+                <lg type="estrofe" n="105">
+                    <l>O recado que trazem he de amigos:</l>
+                    <l>Mas debaxo o veneno vem cuberto,</l>
+                    <l>Que os pensamentos eram de inimigos,</l>
+                    <l>Segundo foy o engano descuberto.</l>
+                    <l>O grandes &amp; grauissimos perigos,</l>
+                    <l>O caminho de vida nunca certo.</l>
+                    <l>Que aonde a gente poem sua esperança,</l>
+                    <l>Tenha a vida tam pouca segurança.</l>
+                </lg>
+                <lg type="estrofe" n="106">
+                    <l>No mar tanta tormenta, &amp; tanto dano,</l>
+                    <l>Tantas vezes a morte <persName type="hist" ref="#apercebida">apercebida</persName>,</l>
+                    <l>Na terra, tanta guerra, tanto engano,</l>
+                    <l>Tanta necessidade auorrecida:</l>
+                    <l>Onde pode acolherse hum fraco humano,</l>
+                    <l>Onde terà segura a curta vida?</l>
+                    <l>Que não se arme, &amp; se indigne o ceo sereno,</l>
+                    <l>Contra hum bicho da terra tam pequeno.</l>
+                </lg>
+                <trailer>Fim.</trailer>
+            </div>
+        </body>
+    </text>
+</TEI>
