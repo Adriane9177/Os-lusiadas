@@ -1,0 +1,136 @@
+﻿entity_id,entity_name,entity_category,textual_form,tei_element,tei_type,reference_type,occurrences,stanzas
+abraao,Abraão,person,Abraão,persName,hist,nome explícito,1,53
+afonso_albuquerque,Afonso de Albuquerque,person,Albuquerque terríbil,rs,person,referência indireta a pessoa,1,14
+alexandro,Alexandro Magno,person,Alexandro,persName,hist,nome explícito,1,3
+alexandro,Alexandro Magno,person,filho de Filipo,rs,person,referência indireta a pessoa,1,75
+alexandro,Alexandro Magno,person,grão Macedónio,rs,person,referência indireta a pessoa,1,75
+almeidas,Almeidas. D. Francisco e D.Lourenço,personGrp,Almeidas,persName,hist,nome explícito,1,14
+anfitrite,Anfitrite,person,Anfitrite,persName,myth,nome explícito,1,96
+apolo,Apolo,person,Apolo,persName,myth,nome explícito,1,37
+apolo,Apolo,person,Febo,persName,myth,nome explícito,1,56
+apolo,Apolo,person,Febo,rs,person,referência indireta a pessoa,1,4
+aqueronte,Aqueronte,place,Aqueronte,placeName,myth,nome explícito,1,51
+atlante,Atlante,person,Atlante,persName,myth,nome explícito,1,20
+aurora,Aurora,person,Aurora,persName,myth,nome explícito,1,59
+baco,Baco,person,Baco,persName,myth,nome explícito,4,"30, 39, 97, 104"
+baco,Baco,person,Lieo,persName,myth,nome explícito,1,49
+baco,Baco,person,grão Tebano,rs,person,referência indireta a pessoa,1,73
+calisto,Calisto,person,Calisto,persName,myth,nome explícito,1,51
+carlos_magno,Carlos Magno,person,Carlos,persName,hist,nome explícito,1,13
+citera,Citere,place,Citere,placeName,real,nome explícito,1,100
+constantino,Constantino,person,Constantino,persName,hist,nome explícito,1,60
+afonso_henriques,D. Afonso Henriques,person,primeiro Afonso,rs,person,referência indireta a pessoa,1,13
+afonso_iii,D. Afonso III,person,terceiro,rs,person,referência indireta a pessoa,1,13
+afonso_iv,D. Afonso IV,person,quarto,rs,person,referência indireta a pessoa,1,13
+afonso_v,D. Afonso V,person,quinto,rs,person,referência indireta a pessoa,1,13
+d._fuas,D. Fuas Roupinho,person,D. Fuas,persName,hist,nome explícito,1,12
+d_joao_i,D. João I,person,aquele,rs,person,referência indireta a pessoa,1,13
+d_joao_ii,D. João II,person,Outro Joane,rs,person,referência indireta a pessoa,1,13
+joao_castro,D. João de Castro,person,Castro,persName,hist,nome explícito,1,14
+d_manuel_i,D. Manuel I,person,Dum Rei,rs,person,referência indireta a pessoa,1,51
+d_sebastiao,D. Sebastião I,person,Sublime Rei,rs,person,referência indireta a pessoa,1,15
+d_sebastiao,D. Sebastião I,person,poderoso Rei,rs,person,referência indireta a pessoa,1,8
+david,David,person,David,persName,hist,nome explícito,1,71
+deus,Deus,person,Deus,persName,myth,nome explícito,2,6
+pacheco,Duarte Pacheco Pereira,person,Pacheco,persName,hist,nome explícito,1,14
+doris,Dóris,person,Dóris,persName,myth,nome explícito,1,31
+egas,Egas Moniz,person,Egas,persName,hist,nome explícito,1,12
+eneias,Eneias,person,Eneias,persName,hist,nome explícito,1,12
+eneias,Eneias,person,Troiano,rs,person,referência indireta a pessoa,1,3
+espanha,Espanha,place,Espanha,placeName,real,nome explícito,1,31
+etiopia,Etiópia,place,Etiópia,placeName,real,nome explícito,1,43
+etiopia,Etiópia,place,Etiópica,placeName,real,nome explícito,1,42
+europa,Europa,place,Europa,placeName,real,nome explícito,1,64
+fado,Fado,person,Destino,persName,myth,nome explícito,1,60
+fado,Fado,person,Fado,persName,myth,nome explícito,1,28
+fado,Fado,person,Fados,rs,person,referência indireta a pessoa,1,31
+faeton,Faeton,person,Faeton,persName,myth,nome explícito,2,"46, 49"
+filipo,Filipo,person,Filipo,persName,hist,nome explícito,1,75
+fortuna,Fortuna,person,Fortuna,persName,myth,nome explícito,2,"32, 44"
+franca,França,place,França,placeName,real,nome explícito,1,13
+hiperiao,Hiperiónio,person,Hiperiónio,persName,myth,nome explícito,1,59
+hipocrene,Hipocrene,place,Hipoerene,placeName,myth,nome explícito,1,4
+homero,Homero,person,Homero,persName,hist,nome explícito,1,12
+idaspe,Idaspe,place,Idaspe,placeName,real,nome explícito,1,55
+imperio_portugues_oriente,Império Português do Oriente,place,Novo Reino,placeName,real,nome explícito,1,1
+indo,Indo,place,Indo,placeName,real,nome explícito,3,"32, 52, 95"
+inglaterra,Inglaterra,place,Inglaterra,placeName,real,nome explícito,1,12
+jesus_cristo,Jesus Cristo,person,Cristo,rs,person,referência indireta a pessoa,3,"7, 63, 102"
+jesus_cristo,Jesus Cristo,person,Deus-Homem,rs,person,referência indireta a pessoa,1,66
+jesus_cristo,Jesus Cristo,person,Filho de David,rs,person,referência indireta a pessoa,1,71
+jupiter,Júpiter,person,Júpiter,persName,myth,nome explícito,4,"23, 30, 37"
+jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,4,"22, 40, 41, 74"
+jupiter,Júpiter,person,Tonante,rs,person,referência indireta a pessoa,1,20
+jupiter,Júpiter,person,Ó Padre,rs,person,referência indireta a pessoa,1,38
+lampetusa,Lampetusa,person,Lampetusa,persName,myth,nome explícito,1,46
+maome,Maomé,person,Mahamede,persName,hist,nome explícito,2,"99, 102"
+marte,Marte,person,Marte,persName,myth,nome explícito,4,"3, 5, 36, 75"
+marte,Marte,person,Mavorte,persName,myth,nome explícito,1,41
+mercúrio,Mercúrio,person,Mercúrio,persName,myth,nome explícito,1,40
+mombaca,Mombaca,place,Mombaça,placeName,real,nome explícito,1,54
+olimpo,Monte Olimpo,place,Olimpo,placeName,myth,nome explícito,3,"20, 35, 42"
+olimpo,Monte Olimpo,place,olímpica morada,rs,place,referência indireta a lugar,1,17
+musa,Musa,person,Musa,persName,myth,nome explícito,1,3
+musa,Musa,person,Musas,persName,myth,nome explícito,1,11
+nabateia,Nabateia,place,montes Nabatêos,placeName,real,nome explícito,1,84
+neptuno,Neptuno,person,Neptuno,persName,myth,nome explícito,2,"3, 72"
+nereidas,Nereidas,person,filhas de Nereu,rs,person,referência indireta a pessoa,1,96
+nereu,Nereu,person,Nereu,persName,myth,nome explícito,1,96
+nisa,Nisa,place,Nisa,placeName,myth,nome explícito,1,31
+noto,Noto,person,Noto,persName,myth,nome explícito,1,27
+nuno_alvares,Nuno Álvares Pereira,person,Nuno,persName,hist,nome explícito,1,12
+orlando,Orlando,person,Orlando,persName,myth,nome explícito,1,11
+doze_inglaterra,Os Doze de Inglaterra,personGrp,Os doze de Inglaterra,rs,group,referência coletiva,1,12
+parcas,Parcas,person,Parcas,persName,myth,nome explícito,1,34
+parnaso,Parnaso,place,Parnaso,placeName,real,nome explícito,1,32
+portugal,Portugal,place,Império,rs,place,referência indireta a lugar,1,8
+portugal,Portugal,place,Luso,placeName,real,nome explícito,1,62
+portugal,Portugal,place,Reino,placeName,real,nome explícito,1,15
+portugal,Portugal,place,Reino,rs,place,referência indireta a lugar,1,13
+portugal,Portugal,place,ocidental praia Lusitana,rs,place,referência indireta a lugar,1,1
+prasso_promontorio,Promontório do Prasso,place,Prasso,placeName,real,nome explícito,1,77
+proteu,Próteo,person,Próteo,persName,myth,nome explícito,1,19
+quiloa,Quíloa,place,Quíloa,placeName,real,nome explícito,1,54
+rio_ganges,Rio Ganges,place,santo rio,rs,place,referência indireta a lugar,1,8
+lete,Rio Lete>,place,D'água do esquecimento,rs,place,referência indireta a lugar,1,32
+rio_pado,Rio Pado,place,Pado,placeName,real,nome explícito,1,46
+tejo,Rio Tejo,place,Tejo,placeName,real,nome explícito,2,"14, 25"
+rodamonte,Rodamonte,person,Rodamonte,persName,myth,nome explícito,1,11
+romulo,Romulo,person,Rómulo,persName,hist,nome explícito,1,26
+rugeiro,Rugeiro,person,Rugeiro,persName,myth,nome explícito,1,11
+sertorio,Sertório,person,Um por seu capitão,rs,person,referência indireta a pessoa,1,26
+sinon,Sinon,person,Sinon,persName,myth,nome explícito,1,98
+sofala,Sofala,place,Sofala,placeName,real,nome explícito,1,54
+tagides,Tagides,person,Tágides,persName,myth,nome explícito,1,4
+taprobana,Taprobana (Sri Lanka),place,Taprobana,placeName,real,nome explícito,1,1
+tifeu,Tifeu,person,Tifeu,persName,myth,nome explícito,1,42
+tingitana,Tingitana,place,Tingitana,placeName,real,nome explícito,1,33
+trajano,Trajano,person,Trajano,persName,hist,nome explícito,1,3
+turquia,Turquia,place,Turquia,placeName,real,nome explícito,2,"62, 64"
+tetis,Tétis (Nereida),person,Tethys,persName,myth,nome explícito,1,16
+ulisses,Ulisses,person,sábio Grego,rs,person,referência indireta a pessoa,1,3
+v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,13,"49, 56, 61, 63, 64, 70, 76, 80, 95, 96, 98, 102, 104"
+v_gama,Vasco da Gama,person,Gama,persName,hist,nome explícito,2,"12, 84"
+v_gama,Vasco da Gama,person,Vasco da Gama,persName,hist,nome explícito,1,44
+viriato,Viriato,person,Viriato,persName,hist,nome explícito,1,26
+vulcano,Vulcano,person,Vulcano,persName,myth,nome explícito,2,"22, 68"
+venus,Vénus,person,Deusa,rs,person,referência indireta a pessoa,3,"36, 100, 102"
+venus,Vénus,person,Citereia,persName,myth,nome explícito,1,34
+venus,Vénus,person,Vénus,persName,myth,nome explícito,1,33
+venus,Vénus,person,clara Deia,rs,person,referência indireta a pessoa,1,34
+ilha_de_moçambique,ilha_de_moçambique,não encontrada,Ilha de Moçambique,placeName,real,nome explícito,1,53
+ilha_de_são_lourenço,ilha_de_são_lourenço,não encontrada,Ilha de São Lourenço,placeName,real,nome explícito,1,42
+ilha_moçambique,ilha_moçambique,não encontrada,ilha Moçambique,placeName,real,nome explícito,1,54
+julio_césar,julio_césar,não encontrada,César,persName,hist,nome explícito,1,13
+mombaça,mombaça,não encontrada,Mombaça,placeName,real,nome explícito,1,103
+moçambique,moçambique,não encontrada,Moçambique,placeName,real,nome explícito,2,"77, 99"
+prasso,prasso,não encontrada,Prasso,placeName,real,nome explícito,1,43
+quíloa,quíloa,não encontrada,Quíloa,placeName,real,nome explícito,1,99
+rio_indo,rio_indo,não encontrada,Indo,placeName,real,nome explícito,1,55
+africa,África,place,África,placeName,real,nome explícito,2,"2, 15"
+africa,África,place,costa Africana,rs,place,referência indireta a lugar,1,51
+africo,Áfrico,person,Áfrico,persName,myth,nome explícito,1,27
+magriço,Álvaro Gonçalves Coutinho (O Magriço),person,Magriço,persName,hist,nome explícito,1,12
+asia,Ásia,place,Ásia,placeName,real,nome explícito,1,2
+índia,Índia,place,Índia,placeName,real,nome explícito,5,"32, 52, 70, 96, 97"
+índia,Índia,place,índia,placeName,real,nome explícito,3,"31, 40, 64"

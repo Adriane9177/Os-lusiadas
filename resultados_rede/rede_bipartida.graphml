@@ -1,0 +1,1970 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d6" for="node" attr.name="tei_type" attr.type="string"/>
+<key id="d5" for="node" attr.name="tei_element" attr.type="string"/>
+<key id="d4" for="node" attr.name="reference_type" attr.type="string"/>
+<key id="d3" for="node" attr.name="category" attr.type="string"/>
+<key id="d2" for="node" attr.name="entity_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="bipartite" attr.type="string"/>
+<graph edgedefault="undirected"><node id="ENT::abraao">
+  <data key="d0">entity</data>
+  <data key="d1">Abraão</data>
+  <data key="d2">abraao</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::abraao::Abraão">
+  <data key="d0">form</data>
+  <data key="d1">Abraão</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::afonso_albuquerque">
+  <data key="d0">entity</data>
+  <data key="d1">Afonso de Albuquerque</data>
+  <data key="d2">afonso_albuquerque</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::afonso_albuquerque::Albuquerque terríbil">
+  <data key="d0">form</data>
+  <data key="d1">Albuquerque terríbil</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::alexandro">
+  <data key="d0">entity</data>
+  <data key="d1">Alexandro Magno</data>
+  <data key="d2">alexandro</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::alexandro::Alexandro">
+  <data key="d0">form</data>
+  <data key="d1">Alexandro</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="FORM::alexandro::filho de Filipo">
+  <data key="d0">form</data>
+  <data key="d1">filho de Filipo</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::alexandro::grão Macedónio">
+  <data key="d0">form</data>
+  <data key="d1">grão Macedónio</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::almeidas">
+  <data key="d0">entity</data>
+  <data key="d1">Almeidas. D. Francisco e D.Lourenço</data>
+  <data key="d2">almeidas</data>
+  <data key="d3">personGrp</data>
+</node>
+<node id="FORM::almeidas::Almeidas">
+  <data key="d0">form</data>
+  <data key="d1">Almeidas</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::anfitrite">
+  <data key="d0">entity</data>
+  <data key="d1">Anfitrite</data>
+  <data key="d2">anfitrite</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::anfitrite::Anfitrite">
+  <data key="d0">form</data>
+  <data key="d1">Anfitrite</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::apolo">
+  <data key="d0">entity</data>
+  <data key="d1">Apolo</data>
+  <data key="d2">apolo</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::apolo::Apolo">
+  <data key="d0">form</data>
+  <data key="d1">Apolo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::apolo::Febo">
+  <data key="d0">form</data>
+  <data key="d1">Febo</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::aqueronte">
+  <data key="d0">entity</data>
+  <data key="d1">Aqueronte</data>
+  <data key="d2">aqueronte</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::aqueronte::Aqueronte">
+  <data key="d0">form</data>
+  <data key="d1">Aqueronte</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::atlante">
+  <data key="d0">entity</data>
+  <data key="d1">Atlante</data>
+  <data key="d2">atlante</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::atlante::Atlante">
+  <data key="d0">form</data>
+  <data key="d1">Atlante</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::aurora">
+  <data key="d0">entity</data>
+  <data key="d1">Aurora</data>
+  <data key="d2">aurora</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::aurora::Aurora">
+  <data key="d0">form</data>
+  <data key="d1">Aurora</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::baco">
+  <data key="d0">entity</data>
+  <data key="d1">Baco</data>
+  <data key="d2">baco</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::baco::Baco">
+  <data key="d0">form</data>
+  <data key="d1">Baco</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::baco::Lieo">
+  <data key="d0">form</data>
+  <data key="d1">Lieo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::baco::grão Tebano">
+  <data key="d0">form</data>
+  <data key="d1">grão Tebano</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::calisto">
+  <data key="d0">entity</data>
+  <data key="d1">Calisto</data>
+  <data key="d2">calisto</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::calisto::Calisto">
+  <data key="d0">form</data>
+  <data key="d1">Calisto</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::carlos_magno">
+  <data key="d0">entity</data>
+  <data key="d1">Carlos Magno</data>
+  <data key="d2">carlos_magno</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::carlos_magno::Carlos">
+  <data key="d0">form</data>
+  <data key="d1">Carlos</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::citera">
+  <data key="d0">entity</data>
+  <data key="d1">Citere</data>
+  <data key="d2">citera</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::citera::Citere">
+  <data key="d0">form</data>
+  <data key="d1">Citere</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::constantino">
+  <data key="d0">entity</data>
+  <data key="d1">Constantino</data>
+  <data key="d2">constantino</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::constantino::Constantino">
+  <data key="d0">form</data>
+  <data key="d1">Constantino</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::afonso_henriques">
+  <data key="d0">entity</data>
+  <data key="d1">D. Afonso Henriques</data>
+  <data key="d2">afonso_henriques</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::afonso_henriques::primeiro Afonso">
+  <data key="d0">form</data>
+  <data key="d1">primeiro Afonso</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::afonso_iii">
+  <data key="d0">entity</data>
+  <data key="d1">D. Afonso III</data>
+  <data key="d2">afonso_iii</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::afonso_iii::terceiro">
+  <data key="d0">form</data>
+  <data key="d1">terceiro</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::afonso_iv">
+  <data key="d0">entity</data>
+  <data key="d1">D. Afonso IV</data>
+  <data key="d2">afonso_iv</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::afonso_iv::quarto">
+  <data key="d0">form</data>
+  <data key="d1">quarto</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::afonso_v">
+  <data key="d0">entity</data>
+  <data key="d1">D. Afonso V</data>
+  <data key="d2">afonso_v</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::afonso_v::quinto">
+  <data key="d0">form</data>
+  <data key="d1">quinto</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::d._fuas">
+  <data key="d0">entity</data>
+  <data key="d1">D. Fuas Roupinho</data>
+  <data key="d2">d._fuas</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::d._fuas::D. Fuas">
+  <data key="d0">form</data>
+  <data key="d1">D. Fuas</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::d_joao_i">
+  <data key="d0">entity</data>
+  <data key="d1">D. João I</data>
+  <data key="d2">d_joao_i</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::d_joao_i::aquele">
+  <data key="d0">form</data>
+  <data key="d1">aquele</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::d_joao_ii">
+  <data key="d0">entity</data>
+  <data key="d1">D. João II</data>
+  <data key="d2">d_joao_ii</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::d_joao_ii::Outro Joane">
+  <data key="d0">form</data>
+  <data key="d1">Outro Joane</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::joao_castro">
+  <data key="d0">entity</data>
+  <data key="d1">D. João de Castro</data>
+  <data key="d2">joao_castro</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::joao_castro::Castro">
+  <data key="d0">form</data>
+  <data key="d1">Castro</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::d_manuel_i">
+  <data key="d0">entity</data>
+  <data key="d1">D. Manuel I</data>
+  <data key="d2">d_manuel_i</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::d_manuel_i::Dum Rei">
+  <data key="d0">form</data>
+  <data key="d1">Dum Rei</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::d_sebastiao">
+  <data key="d0">entity</data>
+  <data key="d1">D. Sebastião I</data>
+  <data key="d2">d_sebastiao</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::d_sebastiao::Sublime Rei">
+  <data key="d0">form</data>
+  <data key="d1">Sublime Rei</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::d_sebastiao::poderoso Rei">
+  <data key="d0">form</data>
+  <data key="d1">poderoso Rei</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::david">
+  <data key="d0">entity</data>
+  <data key="d1">David</data>
+  <data key="d2">david</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::david::David">
+  <data key="d0">form</data>
+  <data key="d1">David</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::deus">
+  <data key="d0">entity</data>
+  <data key="d1">Deus</data>
+  <data key="d2">deus</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::deus::Deus">
+  <data key="d0">form</data>
+  <data key="d1">Deus</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::pacheco">
+  <data key="d0">entity</data>
+  <data key="d1">Duarte Pacheco Pereira</data>
+  <data key="d2">pacheco</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::pacheco::Pacheco">
+  <data key="d0">form</data>
+  <data key="d1">Pacheco</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::doris">
+  <data key="d0">entity</data>
+  <data key="d1">Dóris</data>
+  <data key="d2">doris</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::doris::Dóris">
+  <data key="d0">form</data>
+  <data key="d1">Dóris</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::egas">
+  <data key="d0">entity</data>
+  <data key="d1">Egas Moniz</data>
+  <data key="d2">egas</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::egas::Egas">
+  <data key="d0">form</data>
+  <data key="d1">Egas</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::eneias">
+  <data key="d0">entity</data>
+  <data key="d1">Eneias</data>
+  <data key="d2">eneias</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::eneias::Eneias">
+  <data key="d0">form</data>
+  <data key="d1">Eneias</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="FORM::eneias::Troiano">
+  <data key="d0">form</data>
+  <data key="d1">Troiano</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::espanha">
+  <data key="d0">entity</data>
+  <data key="d1">Espanha</data>
+  <data key="d2">espanha</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::espanha::Espanha">
+  <data key="d0">form</data>
+  <data key="d1">Espanha</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::etiopia">
+  <data key="d0">entity</data>
+  <data key="d1">Etiópia</data>
+  <data key="d2">etiopia</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::etiopia::Etiópia">
+  <data key="d0">form</data>
+  <data key="d1">Etiópia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::etiopia::Etiópica">
+  <data key="d0">form</data>
+  <data key="d1">Etiópica</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::europa">
+  <data key="d0">entity</data>
+  <data key="d1">Europa</data>
+  <data key="d2">europa</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::europa::Europa">
+  <data key="d0">form</data>
+  <data key="d1">Europa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::fado">
+  <data key="d0">entity</data>
+  <data key="d1">Fado</data>
+  <data key="d2">fado</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::fado::Destino">
+  <data key="d0">form</data>
+  <data key="d1">Destino</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::fado::Fado">
+  <data key="d0">form</data>
+  <data key="d1">Fado</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::fado::Fados">
+  <data key="d0">form</data>
+  <data key="d1">Fados</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::faeton">
+  <data key="d0">entity</data>
+  <data key="d1">Faeton</data>
+  <data key="d2">faeton</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::faeton::Faeton">
+  <data key="d0">form</data>
+  <data key="d1">Faeton</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::filipo">
+  <data key="d0">entity</data>
+  <data key="d1">Filipo</data>
+  <data key="d2">filipo</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::filipo::Filipo">
+  <data key="d0">form</data>
+  <data key="d1">Filipo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::fortuna">
+  <data key="d0">entity</data>
+  <data key="d1">Fortuna</data>
+  <data key="d2">fortuna</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::fortuna::Fortuna">
+  <data key="d0">form</data>
+  <data key="d1">Fortuna</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::franca">
+  <data key="d0">entity</data>
+  <data key="d1">França</data>
+  <data key="d2">franca</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::franca::França">
+  <data key="d0">form</data>
+  <data key="d1">França</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::hiperiao">
+  <data key="d0">entity</data>
+  <data key="d1">Hiperiónio</data>
+  <data key="d2">hiperiao</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::hiperiao::Hiperiónio">
+  <data key="d0">form</data>
+  <data key="d1">Hiperiónio</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::hipocrene">
+  <data key="d0">entity</data>
+  <data key="d1">Hipocrene</data>
+  <data key="d2">hipocrene</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::hipocrene::Hipoerene">
+  <data key="d0">form</data>
+  <data key="d1">Hipoerene</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::homero">
+  <data key="d0">entity</data>
+  <data key="d1">Homero</data>
+  <data key="d2">homero</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::homero::Homero">
+  <data key="d0">form</data>
+  <data key="d1">Homero</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::idaspe">
+  <data key="d0">entity</data>
+  <data key="d1">Idaspe</data>
+  <data key="d2">idaspe</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::idaspe::Idaspe">
+  <data key="d0">form</data>
+  <data key="d1">Idaspe</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::imperio_portugues_oriente">
+  <data key="d0">entity</data>
+  <data key="d1">Império Português do Oriente</data>
+  <data key="d2">imperio_portugues_oriente</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::imperio_portugues_oriente::Novo Reino">
+  <data key="d0">form</data>
+  <data key="d1">Novo Reino</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::indo">
+  <data key="d0">entity</data>
+  <data key="d1">Indo</data>
+  <data key="d2">indo</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::indo::Indo">
+  <data key="d0">form</data>
+  <data key="d1">Indo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::inglaterra">
+  <data key="d0">entity</data>
+  <data key="d1">Inglaterra</data>
+  <data key="d2">inglaterra</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::inglaterra::Inglaterra">
+  <data key="d0">form</data>
+  <data key="d1">Inglaterra</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::jesus_cristo">
+  <data key="d0">entity</data>
+  <data key="d1">Jesus Cristo</data>
+  <data key="d2">jesus_cristo</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::jesus_cristo::Cristo">
+  <data key="d0">form</data>
+  <data key="d1">Cristo</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::jesus_cristo::Deus-Homem">
+  <data key="d0">form</data>
+  <data key="d1">Deus-Homem</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::jesus_cristo::Filho de David">
+  <data key="d0">form</data>
+  <data key="d1">Filho de David</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::jupiter">
+  <data key="d0">entity</data>
+  <data key="d1">Júpiter</data>
+  <data key="d2">jupiter</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::jupiter::Júpiter">
+  <data key="d0">form</data>
+  <data key="d1">Júpiter</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::jupiter::Padre">
+  <data key="d0">form</data>
+  <data key="d1">Padre</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::jupiter::Tonante">
+  <data key="d0">form</data>
+  <data key="d1">Tonante</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::jupiter::Ó Padre">
+  <data key="d0">form</data>
+  <data key="d1">Ó Padre</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::lampetusa">
+  <data key="d0">entity</data>
+  <data key="d1">Lampetusa</data>
+  <data key="d2">lampetusa</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::lampetusa::Lampetusa">
+  <data key="d0">form</data>
+  <data key="d1">Lampetusa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::maome">
+  <data key="d0">entity</data>
+  <data key="d1">Maomé</data>
+  <data key="d2">maome</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::maome::Mahamede">
+  <data key="d0">form</data>
+  <data key="d1">Mahamede</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::marte">
+  <data key="d0">entity</data>
+  <data key="d1">Marte</data>
+  <data key="d2">marte</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::marte::Marte">
+  <data key="d0">form</data>
+  <data key="d1">Marte</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::marte::Mavorte">
+  <data key="d0">form</data>
+  <data key="d1">Mavorte</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::mercúrio">
+  <data key="d0">entity</data>
+  <data key="d1">Mercúrio</data>
+  <data key="d2">mercúrio</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::mercúrio::Mercúrio">
+  <data key="d0">form</data>
+  <data key="d1">Mercúrio</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::mombaca">
+  <data key="d0">entity</data>
+  <data key="d1">Mombaca</data>
+  <data key="d2">mombaca</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::mombaca::Mombaça">
+  <data key="d0">form</data>
+  <data key="d1">Mombaça</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::olimpo">
+  <data key="d0">entity</data>
+  <data key="d1">Monte Olimpo</data>
+  <data key="d2">olimpo</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::olimpo::Olimpo">
+  <data key="d0">form</data>
+  <data key="d1">Olimpo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::olimpo::olímpica morada">
+  <data key="d0">form</data>
+  <data key="d1">olímpica morada</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="ENT::musa">
+  <data key="d0">entity</data>
+  <data key="d1">Musa</data>
+  <data key="d2">musa</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::musa::Musa">
+  <data key="d0">form</data>
+  <data key="d1">Musa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::musa::Musas">
+  <data key="d0">form</data>
+  <data key="d1">Musas</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::nabateia">
+  <data key="d0">entity</data>
+  <data key="d1">Nabateia</data>
+  <data key="d2">nabateia</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::nabateia::montes Nabatêos">
+  <data key="d0">form</data>
+  <data key="d1">montes Nabatêos</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::neptuno">
+  <data key="d0">entity</data>
+  <data key="d1">Neptuno</data>
+  <data key="d2">neptuno</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::neptuno::Neptuno">
+  <data key="d0">form</data>
+  <data key="d1">Neptuno</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::nereidas">
+  <data key="d0">entity</data>
+  <data key="d1">Nereidas</data>
+  <data key="d2">nereidas</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::nereidas::filhas de Nereu">
+  <data key="d0">form</data>
+  <data key="d1">filhas de Nereu</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::nereu">
+  <data key="d0">entity</data>
+  <data key="d1">Nereu</data>
+  <data key="d2">nereu</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::nereu::Nereu">
+  <data key="d0">form</data>
+  <data key="d1">Nereu</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::nisa">
+  <data key="d0">entity</data>
+  <data key="d1">Nisa</data>
+  <data key="d2">nisa</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::nisa::Nisa">
+  <data key="d0">form</data>
+  <data key="d1">Nisa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::noto">
+  <data key="d0">entity</data>
+  <data key="d1">Noto</data>
+  <data key="d2">noto</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::noto::Noto">
+  <data key="d0">form</data>
+  <data key="d1">Noto</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::nuno_alvares">
+  <data key="d0">entity</data>
+  <data key="d1">Nuno Álvares Pereira</data>
+  <data key="d2">nuno_alvares</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::nuno_alvares::Nuno">
+  <data key="d0">form</data>
+  <data key="d1">Nuno</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::orlando">
+  <data key="d0">entity</data>
+  <data key="d1">Orlando</data>
+  <data key="d2">orlando</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::orlando::Orlando">
+  <data key="d0">form</data>
+  <data key="d1">Orlando</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::doze_inglaterra">
+  <data key="d0">entity</data>
+  <data key="d1">Os Doze de Inglaterra</data>
+  <data key="d2">doze_inglaterra</data>
+  <data key="d3">personGrp</data>
+</node>
+<node id="FORM::doze_inglaterra::Os doze de Inglaterra">
+  <data key="d0">form</data>
+  <data key="d1">Os doze de Inglaterra</data>
+  <data key="d4">referência coletiva</data>
+  <data key="d5">rs</data>
+  <data key="d6">group</data>
+</node>
+<node id="ENT::parcas">
+  <data key="d0">entity</data>
+  <data key="d1">Parcas</data>
+  <data key="d2">parcas</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::parcas::Parcas">
+  <data key="d0">form</data>
+  <data key="d1">Parcas</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::parnaso">
+  <data key="d0">entity</data>
+  <data key="d1">Parnaso</data>
+  <data key="d2">parnaso</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::parnaso::Parnaso">
+  <data key="d0">form</data>
+  <data key="d1">Parnaso</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::portugal">
+  <data key="d0">entity</data>
+  <data key="d1">Portugal</data>
+  <data key="d2">portugal</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::portugal::Império">
+  <data key="d0">form</data>
+  <data key="d1">Império</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="FORM::portugal::Luso">
+  <data key="d0">form</data>
+  <data key="d1">Luso</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::portugal::Reino">
+  <data key="d0">form</data>
+  <data key="d1">Reino</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="FORM::portugal::ocidental praia Lusitana">
+  <data key="d0">form</data>
+  <data key="d1">ocidental praia Lusitana</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="ENT::prasso_promontorio">
+  <data key="d0">entity</data>
+  <data key="d1">Promontório do Prasso</data>
+  <data key="d2">prasso_promontorio</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::prasso_promontorio::Prasso">
+  <data key="d0">form</data>
+  <data key="d1">Prasso</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::proteu">
+  <data key="d0">entity</data>
+  <data key="d1">Próteo</data>
+  <data key="d2">proteu</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::proteu::Próteo">
+  <data key="d0">form</data>
+  <data key="d1">Próteo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::quiloa">
+  <data key="d0">entity</data>
+  <data key="d1">Quíloa</data>
+  <data key="d2">quiloa</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::quiloa::Quíloa">
+  <data key="d0">form</data>
+  <data key="d1">Quíloa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::rio_ganges">
+  <data key="d0">entity</data>
+  <data key="d1">Rio Ganges</data>
+  <data key="d2">rio_ganges</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::rio_ganges::santo rio">
+  <data key="d0">form</data>
+  <data key="d1">santo rio</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="ENT::lete">
+  <data key="d0">entity</data>
+  <data key="d1">Rio Lete&gt;</data>
+  <data key="d2">lete</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::lete::D'água do esquecimento">
+  <data key="d0">form</data>
+  <data key="d1">D'água do esquecimento</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="ENT::rio_pado">
+  <data key="d0">entity</data>
+  <data key="d1">Rio Pado</data>
+  <data key="d2">rio_pado</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::rio_pado::Pado">
+  <data key="d0">form</data>
+  <data key="d1">Pado</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::tejo">
+  <data key="d0">entity</data>
+  <data key="d1">Rio Tejo</data>
+  <data key="d2">tejo</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::tejo::Tejo">
+  <data key="d0">form</data>
+  <data key="d1">Tejo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::rodamonte">
+  <data key="d0">entity</data>
+  <data key="d1">Rodamonte</data>
+  <data key="d2">rodamonte</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::rodamonte::Rodamonte">
+  <data key="d0">form</data>
+  <data key="d1">Rodamonte</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::romulo">
+  <data key="d0">entity</data>
+  <data key="d1">Romulo</data>
+  <data key="d2">romulo</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::romulo::Rómulo">
+  <data key="d0">form</data>
+  <data key="d1">Rómulo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::rugeiro">
+  <data key="d0">entity</data>
+  <data key="d1">Rugeiro</data>
+  <data key="d2">rugeiro</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::rugeiro::Rugeiro">
+  <data key="d0">form</data>
+  <data key="d1">Rugeiro</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::sertorio">
+  <data key="d0">entity</data>
+  <data key="d1">Sertório</data>
+  <data key="d2">sertorio</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::sertorio::Um por seu capitão">
+  <data key="d0">form</data>
+  <data key="d1">Um por seu capitão</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::sinon">
+  <data key="d0">entity</data>
+  <data key="d1">Sinon</data>
+  <data key="d2">sinon</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::sinon::Sinon">
+  <data key="d0">form</data>
+  <data key="d1">Sinon</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::sofala">
+  <data key="d0">entity</data>
+  <data key="d1">Sofala</data>
+  <data key="d2">sofala</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::sofala::Sofala">
+  <data key="d0">form</data>
+  <data key="d1">Sofala</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::tagides">
+  <data key="d0">entity</data>
+  <data key="d1">Tagides</data>
+  <data key="d2">tagides</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::tagides::Tágides">
+  <data key="d0">form</data>
+  <data key="d1">Tágides</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::taprobana">
+  <data key="d0">entity</data>
+  <data key="d1">Taprobana (Sri Lanka)</data>
+  <data key="d2">taprobana</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::taprobana::Taprobana">
+  <data key="d0">form</data>
+  <data key="d1">Taprobana</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::tifeu">
+  <data key="d0">entity</data>
+  <data key="d1">Tifeu</data>
+  <data key="d2">tifeu</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::tifeu::Tifeu">
+  <data key="d0">form</data>
+  <data key="d1">Tifeu</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::tingitana">
+  <data key="d0">entity</data>
+  <data key="d1">Tingitana</data>
+  <data key="d2">tingitana</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::tingitana::Tingitana">
+  <data key="d0">form</data>
+  <data key="d1">Tingitana</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::trajano">
+  <data key="d0">entity</data>
+  <data key="d1">Trajano</data>
+  <data key="d2">trajano</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::trajano::Trajano">
+  <data key="d0">form</data>
+  <data key="d1">Trajano</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::turquia">
+  <data key="d0">entity</data>
+  <data key="d1">Turquia</data>
+  <data key="d2">turquia</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::turquia::Turquia">
+  <data key="d0">form</data>
+  <data key="d1">Turquia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::tetis">
+  <data key="d0">entity</data>
+  <data key="d1">Tétis (Nereida)</data>
+  <data key="d2">tetis</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::tetis::Tethys">
+  <data key="d0">form</data>
+  <data key="d1">Tethys</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::ulisses">
+  <data key="d0">entity</data>
+  <data key="d1">Ulisses</data>
+  <data key="d2">ulisses</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::ulisses::sábio Grego">
+  <data key="d0">form</data>
+  <data key="d1">sábio Grego</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::v_gama">
+  <data key="d0">entity</data>
+  <data key="d1">Vasco da Gama</data>
+  <data key="d2">v_gama</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::v_gama::Capitão">
+  <data key="d0">form</data>
+  <data key="d1">Capitão</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::v_gama::Gama">
+  <data key="d0">form</data>
+  <data key="d1">Gama</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="FORM::v_gama::Vasco da Gama">
+  <data key="d0">form</data>
+  <data key="d1">Vasco da Gama</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::viriato">
+  <data key="d0">entity</data>
+  <data key="d1">Viriato</data>
+  <data key="d2">viriato</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::viriato::Viriato">
+  <data key="d0">form</data>
+  <data key="d1">Viriato</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::vulcano">
+  <data key="d0">entity</data>
+  <data key="d1">Vulcano</data>
+  <data key="d2">vulcano</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::vulcano::Vulcano">
+  <data key="d0">form</data>
+  <data key="d1">Vulcano</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::venus">
+  <data key="d0">entity</data>
+  <data key="d1">Vénus</data>
+  <data key="d2">venus</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::venus::Deusa">
+  <data key="d0">form</data>
+  <data key="d1">Deusa</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::venus::Citereia">
+  <data key="d0">form</data>
+  <data key="d1">Citereia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::venus::Vénus">
+  <data key="d0">form</data>
+  <data key="d1">Vénus</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="FORM::venus::clara Deia">
+  <data key="d0">form</data>
+  <data key="d1">clara Deia</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::ilha_de_moçambique">
+  <data key="d0">entity</data>
+  <data key="d1">ilha_de_moçambique</data>
+  <data key="d2">ilha_de_moçambique</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::ilha_de_moçambique::Ilha de Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">Ilha de Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::ilha_de_são_lourenço">
+  <data key="d0">entity</data>
+  <data key="d1">ilha_de_são_lourenço</data>
+  <data key="d2">ilha_de_são_lourenço</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::ilha_de_são_lourenço::Ilha de São Lourenço">
+  <data key="d0">form</data>
+  <data key="d1">Ilha de São Lourenço</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::ilha_moçambique">
+  <data key="d0">entity</data>
+  <data key="d1">ilha_moçambique</data>
+  <data key="d2">ilha_moçambique</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::ilha_moçambique::ilha Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">ilha Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::julio_césar">
+  <data key="d0">entity</data>
+  <data key="d1">julio_césar</data>
+  <data key="d2">julio_césar</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::julio_césar::César">
+  <data key="d0">form</data>
+  <data key="d1">César</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::mombaça">
+  <data key="d0">entity</data>
+  <data key="d1">mombaça</data>
+  <data key="d2">mombaça</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::mombaça::Mombaça">
+  <data key="d0">form</data>
+  <data key="d1">Mombaça</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::moçambique">
+  <data key="d0">entity</data>
+  <data key="d1">moçambique</data>
+  <data key="d2">moçambique</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::moçambique::Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::prasso">
+  <data key="d0">entity</data>
+  <data key="d1">prasso</data>
+  <data key="d2">prasso</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::prasso::Prasso">
+  <data key="d0">form</data>
+  <data key="d1">Prasso</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::quíloa">
+  <data key="d0">entity</data>
+  <data key="d1">quíloa</data>
+  <data key="d2">quíloa</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::quíloa::Quíloa">
+  <data key="d0">form</data>
+  <data key="d1">Quíloa</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::rio_indo">
+  <data key="d0">entity</data>
+  <data key="d1">rio_indo</data>
+  <data key="d2">rio_indo</data>
+  <data key="d3">não encontrada</data>
+</node>
+<node id="FORM::rio_indo::Indo">
+  <data key="d0">form</data>
+  <data key="d1">Indo</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::africa">
+  <data key="d0">entity</data>
+  <data key="d1">África</data>
+  <data key="d2">africa</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::africa::África">
+  <data key="d0">form</data>
+  <data key="d1">África</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::africa::costa Africana">
+  <data key="d0">form</data>
+  <data key="d1">costa Africana</data>
+  <data key="d4">referência indireta a lugar</data>
+  <data key="d5">rs</data>
+  <data key="d6">place</data>
+</node>
+<node id="ENT::africo">
+  <data key="d0">entity</data>
+  <data key="d1">Áfrico</data>
+  <data key="d2">africo</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::africo::Áfrico">
+  <data key="d0">form</data>
+  <data key="d1">Áfrico</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">myth</data>
+</node>
+<node id="ENT::magriço">
+  <data key="d0">entity</data>
+  <data key="d1">Álvaro Gonçalves Coutinho (O Magriço)</data>
+  <data key="d2">magriço</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::magriço::Magriço">
+  <data key="d0">form</data>
+  <data key="d1">Magriço</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
+</node>
+<node id="ENT::asia">
+  <data key="d0">entity</data>
+  <data key="d1">Ásia</data>
+  <data key="d2">asia</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::asia::Ásia">
+  <data key="d0">form</data>
+  <data key="d1">Ásia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="ENT::índia">
+  <data key="d0">entity</data>
+  <data key="d1">Índia</data>
+  <data key="d2">índia</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::índia::Índia">
+  <data key="d0">form</data>
+  <data key="d1">Índia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::índia::índia">
+  <data key="d0">form</data>
+  <data key="d1">índia</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<edge source="ENT::abraao" target="FORM::abraao::Abraão">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::afonso_albuquerque" target="FORM::afonso_albuquerque::Albuquerque terríbil">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::alexandro" target="FORM::alexandro::Alexandro">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::alexandro" target="FORM::alexandro::filho de Filipo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::alexandro" target="FORM::alexandro::grão Macedónio">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::almeidas" target="FORM::almeidas::Almeidas">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::anfitrite" target="FORM::anfitrite::Anfitrite">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::apolo" target="FORM::apolo::Apolo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::apolo" target="FORM::apolo::Febo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::aqueronte" target="FORM::aqueronte::Aqueronte">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::atlante" target="FORM::atlante::Atlante">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::aurora" target="FORM::aurora::Aurora">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::baco" target="FORM::baco::Baco">
+  <data key="d7">4</data>
+</edge>
+<edge source="ENT::baco" target="FORM::baco::Lieo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::baco" target="FORM::baco::grão Tebano">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::calisto" target="FORM::calisto::Calisto">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::carlos_magno" target="FORM::carlos_magno::Carlos">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::citera" target="FORM::citera::Citere">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::constantino" target="FORM::constantino::Constantino">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::afonso_henriques" target="FORM::afonso_henriques::primeiro Afonso">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::afonso_iii" target="FORM::afonso_iii::terceiro">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::afonso_iv" target="FORM::afonso_iv::quarto">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::afonso_v" target="FORM::afonso_v::quinto">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d._fuas" target="FORM::d._fuas::D. Fuas">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d_joao_i" target="FORM::d_joao_i::aquele">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d_joao_ii" target="FORM::d_joao_ii::Outro Joane">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::joao_castro" target="FORM::joao_castro::Castro">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d_manuel_i" target="FORM::d_manuel_i::Dum Rei">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d_sebastiao" target="FORM::d_sebastiao::Sublime Rei">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::d_sebastiao" target="FORM::d_sebastiao::poderoso Rei">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::david" target="FORM::david::David">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::deus" target="FORM::deus::Deus">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::pacheco" target="FORM::pacheco::Pacheco">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::doris" target="FORM::doris::Dóris">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::egas" target="FORM::egas::Egas">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::eneias" target="FORM::eneias::Eneias">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::eneias" target="FORM::eneias::Troiano">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::espanha" target="FORM::espanha::Espanha">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::etiopia" target="FORM::etiopia::Etiópia">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::etiopia" target="FORM::etiopia::Etiópica">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::europa" target="FORM::europa::Europa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::fado" target="FORM::fado::Destino">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::fado" target="FORM::fado::Fado">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::fado" target="FORM::fado::Fados">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::faeton" target="FORM::faeton::Faeton">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::filipo" target="FORM::filipo::Filipo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::fortuna" target="FORM::fortuna::Fortuna">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::franca" target="FORM::franca::França">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::hiperiao" target="FORM::hiperiao::Hiperiónio">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::hipocrene" target="FORM::hipocrene::Hipoerene">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::homero" target="FORM::homero::Homero">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::idaspe" target="FORM::idaspe::Idaspe">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::imperio_portugues_oriente" target="FORM::imperio_portugues_oriente::Novo Reino">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::indo" target="FORM::indo::Indo">
+  <data key="d7">3</data>
+</edge>
+<edge source="ENT::inglaterra" target="FORM::inglaterra::Inglaterra">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::jesus_cristo" target="FORM::jesus_cristo::Cristo">
+  <data key="d7">3</data>
+</edge>
+<edge source="ENT::jesus_cristo" target="FORM::jesus_cristo::Deus-Homem">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::jesus_cristo" target="FORM::jesus_cristo::Filho de David">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::jupiter" target="FORM::jupiter::Júpiter">
+  <data key="d7">4</data>
+</edge>
+<edge source="ENT::jupiter" target="FORM::jupiter::Padre">
+  <data key="d7">4</data>
+</edge>
+<edge source="ENT::jupiter" target="FORM::jupiter::Tonante">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::jupiter" target="FORM::jupiter::Ó Padre">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::lampetusa" target="FORM::lampetusa::Lampetusa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::maome" target="FORM::maome::Mahamede">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::marte" target="FORM::marte::Marte">
+  <data key="d7">4</data>
+</edge>
+<edge source="ENT::marte" target="FORM::marte::Mavorte">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mercúrio" target="FORM::mercúrio::Mercúrio">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mombaca" target="FORM::mombaca::Mombaça">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::olimpo" target="FORM::olimpo::Olimpo">
+  <data key="d7">3</data>
+</edge>
+<edge source="ENT::olimpo" target="FORM::olimpo::olímpica morada">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::musa" target="FORM::musa::Musa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::musa" target="FORM::musa::Musas">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::nabateia" target="FORM::nabateia::montes Nabatêos">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::neptuno" target="FORM::neptuno::Neptuno">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::nereidas" target="FORM::nereidas::filhas de Nereu">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::nereu" target="FORM::nereu::Nereu">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::nisa" target="FORM::nisa::Nisa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::noto" target="FORM::noto::Noto">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::nuno_alvares" target="FORM::nuno_alvares::Nuno">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::orlando" target="FORM::orlando::Orlando">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::doze_inglaterra" target="FORM::doze_inglaterra::Os doze de Inglaterra">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::parcas" target="FORM::parcas::Parcas">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::parnaso" target="FORM::parnaso::Parnaso">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::portugal" target="FORM::portugal::Império">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::portugal" target="FORM::portugal::Luso">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::portugal" target="FORM::portugal::Reino">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::portugal" target="FORM::portugal::ocidental praia Lusitana">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::prasso_promontorio" target="FORM::prasso_promontorio::Prasso">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::proteu" target="FORM::proteu::Próteo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::quiloa" target="FORM::quiloa::Quíloa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::rio_ganges" target="FORM::rio_ganges::santo rio">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::lete" target="FORM::lete::D'água do esquecimento">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::rio_pado" target="FORM::rio_pado::Pado">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::tejo" target="FORM::tejo::Tejo">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::rodamonte" target="FORM::rodamonte::Rodamonte">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::romulo" target="FORM::romulo::Rómulo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::rugeiro" target="FORM::rugeiro::Rugeiro">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::sertorio" target="FORM::sertorio::Um por seu capitão">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::sinon" target="FORM::sinon::Sinon">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::sofala" target="FORM::sofala::Sofala">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::tagides" target="FORM::tagides::Tágides">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::taprobana" target="FORM::taprobana::Taprobana">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::tifeu" target="FORM::tifeu::Tifeu">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::tingitana" target="FORM::tingitana::Tingitana">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::trajano" target="FORM::trajano::Trajano">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::turquia" target="FORM::turquia::Turquia">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::tetis" target="FORM::tetis::Tethys">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::ulisses" target="FORM::ulisses::sábio Grego">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::v_gama" target="FORM::v_gama::Capitão">
+  <data key="d7">13</data>
+</edge>
+<edge source="ENT::v_gama" target="FORM::v_gama::Gama">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::v_gama" target="FORM::v_gama::Vasco da Gama">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::viriato" target="FORM::viriato::Viriato">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::vulcano" target="FORM::vulcano::Vulcano">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::venus" target="FORM::venus::Deusa">
+  <data key="d7">3</data>
+</edge>
+<edge source="ENT::venus" target="FORM::venus::Citereia">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::venus" target="FORM::venus::Vénus">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::venus" target="FORM::venus::clara Deia">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::ilha_de_moçambique" target="FORM::ilha_de_moçambique::Ilha de Moçambique">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::ilha_de_são_lourenço" target="FORM::ilha_de_são_lourenço::Ilha de São Lourenço">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::ilha_moçambique" target="FORM::ilha_moçambique::ilha Moçambique">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::julio_césar" target="FORM::julio_césar::César">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mombaça" target="FORM::mombaça::Mombaça">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::moçambique" target="FORM::moçambique::Moçambique">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::prasso" target="FORM::prasso::Prasso">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::quíloa" target="FORM::quíloa::Quíloa">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::rio_indo" target="FORM::rio_indo::Indo">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::africa" target="FORM::africa::África">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::africa" target="FORM::africa::costa Africana">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::africo" target="FORM::africo::Áfrico">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::magriço" target="FORM::magriço::Magriço">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::asia" target="FORM::asia::Ásia">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::índia" target="FORM::índia::Índia">
+  <data key="d7">5</data>
+</edge>
+<edge source="ENT::índia" target="FORM::índia::índia">
+  <data key="d7">3</data>
+</edge>
+</graph></graphml>

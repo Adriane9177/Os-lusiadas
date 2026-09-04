@@ -1,0 +1,1105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d1" for="node" attr.name="category" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="portugal">
+  <data key="d0">Portugal</data>
+  <data key="d1">place</data>
+</node>
+<node id="taprobana">
+  <data key="d0">Taprobana (Sri Lanka)</data>
+  <data key="d1">place</data>
+</node>
+<node id="imperio_portugues_oriente">
+  <data key="d0">Império Português do Oriente</data>
+  <data key="d1">place</data>
+</node>
+<node id="africa">
+  <data key="d0">África</data>
+  <data key="d1">place</data>
+</node>
+<node id="asia">
+  <data key="d0">Ásia</data>
+  <data key="d1">place</data>
+</node>
+<node id="ulisses">
+  <data key="d0">Ulisses</data>
+  <data key="d1">person</data>
+</node>
+<node id="eneias">
+  <data key="d0">Eneias</data>
+  <data key="d1">person</data>
+</node>
+<node id="alexandro">
+  <data key="d0">Alexandro Magno</data>
+  <data key="d1">person</data>
+</node>
+<node id="trajano">
+  <data key="d0">Trajano</data>
+  <data key="d1">person</data>
+</node>
+<node id="neptuno">
+  <data key="d0">Neptuno</data>
+  <data key="d1">person</data>
+</node>
+<node id="marte">
+  <data key="d0">Marte</data>
+  <data key="d1">person</data>
+</node>
+<node id="musa">
+  <data key="d0">Musa</data>
+  <data key="d1">person</data>
+</node>
+<node id="tagides">
+  <data key="d0">Tagides</data>
+  <data key="d1">person</data>
+</node>
+<node id="apolo">
+  <data key="d0">Apolo</data>
+  <data key="d1">person</data>
+</node>
+<node id="hipocrene">
+  <data key="d0">Hipocrene</data>
+  <data key="d1">place</data>
+</node>
+<node id="jesus_cristo">
+  <data key="d0">Jesus Cristo</data>
+  <data key="d1">person</data>
+</node>
+<node id="d_sebastiao">
+  <data key="d0">D. Sebastião I</data>
+  <data key="d1">person</data>
+</node>
+<node id="rio_ganges">
+  <data key="d0">Rio Ganges</data>
+  <data key="d1">place</data>
+</node>
+<node id="rodamonte">
+  <data key="d0">Rodamonte</data>
+  <data key="d1">person</data>
+</node>
+<node id="rugeiro">
+  <data key="d0">Rugeiro</data>
+  <data key="d1">person</data>
+</node>
+<node id="orlando">
+  <data key="d0">Orlando</data>
+  <data key="d1">person</data>
+</node>
+<node id="nuno_alvares">
+  <data key="d0">Nuno Álvares Pereira</data>
+  <data key="d1">person</data>
+</node>
+<node id="egas">
+  <data key="d0">Egas Moniz</data>
+  <data key="d1">person</data>
+</node>
+<node id="d._fuas">
+  <data key="d0">D. Fuas Roupinho</data>
+  <data key="d1">person</data>
+</node>
+<node id="homero">
+  <data key="d0">Homero</data>
+  <data key="d1">person</data>
+</node>
+<node id="doze_inglaterra">
+  <data key="d0">Os Doze de Inglaterra</data>
+  <data key="d1">personGrp</data>
+</node>
+<node id="inglaterra">
+  <data key="d0">Inglaterra</data>
+  <data key="d1">place</data>
+</node>
+<node id="magriço">
+  <data key="d0">Álvaro Gonçalves Coutinho (O Magriço)</data>
+  <data key="d1">person</data>
+</node>
+<node id="v_gama">
+  <data key="d0">Vasco da Gama</data>
+  <data key="d1">person</data>
+</node>
+<node id="carlos_magno">
+  <data key="d0">Carlos Magno</data>
+  <data key="d1">person</data>
+</node>
+<node id="franca">
+  <data key="d0">França</data>
+  <data key="d1">place</data>
+</node>
+<node id="julio_césar">
+  <data key="d0">julio_césar</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="afonso_henriques">
+  <data key="d0">D. Afonso Henriques</data>
+  <data key="d1">person</data>
+</node>
+<node id="d_joao_i">
+  <data key="d0">D. João I</data>
+  <data key="d1">person</data>
+</node>
+<node id="d_joao_ii">
+  <data key="d0">D. João II</data>
+  <data key="d1">person</data>
+</node>
+<node id="afonso_iv">
+  <data key="d0">D. Afonso IV</data>
+  <data key="d1">person</data>
+</node>
+<node id="afonso_v">
+  <data key="d0">D. Afonso V</data>
+  <data key="d1">person</data>
+</node>
+<node id="afonso_iii">
+  <data key="d0">D. Afonso III</data>
+  <data key="d1">person</data>
+</node>
+<node id="pacheco">
+  <data key="d0">Duarte Pacheco Pereira</data>
+  <data key="d1">person</data>
+</node>
+<node id="almeidas">
+  <data key="d0">Almeidas. D. Francisco e D.Lourenço</data>
+  <data key="d1">personGrp</data>
+</node>
+<node id="tejo">
+  <data key="d0">Rio Tejo</data>
+  <data key="d1">place</data>
+</node>
+<node id="afonso_albuquerque">
+  <data key="d0">Afonso de Albuquerque</data>
+  <data key="d1">person</data>
+</node>
+<node id="joao_castro">
+  <data key="d0">D. João de Castro</data>
+  <data key="d1">person</data>
+</node>
+<node id="olimpo">
+  <data key="d0">Monte Olimpo</data>
+  <data key="d1">place</data>
+</node>
+<node id="jupiter">
+  <data key="d0">Júpiter</data>
+  <data key="d1">person</data>
+</node>
+<node id="atlante">
+  <data key="d0">Atlante</data>
+  <data key="d1">person</data>
+</node>
+<node id="vulcano">
+  <data key="d0">Vulcano</data>
+  <data key="d1">person</data>
+</node>
+<node id="romulo">
+  <data key="d0">Romulo</data>
+  <data key="d1">person</data>
+</node>
+<node id="viriato">
+  <data key="d0">Viriato</data>
+  <data key="d1">person</data>
+</node>
+<node id="sertorio">
+  <data key="d0">Sertório</data>
+  <data key="d1">person</data>
+</node>
+<node id="africo">
+  <data key="d0">Áfrico</data>
+  <data key="d1">person</data>
+</node>
+<node id="noto">
+  <data key="d0">Noto</data>
+  <data key="d1">person</data>
+</node>
+<node id="fado">
+  <data key="d0">Fado</data>
+  <data key="d1">person</data>
+</node>
+<node id="baco">
+  <data key="d0">Baco</data>
+  <data key="d1">person</data>
+</node>
+<node id="espanha">
+  <data key="d0">Espanha</data>
+  <data key="d1">place</data>
+</node>
+<node id="índia">
+  <data key="d0">Índia</data>
+  <data key="d1">place</data>
+</node>
+<node id="doris">
+  <data key="d0">Dóris</data>
+  <data key="d1">person</data>
+</node>
+<node id="nisa">
+  <data key="d0">Nisa</data>
+  <data key="d1">place</data>
+</node>
+<node id="indo">
+  <data key="d0">Indo</data>
+  <data key="d1">place</data>
+</node>
+<node id="fortuna">
+  <data key="d0">Fortuna</data>
+  <data key="d1">person</data>
+</node>
+<node id="parnaso">
+  <data key="d0">Parnaso</data>
+  <data key="d1">place</data>
+</node>
+<node id="lete">
+  <data key="d0">Rio Lete&gt;</data>
+  <data key="d1">place</data>
+</node>
+<node id="venus">
+  <data key="d0">Vénus</data>
+  <data key="d1">person</data>
+</node>
+<node id="tingitana">
+  <data key="d0">Tingitana</data>
+  <data key="d1">place</data>
+</node>
+<node id="parcas">
+  <data key="d0">Parcas</data>
+  <data key="d1">person</data>
+</node>
+<node id="mercúrio">
+  <data key="d0">Mercúrio</data>
+  <data key="d1">person</data>
+</node>
+<node id="etiopia">
+  <data key="d0">Etiópia</data>
+  <data key="d1">place</data>
+</node>
+<node id="ilha_de_são_lourenço">
+  <data key="d0">ilha_de_são_lourenço</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="tifeu">
+  <data key="d0">Tifeu</data>
+  <data key="d1">person</data>
+</node>
+<node id="prasso">
+  <data key="d0">prasso</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="faeton">
+  <data key="d0">Faeton</data>
+  <data key="d1">person</data>
+</node>
+<node id="rio_pado">
+  <data key="d0">Rio Pado</data>
+  <data key="d1">place</data>
+</node>
+<node id="lampetusa">
+  <data key="d0">Lampetusa</data>
+  <data key="d1">person</data>
+</node>
+<node id="calisto">
+  <data key="d0">Calisto</data>
+  <data key="d1">person</data>
+</node>
+<node id="d_manuel_i">
+  <data key="d0">D. Manuel I</data>
+  <data key="d1">person</data>
+</node>
+<node id="aqueronte">
+  <data key="d0">Aqueronte</data>
+  <data key="d1">place</data>
+</node>
+<node id="abraao">
+  <data key="d0">Abraão</data>
+  <data key="d1">person</data>
+</node>
+<node id="ilha_de_moçambique">
+  <data key="d0">ilha_de_moçambique</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="quiloa">
+  <data key="d0">Quíloa</data>
+  <data key="d1">place</data>
+</node>
+<node id="mombaca">
+  <data key="d0">Mombaca</data>
+  <data key="d1">place</data>
+</node>
+<node id="sofala">
+  <data key="d0">Sofala</data>
+  <data key="d1">place</data>
+</node>
+<node id="ilha_moçambique">
+  <data key="d0">ilha_moçambique</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="rio_indo">
+  <data key="d0">rio_indo</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="idaspe">
+  <data key="d0">Idaspe</data>
+  <data key="d1">place</data>
+</node>
+<node id="aurora">
+  <data key="d0">Aurora</data>
+  <data key="d1">person</data>
+</node>
+<node id="hiperiao">
+  <data key="d0">Hiperiónio</data>
+  <data key="d1">person</data>
+</node>
+<node id="constantino">
+  <data key="d0">Constantino</data>
+  <data key="d1">person</data>
+</node>
+<node id="turquia">
+  <data key="d0">Turquia</data>
+  <data key="d1">place</data>
+</node>
+<node id="europa">
+  <data key="d0">Europa</data>
+  <data key="d1">place</data>
+</node>
+<node id="david">
+  <data key="d0">David</data>
+  <data key="d1">person</data>
+</node>
+<node id="filipo">
+  <data key="d0">Filipo</data>
+  <data key="d1">person</data>
+</node>
+<node id="prasso_promontorio">
+  <data key="d0">Promontório do Prasso</data>
+  <data key="d1">place</data>
+</node>
+<node id="moçambique">
+  <data key="d0">moçambique</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="nabateia">
+  <data key="d0">Nabateia</data>
+  <data key="d1">place</data>
+</node>
+<node id="anfitrite">
+  <data key="d0">Anfitrite</data>
+  <data key="d1">person</data>
+</node>
+<node id="nereidas">
+  <data key="d0">Nereidas</data>
+  <data key="d1">person</data>
+</node>
+<node id="nereu">
+  <data key="d0">Nereu</data>
+  <data key="d1">person</data>
+</node>
+<node id="sinon">
+  <data key="d0">Sinon</data>
+  <data key="d1">person</data>
+</node>
+<node id="maome">
+  <data key="d0">Maomé</data>
+  <data key="d1">person</data>
+</node>
+<node id="quíloa">
+  <data key="d0">quíloa</data>
+  <data key="d1">não encontrada</data>
+</node>
+<node id="citera">
+  <data key="d0">Citere</data>
+  <data key="d1">place</data>
+</node>
+<edge source="portugal" target="imperio_portugues_oriente">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="taprobana">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="afonso_henriques">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="carlos_magno">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="d_joao_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="franca">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="julio_césar">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="africa">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="d_sebastiao">
+  <data key="d2">2</data>
+</edge>
+<edge source="portugal" target="turquia">
+  <data key="d2">1</data>
+</edge>
+<edge source="portugal" target="rio_ganges">
+  <data key="d2">1</data>
+</edge>
+<edge source="taprobana" target="imperio_portugues_oriente">
+  <data key="d2">1</data>
+</edge>
+<edge source="africa" target="d_sebastiao">
+  <data key="d2">1</data>
+</edge>
+<edge source="africa" target="asia">
+  <data key="d2">1</data>
+</edge>
+<edge source="africa" target="aqueronte">
+  <data key="d2">1</data>
+</edge>
+<edge source="africa" target="calisto">
+  <data key="d2">1</data>
+</edge>
+<edge source="africa" target="d_manuel_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="alexandro">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="eneias">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="marte">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="neptuno">
+  <data key="d2">1</data>
+</edge>
+<edge source="ulisses" target="trajano">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="d._fuas">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="doze_inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="egas">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="homero">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="nuno_alvares">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="alexandro">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="marte">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="neptuno">
+  <data key="d2">1</data>
+</edge>
+<edge source="eneias" target="trajano">
+  <data key="d2">1</data>
+</edge>
+<edge source="alexandro" target="marte">
+  <data key="d2">2</data>
+</edge>
+<edge source="alexandro" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="alexandro" target="neptuno">
+  <data key="d2">1</data>
+</edge>
+<edge source="alexandro" target="trajano">
+  <data key="d2">1</data>
+</edge>
+<edge source="alexandro" target="filipo">
+  <data key="d2">1</data>
+</edge>
+<edge source="trajano" target="marte">
+  <data key="d2">1</data>
+</edge>
+<edge source="trajano" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="trajano" target="neptuno">
+  <data key="d2">1</data>
+</edge>
+<edge source="neptuno" target="marte">
+  <data key="d2">1</data>
+</edge>
+<edge source="neptuno" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="marte" target="musa">
+  <data key="d2">1</data>
+</edge>
+<edge source="marte" target="venus">
+  <data key="d2">1</data>
+</edge>
+<edge source="marte" target="jupiter">
+  <data key="d2">1</data>
+</edge>
+<edge source="marte" target="filipo">
+  <data key="d2">1</data>
+</edge>
+<edge source="musa" target="orlando">
+  <data key="d2">1</data>
+</edge>
+<edge source="musa" target="rodamonte">
+  <data key="d2">1</data>
+</edge>
+<edge source="musa" target="rugeiro">
+  <data key="d2">1</data>
+</edge>
+<edge source="tagides" target="apolo">
+  <data key="d2">1</data>
+</edge>
+<edge source="tagides" target="hipocrene">
+  <data key="d2">1</data>
+</edge>
+<edge source="apolo" target="jupiter">
+  <data key="d2">1</data>
+</edge>
+<edge source="apolo" target="hipocrene">
+  <data key="d2">1</data>
+</edge>
+<edge source="apolo" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="jesus_cristo" target="maome">
+  <data key="d2">1</data>
+</edge>
+<edge source="jesus_cristo" target="v_gama">
+  <data key="d2">2</data>
+</edge>
+<edge source="jesus_cristo" target="venus">
+  <data key="d2">1</data>
+</edge>
+<edge source="jesus_cristo" target="david">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_sebastiao" target="rio_ganges">
+  <data key="d2">1</data>
+</edge>
+<edge source="rodamonte" target="orlando">
+  <data key="d2">1</data>
+</edge>
+<edge source="rodamonte" target="rugeiro">
+  <data key="d2">1</data>
+</edge>
+<edge source="rugeiro" target="orlando">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="d._fuas">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="doze_inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="egas">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="homero">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="nuno_alvares" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="d._fuas">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="doze_inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="homero">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="egas" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="d._fuas" target="doze_inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="d._fuas" target="homero">
+  <data key="d2">1</data>
+</edge>
+<edge source="d._fuas" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="d._fuas" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="d._fuas" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="homero" target="doze_inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="homero" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="homero" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="homero" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="doze_inglaterra" target="inglaterra">
+  <data key="d2">1</data>
+</edge>
+<edge source="doze_inglaterra" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="doze_inglaterra" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="inglaterra" target="magriço">
+  <data key="d2">1</data>
+</edge>
+<edge source="inglaterra" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="magriço" target="v_gama">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="maome">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="venus">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="baco">
+  <data key="d2">2</data>
+</edge>
+<edge source="v_gama" target="fortuna">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="faeton">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="europa">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="turquia">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="índia">
+  <data key="d2">3</data>
+</edge>
+<edge source="v_gama" target="nabateia">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="indo">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="anfitrite">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="nereidas">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="nereu">
+  <data key="d2">1</data>
+</edge>
+<edge source="v_gama" target="sinon">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="afonso_henriques">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="d_joao_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="franca">
+  <data key="d2">1</data>
+</edge>
+<edge source="carlos_magno" target="julio_césar">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="afonso_henriques">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="d_joao_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="franca" target="julio_césar">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="afonso_henriques">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="d_joao_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="julio_césar" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_henriques" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_henriques" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_henriques" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_henriques" target="d_joao_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_henriques" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_i" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_i" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_i" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_i" target="d_joao_ii">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_ii" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_ii" target="afonso_iv">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_joao_ii" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_iv" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_iv" target="afonso_v">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_v" target="afonso_iii">
+  <data key="d2">1</data>
+</edge>
+<edge source="pacheco" target="afonso_albuquerque">
+  <data key="d2">1</data>
+</edge>
+<edge source="pacheco" target="almeidas">
+  <data key="d2">1</data>
+</edge>
+<edge source="pacheco" target="joao_castro">
+  <data key="d2">1</data>
+</edge>
+<edge source="pacheco" target="tejo">
+  <data key="d2">1</data>
+</edge>
+<edge source="almeidas" target="afonso_albuquerque">
+  <data key="d2">1</data>
+</edge>
+<edge source="almeidas" target="joao_castro">
+  <data key="d2">1</data>
+</edge>
+<edge source="almeidas" target="tejo">
+  <data key="d2">1</data>
+</edge>
+<edge source="tejo" target="afonso_albuquerque">
+  <data key="d2">1</data>
+</edge>
+<edge source="tejo" target="joao_castro">
+  <data key="d2">1</data>
+</edge>
+<edge source="afonso_albuquerque" target="joao_castro">
+  <data key="d2">1</data>
+</edge>
+<edge source="olimpo" target="atlante">
+  <data key="d2">1</data>
+</edge>
+<edge source="olimpo" target="jupiter">
+  <data key="d2">1</data>
+</edge>
+<edge source="olimpo" target="etiopia">
+  <data key="d2">1</data>
+</edge>
+<edge source="olimpo" target="ilha_de_são_lourenço">
+  <data key="d2">1</data>
+</edge>
+<edge source="olimpo" target="tifeu">
+  <data key="d2">1</data>
+</edge>
+<edge source="jupiter" target="atlante">
+  <data key="d2">1</data>
+</edge>
+<edge source="jupiter" target="vulcano">
+  <data key="d2">1</data>
+</edge>
+<edge source="jupiter" target="baco">
+  <data key="d2">1</data>
+</edge>
+<edge source="jupiter" target="mercúrio">
+  <data key="d2">1</data>
+</edge>
+<edge source="jupiter" target="índia">
+  <data key="d2">1</data>
+</edge>
+<edge source="romulo" target="sertorio">
+  <data key="d2">1</data>
+</edge>
+<edge source="romulo" target="viriato">
+  <data key="d2">1</data>
+</edge>
+<edge source="viriato" target="sertorio">
+  <data key="d2">1</data>
+</edge>
+<edge source="africo" target="noto">
+  <data key="d2">1</data>
+</edge>
+<edge source="fado" target="doris">
+  <data key="d2">1</data>
+</edge>
+<edge source="fado" target="espanha">
+  <data key="d2">1</data>
+</edge>
+<edge source="fado" target="nisa">
+  <data key="d2">1</data>
+</edge>
+<edge source="fado" target="índia">
+  <data key="d2">1</data>
+</edge>
+<edge source="fado" target="constantino">
+  <data key="d2">1</data>
+</edge>
+<edge source="baco" target="faeton">
+  <data key="d2">1</data>
+</edge>
+<edge source="baco" target="índia">
+  <data key="d2">1</data>
+</edge>
+<edge source="espanha" target="doris">
+  <data key="d2">1</data>
+</edge>
+<edge source="espanha" target="nisa">
+  <data key="d2">1</data>
+</edge>
+<edge source="espanha" target="índia">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="doris">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="nisa">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="fortuna">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="indo">
+  <data key="d2">2</data>
+</edge>
+<edge source="índia" target="lete">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="parnaso">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="mercúrio">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="europa">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="turquia">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="anfitrite">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="nereidas">
+  <data key="d2">1</data>
+</edge>
+<edge source="índia" target="nereu">
+  <data key="d2">1</data>
+</edge>
+<edge source="doris" target="nisa">
+  <data key="d2">1</data>
+</edge>
+<edge source="indo" target="fortuna">
+  <data key="d2">1</data>
+</edge>
+<edge source="indo" target="lete">
+  <data key="d2">1</data>
+</edge>
+<edge source="indo" target="parnaso">
+  <data key="d2">1</data>
+</edge>
+<edge source="fortuna" target="lete">
+  <data key="d2">1</data>
+</edge>
+<edge source="fortuna" target="parnaso">
+  <data key="d2">1</data>
+</edge>
+<edge source="parnaso" target="lete">
+  <data key="d2">1</data>
+</edge>
+<edge source="venus" target="citera">
+  <data key="d2">1</data>
+</edge>
+<edge source="venus" target="maome">
+  <data key="d2">1</data>
+</edge>
+<edge source="venus" target="tingitana">
+  <data key="d2">1</data>
+</edge>
+<edge source="venus" target="parcas">
+  <data key="d2">1</data>
+</edge>
+<edge source="etiopia" target="ilha_de_são_lourenço">
+  <data key="d2">1</data>
+</edge>
+<edge source="etiopia" target="tifeu">
+  <data key="d2">1</data>
+</edge>
+<edge source="etiopia" target="prasso">
+  <data key="d2">1</data>
+</edge>
+<edge source="ilha_de_são_lourenço" target="tifeu">
+  <data key="d2">1</data>
+</edge>
+<edge source="faeton" target="lampetusa">
+  <data key="d2">1</data>
+</edge>
+<edge source="faeton" target="rio_pado">
+  <data key="d2">1</data>
+</edge>
+<edge source="rio_pado" target="lampetusa">
+  <data key="d2">1</data>
+</edge>
+<edge source="calisto" target="aqueronte">
+  <data key="d2">1</data>
+</edge>
+<edge source="calisto" target="d_manuel_i">
+  <data key="d2">1</data>
+</edge>
+<edge source="d_manuel_i" target="aqueronte">
+  <data key="d2">1</data>
+</edge>
+<edge source="abraao" target="ilha_de_moçambique">
+  <data key="d2">1</data>
+</edge>
+<edge source="quiloa" target="ilha_moçambique">
+  <data key="d2">1</data>
+</edge>
+<edge source="quiloa" target="mombaca">
+  <data key="d2">1</data>
+</edge>
+<edge source="quiloa" target="sofala">
+  <data key="d2">1</data>
+</edge>
+<edge source="mombaca" target="ilha_moçambique">
+  <data key="d2">1</data>
+</edge>
+<edge source="mombaca" target="sofala">
+  <data key="d2">1</data>
+</edge>
+<edge source="sofala" target="ilha_moçambique">
+  <data key="d2">1</data>
+</edge>
+<edge source="rio_indo" target="idaspe">
+  <data key="d2">1</data>
+</edge>
+<edge source="aurora" target="hiperiao">
+  <data key="d2">1</data>
+</edge>
+<edge source="turquia" target="europa">
+  <data key="d2">1</data>
+</edge>
+<edge source="prasso_promontorio" target="moçambique">
+  <data key="d2">1</data>
+</edge>
+<edge source="moçambique" target="maome">
+  <data key="d2">1</data>
+</edge>
+<edge source="moçambique" target="quíloa">
+  <data key="d2">1</data>
+</edge>
+<edge source="anfitrite" target="nereidas">
+  <data key="d2">1</data>
+</edge>
+<edge source="anfitrite" target="nereu">
+  <data key="d2">1</data>
+</edge>
+<edge source="nereidas" target="nereu">
+  <data key="d2">1</data>
+</edge>
+<edge source="maome" target="quíloa">
+  <data key="d2">1</data>
+</edge>
+</graph></graphml>
