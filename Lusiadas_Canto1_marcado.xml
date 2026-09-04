@@ -41,7 +41,7 @@
           <l>Se a tanto me ajudar o engenho e arte.</l>
         </lg>
         <lg type="estrofe" n="3">
-          <l>Cessem do sábio <rs type="person" ref="#ulisses">Grego</rs> e do <rs type="person" ref="#eneias">Troiano</rs></l>
+          <l>Cessem do <rs type="person" ref="#ulisses">sábio Grego</rs> e do <rs type="person" ref="#eneias">Troiano</rs></l>
           <l>As navegações grandes que fizeram;</l>
           <l>Cale-se de <persName type="hist" ref="#alexandro">Alexandro</persName> e de <persName type="hist" ref="#trajano">Trajano</persName></l>
           <l>A fama das vitórias que tiveram;</l>
@@ -82,7 +82,7 @@
         </lg>
         <lg type="estrofe" n="7">
           <l>Vós, tenro e novo ramo florescente</l>
-          <l>De uma árvore de <persName type="hist" ref="#jesus_cristo">Cristo</persName> mais amada</l>
+          <l>De uma árvore de <rs type="person" ref="#jesus_cristo">Cristo</rs> mais amada</l>
           <l>Que nenhuma nascida no Ocidente,</l>
           <l>Cesárea ou Cristianíssima chamada;</l>
           <l>(Vede-o no vosso escudo, que presente</l>
@@ -91,7 +91,7 @@
           <l>As que Ele para si na Cruz tomou)</l>
         </lg>
         <lg type="estrofe" n="8">
-          <l>Vós, <rs type="person" ref="d_sebastiao">poderoso Rei</rs>, cujo alto <rs type="place" ref="#portugal">Império</rs></l>
+          <l>Vós, <rs type="person" ref="#d_sebastiao">poderoso Rei</rs>, cujo alto <rs type="place" ref="#portugal">Império</rs></l>
           <l>O Sol, logo em nascendo, vê primeiro;</l>
           <l>Vê-o também no meio do Hemisfério,</l>
           <l>E quando desce o deixa derradeiro;</l>
@@ -136,7 +136,7 @@
           <l>Um <persName type="hist" ref="#egas">Egas</persName>, e um <persName type="hist" ref="#d._fuas">D. Fuas</persName>, que de <persName type="hist" ref="#homero">Homero</persName></l>
           <l>A cítara para eles só cobiço.</l>
           <l>Pois pelos doze Pares dar-vos quero</l>
-          <l><rs type="person" ref="#doze_inglaterra">Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName></rs>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
+          <l><rs type="group" ref="#doze_inglaterra">Os doze de <placeName type="real" ref="#inglaterra">Inglaterra</placeName></rs>, e o seu <persName type="hist" ref="#magriço">Magriço</persName>;</l>
           <l>Dou-vos também aquele ilustre <persName type="hist" ref="#v_gama">Gama</persName>,</l>
           <l>Que para si de <persName type="hist" ref="#eneias">Eneias</persName> toma a fama.</l>
         </lg>
@@ -157,7 +157,7 @@
           <l>Vossa bandeira sempre vencedora:</l>
           <l>Um <persName type="hist" ref="#pacheco">Pacheco</persName> fortíssimo, e os temidos</l>
           <l><persName type="hist" ref="#almeidas">Almeidas</persName>, por quem sempre o <placeName type="real" ref="#tejo">Tejo</placeName> chora;</l>
-          <l><rs type="person" ref="#afonso_albuquerque"> <persName type="hist">Albuquerque</persName> terríbil</rs>, <persName type="hist" ref="#castro">Castro</persName> forte,</l>
+          <l><rs type="person" ref="#afonso_albuquerque"> <persName type="hist">Albuquerque</persName> terríbil</rs>, <persName type="hist" ref="#joao_castro">Castro</persName> forte,</l>
           <l>E outros em quem poder não teve a morte.</l>
         </lg>
         <lg type="estrofe" n="15">
@@ -211,7 +211,7 @@
           <l>Que do gado de <persName type="myth" ref="#proteu">Próteo</persName> são cortadas</l>
         </lg>
         <lg type="estrofe" n="20">
-          <l>Quando os Deuses no <placeName type="real" ref="#olimpo">Olimpo</placeName> luminoso,</l>
+          <l>Quando os Deuses no <placeName type="myth" ref="#olimpo">Olimpo</placeName> luminoso,</l>
           <l>Onde o governo está da humana gente,</l>
           <l>Se ajuntam em concílio glorioso</l>
           <l>Sobre as cousas futuras do Oriente.</l>
@@ -333,7 +333,7 @@
         <lg type="estrofe" n="32">
           <l>Vê que já teve o <placeName type="real" ref="#indo">Indo</placeName> sojugado,</l>
           <l>E nunca lhe tirou <persName type="myth" ref="#fortuna">Fortuna</persName>, ou caso,</l>
-          <l>Por vencedor da <placeName type="real" ref="#india">Índia</placeName> ser cantado</l>
+          <l>Por vencedor da <placeName type="real" ref="#índia">Índia</placeName> ser cantado</l>
           <l>De quantos bebem a água de <placeName type="real" ref="#parnaso">Parnaso</placeName>.</l>
           <l>Teme agora que seja sepultado</l>
           <l>Seu tão célebre nome em negro vaso</l>
@@ -538,7 +538,7 @@
           <l>Mas já razão parece que saibamos,</l>
           <l>Se entre vós a verdade não se nega,</l>
           <l>Quem sois, que terra é esta que habitais,</l>
-          <l>Ou se tendes da <placeName type="real" ref="#india">Índia</placeName> alguns sinais?"</l>
+          <l>Ou se tendes da <placeName type="real" ref="#índia">Índia</placeName> alguns sinais?"</l>
         </lg>
         <lg type="estrofe" n="53">
           <l>Somos Mouros, um dos das ilhas lhe tornou,</l>
@@ -572,7 +572,7 @@
           <l>E do mais necessário vos proveja."</l>
         </lg>
         <lg type="estrofe" n="56">
-          <l>Isto dizendo, o Mouro  se tornou</l>
+          <l>Isto dizendo, <rs type="person">o Mouro</rs>  se tornou</l>
           <l>A seus batéis com toda a companhia;</l>
           <l>Do <rs type="person" ref="#v_gama">Capitão</rs> e gente se apartou</l>
           <l>Com mostras de devida cortesia.</l>
@@ -645,7 +645,7 @@
           <l>E mais lhe diz também, que ver deseja</l>
           <l>Os livros de sua Lei, preceito eu fé,</l>
           <l>Para ver se conforme à sua seja,</l>
-          <l>Ou se são dos de <persName type="hist" ref="#jesus_cristo">Cristo</persName>, como Crê.</l>
+          <l>Ou se são dos de <rs type="person" ref="#jesus_cristo">Cristo</rs>, como Crê.</l>
           <l>E porque tudo note e tudo veja,</l>
           <l>Ao <rs type="person" ref="#v_gama">Capitão</rs> pedia que lhe dê</l>
           <l>Mostra das fortes armas de que usavam,</l>
@@ -713,7 +713,7 @@
         </lg>
         <lg type="estrofe" n="70">
           <l>Pilotos lhe pedia o <rs type="person" ref="#v_gama">Capitão</rs>,</l>
-          <l>Por quem pudesse à <placeName type="real" ref="#india">Índia</placeName> ser levado;</l>
+          <l>Por quem pudesse à <placeName type="real" ref="#índia">Índia</placeName> ser levado;</l>
           <l>Diz-lhe que o largo prémio levarão</l>
           <l>Do trabalho que nisso for tomado.</l>
           <l>Promete-lhos o Mouro, com tenção</l>
@@ -978,13 +978,13 @@
           <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que não caía em nada</l>
           <l>Do enganoso ardil, que o Mouro urdia,</l>
           <l>Dele mui largamente se informava</l>
-          <l>Da <placeName type="real" ref="#india">Índia</placeName> toda, e costas que passava.</l>
+          <l>Da <placeName type="real" ref="#índia">Índia</placeName> toda, e costas que passava.</l>
         </lg>
         <lg type="estrofe" n="97">
           <l>Mas o Mouro, instruído nos enganos</l>
           <l>Que o malévolo <persName type="myth" ref="#baco">Baco</persName> lhe ensinara,</l>
           <l>De morte ou cativeiro novos danos,</l>
-          <l>Antes que à <placeName type="real" ref="#india">Índia</placeName> chegue, lhe prepara:</l>
+          <l>Antes que à <placeName type="real" ref="#índia">Índia</placeName> chegue, lhe prepara:</l>
           <l>Dando razões dos portos Indianos,</l>
           <l>Também tudo o que pede lhe declara,</l>
           <l>Que, havendo por verdade o que dizia,</l>
@@ -1033,7 +1033,7 @@
         <lg type="estrofe" n="102">
           <l>Também nestas palavras lhe mentia,</l>
           <l>Como por regimento enfim levava,</l>
-          <l>Que aqui gente de <persName type="hist" ref="#jesus_cristo">Cristo</persName> não havia,</l>
+          <l>Que aqui gente de <rs type="person" ref="#jesus_cristo">Cristo</rs> não havia,</l>
           <l>Mas a que a <persName type="hist" ref="#maome">Mahamede</persName> celebrava.</l>
           <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que em tudo o Mouro cria,</l>
           <l>Virando as velas, a ilha demandava;</l>

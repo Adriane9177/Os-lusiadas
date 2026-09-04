@@ -27,7 +27,7 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <note type="peixoto">fabuloso deus da guerra</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/6/68/Berlin_-_Brandenburger_Tor_-_Mars_cropped.jpg"/>
             </person>
-            <person xml:id="mercurio" ref="https://www.wikidata.org/wiki/Q1150">
+            <person xml:id="mercúrio" ref="https://www.wikidata.org/wiki/Q1150">
                 <persName>Mercúrio</persName>
                 <note type="peixoto">deus fabuloso, filho de Júpiter e de Maia, neto de Atlas ou Atlante</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c2/Mercure_by_Augustin_Pajou.jpg"/>
@@ -198,11 +198,6 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <note type="peixoto">Afonso nome de vários reis portugueses e espanhões:</note>
                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/ee/D._Afonso_Henriques_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png"/>
             </person>
-            <person xml:id="d_manuel_i" ref="https://www.wikidata.org/wiki/Q191231">
-                <persName>D. Manuel I</persName>
-                <note type="peixoto">não há informações em Peixoto(1924)</note>
-                <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/2e/Fons_Vitae_%28c._1515-1517%29_-_Colijn_de_Coter_%28attributed%29_%28cropped%29.png"/>
-            </person>
             <person xml:id="nuno_alvares" ref="https://www.wikidata.org/wiki/Q374056">
                 <persName>Nuno Álvares Pereira</persName>
                 <note type="peixoto">nome próprio; aqui é Nuno Alvares Pereira, condestavel de D. João I</note>
@@ -258,7 +253,7 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <note type="peixoto">Homéro, o maior poéta da antiguidade, autor da Iliade e da Odisséa</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/3/3a/Homer_bust%2C_Farnese_collection_%28Naples%29.jpg"/>
             </person>
-            <person xml:id="magrico" ref="https://www.wikidata.org/wiki/Q10395802">
+            <person xml:id="magriço" ref="https://www.wikidata.org/wiki/Q10395802">
                 <persName>Álvaro Gonçalves Coutinho (O Magriço)</persName>
                 <note source="#peixoto"> Magriço, cognome de Alvaro Gonçalves Coutinho, filho de Goncalo Vaz Coutinho, primeiro marechal de Portugal.</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/a/a7/%C3%81lvaro_Gon%C3%A7alves_Coutinho%2C_o_Magri%C3%A7o.png"/>
@@ -303,7 +298,7 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <note source="#peixoto">não há informações em Peixoto(1924)</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/1/1b/Domafonsov.jpg"/>
             </person>
-            <person xml:id="duarte_pacheco" ref="https://www.wikidata.org/wiki/Q686754">
+            <person xml:id="pacheco" ref="https://www.wikidata.org/wiki/Q686754">
                 <persName>Duarte Pacheco Pereira</persName>
                 <note source="#peixoto">Pacheco, apelido de familia; Duarte Coelho Pacheco, heróe português das Indias.</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/0/04/Duarte_Pacheco_Pereira.jpg"/>
@@ -396,7 +391,7 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                     <geo>40.3197 -1.6975</geo>
                 </location>
             </place>
-            <place xml:id="india" ref="http://www.wikidata.org/entity/Q668">
+            <place xml:id="índia" ref="http://www.wikidata.org/entity/Q668">
                 <placeName>Índia</placeName>
                 <note type="peixoto">Índia, região meridional da Asia:</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/e7/India_Montage.jpg"/>
