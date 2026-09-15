@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="stanzas" attr.type="string"/>
+<key id="d1" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d0" for="node" attr.name="formas" attr.type="string"/>
+<graph edgedefault="undirected"><node id="mercúrio">
+  <data key="d0">Mercúrio</data>
+</node>
+<node id="fortuna">
+  <data key="d0">Fortuna</data>
+</node>
+<node id="nereu">
+  <data key="d0">Nereu</data>
+</node>
+<node id="maome">
+  <data key="d0">Mahamede</data>
+</node>
+<node id="eneias">
+  <data key="d0">Eneias | Troiano</data>
+</node>
+<node id="jesus_cristo">
+  <data key="d0">Cristo | Deus-Homem | Filho de David</data>
+</node>
+<node id="alexandro">
+  <data key="d0">Alexandro | filho de Filipo | grão Macedónio</data>
+</node>
+<node id="nuno_alvares">
+  <data key="d0">Nuno</data>
+</node>
+<node id="anfitrite">
+  <data key="d0">Anfitrite</data>
+</node>
+<node id="egas">
+  <data key="d0">Egas</data>
+</node>
+<node id="vulcano">
+  <data key="d0">Vulcano</data>
+</node>
+<node id="trajano">
+  <data key="d0">Trajano</data>
+</node>
+<node id="sinon">
+  <data key="d0">Sinon</data>
+</node>
+<node id="homero">
+  <data key="d0">Homero</data>
+</node>
+<node id="v_gama">
+  <data key="d0">Capitão | Gama | Vasco da Gama</data>
+</node>
+<node id="filipo">
+  <data key="d0">Filipo</data>
+</node>
+<node id="jupiter">
+  <data key="d0">Júpiter | Padre | Tonante | Ó Padre</data>
+</node>
+<node id="atlante">
+  <data key="d0">Atlante</data>
+</node>
+<node id="d._fuas">
+  <data key="d0">D. Fuas</data>
+</node>
+<node id="marte">
+  <data key="d0">Marte | Mavorte</data>
+</node>
+<node id="ulisses">
+  <data key="d0">sábio Grego</data>
+</node>
+<node id="nereidas">
+  <data key="d0">filhas de Nereu</data>
+</node>
+<node id="baco">
+  <data key="d0">Baco | Lieo | grão Tebano</data>
+</node>
+<node id="venus">
+  <data key="d0">Citereia | Deusa | Vénus | clara Deia</data>
+</node>
+<node id="parcas">
+  <data key="d0">Parcas</data>
+</node>
+<node id="magriço">
+  <data key="d0">Magriço</data>
+</node>
+<node id="apolo">
+  <data key="d0">Apolo | Febo</data>
+</node>
+<node id="faeton">
+  <data key="d0">Faeton</data>
+</node>
+<node id="musa">
+  <data key="d0">Musa | Musas</data>
+</node>
+<node id="neptuno">
+  <data key="d0">Neptuno</data>
+</node>
+<edge source="mercúrio" target="jupiter">
+  <data key="d1">1</data>
+  <data key="d2">40</data>
+</edge>
+<edge source="fortuna" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">44</data>
+</edge>
+<edge source="nereu" target="anfitrite">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="nereu" target="nereidas">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="nereu" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="maome" target="jesus_cristo">
+  <data key="d1">1</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="maome" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="maome" target="venus">
+  <data key="d1">1</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="eneias" target="alexandro">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="marte">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="musa">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="trajano">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="ulisses">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="eneias" target="d._fuas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="eneias" target="egas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="eneias" target="homero">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="eneias" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="eneias" target="nuno_alvares">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="eneias" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="jesus_cristo" target="v_gama">
+  <data key="d1">2</data>
+  <data key="d2">63, 102</data>
+</edge>
+<edge source="jesus_cristo" target="venus">
+  <data key="d1">1</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="alexandro" target="marte">
+  <data key="d1">2</data>
+  <data key="d2">3, 75</data>
+</edge>
+<edge source="alexandro" target="musa">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="alexandro" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="alexandro" target="trajano">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="alexandro" target="ulisses">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="alexandro" target="filipo">
+  <data key="d1">1</data>
+  <data key="d2">75</data>
+</edge>
+<edge source="nuno_alvares" target="d._fuas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="nuno_alvares" target="egas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="nuno_alvares" target="homero">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="nuno_alvares" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="nuno_alvares" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="anfitrite" target="nereidas">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="anfitrite" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="egas" target="d._fuas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="egas" target="homero">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="egas" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="egas" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="vulcano" target="jupiter">
+  <data key="d1">1</data>
+  <data key="d2">22</data>
+</edge>
+<edge source="trajano" target="marte">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="trajano" target="musa">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="trajano" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="trajano" target="ulisses">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="sinon" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">98</data>
+</edge>
+<edge source="homero" target="d._fuas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="homero" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="homero" target="v_gama">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="v_gama" target="d._fuas">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="v_gama" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="v_gama" target="baco">
+  <data key="d1">2</data>
+  <data key="d2">49, 104</data>
+</edge>
+<edge source="v_gama" target="faeton">
+  <data key="d1">1</data>
+  <data key="d2">49</data>
+</edge>
+<edge source="v_gama" target="apolo">
+  <data key="d1">1</data>
+  <data key="d2">56</data>
+</edge>
+<edge source="v_gama" target="nereidas">
+  <data key="d1">1</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="v_gama" target="venus">
+  <data key="d1">1</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="filipo" target="marte">
+  <data key="d1">1</data>
+  <data key="d2">75</data>
+</edge>
+<edge source="jupiter" target="atlante">
+  <data key="d1">1</data>
+  <data key="d2">20</data>
+</edge>
+<edge source="jupiter" target="baco">
+  <data key="d1">1</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="jupiter" target="apolo">
+  <data key="d1">1</data>
+  <data key="d2">37</data>
+</edge>
+<edge source="jupiter" target="marte">
+  <data key="d1">1</data>
+  <data key="d2">41</data>
+</edge>
+<edge source="d._fuas" target="magriço">
+  <data key="d1">1</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="marte" target="musa">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="marte" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="marte" target="ulisses">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="marte" target="venus">
+  <data key="d1">1</data>
+  <data key="d2">36</data>
+</edge>
+<edge source="ulisses" target="musa">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="ulisses" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="baco" target="faeton">
+  <data key="d1">1</data>
+  <data key="d2">49</data>
+</edge>
+<edge source="venus" target="parcas">
+  <data key="d1">1</data>
+  <data key="d2">34</data>
+</edge>
+<edge source="musa" target="neptuno">
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+</edge>
+</graph></graphml>
