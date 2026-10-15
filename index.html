@@ -2239,30 +2239,26 @@ function localizarNoMapa(id) {
                 agendarFechamento
             );
 
-          
-elemento.addEventListener('click', event => {
-    event.stopPropagation();
-
-    // Se for um lugar, mostra no mapa
-    if (autoridades[id].tipo === 'lugar') {
+            elemento.addEventListener('click', event => {
+              event.stopPropagation();
+               // Se for um lugar, mostra no mapa
+               //  if (autoridades[id].tipo === 'lugar') {
         localizarNoMapa(id);
     }
-
-    // O link externo continua disponível
+     // O link externo continua disponível
     // exclusivamente dentro do pop-up.
-});
-
-
-   
-elemento.addEventListener('keydown', event => {
-    if (event.key === 'Enter' || event.key === ' ') {
+    // });
+    
+    
+    elemento.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
 
         if (autoridades[id].tipo === 'lugar') {
             localizarNoMapa(id);
         }
-    }
-});
+      }
+    });
 
 
     // Permite entrar com o mouse no próprio painel.
