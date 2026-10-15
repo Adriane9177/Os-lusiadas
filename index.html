@@ -26,6 +26,49 @@
         #painel { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 480px; background: #fdf6e3; padding: 30px; border: 3px solid #c2b280; z-index: 20001; border-radius: 12px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
         #painel img { max-width: 100%; max-height: 320px; border-radius: 6px; margin-bottom: 15px; border: 1px solid #c2b280; display: none; margin-left: auto; margin-right: auto; }
         .fechar { position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 28px; border: none; background: none; color: #8b0000; font-weight: bold; }
+    
+/* Visualização das autoridades ao passar o mouse */
+#overlay {
+    display: none !important;
+}
+
+#painel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 310px;
+    max-width: calc(100vw - 32px);
+    max-height: min(75vh, 520px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 16px;
+    border-width: 2px;
+    z-index: 20001;
+    text-align: left;
+    box-shadow: 0 5px 22px rgba(0,0,0,.22);
+}
+
+#painel img {
+    max-height: 160px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+#painel h2 {
+    font-size: 1.15em;
+    margin: 5px 0 10px;
+}
+
+#painel p {
+    font-size: .9em;
+    margin: 8px 0;
+}
+
+#painel .fechar {
+    display: none;
+}
+
     </style>
 </head>
 <body>
@@ -2041,37 +2084,186 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         }
     });
 
-    function mostrarEntidade(id) {
-        const d = autoridades[id];
-        if (!d) {
-            console.error("ID não encontrado na lista de autoridades:", id);
+    
+    // Mantém as entidades originais e seus IDs.
+    // Altera somente a interação com o painel.
+
+    let entidadeAtiva = null;
+    let temporizadorPainel = null;
+
+    const painelAutoridade = document.getElementById('painel');
+
+    function posicionarPainel(elemento) {
+        if (!elemento || painelAutoridade.style.display !== 'block') {
             return;
         }
-        document.getElementById('modal-titulo').innerText = d.nome;
-        document.getElementById('modal-desc').innerText = d.desc;
-        document.getElementById('modal-link').href = d.wiki;
-        
-        const img = document.getElementById('modal-img');
-        if (d.img && d.img.trim() !== "") { 
-            img.src = d.img; 
-            img.style.display = 'block'; 
-        } else { 
-            img.style.display = 'none'; 
-        }
-        
-        document.getElementById('overlay').style.display = 'block';
-        document.getElementById('painel').style.display = 'block';
 
-        if (d.lat && markers[id]) {
-            map.flyTo([d.lat, d.lon], 5);
-            markers[id].openPopup();
+        const rect = elemento.getBoundingClientRect();
+        const largura = painelAutoridade.offsetWidth;
+        const altura = painelAutoridade.offsetHeight;
+
+        let esquerda = Math.min(
+            rect.left,
+            window.innerWidth - largura - 12
+        );
+
+        esquerda = Math.max(12, esquerda);
+
+        let topo = rect.bottom + 9;
+
+        if (topo + altura > window.innerHeight - 12) {
+            topo = rect.top - altura - 9;
         }
+
+        topo = Math.max(
+            12,
+            Math.min(topo, window.innerHeight - altura - 12)
+        );
+
+        painelAutoridade.style.left = esquerda + 'px';
+        painelAutoridade.style.top = topo + 'px';
+    }
+
+    function mostrarEntidade(id, elemento) {
+        clearTimeout(temporizadorPainel);
+
+        const d = autoridades[id];
+
+        if (!d) return;
+
+        entidadeAtiva = elemento;
+
+        document.getElementById('modal-titulo').innerText = d.nome;
+
+        document.getElementById('modal-desc').innerText = d.desc || '';
+
+        const link = document.getElementById('modal-link');
+        link.href = d.wiki || '#';
+        link.style.display = d.wiki ? 'inline' : 'none';
+
+        const img = document.getElementById('modal-img');
+
+        img.style.display = d.img && d.img.trim()
+            ? 'block'
+            : 'none';
+
+        img.src = d.img || '';
+
+        painelAutoridade.style.display = 'block';
+
+        posicionarPainel(elemento);
+
+        img.onload = () => {
+            if (entidadeAtiva === elemento) {
+                posicionarPainel(elemento);
+            }
+        };
     }
 
     function fecharPainel() {
-        document.getElementById('overlay').style.display = 'none';
-        document.getElementById('painel').style.display = 'none';
+        clearTimeout(temporizadorPainel);
+
+        painelAutoridade.style.display = 'none';
+        entidadeAtiva = null;
     }
+
+    function agendarFechamento() {
+        clearTimeout(temporizadorPainel);
+
+        temporizadorPainel = setTimeout(fecharPainel, 180);
+    }
+
+    // Configura todas as entidades já marcadas no poema.
+    document.querySelectorAll('#texto-poema .entidade')
+        .forEach(elemento => {
+
+            const codigo = elemento.getAttribute('onclick') || '';
+
+            const match = codigo.match(
+                /mostrarEntidade\(['"]([^'"]*)['"]\)/
+            );
+
+            elemento.removeAttribute('onclick');
+
+            if (!match || !autoridades[match[1]]) return;
+
+            const id = match[1];
+
+            elemento.setAttribute('role', 'link');
+            elemento.setAttribute('tabindex', '0');
+
+            // Abre o painel ao passar o mouse.
+            elemento.addEventListener('mouseenter', () => {
+                mostrarEntidade(id, elemento);
+            });
+
+            // Fecha o painel ao retirar o mouse.
+            elemento.addEventListener(
+                'mouseleave',
+                agendarFechamento
+            );
+
+            // Permite usar o teclado.
+            elemento.addEventListener('focus', () => {
+                mostrarEntidade(id, elemento);
+            });
+
+            elemento.addEventListener(
+                'blur',
+                agendarFechamento
+            );
+
+            // Abre o Wikidata ao clicar na entidade.
+            elemento.addEventListener('click', event => {
+                event.stopPropagation();
+
+                if (autoridades[id].wiki) {
+                    window.open(
+                        autoridades[id].wiki,
+                        '_blank',
+                        'noopener,noreferrer'
+                    );
+                }
+            });
+
+            elemento.addEventListener('keydown', event => {
+                if (
+                    (event.key === 'Enter' || event.key === ' ') &&
+                    autoridades[id].wiki
+                ) {
+                    event.preventDefault();
+
+                    window.open(
+                        autoridades[id].wiki,
+                        '_blank',
+                        'noopener,noreferrer'
+                    );
+                }
+            });
+        });
+
+    // Permite entrar com o mouse no próprio painel.
+    painelAutoridade.addEventListener('mouseenter', () => {
+        clearTimeout(temporizadorPainel);
+    });
+
+    painelAutoridade.addEventListener(
+        'mouseleave',
+        agendarFechamento
+    );
+
+    window.addEventListener('scroll', () => {
+        if (entidadeAtiva) {
+            posicionarPainel(entidadeAtiva);
+        }
+    }, { passive: true });
+
+    window.addEventListener('resize', () => {
+        if (entidadeAtiva) {
+            posicionarPainel(entidadeAtiva);
+        }
+    });
+
 
     function toggleMapa() {
         const m = document.getElementById('mapa');
