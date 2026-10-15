@@ -2027,10 +2027,11 @@
     }
 };
     // Troca do servidor para CartoDB (Evita Erro 403)
-    const map = L.map('mapa').setView([15, 20], 2);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '© OpenStreetMap © CartoDB'
-    }).addTo(map);
+   const map = L.map('mapa').setView([15, 20], 2);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
 
     const markers = {};
     Object.keys(autoridades).forEach(id => {
