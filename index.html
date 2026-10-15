@@ -2173,6 +2173,32 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         temporizadorPainel = setTimeout(fecharPainel, 180);
     }
 
+function localizarNoMapa(id) {
+    const d = autoridades[id];
+
+    // Somente entidades geográficas com marcador
+    if (!d || d.tipo !== 'lugar' || !markers[id]) {
+        return;
+    }
+
+    // Movimenta o mapa para a localização
+    map.flyTo([d.lat, d.lon], 5, {
+        animate: true,
+        duration: 1.5
+    });
+
+    // Abre o marcador depois do deslocamento
+    map.once('moveend', () => {
+        markers[id].openPopup();
+    });
+
+    // Leva a página até o mapa
+    document.getElementById('mapa-container').scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+    });
+}
+
     // Configura todas as entidades já marcadas no poema.
     document.querySelectorAll('#texto-poema .entidade')
         .forEach(elemento => {
@@ -2213,34 +2239,31 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 agendarFechamento
             );
 
-            // Abre o Wikidata ao clicar na entidade.
-            elemento.addEventListener('click', event => {
-                event.stopPropagation();
+          
+elemento.addEventListener('click', event => {
+    event.stopPropagation();
 
-                if (autoridades[id].wiki) {
-                    window.open(
-                        autoridades[id].wiki,
-                        '_blank',
-                        'noopener,noreferrer'
-                    );
-                }
-            });
+    // Se for um lugar, mostra no mapa
+    if (autoridades[id].tipo === 'lugar') {
+        localizarNoMapa(id);
+    }
 
-            elemento.addEventListener('keydown', event => {
-                if (
-                    (event.key === 'Enter' || event.key === ' ') &&
-                    autoridades[id].wiki
-                ) {
-                    event.preventDefault();
+    // O link externo continua disponível
+    // exclusivamente dentro do pop-up.
+});
 
-                    window.open(
-                        autoridades[id].wiki,
-                        '_blank',
-                        'noopener,noreferrer'
-                    );
-                }
-            });
-        });
+
+   
+elemento.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+
+        if (autoridades[id].tipo === 'lugar') {
+            localizarNoMapa(id);
+        }
+    }
+});
+
 
     // Permite entrar com o mouse no próprio painel.
     painelAutoridade.addEventListener('mouseenter', () => {
