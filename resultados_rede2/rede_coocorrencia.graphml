@@ -122,9 +122,9 @@
   <data key="d0">França</data>
   <data key="d1">place</data>
 </node>
-<node id="julio_césar">
-  <data key="d0">julio_césar</data>
-  <data key="d1">não encontrada</data>
+<node id="julio_cesar">
+  <data key="d0">Júlio César</data>
+  <data key="d1">person</data>
 </node>
 <node id="afonso_henriques">
   <data key="d0">D. Afonso Henriques</data>
@@ -266,17 +266,17 @@
   <data key="d0">Etiópia</data>
   <data key="d1">place</data>
 </node>
-<node id="ilha_de_são_lourenço">
-  <data key="d0">ilha_de_são_lourenço</data>
-  <data key="d1">não encontrada</data>
+<node id="madagascar">
+  <data key="d0">Ilha de São Lourenço</data>
+  <data key="d1">place</data>
 </node>
 <node id="tifeu">
   <data key="d0">Tifeu</data>
   <data key="d1">person</data>
 </node>
-<node id="prasso">
-  <data key="d0">prasso</data>
-  <data key="d1">não encontrada</data>
+<node id="prasso_promontorio">
+  <data key="d0">Promontório do Prasso</data>
+  <data key="d1">place</data>
 </node>
 <node id="faeton">
   <data key="d0">Faeton</data>
@@ -306,9 +306,9 @@
   <data key="d0">Abraão</data>
   <data key="d1">person</data>
 </node>
-<node id="ilha_de_moçambique">
-  <data key="d0">ilha_de_moçambique</data>
-  <data key="d1">não encontrada</data>
+<node id="mocambique">
+  <data key="d0">Moçambique</data>
+  <data key="d1">place</data>
 </node>
 <node id="quiloa">
   <data key="d0">Quíloa</data>
@@ -322,21 +322,13 @@
   <data key="d0">Sofala</data>
   <data key="d1">place</data>
 </node>
-<node id="ilha_moçambique">
-  <data key="d0">ilha_moçambique</data>
-  <data key="d1">não encontrada</data>
-</node>
-<node id="rio_indo">
-  <data key="d0">rio_indo</data>
-  <data key="d1">não encontrada</data>
-</node>
 <node id="idaspe">
   <data key="d0">Idaspe</data>
   <data key="d1">place</data>
 </node>
 <node id="mouro_porta_voz">
-  <data key="d0">mouro_porta_voz</data>
-  <data key="d1">não encontrada</data>
+  <data key="d0">Mouro (interlocutor dos portugueses)</data>
+  <data key="d1">person</data>
 </node>
 <node id="aurora">
   <data key="d0">Aurora</data>
@@ -347,8 +339,8 @@
   <data key="d1">person</data>
 </node>
 <node id="mouro_regedor_ilhas">
-  <data key="d0">mouro_regedor_ilhas</data>
-  <data key="d1">não encontrada</data>
+  <data key="d0">Mouro (regedor das ilhas)</data>
+  <data key="d1">person</data>
 </node>
 <node id="constantino">
   <data key="d0">Constantino</data>
@@ -369,14 +361,6 @@
 <node id="filipo">
   <data key="d0">Filipo</data>
   <data key="d1">person</data>
-</node>
-<node id="prasso_promontorio">
-  <data key="d0">Promontório do Prasso</data>
-  <data key="d1">place</data>
-</node>
-<node id="moçambique">
-  <data key="d0">moçambique</data>
-  <data key="d1">não encontrada</data>
 </node>
 <node id="nabateia">
   <data key="d0">Nabateia</data>
@@ -401,10 +385,6 @@
 <node id="maome">
   <data key="d0">Maomé</data>
   <data key="d1">person</data>
-</node>
-<node id="quíloa">
-  <data key="d0">quíloa</data>
-  <data key="d1">não encontrada</data>
 </node>
 <node id="citera">
   <data key="d0">Citere</data>
@@ -437,7 +417,7 @@
 <edge source="portugal" target="franca">
   <data key="d2">1</data>
 </edge>
-<edge source="portugal" target="julio_césar">
+<edge source="portugal" target="julio_cesar">
   <data key="d2">1</data>
 </edge>
 <edge source="portugal" target="africa">
@@ -770,7 +750,7 @@
 <edge source="carlos_magno" target="franca">
   <data key="d2">1</data>
 </edge>
-<edge source="carlos_magno" target="julio_césar">
+<edge source="carlos_magno" target="julio_cesar">
   <data key="d2">1</data>
 </edge>
 <edge source="franca" target="afonso_henriques">
@@ -791,25 +771,25 @@
 <edge source="franca" target="d_joao_ii">
   <data key="d2">1</data>
 </edge>
-<edge source="franca" target="julio_césar">
+<edge source="franca" target="julio_cesar">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="afonso_henriques">
+<edge source="julio_cesar" target="afonso_henriques">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="afonso_iii">
+<edge source="julio_cesar" target="afonso_iii">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="afonso_iv">
+<edge source="julio_cesar" target="afonso_iv">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="afonso_v">
+<edge source="julio_cesar" target="afonso_v">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="d_joao_i">
+<edge source="julio_cesar" target="d_joao_i">
   <data key="d2">1</data>
 </edge>
-<edge source="julio_césar" target="d_joao_ii">
+<edge source="julio_cesar" target="d_joao_ii">
   <data key="d2">1</data>
 </edge>
 <edge source="afonso_henriques" target="afonso_iii">
@@ -896,7 +876,7 @@
 <edge source="olimpo" target="etiopia">
   <data key="d2">1</data>
 </edge>
-<edge source="olimpo" target="ilha_de_são_lourenço">
+<edge source="olimpo" target="madagascar">
   <data key="d2">1</data>
 </edge>
 <edge source="olimpo" target="tifeu">
@@ -1007,6 +987,9 @@
 <edge source="indo" target="parnaso">
   <data key="d2">1</data>
 </edge>
+<edge source="indo" target="idaspe">
+  <data key="d2">1</data>
+</edge>
 <edge source="fortuna" target="lete">
   <data key="d2">1</data>
 </edge>
@@ -1028,16 +1011,19 @@
 <edge source="venus" target="parcas">
   <data key="d2">1</data>
 </edge>
-<edge source="etiopia" target="ilha_de_são_lourenço">
+<edge source="etiopia" target="madagascar">
   <data key="d2">1</data>
 </edge>
 <edge source="etiopia" target="tifeu">
   <data key="d2">1</data>
 </edge>
-<edge source="etiopia" target="prasso">
+<edge source="etiopia" target="prasso_promontorio">
   <data key="d2">1</data>
 </edge>
-<edge source="ilha_de_são_lourenço" target="tifeu">
+<edge source="madagascar" target="tifeu">
+  <data key="d2">1</data>
+</edge>
+<edge source="prasso_promontorio" target="mocambique">
   <data key="d2">1</data>
 </edge>
 <edge source="faeton" target="lampetusa">
@@ -1058,10 +1044,19 @@
 <edge source="d_manuel_i" target="aqueronte">
   <data key="d2">1</data>
 </edge>
-<edge source="abraao" target="ilha_de_moçambique">
+<edge source="abraao" target="mocambique">
   <data key="d2">1</data>
 </edge>
-<edge source="quiloa" target="ilha_moçambique">
+<edge source="mocambique" target="mombaca">
+  <data key="d2">1</data>
+</edge>
+<edge source="mocambique" target="quiloa">
+  <data key="d2">2</data>
+</edge>
+<edge source="mocambique" target="sofala">
+  <data key="d2">1</data>
+</edge>
+<edge source="mocambique" target="maome">
   <data key="d2">1</data>
 </edge>
 <edge source="quiloa" target="mombaca">
@@ -1070,16 +1065,10 @@
 <edge source="quiloa" target="sofala">
   <data key="d2">1</data>
 </edge>
-<edge source="mombaca" target="ilha_moçambique">
+<edge source="quiloa" target="maome">
   <data key="d2">1</data>
 </edge>
 <edge source="mombaca" target="sofala">
-  <data key="d2">1</data>
-</edge>
-<edge source="sofala" target="ilha_moçambique">
-  <data key="d2">1</data>
-</edge>
-<edge source="rio_indo" target="idaspe">
   <data key="d2">1</data>
 </edge>
 <edge source="aurora" target="hiperiao">
@@ -1094,15 +1083,6 @@
 <edge source="turquia" target="europa">
   <data key="d2">1</data>
 </edge>
-<edge source="prasso_promontorio" target="moçambique">
-  <data key="d2">1</data>
-</edge>
-<edge source="moçambique" target="maome">
-  <data key="d2">1</data>
-</edge>
-<edge source="moçambique" target="quíloa">
-  <data key="d2">1</data>
-</edge>
 <edge source="anfitrite" target="nereidas">
   <data key="d2">1</data>
 </edge>
@@ -1110,9 +1090,6 @@
   <data key="d2">1</data>
 </edge>
 <edge source="nereidas" target="nereu">
-  <data key="d2">1</data>
-</edge>
-<edge source="maome" target="quíloa">
   <data key="d2">1</data>
 </edge>
 </graph></graphml>

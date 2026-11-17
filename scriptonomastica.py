@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 ARQUIVO_CORPUS = "Lusiadas_Canto1_marcadoVF.xml"
 ARQUIVO_AUTORIDADES = "autoridade_lusiadas.xml"
 
-PASTA_SAIDA = Path("resultados_rede1")
+PASTA_SAIDA = Path("resultados_rede2")
 PASTA_SAIDA.mkdir(exist_ok=True)
 
 # Para a rede de coocorrência:

@@ -157,7 +157,7 @@
           <l>Vossa bandeira sempre vencedora:</l>
           <l>Um <persName type="hist" ref="#pacheco">Pacheco</persName> fortíssimo, e os temidos</l>
           <l><persName type="hist" ref="#almeidas">Almeidas</persName>, por quem sempre o <placeName type="real" ref="#tejo">Tejo</placeName> chora;</l>
-          <l><rs type="person" ref="#afonso_albuquerque"> <persName type="hist">Albuquerque</persName> terríbil</rs>, <persName type="hist" ref="#joao_castro">Castro</persName> forte,</l>
+          <l> <persName type="hist" ref="#afonso_albuquerque">Albuquerque</persName> terríbil, <persName type="hist" ref="#joao_castro">Castro</persName> forte,</l>
           <l>E outros em quem poder não teve a morte.</l>
         </lg>
         <lg type="estrofe" n="15">
@@ -572,7 +572,7 @@
           <l>E do mais necessário vos proveja."</l>
         </lg>
         <lg type="estrofe" n="56">
-          <l>Isto dizendo, <rs type="person" ref="mouro_porta_voz">o Mouro</rs>  se tornou</l>
+          <l>Isto dizendo, <rs type="person" ref="#mouro_porta_voz">o Mouro</rs>  se tornou</l>
           <l>A seus batéis com toda a companhia;</l>
           <l>Do <rs type="person" ref="#v_gama">Capitão</rs> e gente se apartou</l>
           <l>Com mostras de devida cortesia.</l>
@@ -609,7 +609,7 @@
           <l>Começa a embandeirar-se toda a armada,</l>
           <l>E de toldos alegres se adornou,</l>
           <l>Por receber com festas e alegria</l>
-          <l>O <rs type="person" ref="mouro_regedor_ilhas">Regedor</rs> das ilhas, que partia.</l>
+          <l>O <rs type="person" ref="#mouro_regedor_ilhas">Regedor</rs> das ilhas, que partia.</l>
         </lg>
         <lg type="estrofe" n="60">
           <l>Partia alegremente navegando,</l>
@@ -623,12 +623,12 @@
         </lg>
         <lg type="estrofe" n="61">
           <l>Recebe o <rs type="person" ref="#v_gama">Capitão</rs> alegremente</l>
-          <l>O <rs type="person" ref="mouro_regedor_ilhas">Mouro</rs>, e toda a sua companhia;</l>
+          <l>O <rs type="person" ref="#mouro_regedor_ilhas">Mouro</rs>, e toda a sua companhia;</l>
           <l>Dá-lhe de ricas peças um presente,</l>
           <l>Que só para este efeito já trazia;</l>
           <l>Dá-lhe conserva doce, e dá-lhe o ardente</l>
           <l>Não usado licor, que dá alegria.</l>
-          <l>Tudo o <rs type="person" ref="mouro_regedor_ilhas">Mouro</rs> contente bem recebe;</l>
+          <l>Tudo o <rs type="person" ref="#mouro_regedor_ilhas">Mouro</rs> contente bem recebe;</l>
           <l>E muito mais contente come e bebe.</l>
         </lg>
         <lg type="estrofe" n="62">

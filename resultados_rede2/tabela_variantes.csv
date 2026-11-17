@@ -52,12 +52,13 @@ hiperiao,Hiperiónio,person,Hiperiónio,persName,myth,nome explícito,1,59
 hipocrene,Hipocrene,place,Hipoerene,placeName,myth,nome explícito,1,4
 homero,Homero,person,Homero,persName,hist,nome explícito,1,12
 idaspe,Idaspe,place,Idaspe,placeName,real,nome explícito,1,55
-imperio_portugues_oriente,Império Português do Oriente,place,Novo Reino,placeName,real,nome explícito,1,1
-indo,Indo,place,Indo,placeName,real,nome explícito,3,"32, 52, 95"
+madagascar,Ilha de São Lourenço,place,Ilha de São Lourenço,placeName,real,nome explícito,1,42
+indo,Indo,place,Indo,placeName,real,nome explícito,4,"32, 52, 55, 95"
 inglaterra,Inglaterra,place,Inglaterra,placeName,real,nome explícito,1,12
 jesus_cristo,Jesus Cristo,person,Cristo,rs,person,referência indireta a pessoa,3,"7, 63, 102"
 jesus_cristo,Jesus Cristo,person,Deus-Homem,rs,person,referência indireta a pessoa,1,66
 jesus_cristo,Jesus Cristo,person,Filho de David,rs,person,referência indireta a pessoa,1,71
+julio_cesar,Júlio César,person,César,persName,hist,nome explícito,1,13
 jupiter,Júpiter,person,Júpiter,persName,myth,nome explícito,4,"23, 30, 37"
 jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,4,"22, 40, 41, 74"
 jupiter,Júpiter,person,Tonante,rs,person,referência indireta a pessoa,1,20
@@ -67,9 +68,15 @@ maome,Maomé,person,Mahamede,persName,hist,nome explícito,2,"99, 102"
 marte,Marte,person,Marte,persName,myth,nome explícito,4,"3, 5, 36, 75"
 marte,Marte,person,Mavorte,persName,myth,nome explícito,1,41
 mercúrio,Mercúrio,person,Mercúrio,persName,myth,nome explícito,1,40
-mombaca,Mombaca,place,Mombaça,placeName,real,nome explícito,1,54
+mombaca,Mombaca,place,Mombaça,placeName,real,nome explícito,2,"54, 103"
 olimpo,Monte Olimpo,place,Olimpo,placeName,myth,nome explícito,3,"20, 35, 42"
 olimpo,Monte Olimpo,place,olímpica morada,rs,place,referência indireta a lugar,1,17
+mouro_porta_voz,Mouro (interlocutor dos portugueses),person,o Mouro,rs,person,referência indireta a pessoa,1,56
+mouro_regedor_ilhas,Mouro (regedor das ilhas),person,Mouro,rs,person,referência indireta a pessoa,2,61
+mouro_regedor_ilhas,Mouro (regedor das ilhas),person,Regedor,rs,person,referência indireta a pessoa,1,59
+mocambique,Moçambique,place,Moçambique,placeName,real,nome explícito,2,"77, 99"
+mocambique,Moçambique,place,Ilha de Moçambique,placeName,real,nome explícito,1,53
+mocambique,Moçambique,place,ilha Moçambique,placeName,real,nome explícito,1,54
 musa,Musa,person,Musa,persName,myth,nome explícito,1,3
 musa,Musa,person,Musas,persName,myth,nome explícito,1,11
 nabateia,Nabateia,place,montes Nabatêos,placeName,real,nome explícito,1,84
@@ -88,9 +95,9 @@ portugal,Portugal,place,Luso,placeName,real,nome explícito,1,62
 portugal,Portugal,place,Reino,placeName,real,nome explícito,1,15
 portugal,Portugal,place,Reino,rs,place,referência indireta a lugar,1,13
 portugal,Portugal,place,ocidental praia Lusitana,rs,place,referência indireta a lugar,1,1
-prasso_promontorio,Promontório do Prasso,place,Prasso,placeName,real,nome explícito,1,77
+prasso_promontorio,Promontório do Prasso,place,Prasso,placeName,real,nome explícito,2,"43, 77"
 proteu,Próteo,person,Próteo,persName,myth,nome explícito,1,19
-quiloa,Quíloa,place,Quíloa,placeName,real,nome explícito,1,54
+quiloa,Quíloa,place,Quíloa,placeName,real,nome explícito,2,"54, 99"
 rio_ganges,Rio Ganges,place,santo rio,rs,place,referência indireta a lugar,1,8
 lete,Rio Lete>,place,D'água do esquecimento,rs,place,referência indireta a lugar,1,32
 rio_pado,Rio Pado,place,Pado,placeName,real,nome explícito,1,46
@@ -118,15 +125,6 @@ venus,Vénus,person,Deusa,rs,person,referência indireta a pessoa,3,"36, 100, 10
 venus,Vénus,person,Citereia,persName,myth,nome explícito,1,34
 venus,Vénus,person,Vénus,persName,myth,nome explícito,1,33
 venus,Vénus,person,clara Deia,rs,person,referência indireta a pessoa,1,34
-ilha_de_moçambique,ilha_de_moçambique,não encontrada,Ilha de Moçambique,placeName,real,nome explícito,1,53
-ilha_de_são_lourenço,ilha_de_são_lourenço,não encontrada,Ilha de São Lourenço,placeName,real,nome explícito,1,42
-ilha_moçambique,ilha_moçambique,não encontrada,ilha Moçambique,placeName,real,nome explícito,1,54
-julio_césar,julio_césar,não encontrada,César,persName,hist,nome explícito,1,13
-mombaça,mombaça,não encontrada,Mombaça,placeName,real,nome explícito,1,103
-moçambique,moçambique,não encontrada,Moçambique,placeName,real,nome explícito,2,"77, 99"
-prasso,prasso,não encontrada,Prasso,placeName,real,nome explícito,1,43
-quíloa,quíloa,não encontrada,Quíloa,placeName,real,nome explícito,1,99
-rio_indo,rio_indo,não encontrada,Indo,placeName,real,nome explícito,1,55
 africa,África,place,África,placeName,real,nome explícito,2,"2, 15"
 africa,África,place,costa Africana,rs,place,referência indireta a lugar,1,51
 africo,Áfrico,person,Áfrico,persName,myth,nome explícito,1,27

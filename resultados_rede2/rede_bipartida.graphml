@@ -623,15 +623,15 @@
   <data key="d5">placeName</data>
   <data key="d6">real</data>
 </node>
-<node id="ENT::imperio_portugues_oriente">
+<node id="ENT::madagascar">
   <data key="d0">entity</data>
-  <data key="d1">Império Português do Oriente</data>
-  <data key="d2">imperio_portugues_oriente</data>
+  <data key="d1">Ilha de São Lourenço</data>
+  <data key="d2">madagascar</data>
   <data key="d3">place</data>
 </node>
-<node id="FORM::imperio_portugues_oriente::Novo Reino">
+<node id="FORM::madagascar::Ilha de São Lourenço">
   <data key="d0">form</data>
-  <data key="d1">Novo Reino</data>
+  <data key="d1">Ilha de São Lourenço</data>
   <data key="d4">nome explícito</data>
   <data key="d5">placeName</data>
   <data key="d6">real</data>
@@ -688,6 +688,19 @@
   <data key="d4">referência indireta a pessoa</data>
   <data key="d5">rs</data>
   <data key="d6">person</data>
+</node>
+<node id="ENT::julio_cesar">
+  <data key="d0">entity</data>
+  <data key="d1">Júlio César</data>
+  <data key="d2">julio_cesar</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::julio_cesar::César">
+  <data key="d0">form</data>
+  <data key="d1">César</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">persName</data>
+  <data key="d6">hist</data>
 </node>
 <node id="ENT::jupiter">
   <data key="d0">entity</data>
@@ -814,6 +827,66 @@
   <data key="d4">referência indireta a lugar</data>
   <data key="d5">rs</data>
   <data key="d6">place</data>
+</node>
+<node id="ENT::mouro_porta_voz">
+  <data key="d0">entity</data>
+  <data key="d1">Mouro (interlocutor dos portugueses)</data>
+  <data key="d2">mouro_porta_voz</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::mouro_porta_voz::o Mouro">
+  <data key="d0">form</data>
+  <data key="d1">o Mouro</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::mouro_regedor_ilhas">
+  <data key="d0">entity</data>
+  <data key="d1">Mouro (regedor das ilhas)</data>
+  <data key="d2">mouro_regedor_ilhas</data>
+  <data key="d3">person</data>
+</node>
+<node id="FORM::mouro_regedor_ilhas::Mouro">
+  <data key="d0">form</data>
+  <data key="d1">Mouro</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="FORM::mouro_regedor_ilhas::Regedor">
+  <data key="d0">form</data>
+  <data key="d1">Regedor</data>
+  <data key="d4">referência indireta a pessoa</data>
+  <data key="d5">rs</data>
+  <data key="d6">person</data>
+</node>
+<node id="ENT::mocambique">
+  <data key="d0">entity</data>
+  <data key="d1">Moçambique</data>
+  <data key="d2">mocambique</data>
+  <data key="d3">place</data>
+</node>
+<node id="FORM::mocambique::Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::mocambique::Ilha de Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">Ilha de Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
+</node>
+<node id="FORM::mocambique::ilha Moçambique">
+  <data key="d0">form</data>
+  <data key="d1">ilha Moçambique</data>
+  <data key="d4">nome explícito</data>
+  <data key="d5">placeName</data>
+  <data key="d6">real</data>
 </node>
 <node id="ENT::musa">
   <data key="d0">entity</data>
@@ -1372,123 +1445,6 @@
   <data key="d5">rs</data>
   <data key="d6">person</data>
 </node>
-<node id="ENT::ilha_de_moçambique">
-  <data key="d0">entity</data>
-  <data key="d1">ilha_de_moçambique</data>
-  <data key="d2">ilha_de_moçambique</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::ilha_de_moçambique::Ilha de Moçambique">
-  <data key="d0">form</data>
-  <data key="d1">Ilha de Moçambique</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::ilha_de_são_lourenço">
-  <data key="d0">entity</data>
-  <data key="d1">ilha_de_são_lourenço</data>
-  <data key="d2">ilha_de_são_lourenço</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::ilha_de_são_lourenço::Ilha de São Lourenço">
-  <data key="d0">form</data>
-  <data key="d1">Ilha de São Lourenço</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::ilha_moçambique">
-  <data key="d0">entity</data>
-  <data key="d1">ilha_moçambique</data>
-  <data key="d2">ilha_moçambique</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::ilha_moçambique::ilha Moçambique">
-  <data key="d0">form</data>
-  <data key="d1">ilha Moçambique</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::julio_césar">
-  <data key="d0">entity</data>
-  <data key="d1">julio_césar</data>
-  <data key="d2">julio_césar</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::julio_césar::César">
-  <data key="d0">form</data>
-  <data key="d1">César</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">persName</data>
-  <data key="d6">hist</data>
-</node>
-<node id="ENT::mombaça">
-  <data key="d0">entity</data>
-  <data key="d1">mombaça</data>
-  <data key="d2">mombaça</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::mombaça::Mombaça">
-  <data key="d0">form</data>
-  <data key="d1">Mombaça</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::moçambique">
-  <data key="d0">entity</data>
-  <data key="d1">moçambique</data>
-  <data key="d2">moçambique</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::moçambique::Moçambique">
-  <data key="d0">form</data>
-  <data key="d1">Moçambique</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::prasso">
-  <data key="d0">entity</data>
-  <data key="d1">prasso</data>
-  <data key="d2">prasso</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::prasso::Prasso">
-  <data key="d0">form</data>
-  <data key="d1">Prasso</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::quíloa">
-  <data key="d0">entity</data>
-  <data key="d1">quíloa</data>
-  <data key="d2">quíloa</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::quíloa::Quíloa">
-  <data key="d0">form</data>
-  <data key="d1">Quíloa</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
-<node id="ENT::rio_indo">
-  <data key="d0">entity</data>
-  <data key="d1">rio_indo</data>
-  <data key="d2">rio_indo</data>
-  <data key="d3">não encontrada</data>
-</node>
-<node id="FORM::rio_indo::Indo">
-  <data key="d0">form</data>
-  <data key="d1">Indo</data>
-  <data key="d4">nome explícito</data>
-  <data key="d5">placeName</data>
-  <data key="d6">real</data>
-</node>
 <node id="ENT::africa">
   <data key="d0">entity</data>
   <data key="d1">África</data>
@@ -1724,11 +1680,11 @@
 <edge source="ENT::idaspe" target="FORM::idaspe::Idaspe">
   <data key="d7">1</data>
 </edge>
-<edge source="ENT::imperio_portugues_oriente" target="FORM::imperio_portugues_oriente::Novo Reino">
+<edge source="ENT::madagascar" target="FORM::madagascar::Ilha de São Lourenço">
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::indo" target="FORM::indo::Indo">
-  <data key="d7">3</data>
+  <data key="d7">4</data>
 </edge>
 <edge source="ENT::inglaterra" target="FORM::inglaterra::Inglaterra">
   <data key="d7">1</data>
@@ -1740,6 +1696,9 @@
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::jesus_cristo" target="FORM::jesus_cristo::Filho de David">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::julio_cesar" target="FORM::julio_cesar::César">
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::jupiter" target="FORM::jupiter::Júpiter">
@@ -1770,12 +1729,30 @@
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::mombaca" target="FORM::mombaca::Mombaça">
-  <data key="d7">1</data>
+  <data key="d7">2</data>
 </edge>
 <edge source="ENT::olimpo" target="FORM::olimpo::Olimpo">
   <data key="d7">3</data>
 </edge>
 <edge source="ENT::olimpo" target="FORM::olimpo::olímpica morada">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mouro_porta_voz" target="FORM::mouro_porta_voz::o Mouro">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mouro_regedor_ilhas" target="FORM::mouro_regedor_ilhas::Mouro">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::mouro_regedor_ilhas" target="FORM::mouro_regedor_ilhas::Regedor">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mocambique" target="FORM::mocambique::Moçambique">
+  <data key="d7">2</data>
+</edge>
+<edge source="ENT::mocambique" target="FORM::mocambique::Ilha de Moçambique">
+  <data key="d7">1</data>
+</edge>
+<edge source="ENT::mocambique" target="FORM::mocambique::ilha Moçambique">
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::musa" target="FORM::musa::Musa">
@@ -1830,13 +1807,13 @@
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::prasso_promontorio" target="FORM::prasso_promontorio::Prasso">
-  <data key="d7">1</data>
+  <data key="d7">2</data>
 </edge>
 <edge source="ENT::proteu" target="FORM::proteu::Próteo">
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::quiloa" target="FORM::quiloa::Quíloa">
-  <data key="d7">1</data>
+  <data key="d7">2</data>
 </edge>
 <edge source="ENT::rio_ganges" target="FORM::rio_ganges::santo rio">
   <data key="d7">1</data>
@@ -1917,33 +1894,6 @@
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::venus" target="FORM::venus::clara Deia">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::ilha_de_moçambique" target="FORM::ilha_de_moçambique::Ilha de Moçambique">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::ilha_de_são_lourenço" target="FORM::ilha_de_são_lourenço::Ilha de São Lourenço">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::ilha_moçambique" target="FORM::ilha_moçambique::ilha Moçambique">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::julio_césar" target="FORM::julio_césar::César">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::mombaça" target="FORM::mombaça::Mombaça">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::moçambique" target="FORM::moçambique::Moçambique">
-  <data key="d7">2</data>
-</edge>
-<edge source="ENT::prasso" target="FORM::prasso::Prasso">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::quíloa" target="FORM::quíloa::Quíloa">
-  <data key="d7">1</data>
-</edge>
-<edge source="ENT::rio_indo" target="FORM::rio_indo::Indo">
   <data key="d7">1</data>
 </edge>
 <edge source="ENT::africa" target="FORM::africa::África">
