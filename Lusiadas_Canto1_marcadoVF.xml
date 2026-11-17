@@ -973,7 +973,7 @@
         <lg type="estrofe" n="96">
           <l>Desta arte despedida a forte armada,</l>
           <l>As ondas de <persName type="myth" ref="#anfitrite">Anfitrite</persName> dividia,</l>
-          <l>Das <rs type="person" ref="#nereidas">filhas de <persName type="myth" ref="#nereu">Nereu</persName></rs> acompanhada,</l>
+          <l>Das <rs type="group" ref="#nereidas">filhas de <persName type="myth" ref="#nereu">Nereu</persName></rs> acompanhada,</l>
           <l>Fiel, alegre e doce companhia.</l>
           <l>O <rs type="person" ref="#v_gama">Capitão</rs>, que não caía em nada</l>
           <l>Do enganoso ardil, que o Mouro urdia,</l>
