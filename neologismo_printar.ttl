@@ -1,0 +1,22 @@
+@prefix ex:       <http://seuprojeto.org/neologismos/> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+# Entrada Principal (Lexical Entry)
+ex:printar_entry a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    ontolex:canonicalForm ex:printar_form ;
+    ontolex:sense ex:printar_sense ;
+    dcterms:created "2010-05-15"^^xsd:date ;
+    dcterms:source <https://exemplo.org/corpus-fonte> .
+
+# Forma escrita (Lema)
+ex:printar_form a ontolex:Form ;
+    ontolex:writtenRep "printar"@pt .
+
+# Definição / Aceção
+ex:printar_sense a ontolex:LexicalSense ;
+    rdfs:comment "Ato de capturar a imagem da tela de um dispositivo eletrônico (tirar um print)."@pt .
