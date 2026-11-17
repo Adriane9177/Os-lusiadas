@@ -4,12 +4,12 @@
 Análise de entidades anotadas em TEI/XML - Os Lusíadas
 
 Gera:
-1. tabela_variantes.csv
-2. tabela_variantes.xlsx
-3. rede_bipartida.png
-4. rede_bipartida.graphml
-5. rede_coocorrencia.png
-6. rede_coocorrencia.graphml
+1. tabela_variantes1.csv
+2. tabela_variantes1.xlsx
+3. rede_bipartida1.png
+4. rede_bipartida1.graphml
+5. rede_coocorrencia1.png
+6. rede_coocorrencia1.graphml
 
 Dependências:
     pip install pandas networkx matplotlib openpyxl
@@ -32,10 +32,10 @@ import matplotlib.pyplot as plt
 # CONFIGURAÇÃO
 # ============================================================
 
-ARQUIVO_CORPUS = "Lusiadas_Canto1_marcado.xml"
+ARQUIVO_CORPUS = "Lusiadas_Canto1_marcadoVF.xml"
 ARQUIVO_AUTORIDADES = "autoridade_lusiadas.xml"
 
-PASTA_SAIDA = Path("resultados_rede")
+PASTA_SAIDA = Path("resultados_rede1")
 PASTA_SAIDA.mkdir(exist_ok=True)
 
 # Para a rede de coocorrência:

@@ -142,7 +142,7 @@
         </lg>
         <lg type="estrofe" n="13">
           <l>Pois se a troco de <persName type="hist" ref="#carlos_magno">Carlos</persName>, Rei de <placeName type="real" ref="#franca">França</placeName>,</l>
-          <l>Ou de <persName type="hist" ref="#julio_césar">César</persName>, quereis igual memória,</l>
+          <l>Ou de <persName type="hist" ref="#julio_cesar">César</persName>, quereis igual memória,</l>
           <l>Vede o <rs type="person" ref="#afonso_henriques">primeiro <persName type="hist">Afonso</persName></rs>, cuja lança</l>
           <l>Escura faz qualquer estranha glória;</l>
           <l>E <rs type="person" ref="#d_joao_i">aquele</rs> que a seu <rs type="place" ref="#portugal">Reino</rs> a segurança</l>
@@ -436,7 +436,7 @@
           <l>Cortava o mar a gente belicosa,</l>
           <l>Já lá da banda do Austro e do Oriente,</l>
           <l>Entre a costa <placeName type="real" ref="#etiopia">Etiópica</placeName> e a famosa</l>
-          <l><placeName type="real" ref="#ilha_de_são_lourenço">Ilha de São Lourenço</placeName>; e o Sol ardente</l>
+          <l><placeName type="real" ref="#madagascar">Ilha de São Lourenço</placeName>; e o Sol ardente</l>
           <l>Queimava então os Deuses, que <persName type="myth" ref="#tifeu">Tifeu</persName></l>
           <l>Com o temor grande em peixes converteu.</l>
         </lg>
@@ -445,7 +445,7 @@
           <l>Como quem o céu tinha por amigo:</l>
           <l>Sereno o ar, e os tempos se mostravam</l>
           <l>Sem nuvens, sem receio de perigo.</l>
-          <l>O promontório <placeName type="real" ref="#prasso">Prasso</placeName> já passavam,</l>
+          <l>O promontório <placeName type="real" ref="#prasso_promontorio">Prasso</placeName> já passavam,</l>
           <l>Na costa de <placeName type="real" ref="#etiopia">Etiópia</placeName>, nome antigo,</l>
           <l>Quando o mar descobrindo lhe mostrava</l>
           <l>Novas ilhas, que em torno cerca e lava.</l>
@@ -549,7 +549,7 @@
           <l>O claro descendente de <persName type="hist" ref="#abraao">Abraão</persName></l>
           <l>Que agora tem do mundo o senhorio,</l>
           <l>A mãe Hebréia teve, e o pai Gentio.</l>
-          <l>Informações. A <placeName type="real" ref="#ilha_de_moçambique">Ilha de Moçambique</placeName>.</l>
+          <l>Informações. A <placeName type="real" ref="#mocambique">Ilha de Moçambique</placeName>.</l>
         </lg>
         <lg type="estrofe" n="54">
           <l>"Esta ilha pequena, que habitamos,</l>
@@ -559,11 +559,11 @@
           <l>E, por ser necessária, procuramos,</l>
           <l>Como próprios da terra, de habitá-la;</l>
           <l>E por que tudo enfim vos notifique,</l>
-          <l>Chama-se a pequena <placeName type="real" ref="#ilha_moçambique">ilha Moçambique</placeName>.</l>
+          <l>Chama-se a pequena <placeName type="real" ref="#mocambique">ilha Moçambique</placeName>.</l>
         </lg>
         <lg type="estrofe" n="55">
           <l>"E já que de tão longe navegais,</l>
-          <l>Buscando o <placeName type="real" ref="#rio_indo">Indo</placeName> <placeName type="real" ref="#idaspe">Idaspe</placeName> e terra ardente,</l>
+          <l>Buscando o <placeName type="real" ref="#indo">Indo</placeName> <placeName type="real" ref="#idaspe">Idaspe</placeName> e terra ardente,</l>
           <l>Piloto aqui tereis, por quem sejais</l>
           <l>Guiados pelas ondas sabiamente.</l>
           <l>Também será bem feito que tenhais</l>
@@ -787,7 +787,7 @@
           <l>Do <placeName type="real" ref="#prasso_promontorio">Prasso</placeName> sabido se moveu.</l>
           <l>E por melhor tecer o astuto engano,</l>
           <l>No gesto natural se converteu</l>
-          <l>Dum Mouro em <placeName type="real" ref="#moçambique">Moçambique</placeName> conhecido</l>
+          <l>Dum Mouro em <placeName type="real" ref="#mocambique">Moçambique</placeName> conhecido</l>
           <l>Velho, sábio, e co'o Xeque mui valido.</l>
         </lg>
         <lg type="estrofe" n="78">
@@ -1007,8 +1007,8 @@
           <l>Gente que segue o torpe <persName type="hist" ref="#maome">Mahamede</persName>.</l>
           <l>Aqui o engano e morte lhe imagina,</l>
           <l>Porque em poder e forças muito excede</l>
-          <l>A <placeName type="real" ref="#moçambique">Moçambique</placeName> esta ilha, que se chama</l>
-          <l><placeName type="real" ref="#quíloa">Quíloa</placeName>, mui conhecida pela fama.</l>
+          <l>A <placeName type="real" ref="#mocambique">Moçambique</placeName> esta ilha, que se chama</l>
+          <l><placeName type="real" ref="#quiloa">Quíloa</placeName>, mui conhecida pela fama.</l>
         </lg>
         <lg type="estrofe" n="100">
           <l>Para lá se inclinava a leda frota;</l>
@@ -1048,7 +1048,7 @@
           <l>De nobres edifícios fabricada,</l>
           <l>Como por fora ao longe descobria,</l>
           <l>Regida por um Rei de antiga idade:</l>
-          <l><placeName type="real" ref="#mombaça">Mombaça</placeName> é o nome da ilha e da cidade.</l>
+          <l><placeName type="real" ref="#mombaca">Mombaça</placeName> é o nome da ilha e da cidade.</l>
         </lg>
         <lg type="estrofe" n="104">
           <l>E sendo a ela o <rs type="person" ref="#v_gama">Capitão</rs> chegado,</l>

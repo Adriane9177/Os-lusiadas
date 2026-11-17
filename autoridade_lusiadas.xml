@@ -361,6 +361,14 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                     <note source="#peixoto">Mahamede, Mafamede, Mohammed ou Mahomet: Mafamede, Mohammed ou Mahomet, profeta pa fundador do Islamismo</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/b/bf/Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg"/>
                 </person>
+            <person xml:id="mouro_porta_voz">
+                <persName>Mouro (interlocutor dos portugueses)</persName>
+                <note type="editorial">Personagem designada por “o Mouro” na estrofe 56; identificador editorial para distinguir esta ocorrência de outros participantes assim designados.</note>
+            </person>
+            <person xml:id="mouro_regedor_ilhas">
+                <persName>Mouro (regedor das ilhas)</persName>
+                <note type="editorial">Personagem identificada no Canto I pelas designações “Regedor” e “Mouro” nas estrofes 59 e 61; identificador editorial.</note>
+            </person>
         </listPerson>
     </particDesc>
 
@@ -420,11 +428,6 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <note type="peixoto">Olimpo, monte na Tessália, em cujo alto tinham morada os deuses fabulosos</note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/2e/Olymp_01.jpg"/>
             </place>                
-                <place xml:id="imperio_portugues_oriente" ref="https://www.wikidata.org/wiki/Q200464">
-                <placeName>Império Português do Oriente</placeName>
-                <note type="peixoto">não há informação em Peixoto(1924)</note>
-                <graphic url="https://upload.wikimedia.org/wikipedia/commons/f/f4/PortugueseColonialEmpire02.png"/>
-                </place>
             <place xml:id="hipocrene" ref="https://www.wikidata.org/wiki/Q195848">
                 <placeName>Hipocrene</placeName>
                 <note type="peixoto">Mit., fonte na Beócia, proxima do monte Hélicon:</note>
@@ -606,6 +609,14 @@ Vulcano, per onde o nosso poeta em o C, 1, est. 22 diz </note>
                 <graphic url="https://upload.wikimedia.org/wikipedia/commons/2/2a/Asia_satellite_orthographic.jpg"/>
                 <location>
                     <geo>35.52516041564837, 100.40441255830005</geo>
+                </location>
+            </place>
+            <place xml:id="madagascar" ref="https://www.wikidata.org/wiki/Q1019">
+                <placeName>Ilha de São Lourenço</placeName>
+                <note type="peixoto">Lourenço (São), nome antigo de Madagáscar</note>
+                <graphic url="https://www.wikidata.org/wiki/Q1019#/media/File:Satellite_image_of_Madagascar_in_September_2003.jpg"/>
+                <location>
+                    <geo>-20.0, 47.0 </geo>
                 </location>
             </place>
         </listPlace>
