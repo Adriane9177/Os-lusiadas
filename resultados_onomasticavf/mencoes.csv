@@ -1,0 +1,191 @@
+﻿mention_id,entity_id,entity_name,entity_category,textual_form,tei_element,tei_type,reference_type,stanza,line,line_text,raw_ref,ref_status,parent_mention_id,nesting_level,authority_url
+M0001,portugal,Portugal,place,ocidental praia Lusitana,rs,place,referência indireta a lugar,1,2,"Que da ocidental praia Lusitana,",#portugal,válida,,0,http://www.wikidata.org/entity/Q45
+M0002,taprobana,Taprobana (Sri Lanka),place,Taprobana,placeName,real,nome próprio/topônimo,1,4,"Passaram ainda além da Taprobana,",#taprobana,válida,,0,https://www.wikidata.org/wiki/Q854
+M0003,africa,África,place,África,placeName,real,nome próprio/topônimo,2,4,De África e de Ásia andaram devastando;,#africa,válida,,0,https://www.wikidata.org/wiki/Q15
+M0004,asia,Ásia,place,Ásia,placeName,real,nome próprio/topônimo,2,4,De África e de Ásia andaram devastando;,#asia,válida,,0,https://www.wikidata.org/wiki/Q48
+M0005,ulisses,Ulisses,person,sábio Grego,rs,person,referência indireta a pessoa,3,1,Cessem do sábio Grego e do Troiano,#ulisses,válida,,0,https://www.wikidata.org/wiki/Q47231
+M0006,eneias,Eneias,person,Troiano,rs,person,referência indireta a pessoa,3,1,Cessem do sábio Grego e do Troiano,#eneias,válida,,0,https://www.wikidata.org/wiki/Q82732
+M0007,alexandro,Alexandro Magno,person,Alexandro,persName,hist,nome próprio/topônimo,3,3,Cale-se de Alexandro e de Trajano,#alexandro,válida,,0,https://www.wikidata.org/wiki/Q8409
+M0008,trajano,Trajano,person,Trajano,persName,hist,nome próprio/topônimo,3,3,Cale-se de Alexandro e de Trajano,#trajano,válida,,0,https://www.wikidata.org/wiki/Q1425
+M0009,neptuno,Neptuno,person,Neptuno,persName,myth,nome próprio/topônimo,3,6,A quem Neptuno e Marte obedeceram:,#neptuno,válida,,0,https://www.wikidata.org/wiki/Q3954
+M0010,marte,Marte,person,Marte,persName,myth,nome próprio/topônimo,3,6,A quem Neptuno e Marte obedeceram:,#marte,válida,,0,https://www.wikidata.org/wiki/Q112
+M0011,musa,Musa,person,Musa,persName,myth,nome próprio/topônimo,3,7,"Cesse tudo o que a Musa antígua canta,",#musa,válida,,0,https://www.wikidata.org/wiki/Q66016
+M0012,tagides,Tagides,person,Tágides,persName,myth,nome próprio/topônimo,4,1,"E vós, Tágides minhas, pois criado",#tagides,válida,,0,https://www.wikidata.org/wiki/Q10385807
+M0013,apolo,Apolo,person,Febo,rs,person,referência indireta a pessoa,4,7,"Porque de vossas águas, Febo ordene",#apolo,válida,,0,https://www.wikidata.org/wiki/Q37340
+M0014,hipocrene,Hipocrene,place,Hipoerene,placeName,myth,nome próprio/topônimo,4,8,Que não tenham inveja às de Hipoerene.,#hipocrene,válida,,0,https://www.wikidata.org/wiki/Q195848
+M0015,marte,Marte,person,Marte,persName,myth,nome próprio/topônimo,5,6,"Gente vossa, que a Marte tanto ajuda;",#marte,válida,,0,https://www.wikidata.org/wiki/Q112
+M0016,deus,Deus,person,Deus,persName,myth,nome próprio/topônimo,6,7,"Dada ao mundo por Deus, que todo o mande,",#deus,válida,,0,https://www.wikidata.org/wiki/Q825
+M0017,deus,Deus,person,Deus,persName,myth,nome próprio/topônimo,6,8,Para do mundo a Deus dar parte grande;,#deus,válida,,0,https://www.wikidata.org/wiki/Q825
+M0018,jesus_cristo,Jesus Cristo,person,Cristo,rs,person,referência indireta a pessoa,7,2,De uma árvore de Cristo mais amada,#jesus_cristo,válida,,0,https://www.wikidata.org/wiki/Q302
+M0019,d_sebastiao,D. Sebastião I,person,poderoso Rei,rs,person,referência indireta a pessoa,8,1,"Vós, poderoso Rei, cujo alto Império",#d_sebastiao,válida,,0,https://www.wikidata.org/wiki/Q272899
+M0020,portugal,Portugal,place,Império,rs,place,referência indireta a lugar,8,1,"Vós, poderoso Rei, cujo alto Império",#portugal,válida,,0,http://www.wikidata.org/entity/Q45
+M0021,rio_ganges,Rio Ganges,place,santo rio,rs,place,referência indireta a lugar,8,8,Que inda bebe o licor do santo rio;,#rio_ganges,válida,,0,https://www.wikidata.org/wiki/Q5089
+M0022,musa,Musa,person,Musas,persName,myth,nome próprio/topônimo,11,4,"Musas, de engrandecer-se desejosas:",#musa,válida,,0,https://www.wikidata.org/wiki/Q66016
+M0023,rodamonte,Rodamonte,person,Rodamonte,persName,myth,nome próprio/topônimo,11,7,"Que excedem Rodamonte, e o vão Rugeiro,",#rodamonte,válida,,0,https://www.wikidata.org/wiki/Q1116690
+M0024,rugeiro,Rugeiro,person,Rugeiro,persName,myth,nome próprio/topônimo,11,7,"Que excedem Rodamonte, e o vão Rugeiro,",#rugeiro,válida,,0,https://www.wikidata.org/wiki/Q1163476
+M0025,orlando,Orlando,person,Orlando,persName,myth,nome próprio/topônimo,11,8,"E Orlando, inda que fora verdadeiro,",#orlando,válida,,0,https://www.wikidata.org/wiki/Q207535
+M0026,nuno_alvares,Nuno Álvares Pereira,person,Nuno,persName,hist,nome próprio/topônimo,12,1,"Por estes vos darei um Nuno fero,",#nuno_alvares,válida,,0,https://www.wikidata.org/wiki/Q374056
+M0027,egas,Egas Moniz,person,Egas,persName,hist,nome próprio/topônimo,12,3,"Um Egas, e um D. Fuas, que de Homero",#egas,válida,,0,https://www.wikidata.org/wiki/Q1296765
+M0028,d._fuas,D. Fuas Roupinho,person,D. Fuas,persName,hist,nome próprio/topônimo,12,3,"Um Egas, e um D. Fuas, que de Homero",#d._fuas,válida,,0,https://www.wikidata.org/wiki/Q10286138
+M0029,homero,Homero,person,Homero,persName,hist,nome próprio/topônimo,12,3,"Um Egas, e um D. Fuas, que de Homero",#homero,válida,,0,https://www.wikidata.org/wiki/Q6691
+M0030,doze_inglaterra,Os Doze de Inglaterra,personGrp,Os doze de Inglaterra,rs,group,referência coletiva,12,6,"Os doze de Inglaterra, e o seu Magriço;",#doze_inglaterra,válida,,0,https://www.wikidata.org/wiki/Q3774650
+M0031,inglaterra,Inglaterra,place,Inglaterra,placeName,real,nome próprio/topônimo,12,6,"Os doze de Inglaterra, e o seu Magriço;",#inglaterra,válida,M0030,1,https://www.wikidata.org/wiki/Q21
+M0032,magriço,Álvaro Gonçalves Coutinho (O Magriço),person,Magriço,persName,hist,nome próprio/topônimo,12,6,"Os doze de Inglaterra, e o seu Magriço;",#magriço,válida,,0,https://www.wikidata.org/wiki/Q10395802
+M0033,v_gama,Vasco da Gama,person,Gama,persName,hist,nome próprio/topônimo,12,7,"Dou-vos também aquele ilustre Gama,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0034,eneias,Eneias,person,Eneias,persName,hist,nome próprio/topônimo,12,8,Que para si de Eneias toma a fama.,#eneias,válida,,0,https://www.wikidata.org/wiki/Q82732
+M0035,carlos_magno,Carlos Magno,person,Carlos,persName,hist,nome próprio/topônimo,13,1,"Pois se a troco de Carlos, Rei de França,",#carlos_magno,válida,,0,http://www.wikidata.org/entity/Q3044
+M0036,franca,França,place,França,placeName,real,nome próprio/topônimo,13,1,"Pois se a troco de Carlos, Rei de França,",#franca,válida,,0,http://www.wikidata.org/entity/Q142
+M0037,julio_cesar,Júlio César,person,César,persName,hist,nome próprio/topônimo,13,2,"Ou de César, quereis igual memória,",#julio_cesar,válida,,0,http://www.wikidata.org/entity/Q1048
+M0038,afonso_henriques,D. Afonso Henriques,person,primeiro Afonso,rs,person,referência indireta a pessoa,13,3,"Vede o primeiro Afonso, cuja lança",#afonso_henriques,válida,,0,https://www.wikidata.org/wiki/Q587697
+M0039,,,sem referência,Afonso,persName,hist,nome próprio/topônimo,13,3,"Vede o primeiro Afonso, cuja lança",,sem @ref,M0038,1,
+M0040,d_joao_i,D. João I,person,aquele,rs,person,referência indireta a pessoa,13,5,E aquele que a seu Reino a segurança,#d_joao_i,válida,,0,https://www.wikidata.org/wiki/Q201575
+M0041,portugal,Portugal,place,Reino,rs,place,referência indireta a lugar,13,5,E aquele que a seu Reino a segurança,#portugal,válida,,0,http://www.wikidata.org/entity/Q45
+M0042,d_joao_ii,D. João II,person,Outro Joane,rs,person,referência indireta a pessoa,13,7,"Outro Joane, invicto cavaleiro,",#d_joao_ii,válida,,0,https://www.wikidata.org/wiki/Q217637
+M0043,,,sem referência,Joane,persName,hist,nome próprio/topônimo,13,7,"Outro Joane, invicto cavaleiro,",,sem @ref,M0042,1,
+M0044,afonso_iv,D. Afonso IV,person,quarto,rs,person,referência indireta a pessoa,13,8,"O quarto e quinto Afonsos, e o terceiro.",#afonso_iv,válida,,0,https://www.wikidata.org/wiki/Q272903
+M0045,afonso_v,D. Afonso V,person,quinto,rs,person,referência indireta a pessoa,13,8,"O quarto e quinto Afonsos, e o terceiro.",#afonso_v,válida,,0,https://www.wikidata.org/wiki/Q299119
+M0046,,,sem referência,Afonsos,persName,hist,nome próprio/topônimo,13,8,"O quarto e quinto Afonsos, e o terceiro.",,sem @ref,,0,
+M0047,afonso_iii,D. Afonso III,person,terceiro,rs,person,referência indireta a pessoa,13,8,"O quarto e quinto Afonsos, e o terceiro.",#afonso_iii,válida,,0,https://www.wikidata.org/wiki/Q295850
+M0048,pacheco,Duarte Pacheco Pereira,person,Pacheco,persName,hist,nome próprio/topônimo,14,5,"Um Pacheco fortíssimo, e os temidos",#pacheco,válida,,0,https://www.wikidata.org/wiki/Q686754
+M0049,almeidas,Almeidas. D. Francisco e D.Lourenço,personGrp,Almeidas,persName,hist,nome próprio/topônimo,14,6,"Almeidas, por quem sempre o Tejo chora;",#almeidas,válida,,0,https://www.wikidata.org/wiki/Q337066
+M0050,tejo,Rio Tejo,place,Tejo,placeName,real,nome próprio/topônimo,14,6,"Almeidas, por quem sempre o Tejo chora;",#tejo,válida,,0,https://www.wikidata.org/wiki/Q14294
+M0051,afonso_albuquerque,Afonso de Albuquerque,person,Albuquerque,persName,hist,nome próprio/topônimo,14,7,"Albuquerque terríbil, Castro forte,",#afonso_albuquerque,válida,,0,https://www.wikidata.org/wiki/Q204397
+M0052,joao_castro,D. João de Castro,person,Castro,persName,hist,nome próprio/topônimo,14,7,"Albuquerque terríbil, Castro forte,",#joao_castro,válida,,0,https://www.wikidata.org/wiki/Q1621235
+M0053,d_sebastiao,D. Sebastião I,person,Sublime Rei,rs,person,referência indireta a pessoa,15,2,"Sublime Rei, que não me atrevo a tanto,",#d_sebastiao,válida,,0,https://www.wikidata.org/wiki/Q272899
+M0054,portugal,Portugal,place,Reino,placeName,real,nome próprio/topônimo,15,3,Tomai as rédeas vós do Reino vosso:,#portugal,válida,,0,http://www.wikidata.org/entity/Q45
+M0055,africa,África,place,África,placeName,real,nome próprio/topônimo,15,8,"De África as terras, e do Oriente os marços,",#africa,válida,,0,https://www.wikidata.org/wiki/Q15
+M0056,tetis,Tétis (Nereida),person,Tethys,persName,myth,nome próprio/topônimo,16,5,Tethys todo o cerúleo senhorio,#tetis,válida,,0,https://www.wikidata.org/wiki/Q184216
+M0057,olimpo,Monte Olimpo,place,olímpica morada,rs,place,referência indireta a lugar,17,1,Em vós se vêm da olímpica morada,#olimpo,válida,,0,https://www.wikidata.org/wiki/Q70054479
+M0058,proteu,Próteo,person,Próteo,persName,myth,nome próprio/topônimo,19,8,Que do gado de Próteo são cortadas,#proteu,válida,,0,https://www.wikidata.org/wiki/Q191481
+M0059,olimpo,Monte Olimpo,place,Olimpo,placeName,myth,nome próprio/topônimo,20,1,"Quando os Deuses no Olimpo luminoso,",#olimpo,válida,,0,https://www.wikidata.org/wiki/Q70054479
+M0060,jupiter,Júpiter,person,Tonante,rs,person,referência indireta a pessoa,20,7,"Convocados da parte do Tonante,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0061,atlante,Atlante,person,Atlante,persName,myth,nome próprio/topônimo,20,8,Pelo neto gentil do velho Atlante.,#atlante,válida,,0,https://www.wikidata.org/wiki/Q130818
+M0062,jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,22,1,"Estava o Padre ali sublime e dino,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0063,vulcano,Vulcano,person,Vulcano,persName,myth,nome próprio/topônimo,22,2,"Que vibra os feros raios de Vulcano,",#vulcano,válida,,0,https://www.wikidata.org/wiki/Q4640
+M0064,jupiter,Júpiter,person,Júpiter,persName,myth,nome próprio/topônimo,23,7,"Quando Júpiter alto, assim dizendo,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0065,tejo,Rio Tejo,place,Tejo,placeName,real,nome próprio/topônimo,25,4,"Toda a terra, que rega o Tejo ameno:",#tejo,válida,,0,https://www.wikidata.org/wiki/Q14294
+M0066,romulo,Romulo,person,Rómulo,persName,hist,nome próprio/topônimo,26,2,"Que coa gente de Rómulo alcançaram,",#romulo,válida,,0,https://www.wikidata.org/wiki/Q2186
+M0067,viriato,Viriato,person,Viriato,persName,hist,nome próprio/topônimo,26,3,"Quando com Viriato, na inimiga",#viriato,válida,,0,https://www.wikidata.org/wiki/Q331889
+M0068,sertorio,Sertório,person,Um por seu capitão,rs,person,referência indireta a pessoa,26,7,"Um por seu capitão, que peregrino",#sertorio,válida,,0,https://www.wikidata.org/wiki/Q296238
+M0069,africo,Áfrico,person,Áfrico,persName,myth,nome próprio/topônimo,27,4,"De Áfrico e Noto a força, a mais se atreve:",#africo,válida,,0,https://www.wikidata.org/wiki/Q5733340
+M0070,noto,Noto,person,Noto,persName,myth,nome próprio/topônimo,27,4,"De Áfrico e Noto a força, a mais se atreve:",#noto,válida,,0,https://www.wikidata.org/wiki/Q903273
+M0071,fado,Fado,person,Fado,persName,myth,nome próprio/topônimo,28,1,"""Prometido lhe está do Fado eterno,",#fado,válida,,0,https://www.wikidata.org/wiki/Q61415823
+M0072,jupiter,Júpiter,person,Júpiter,persName,myth,nome próprio/topônimo,30,1,"Estas palavras Júpiter dizia,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0073,baco,Baco,person,Baco,persName,myth,nome próprio/topônimo,30,5,O padre Baco ali não consentia,#baco,válida,,0,https://www.wikidata.org/wiki/Q645312
+M0074,jupiter,Júpiter,person,Júpiter,persName,myth,nome próprio/topônimo,30,6,"No que Júpiter disse, conhecendo",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0075,fado,Fado,person,Fados,rs,person,referência indireta a pessoa,31,1,Ouvido tinha aos Fados que viria,#fado,válida,,0,https://www.wikidata.org/wiki/Q61415823
+M0076,espanha,Espanha,place,Espanha,placeName,real,nome próprio/topônimo,31,2,Uma gente fortíssima de Espanha,#espanha,válida,,0,https://www.wikidata.org/wiki/Q29
+M0077,índia,Índia,place,índia,placeName,real,nome próprio/topônimo,31,4,"Da índia tudo quanto Dóris banha,",#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0078,doris,Dóris,person,Dóris,persName,myth,nome próprio/topônimo,31,4,"Da índia tudo quanto Dóris banha,",#doris,válida,,0,https://www.wikidata.org/wiki/Q726279
+M0079,nisa,Nisa,place,Nisa,placeName,myth,nome próprio/topônimo,31,8,De que Nisa celebra inda a memória.,#nisa,válida,,0,https://www.wikidata.org/wiki/Q1238530
+M0080,indo,Indo,place,Indo,placeName,real,nome próprio/topônimo,32,1,"Vê que já teve o Indo sojugado,",#indo,válida,,0,https://www.wikidata.org/wiki/Q7348
+M0081,fortuna,Fortuna,person,Fortuna,persName,myth,nome próprio/topônimo,32,2,"E nunca lhe tirou Fortuna, ou caso,",#fortuna,válida,,0,https://www.wikidata.org/wiki/Q4654
+M0082,índia,Índia,place,Índia,placeName,real,nome próprio/topônimo,32,3,Por vencedor da Índia ser cantado,#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0083,parnaso,Parnaso,place,Parnaso,placeName,real,nome próprio/topônimo,32,4,De quantos bebem a água de Parnaso.,#parnaso,válida,,0,https://www.wikidata.org/wiki/Q105261
+M0084,lete,Rio Lete>,place,D'água do esquecimento,rs,place,referência indireta a lugar,32,7,"D'água do esquecimento, se lá chegam",#lete,válida,,0,https://www.wikidata.org/wiki/Q161096
+M0085,venus,Vénus,person,Vénus,persName,myth,nome próprio/topônimo,33,1,"Sustentava contra ele Vénus bela,",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0086,tingitana,Tingitana,place,Tingitana,placeName,real,nome próprio/topônimo,33,6,"Que mostraram na terra Tingitana,",#tingitana,válida,,0,https://www.wikidata.org/wiki/Q1244742
+M0087,venus,Vénus,person,Citereia,persName,myth,nome próprio/topônimo,34,1,"Estas causas moviam Citereia,",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0088,parcas,Parcas,person,Parcas,persName,myth,nome próprio/topônimo,34,2,"E mais, porque das Parcas claro entende",#parcas,válida,,0,https://www.wikidata.org/wiki/Q370547
+M0089,venus,Vénus,person,clara Deia,rs,person,referência indireta a pessoa,34,3,"Que há de ser celebrada a clara Deia,",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0090,olimpo,Monte Olimpo,place,Olimpo,placeName,myth,nome próprio/topônimo,35,8,"Entre os Deuses, no Olimpo consagrado.",#olimpo,válida,,0,https://www.wikidata.org/wiki/Q70054479
+M0091,marte,Marte,person,Marte,persName,myth,nome próprio/topônimo,36,1,"Mas Marte, que da Deusa sustentava",#marte,válida,,0,https://www.wikidata.org/wiki/Q112
+M0092,venus,Vénus,person,Deusa,rs,person,referência indireta a pessoa,36,1,"Mas Marte, que da Deusa sustentava",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0093,jupiter,Júpiter,person,Júpiter,persName,myth,nome próprio/topônimo,37,4,"De Júpiter, armado, forte e duro:",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0094,apolo,Apolo,person,Apolo,persName,myth,nome próprio/topônimo,37,7,"O Céu tremeu, e Apolo, de torvado,",#apolo,válida,,0,https://www.wikidata.org/wiki/Q37340
+M0095,jupiter,Júpiter,person,Ó Padre,rs,person,referência indireta a pessoa,38,1,"E disse assim: ""Ó Padre, a cujo império",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0096,baco,Baco,person,Baco,persName,myth,nome próprio/topônimo,39,3,"Bem fora que aqui Baco os sustentasse,",#baco,válida,,0,https://www.wikidata.org/wiki/Q645312
+M0097,jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,40,1,"""E tu, Padre de grande fortaleza,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0098,mercúrio,Mercúrio,person,Mercúrio,persName,myth,nome próprio/topônimo,40,5,"Mercúrio, pois excede em ligeireza",#mercúrio,válida,,0,https://www.wikidata.org/wiki/Q1150
+M0099,índia,Índia,place,índia,placeName,real,nome próprio/topônimo,40,8,"Da índia, e onde a gente se reforme.""",#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0100,jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,41,1,"Como isto disse, o Padre poderoso,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0101,marte,Marte,person,Mavorte,persName,myth,nome próprio/topônimo,41,3,"No que disse Mavorte valeroso,",#marte,válida,,0,https://www.wikidata.org/wiki/Q112
+M0102,olimpo,Monte Olimpo,place,Olimpo,placeName,myth,nome próprio/topônimo,42,2,"Casa etérea do Olimpo onipotente,",#olimpo,válida,,0,https://www.wikidata.org/wiki/Q70054479
+M0103,etiopia,Etiópia,place,Etiópica,placeName,real,nome próprio/topônimo,42,5,Entre a costa Etiópica e a famosa,#etiopia,válida,,0,https://www.wikidata.org/wiki/Q115
+M0104,madagascar,Ilha de São Lourenço,place,Ilha de São Lourenço,placeName,real,nome próprio/topônimo,42,6,Ilha de São Lourenço; e o Sol ardente,#madagascar,válida,,0,https://www.wikidata.org/wiki/Q1019
+M0105,tifeu,Tifeu,person,Tifeu,persName,myth,nome próprio/topônimo,42,7,"Queimava então os Deuses, que Tifeu",#tifeu,válida,,0,https://www.wikidata.org/wiki/Q180237
+M0106,prasso_promontorio,Promontório do Prasso,place,Prasso,placeName,real,nome próprio/topônimo,43,5,"O promontório Prasso já passavam,",#prasso_promontorio,válida,,0,https://www.wikidata.org/wiki/Q466538
+M0107,etiopia,Etiópia,place,Etiópia,placeName,real,nome próprio/topônimo,43,6,"Na costa de Etiópia, nome antigo,",#etiopia,válida,,0,https://www.wikidata.org/wiki/Q115
+M0108,v_gama,Vasco da Gama,person,Vasco da Gama,persName,hist,nome próprio/topônimo,44,1,"Vasco da Gama, o forte capitão,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0109,fortuna,Fortuna,person,Fortuna,persName,myth,nome próprio/topônimo,44,4,"A quem Fortuna sempre favorece,",#fortuna,válida,,0,https://www.wikidata.org/wiki/Q4654
+M0110,faeton,Faeton,person,Faeton,persName,myth,nome próprio/topônimo,46,6,"Que Faeton, nas terras acendidas,",#faeton,válida,,0,https://www.wikidata.org/wiki/Q203480
+M0111,rio_pado,Rio Pado,place,Pado,placeName,real,nome próprio/topônimo,46,8,"O Pado o sabe, o Lampetusa o sente.",#rio_pado,válida,,0,https://www.wikidata.org/wiki/Q643
+M0112,lampetusa,Lampetusa,person,Lampetusa,persName,myth,nome próprio/topônimo,46,8,"O Pado o sabe, o Lampetusa o sente.",#lampetusa,válida,,0,https://www.wikidata.org/wiki/Q1638536
+M0113,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,49,4,O Capitão sublime os recebia:,#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0114,baco,Baco,person,Lieo,persName,myth,nome próprio/topônimo,49,6,Do licor que Lieo prantado havia,#baco,válida,,0,https://www.wikidata.org/wiki/Q645312
+M0115,faeton,Faeton,person,Faeton,persName,myth,nome próprio/topônimo,49,8,Os de Faeton queimados nada enjeitam.,#faeton,válida,,0,https://www.wikidata.org/wiki/Q203480
+M0116,calisto,Calisto,person,Calisto,persName,myth,nome próprio/topônimo,51,2,"Toda a parte do Antártico e Calisto,",#calisto,válida,,0,https://www.wikidata.org/wiki/Q203673
+M0117,africa,África,place,costa Africana,rs,place,referência indireta a lugar,51,3,"Toda a costa Africana rodeado,",#africa,válida,,0,https://www.wikidata.org/wiki/Q15
+M0118,d_manuel_i,D. Manuel I,person,Dum Rei,rs,person,referência indireta a pessoa,51,5,"Dum Rei potente somos, tão amado,",#d_manuel_i,válida,,0,https://www.wikidata.org/wiki/Q191231
+M0119,aqueronte,Aqueronte,place,Aqueronte,placeName,myth,nome próprio/topônimo,51,8,Mas no lago entraremos de Aqueronte.,#aqueronte,válida,,0,https://www.wikidata.org/wiki/Q12626619
+M0120,indo,Indo,place,Indo,placeName,real,nome próprio/topônimo,52,2,A terra Oriental que o Indo rega;,#indo,válida,,0,https://www.wikidata.org/wiki/Q7348
+M0121,índia,Índia,place,Índia,placeName,real,nome próprio/topônimo,52,8,"Ou se tendes da Índia alguns sinais?""",#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0122,abraao,Abraão,person,Abraão,persName,hist,nome próprio/topônimo,53,6,O claro descendente de Abraão,#abraao,válida,,0,https://www.wikidata.org/wiki/Q9181
+M0123,mocambique,Moçambique,place,Ilha de Moçambique,placeName,real,nome próprio/topônimo,53,9,Informações. A Ilha de Moçambique.,#mocambique,válida,,0,http://www.wikidata.org/entity/Q1029
+M0124,quiloa,Quíloa,place,Quíloa,placeName,real,nome próprio/topônimo,54,4,"De Quíloa, de Mombaça e de Sofala;",#quiloa,válida,,0,https://www.wikidata.org/wiki/Q1741475
+M0125,mombaca,Mombaca,place,Mombaça,placeName,real,nome próprio/topônimo,54,4,"De Quíloa, de Mombaça e de Sofala;",#mombaca,válida,,0,https://www.wikidata.org/wiki/Q225641
+M0126,sofala,Sofala,place,Sofala,placeName,real,nome próprio/topônimo,54,4,"De Quíloa, de Mombaça e de Sofala;",#sofala,válida,,0,https://www.wikidata.org/wiki/Q622801
+M0127,mocambique,Moçambique,place,ilha Moçambique,placeName,real,nome próprio/topônimo,54,8,Chama-se a pequena ilha Moçambique.,#mocambique,válida,,0,http://www.wikidata.org/entity/Q1029
+M0128,indo,Indo,place,Indo,placeName,real,nome próprio/topônimo,55,2,"Buscando o Indo Idaspe e terra ardente,",#indo,válida,,0,https://www.wikidata.org/wiki/Q7348
+M0129,idaspe,Idaspe,place,Idaspe,placeName,real,nome próprio/topônimo,55,2,"Buscando o Indo Idaspe e terra ardente,",#idaspe,válida,,0,https://www.wikidata.org/wiki/Q214874
+M0130,mouro_porta_voz,Mouro (interlocutor dos portugueses),person,o Mouro,rs,person,referência indireta a pessoa,56,1,"Isto dizendo, o Mouro se tornou",#mouro_porta_voz,válida,,0,
+M0131,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,56,3,Do Capitão e gente se apartou,#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0132,apolo,Apolo,person,Febo,persName,myth,nome próprio/topônimo,56,5,"Nisto Febo nas águas encerrou,",#apolo,válida,,0,https://www.wikidata.org/wiki/Q37340
+M0133,aurora,Aurora,person,Aurora,persName,myth,nome próprio/topônimo,59,1,Mas assim como a Aurora marchetada,#aurora,válida,,0,https://www.wikidata.org/wiki/Q178831
+M0134,hiperiao,Hiperiónio,person,Hiperiónio,persName,myth,nome próprio/topônimo,59,4,"Ao claro Hiperiónio, que acordou,",#hiperiao,válida,,0,https://www.wikidata.org/wiki/Q179209
+M0135,mouro_regedor_ilhas,Mouro (regedor das ilhas),person,Regedor,rs,person,referência indireta a pessoa,59,8,"O Regedor das ilhas, que partia.",#mouro_regedor_ilhas,válida,,0,
+M0136,fado,Fado,person,Destino,persName,myth,nome próprio/topônimo,60,7,"Vieram; e por ordem do Destino,",#fado,válida,,0,https://www.wikidata.org/wiki/Q61415823
+M0137,constantino,Constantino,person,Constantino,persName,hist,nome próprio/topônimo,60,8,O Império tomaram a Constantino.,#constantino,válida,,0,https://www.wikidata.org/wiki/Q37142
+M0138,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,61,1,Recebe o Capitão alegremente,#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0139,mouro_regedor_ilhas,Mouro (regedor das ilhas),person,Mouro,rs,person,referência indireta a pessoa,61,2,"O Mouro, e toda a sua companhia;",#mouro_regedor_ilhas,válida,,0,
+M0140,mouro_regedor_ilhas,Mouro (regedor das ilhas),person,Mouro,rs,person,referência indireta a pessoa,61,7,Tudo o Mouro contente bem recebe;,#mouro_regedor_ilhas,válida,,0,
+M0141,portugal,Portugal,place,Luso,placeName,real,nome próprio/topônimo,62,1,Está a gente marítima de Luso,#portugal,válida,,0,http://www.wikidata.org/entity/Q45
+M0142,turquia,Turquia,place,Turquia,placeName,real,nome próprio/topônimo,62,8,"""Se por ventura vinham de Turquia?""",#turquia,válida,,0,https://www.wikidata.org/wiki/Q43
+M0143,jesus_cristo,Jesus Cristo,person,Cristo,rs,person,referência indireta a pessoa,63,4,"Ou se são dos de Cristo, como Crê.",#jesus_cristo,válida,,0,https://www.wikidata.org/wiki/Q302
+M0144,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,63,6,Ao Capitão pedia que lhe dê,#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0145,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,64,1,Responde o valeroso Capitão,#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0146,turquia,Turquia,place,Turquia,placeName,real,nome próprio/topônimo,64,6,Das gentes enojosas de Turquia:,#turquia,válida,,0,https://www.wikidata.org/wiki/Q43
+M0147,europa,Europa,place,Europa,placeName,real,nome próprio/topônimo,64,7,"Mas sou da forte Europa belicosa,",#europa,válida,,0,https://www.wikidata.org/wiki/Q46
+M0148,índia,Índia,place,índia,placeName,real,nome próprio/topônimo,64,8,Busco as terras da índia tão famosa.,#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0149,jesus_cristo,Jesus Cristo,person,Deus-Homem,rs,person,referência indireta a pessoa,66,1,"Deste Deus-Homem, alto e infinito,",#jesus_cristo,válida,,0,https://www.wikidata.org/wiki/Q302
+M0150,vulcano,Vulcano,person,Vulcano,persName,myth,nome próprio/topônimo,68,3,Porém aos de Vulcano não consente,#vulcano,válida,,0,https://www.wikidata.org/wiki/Q4640
+M0151,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,70,1,"Pilotos lhe pedia o Capitão,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0152,índia,Índia,place,Índia,placeName,real,nome próprio/topônimo,70,2,Por quem pudesse à Índia ser levado;,#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0153,jesus_cristo,Jesus Cristo,person,Filho de David,rs,person,referência indireta a pessoa,71,4,Que o Filho de David nos ensinou.,#jesus_cristo,válida,,0,https://www.wikidata.org/wiki/Q302
+M0154,david,David,person,David,persName,hist,nome próprio/topônimo,71,4,Que o Filho de David nos ensinou.,#david,válida,M0153,1,https://www.wikidata.org/wiki/Q41370
+M0155,neptuno,Neptuno,person,Neptuno,persName,myth,nome próprio/topônimo,72,6,"Das águas de Neptuno, e recebido",#neptuno,válida,,0,https://www.wikidata.org/wiki/Q3954
+M0156,baco,Baco,person,grão Tebano,rs,person,referência indireta a pessoa,73,1,"Do claro assento etóreo o grão Tebano,",#baco,válida,,0,https://www.wikidata.org/wiki/Q645312
+M0157,jupiter,Júpiter,person,Padre,rs,person,referência indireta a pessoa,74,5,"E eu só, filho do Padre sublimado,",#jupiter,válida,,0,https://www.wikidata.org/wiki/Q4649
+M0158,alexandro,Alexandro Magno,person,filho de Filipo,rs,person,referência indireta a pessoa,75,2,O filho de Filipo nesta parte,#alexandro,válida,,0,https://www.wikidata.org/wiki/Q8409
+M0159,filipo,Filipo,person,Filipo,persName,hist,nome próprio/topônimo,75,2,O filho de Filipo nesta parte,#filipo,válida,M0158,1,https://www.wikidata.org/wiki/Q130650
+M0160,marte,Marte,person,Marte,persName,myth,nome próprio/topônimo,75,4,Debaixo de seu jugo o fero Marte.,#marte,válida,,0,https://www.wikidata.org/wiki/Q112
+M0161,alexandro,Alexandro Magno,person,grão Macedónio,rs,person,referência indireta a pessoa,75,7,"Que eu co'o grão Macedónio, e o Romano,",#alexandro,válida,,0,https://www.wikidata.org/wiki/Q8409
+M0162,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,76,2,"Seja este Capitão, astutamente",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0163,prasso_promontorio,Promontório do Prasso,place,Prasso,placeName,real,nome próprio/topônimo,77,3,Do Prasso sabido se moveu.,#prasso_promontorio,válida,,0,https://www.wikidata.org/wiki/Q466538
+M0164,mocambique,Moçambique,place,Moçambique,placeName,real,nome próprio/topônimo,77,6,Dum Mouro em Moçambique conhecido,#mocambique,válida,,0,http://www.wikidata.org/entity/Q1029
+M0165,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,80,3,"O Capitão dos seus acompanhado,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0166,nabateia,Nabateia,place,montes Nabatêos,placeName,real,nome próprio/topônimo,84,2,"Os montes Nabatêos acendido,",#nabateia,válida,,0,https://www.wikidata.org/wiki/Q11029653
+M0167,v_gama,Vasco da Gama,person,Gama,persName,hist,nome próprio/topônimo,84,3,"Quando o Gama, co'os seus determinava",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0168,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,95,1,"O Capitão, que já lhe então convinha",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0169,indo,Indo,place,Indo,placeName,real,nome próprio/topônimo,95,4,"Para ir buscar o Indo desejado,",#indo,válida,,0,https://www.wikidata.org/wiki/Q7348
+M0170,anfitrite,Anfitrite,person,Anfitrite,persName,myth,nome próprio/topônimo,96,2,"As ondas de Anfitrite dividia,",#anfitrite,válida,,0,https://www.wikidata.org/wiki/Q180222
+M0171,nereidas,Nereidas,person,filhas de Nereu,rs,group,referência coletiva,96,3,"Das filhas de Nereu acompanhada,",#nereidas,válida,,0,https://www.wikidata.org/wiki/Q54230
+M0172,nereu,Nereu,person,Nereu,persName,myth,nome próprio/topônimo,96,3,"Das filhas de Nereu acompanhada,",#nereu,válida,M0171,1,https://www.wikidata.org/wiki/Q189527
+M0173,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,96,5,"O Capitão, que não caía em nada",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0174,índia,Índia,place,Índia,placeName,real,nome próprio/topônimo,96,8,"Da Índia toda, e costas que passava.",#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0175,baco,Baco,person,Baco,persName,myth,nome próprio/topônimo,97,2,"Que o malévolo Baco lhe ensinara,",#baco,válida,,0,https://www.wikidata.org/wiki/Q645312
+M0176,índia,Índia,place,Índia,placeName,real,nome próprio/topônimo,97,4,"Antes que à Índia chegue, lhe prepara:",#índia,válida,,0,http://www.wikidata.org/entity/Q668
+M0177,sinon,Sinon,person,Sinon,persName,myth,nome próprio/topônimo,98,2,Com que Sinon os Frígios enganou:,#sinon,válida,,0,https://www.wikidata.org/wiki/Q663792
+M0178,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,98,5,"O Capitão, que a tudo estava a tento,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0179,maome,Maomé,person,Mahamede,persName,hist,nome próprio/topônimo,99,4,Gente que segue o torpe Mahamede.,#maome,válida,,0,https://www.wikidata.org/wiki/Q9458
+M0180,mocambique,Moçambique,place,Moçambique,placeName,real,nome próprio/topônimo,99,7,"A Moçambique esta ilha, que se chama",#mocambique,válida,,0,http://www.wikidata.org/entity/Q1029
+M0181,quiloa,Quíloa,place,Quíloa,placeName,real,nome próprio/topônimo,99,8,"Quíloa, mui conhecida pela fama.",#quiloa,válida,,0,https://www.wikidata.org/wiki/Q1741475
+M0182,venus,Vénus,person,Deusa,rs,person,referência indireta a pessoa,100,2,"Mas a Deusa em Citere celebrada,",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0183,citera,Citere,place,Citere,placeName,real,nome próprio/topônimo,100,2,"Mas a Deusa em Citere celebrada,",#citera,válida,,0,https://www.wikidata.org/wiki/Q207239
+M0184,jesus_cristo,Jesus Cristo,person,Cristo,rs,person,referência indireta a pessoa,102,3,"Que aqui gente de Cristo não havia,",#jesus_cristo,válida,,0,https://www.wikidata.org/wiki/Q302
+M0185,maome,Maomé,person,Mahamede,persName,hist,nome próprio/topônimo,102,4,Mas a que a Mahamede celebrava.,#maome,válida,,0,https://www.wikidata.org/wiki/Q9458
+M0186,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,102,5,"O Capitão, que em tudo o Mouro cria,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0187,venus,Vénus,person,Deusa,rs,person,referência indireta a pessoa,102,7,"Mas, não querendo a Deusa guardadora,",#venus,válida,,0,https://www.wikidata.org/wiki/Q47652
+M0188,mombaca,Mombaca,place,Mombaça,placeName,real,nome próprio/topônimo,103,8,Mombaça é o nome da ilha e da cidade.,#mombaca,válida,,0,https://www.wikidata.org/wiki/Q225641
+M0189,v_gama,Vasco da Gama,person,Capitão,rs,person,referência indireta a pessoa,104,1,"E sendo a ela o Capitão chegado,",#v_gama,válida,,0,http://www.wikidata.org/entity/Q7328
+M0190,baco,Baco,person,Baco,persName,myth,nome próprio/topônimo,104,7,"Que Baco muito de antes o avisara,",#baco,válida,,0,https://www.wikidata.org/wiki/Q645312

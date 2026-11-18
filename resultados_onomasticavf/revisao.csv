@@ -1,0 +1,4 @@
+﻿mention_id,entity_id,entity_name,entity_category,textual_form,tei_element,tei_type,reference_type,stanza,line,line_text,raw_ref,ref_status,parent_mention_id,nesting_level,authority_url
+M0039,,,sem referência,Afonso,persName,hist,nome próprio/topônimo,13,3,"Vede o primeiro Afonso, cuja lança",,sem @ref,M0038,1,
+M0043,,,sem referência,Joane,persName,hist,nome próprio/topônimo,13,7,"Outro Joane, invicto cavaleiro,",,sem @ref,M0042,1,
+M0046,,,sem referência,Afonsos,persName,hist,nome próprio/topônimo,13,8,"O quarto e quinto Afonsos, e o terceiro.",,sem @ref,,0,

@@ -1,0 +1,7 @@
+﻿parent_mention_id,child_mention_id,parent_form,child_form,parent_entity_id,child_entity_id,parent_element,child_element,stanza,line,relation
+M0030,M0031,Os doze de Inglaterra,Inglaterra,doze_inglaterra,inglaterra,rs,placeName,12,6,aninhamento estrutural (não implica interação)
+M0038,M0039,primeiro Afonso,Afonso,afonso_henriques,,rs,persName,13,3,aninhamento estrutural (não implica interação)
+M0042,M0043,Outro Joane,Joane,d_joao_ii,,rs,persName,13,7,aninhamento estrutural (não implica interação)
+M0153,M0154,Filho de David,David,jesus_cristo,david,rs,persName,71,4,aninhamento estrutural (não implica interação)
+M0158,M0159,filho de Filipo,Filipo,alexandro,filipo,rs,persName,75,2,aninhamento estrutural (não implica interação)
+M0171,M0172,filhas de Nereu,Nereu,nereidas,nereu,rs,persName,96,3,aninhamento estrutural (não implica interação)

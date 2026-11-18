@@ -151,9 +151,9 @@ def exportar_xlsx(path,tables):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--corpus',default='Lusiadas_Canto1_marcadoVF(2).xml')
-    p.add_argument('--autoridades',default='autoridade_lusiadas(5).xml')
-    p.add_argument('--saida',default='resultados_onomastica')
+    p.add_argument('--corpus',default='Lusiadas_Canto1_marcadoVF.xml')
+    p.add_argument('--autoridades',default='autoridade_lusiadas.xml')
+    p.add_argument('--saida',default='resultados_onomasticavf')
     args=p.parse_args(); out=Path(args.saida);out.mkdir(parents=True,exist_ok=True)
     auth,duplicates=autoridades_xml(args.autoridades); rows,nests=extrair(args.corpus,auth)
     vars=variantes(rows); ents=resumo_entidades(rows)

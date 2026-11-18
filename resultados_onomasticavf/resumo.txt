@@ -1,0 +1,9 @@
+Total de marcações: 190
+Marcações com @ref: 187
+Marcações sem @ref: 3
+Entidades distintas referenciadas: 100
+Variantes agrupadas: 133
+Relações de aninhamento (ancestral-descendente): 6
+IDs repetidos na autoridade: []
+Aviso: coocorrência na estrofe NÃO equivale a interação entre personagens.
+Aviso: marcações aninhadas são contadas individualmente; uma expressão pode conter outra.

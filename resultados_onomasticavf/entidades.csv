@@ -1,0 +1,101 @@
+﻿entity_id,entity_name,category,occurrences,forms,stanzas,direct_names,indirect_refs
+v_gama,Vasco da Gama,person,16,3,16,3,13
+jupiter,Júpiter,person,10,4,9,4,6
+índia,Índia,place,8,2,8,8,0
+baco,Baco,person,6,3,6,5,1
+venus,Vénus,person,6,4,5,2,4
+jesus_cristo,Jesus Cristo,person,5,3,5,0,5
+marte,Marte,person,5,2,5,5,0
+portugal,Portugal,place,5,4,5,2,3
+indo,Indo,place,4,1,4,4,0
+olimpo,Monte Olimpo,place,4,2,4,3,1
+mocambique,Moçambique,place,4,3,4,4,0
+alexandro,Alexandro Magno,person,3,3,2,1,2
+apolo,Apolo,person,3,2,3,2,1
+fado,Fado,person,3,3,3,2,1
+mouro_regedor_ilhas,Mouro (regedor das ilhas),person,3,2,2,0,3
+africa,África,place,3,2,3,2,1
+d_sebastiao,D. Sebastião I,person,2,2,2,0,2
+deus,Deus,person,2,1,1,2,0
+eneias,Eneias,person,2,2,2,1,1
+etiopia,Etiópia,place,2,2,2,2,0
+faeton,Faeton,person,2,1,2,2,0
+fortuna,Fortuna,person,2,1,2,2,0
+maome,Maomé,person,2,1,2,2,0
+mombaca,Mombaca,place,2,1,2,2,0
+musa,Musa,person,2,2,2,2,0
+neptuno,Neptuno,person,2,1,2,2,0
+prasso_promontorio,Promontório do Prasso,place,2,1,2,2,0
+quiloa,Quíloa,place,2,1,2,2,0
+tejo,Rio Tejo,place,2,1,2,2,0
+turquia,Turquia,place,2,1,2,2,0
+vulcano,Vulcano,person,2,1,2,2,0
+abraao,Abraão,person,1,1,1,1,0
+afonso_albuquerque,Afonso de Albuquerque,person,1,1,1,1,0
+almeidas,Almeidas. D. Francisco e D.Lourenço,personGrp,1,1,1,1,0
+anfitrite,Anfitrite,person,1,1,1,1,0
+aqueronte,Aqueronte,place,1,1,1,1,0
+atlante,Atlante,person,1,1,1,1,0
+aurora,Aurora,person,1,1,1,1,0
+calisto,Calisto,person,1,1,1,1,0
+carlos_magno,Carlos Magno,person,1,1,1,1,0
+citera,Citere,place,1,1,1,1,0
+constantino,Constantino,person,1,1,1,1,0
+afonso_henriques,D. Afonso Henriques,person,1,1,1,0,1
+afonso_iii,D. Afonso III,person,1,1,1,0,1
+afonso_iv,D. Afonso IV,person,1,1,1,0,1
+afonso_v,D. Afonso V,person,1,1,1,0,1
+d._fuas,D. Fuas Roupinho,person,1,1,1,1,0
+d_joao_i,D. João I,person,1,1,1,0,1
+d_joao_ii,D. João II,person,1,1,1,0,1
+joao_castro,D. João de Castro,person,1,1,1,1,0
+d_manuel_i,D. Manuel I,person,1,1,1,0,1
+david,David,person,1,1,1,1,0
+pacheco,Duarte Pacheco Pereira,person,1,1,1,1,0
+doris,Dóris,person,1,1,1,1,0
+egas,Egas Moniz,person,1,1,1,1,0
+espanha,Espanha,place,1,1,1,1,0
+europa,Europa,place,1,1,1,1,0
+filipo,Filipo,person,1,1,1,1,0
+franca,França,place,1,1,1,1,0
+hiperiao,Hiperiónio,person,1,1,1,1,0
+hipocrene,Hipocrene,place,1,1,1,1,0
+homero,Homero,person,1,1,1,1,0
+idaspe,Idaspe,place,1,1,1,1,0
+madagascar,Ilha de São Lourenço,place,1,1,1,1,0
+inglaterra,Inglaterra,place,1,1,1,1,0
+julio_cesar,Júlio César,person,1,1,1,1,0
+lampetusa,Lampetusa,person,1,1,1,1,0
+mercúrio,Mercúrio,person,1,1,1,1,0
+mouro_porta_voz,Mouro (interlocutor dos portugueses),person,1,1,1,0,1
+nabateia,Nabateia,place,1,1,1,1,0
+nereidas,Nereidas,person,1,1,1,0,1
+nereu,Nereu,person,1,1,1,1,0
+nisa,Nisa,place,1,1,1,1,0
+noto,Noto,person,1,1,1,1,0
+nuno_alvares,Nuno Álvares Pereira,person,1,1,1,1,0
+orlando,Orlando,person,1,1,1,1,0
+doze_inglaterra,Os Doze de Inglaterra,personGrp,1,1,1,0,1
+parcas,Parcas,person,1,1,1,1,0
+parnaso,Parnaso,place,1,1,1,1,0
+proteu,Próteo,person,1,1,1,1,0
+rio_ganges,Rio Ganges,place,1,1,1,0,1
+lete,Rio Lete>,place,1,1,1,0,1
+rio_pado,Rio Pado,place,1,1,1,1,0
+rodamonte,Rodamonte,person,1,1,1,1,0
+romulo,Romulo,person,1,1,1,1,0
+rugeiro,Rugeiro,person,1,1,1,1,0
+sertorio,Sertório,person,1,1,1,0,1
+sinon,Sinon,person,1,1,1,1,0
+sofala,Sofala,place,1,1,1,1,0
+tagides,Tagides,person,1,1,1,1,0
+taprobana,Taprobana (Sri Lanka),place,1,1,1,1,0
+tifeu,Tifeu,person,1,1,1,1,0
+tingitana,Tingitana,place,1,1,1,1,0
+trajano,Trajano,person,1,1,1,1,0
+tetis,Tétis (Nereida),person,1,1,1,1,0
+ulisses,Ulisses,person,1,1,1,0,1
+viriato,Viriato,person,1,1,1,1,0
+africo,Áfrico,person,1,1,1,1,0
+magriço,Álvaro Gonçalves Coutinho (O Magriço),person,1,1,1,1,0
+asia,Ásia,place,1,1,1,1,0

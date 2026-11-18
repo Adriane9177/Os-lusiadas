@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="stanza" attr.type="string"/>
+<key id="d4" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d3" for="node" attr.name="stanza" attr.type="string"/>
+<key id="d2" for="node" attr.name="tei_element" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_id" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="M0030">
+  <data key="d0">Os doze de Inglaterra</data>
+  <data key="d1">doze_inglaterra</data>
+  <data key="d2">rs</data>
+  <data key="d3">12</data>
+</node>
+<node id="M0031">
+  <data key="d0">Inglaterra</data>
+  <data key="d1">inglaterra</data>
+  <data key="d2">placeName</data>
+  <data key="d3">12</data>
+</node>
+<node id="M0038">
+  <data key="d0">primeiro Afonso</data>
+  <data key="d1">afonso_henriques</data>
+  <data key="d2">rs</data>
+  <data key="d3">13</data>
+</node>
+<node id="M0039">
+  <data key="d0">Afonso</data>
+  <data key="d1"></data>
+  <data key="d2">persName</data>
+  <data key="d3">13</data>
+</node>
+<node id="M0042">
+  <data key="d0">Outro Joane</data>
+  <data key="d1">d_joao_ii</data>
+  <data key="d2">rs</data>
+  <data key="d3">13</data>
+</node>
+<node id="M0043">
+  <data key="d0">Joane</data>
+  <data key="d1"></data>
+  <data key="d2">persName</data>
+  <data key="d3">13</data>
+</node>
+<node id="M0153">
+  <data key="d0">Filho de David</data>
+  <data key="d1">jesus_cristo</data>
+  <data key="d2">rs</data>
+  <data key="d3">71</data>
+</node>
+<node id="M0154">
+  <data key="d0">David</data>
+  <data key="d1">david</data>
+  <data key="d2">persName</data>
+  <data key="d3">71</data>
+</node>
+<node id="M0158">
+  <data key="d0">filho de Filipo</data>
+  <data key="d1">alexandro</data>
+  <data key="d2">rs</data>
+  <data key="d3">75</data>
+</node>
+<node id="M0159">
+  <data key="d0">Filipo</data>
+  <data key="d1">filipo</data>
+  <data key="d2">persName</data>
+  <data key="d3">75</data>
+</node>
+<node id="M0171">
+  <data key="d0">filhas de Nereu</data>
+  <data key="d1">nereidas</data>
+  <data key="d2">rs</data>
+  <data key="d3">96</data>
+</node>
+<node id="M0172">
+  <data key="d0">Nereu</data>
+  <data key="d1">nereu</data>
+  <data key="d2">persName</data>
+  <data key="d3">96</data>
+</node>
+<edge source="M0030" target="M0031">
+  <data key="d4">contém</data>
+  <data key="d5">12</data>
+</edge>
+<edge source="M0038" target="M0039">
+  <data key="d4">contém</data>
+  <data key="d5">13</data>
+</edge>
+<edge source="M0042" target="M0043">
+  <data key="d4">contém</data>
+  <data key="d5">13</data>
+</edge>
+<edge source="M0153" target="M0154">
+  <data key="d4">contém</data>
+  <data key="d5">71</data>
+</edge>
+<edge source="M0158" target="M0159">
+  <data key="d4">contém</data>
+  <data key="d5">75</data>
+</edge>
+<edge source="M0171" target="M0172">
+  <data key="d4">contém</data>
+  <data key="d5">96</data>
+</edge>
+</graph></graphml>
